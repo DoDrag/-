@@ -1,0 +1,16 @@
+# 로그 / 캐시
+logs/
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 로컬 설정 (API 키 보호)
+config.local.json
+schedule_state.json
+
+# 아카이브
+reports/_archive/

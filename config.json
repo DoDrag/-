@@ -1,0 +1,32 @@
+{
+  "_comment": "GLP-1 Trend 크롤러 설정. 네이버 API 키는 선택사항(없으면 Google News RSS만 사용).",
+
+  "naver_client_id": "",
+  "naver_client_secret": "",
+  "_naver_guide": "https://developers.naver.com/apps/#/register — '검색' API 사용 신청 후 발급",
+
+  "_comment_schedule": "매일 자동 크롤링 시각 (24시간제)",
+  "schedule": {
+    "main_hour": 9,
+    "main_minute": 0,
+    "fallback_hour": 14,
+    "fallback_minute": 0
+  },
+
+  "_comment_report": "리포트 생성 옵션",
+  "report": {
+    "title": "이슈 리서치 리포트 — GLP-1 · 메디컬푸드 · 약사/한약사",
+    "keep_history_days": 90,
+    "default_days_window": 7
+  },
+
+  "_comment_external_sync": "외부 컴퓨터 접근용 동기화 폴더 경로 (선택). 비워두면 사용 안 함.",
+  "external_sync": {
+    "enabled": false,
+    "target_folder": "",
+    "_examples": [
+      "C:\\Users\\JUNGWC\\OneDrive\\GLP-1 Trend",
+      "C:\\Users\\JUNGWC\\Google Drive\\GLP-1 Trend"
+    ]
+  }
+}
