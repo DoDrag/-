@@ -36,10 +36,21 @@ jobs:
           git add reports/ data/ db/
           if git diff --staged --quiet; then
             echo "변경사항 없음"
-          else
-            git commit -m "daily update: $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M KST')"
-            git push
+            exit 0
           fi
+          git commit -m "daily update: $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M KST')"
+          # 푸시 충돌 시 재시도 (레이스 컨디션 대응)
+          for i in 1 2 3; do
+            if git push; then
+              echo "푸시 성공 (시도 $i)"
+              exit 0
+            fi
+            echo "푸시 충돌, pull --rebase 후 재시도 ($i/3)"
+            git pull --rebase origin main
+            sleep 2
+          done
+          echo "3회 재시도 실패"
+          exit 1
 
   deploy-pages:
     needs: crawl
