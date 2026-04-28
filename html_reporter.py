@@ -12,6 +12,7 @@ sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="repla
 import html
 import json
 import logging
+from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -86,6 +87,26 @@ body {{ font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe U
 .top-bar h1 {{ font-size: 22px; font-weight: 700; }}
 .top-bar .meta {{ font-size: 12px; opacity: .85; margin-left: auto; }}
 .container {{ max-width: 1280px; margin: 0 auto; padding: 24px; }}
+
+/* Date Filter Tabs */
+.date-tabs {{ background: #fff; border-radius: 10px; padding: 14px 18px; margin-bottom: 18px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.07); position: sticky; top: 0; z-index: 50; }}
+.date-tabs h3 {{ font-size: 13px; color: #444; margin-bottom: 10px;
+  display: flex; align-items: center; gap: 6px; }}
+.date-tabs h3 .filter-info {{ margin-left: auto; font-size: 11px; color: #888; font-weight: 400; }}
+.date-tab-row {{ display: flex; gap: 6px; flex-wrap: wrap; }}
+.date-tab {{ padding: 7px 14px; border: 1px solid #ddd; background: #fff; border-radius: 6px;
+  cursor: pointer; font-size: 12px; font-weight: 600; transition: .15s; font-family: inherit;
+  display: inline-flex; align-items: center; gap: 6px; color: #333; }}
+.date-tab:hover {{ background: #e8eaf6; border-color: #9fa8da; }}
+.date-tab.active {{ background: #1a237e; color: #fff; border-color: #1a237e; }}
+.date-tab .tab-cnt {{ background: rgba(0,0,0,.08); padding: 1px 7px; border-radius: 8px;
+  font-size: 10px; font-weight: 700; }}
+.date-tab.active .tab-cnt {{ background: rgba(255,255,255,.25); color: #fff; }}
+.date-tab.today {{ border-color: #e53935; color: #e53935; }}
+.date-tab.today.active {{ background: #e53935; color: #fff; border-color: #e53935; }}
+.date-tab.today .tab-cnt {{ background: rgba(229,57,53,.12); color: #e53935; }}
+.date-tab.today.active .tab-cnt {{ background: rgba(255,255,255,.25); color: #fff; }}
 
 /* TOC */
 .toc {{ background: #fff; border-radius: 10px; padding: 18px 24px; margin-bottom: 18px;
@@ -248,6 +269,46 @@ body {{ font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe U
     html_parts.append(f'<div class="kpi-card green"><div class="kpi-num">{now_kst:%H:%M}</div><div class="kpi-label">갱신 시각 (KST)</div></div>')
     html_parts.append('</div>')
 
+    # ─── 날짜 필터 탭 ───
+    date_counter: Counter = Counter()
+    for grp in kw_data.get("groups", []):
+        for a in by_group.get(grp["group_id"], []):
+            iso = a.get("pub_iso", "")
+            if iso:
+                try:
+                    dt = datetime.fromisoformat(iso).astimezone(KST)
+                    date_counter[dt.strftime("%Y-%m-%d")] += 1
+                except Exception:
+                    pass
+
+    today_str = now_kst.strftime("%Y-%m-%d")
+    yesterday_str = (now_kst - timedelta(days=1)).strftime("%Y-%m-%d")
+    sorted_dates = sorted(date_counter.keys(), reverse=True)
+    total_in_window = sum(date_counter.values())
+
+    html_parts.append('<div class="date-tabs">')
+    html_parts.append('<h3>📅 발행일 필터 <span class="filter-info">탭 클릭 시 해당 날짜 기사만 표시</span></h3>')
+    html_parts.append('<div class="date-tab-row">')
+    html_parts.append(
+        f'<button class="date-tab active" data-date="all">전체 <span class="tab-cnt">{total_in_window}</span></button>'
+    )
+    for d in sorted_dates:
+        if d == today_str:
+            label = "오늘"
+            extra_cls = " today"
+        elif d == yesterday_str:
+            label = "어제"
+            extra_cls = ""
+        else:
+            label = f"{int(d[5:7])}/{int(d[8:10])}"
+            extra_cls = ""
+        date_short = d[5:].replace("-", "/")
+        html_parts.append(
+            f'<button class="date-tab{extra_cls}" data-date="{d}">{label} ({date_short}) '
+            f'<span class="tab-cnt">{date_counter[d]}</span></button>'
+        )
+    html_parts.append('</div></div>')
+
     # ─── TOC ───
     html_parts.append('<div class="toc"><h3>📑 그룹 목차</h3><ul>')
     for grp in kw_data.get("groups", []):
@@ -282,7 +343,18 @@ body {{ font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe U
             html_parts.append('<div class="articles">')
             for a in items:
                 cls = "article-card" + (" new" if a.get("is_new") else "")
-                html_parts.append(f'<div class="{cls}">')
+                # 발행일을 KST 날짜로 변환 (필터 키)
+                pub_date_kst = ""
+                if a.get("pub_iso"):
+                    try:
+                        pub_date_kst = (
+                            datetime.fromisoformat(a["pub_iso"])
+                            .astimezone(KST)
+                            .strftime("%Y-%m-%d")
+                        )
+                    except Exception:
+                        pass
+                html_parts.append(f'<div class="{cls}" data-date="{pub_date_kst}">')
                 html_parts.append(
                     f'<div class="article-title"><a href="{_esc(a.get("link",""))}" target="_blank" rel="noopener">'
                     f'{_esc(a.get("title",""))}</a></div>'
@@ -350,6 +422,70 @@ document.querySelectorAll('.toc a[href^="#"]').forEach(a => {{
     const t = document.querySelector(this.getAttribute('href'));
     if (t) t.scrollIntoView({{behavior:'smooth', block:'start'}});
   }});
+}});
+
+// ─── 날짜 필터 ───
+function applyDateFilter(targetDate) {{
+  // 탭 활성화 상태
+  document.querySelectorAll('.date-tab').forEach(b => {{
+    b.classList.toggle('active', b.dataset.date === targetDate);
+  }});
+
+  // 카드 표시/숨김
+  document.querySelectorAll('.article-card').forEach(card => {{
+    const cardDate = card.dataset.date || '';
+    const visible = (targetDate === 'all') || (cardDate === targetDate);
+    card.style.display = visible ? '' : 'none';
+  }});
+
+  // 섹션별 카운트와 빈 상태 갱신
+  document.querySelectorAll('.section').forEach(section => {{
+    const cards = section.querySelectorAll('.article-card');
+    const visibleCards = Array.from(cards).filter(c => c.style.display !== 'none');
+    const newCount = visibleCards.filter(c => c.classList.contains('new')).length;
+
+    // section-header 메타 카운트
+    const meta = section.querySelector('.section-header .meta');
+    if (meta) {{
+      meta.textContent = `${{visibleCards.length}}건 · 신규 ${{newCount}}건`;
+    }}
+
+    // 빈 상태 메시지
+    const articlesDiv = section.querySelector('.articles');
+    if (!articlesDiv) return;
+    let emptyMsg = section.querySelector('.empty-filter');
+    if (visibleCards.length === 0) {{
+      if (!emptyMsg) {{
+        emptyMsg = document.createElement('div');
+        emptyMsg.className = 'empty empty-filter';
+        articlesDiv.parentNode.insertBefore(emptyMsg, articlesDiv);
+      }}
+      emptyMsg.textContent = (targetDate === 'all')
+        ? '최근 기간 내 수집된 기사가 없습니다.'
+        : `${{targetDate}} 발행 기사가 없습니다.`;
+      emptyMsg.style.display = '';
+      articlesDiv.style.display = 'none';
+    }} else {{
+      articlesDiv.style.display = '';
+      if (emptyMsg) emptyMsg.style.display = 'none';
+    }}
+  }});
+
+  // TOC 카운트 갱신
+  document.querySelectorAll('.toc li a').forEach(link => {{
+    const href = link.getAttribute('href');
+    if (!href || !href.startsWith('#sec-')) return;
+    const section = document.querySelector(href);
+    if (!section) return;
+    const cards = section.querySelectorAll('.article-card');
+    const count = Array.from(cards).filter(c => c.style.display !== 'none').length;
+    const cntEl = link.querySelector('.cnt');
+    if (cntEl) cntEl.textContent = count;
+  }});
+}}
+
+document.querySelectorAll('.date-tab').forEach(btn => {{
+  btn.addEventListener('click', () => applyDateFilter(btn.dataset.date));
 }});
 
 // ─── 키워드 편집기 ───
