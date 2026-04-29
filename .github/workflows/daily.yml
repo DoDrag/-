@@ -62,8 +62,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout
+      - name: Checkout (latest main, includes crawl job's push)
         uses: actions/checkout@v4
+        with:
+          ref: main          # 트리거 시점이 아닌 main 최신 HEAD를 체크아웃
+          fetch-depth: 0
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
