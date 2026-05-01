@@ -5,12 +5,13 @@
   "naver_client_secret": "",
   "_naver_guide": "https://developers.naver.com/apps/#/register — '검색' API 사용 신청 후 발급",
 
-  "_comment_schedule": "매일 자동 크롤링 시각 (24시간제)",
+  "_comment_schedule": "매일 자동 크롤링 시각 (24시간제). auto_push=true면 크롤 직후 git add/commit/push 자동 실행.",
   "schedule": {
     "main_hour": 9,
     "main_minute": 0,
     "fallback_hour": 14,
-    "fallback_minute": 0
+    "fallback_minute": 0,
+    "auto_push": true
   },
 
   "_comment_report": "리포트 생성 옵션",

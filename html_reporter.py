@@ -6,8 +6,12 @@ data/articles_master.json + research_keywords.json 으로 HTML 리포트 생성.
 
 import sys
 import io
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
+if not getattr(sys.stdout, "_glp1_utf8_wrapped", False):
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+    sys.stdout._glp1_utf8_wrapped = True
+if not getattr(sys.stderr, "_glp1_utf8_wrapped", False):
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
+    sys.stderr._glp1_utf8_wrapped = True
 
 import html
 import json

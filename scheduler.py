@@ -15,12 +15,17 @@ APScheduler 기반 매일 자동 크롤 데몬.
 
 import sys
 import io
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
+if not getattr(sys.stdout, "_glp1_utf8_wrapped", False):
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+    sys.stdout._glp1_utf8_wrapped = True
+if not getattr(sys.stderr, "_glp1_utf8_wrapped", False):
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
+    sys.stderr._glp1_utf8_wrapped = True
 
 import argparse
 import json
 import logging
+import subprocess
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -78,6 +83,47 @@ def _today_succeeded() -> bool:
         return False
 
 
+def git_push_results():
+    """크롤 결과를 GitHub에 자동 push. 충돌 시 pull --rebase 후 재시도(최대 3회).
+    config.json schedule.auto_push=false 면 건너뜀.
+    .git 폴더가 없으면(=git repo가 아니면) 조용히 건너뜀."""
+    if not (BASE_DIR / ".git").exists():
+        logger.info("[push] git repo 아님 — 건너뜀")
+        return
+    cfg = load_config()
+    if not cfg.get("schedule", {}).get("auto_push", True):
+        logger.info("[push] auto_push=false — 건너뜀")
+        return
+    try:
+        check = subprocess.run(
+            ["git", "status", "--porcelain", "data", "db", "reports"],
+            cwd=BASE_DIR, capture_output=True, text=True, encoding="utf-8",
+        )
+        if not check.stdout.strip():
+            logger.info("[push] 변경사항 없음 — 건너뜀")
+            return
+
+        subprocess.run(["git", "add", "data", "db", "reports"], cwd=BASE_DIR, check=True)
+        msg = f"daily update: {datetime.now(KST):%Y-%m-%d %H:%M KST} (local scheduler)"
+        commit = subprocess.run(
+            ["git", "commit", "-m", msg], cwd=BASE_DIR, capture_output=True, text=True, encoding="utf-8",
+        )
+        if commit.returncode != 0:
+            logger.info(f"[push] 커밋할 변경 없음: {commit.stdout.strip()}")
+            return
+
+        for attempt in range(1, 4):
+            push = subprocess.run(["git", "push", "origin", "main"], cwd=BASE_DIR)
+            if push.returncode == 0:
+                logger.info(f"[push] 성공 (시도 {attempt}/3)")
+                return
+            logger.warning(f"[push] 실패 — pull --rebase 후 재시도 ({attempt}/3)")
+            subprocess.run(["git", "pull", "--rebase", "origin", "main"], cwd=BASE_DIR)
+        logger.error("[push] 3회 재시도 실패 — 다음 실행 때 다시 시도됩니다")
+    except Exception as e:
+        logger.exception(f"[push] 예외: {e}")
+
+
 def job_main():
     logger.info("─" * 50)
     logger.info("[메인 잡] 시작")
@@ -86,7 +132,9 @@ def job_main():
         out_files = generate_report()
         sync_to_external(out_files)
         _save_state(_today_str(), True)
-        logger.info("[메인 잡] 성공")
+        logger.info("[메인 잡] 크롤 성공")
+        git_push_results()
+        logger.info("[메인 잡] 종료")
     except Exception as e:
         logger.exception(f"[메인 잡] 실패: {e}")
         _save_state(_today_str(), False)
