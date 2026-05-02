@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-05-02T23:21:11.298807+09:00",
+  "crawled_at": "2026-05-02T23:21:24.825494+09:00",
   "count": 386,
   "articles": [
     {
@@ -702,7 +702,7 @@
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "GLP-1 weight loss 2026",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "Trump says U.S. to provide GLP-1 drugs for Medicare patients - Reuters",
@@ -754,7 +754,7 @@
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "GLP-1 weight loss 2026",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "US states drop Medicaid coverage of GLP-1 weight-loss drugs as demand rises - The Guardian",
@@ -1404,7 +1404,7 @@
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "Medicare GLP-1 coverage",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "Lilly, Novo dip as proposed Medicare coverage for GLP-1 pilot thrown off balance - BioSpace",
@@ -1443,7 +1443,7 @@
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "Medicare GLP-1 coverage",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "위고비로 살 뺐는데 근육도 빠졌다…이젠 '근감소 치료제' 전쟁 - 한국경제",
@@ -2431,7 +2431,7 @@
       "group_label": "메디컬푸드 / 케어푸드 국내",
       "badge": "dom",
       "keyword": "메디푸드",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "웰에이징으로 주목받는 케어푸드와 비즈니스 기회 - KPMG",
@@ -3393,7 +3393,7 @@
       "group_label": "메디컬푸드 글로벌",
       "badge": "intl",
       "keyword": "FDA medical food regulation",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "Food Allergies - fda.gov",
@@ -3458,7 +3458,7 @@
       "group_label": "메디컬푸드 글로벌",
       "badge": "intl",
       "keyword": "FDA medical food regulation",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "Infant Formula Homepage - fda.gov",
@@ -3692,7 +3692,7 @@
       "group_label": "약사 vs 한약사 분쟁",
       "badge": "policy",
       "keyword": "한약사협회",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "'일반의약품 판매' 갈등 개입한 정부 - 한국경제",
@@ -3952,7 +3952,7 @@
       "group_label": "약사 vs 한약사 분쟁",
       "badge": "policy",
       "keyword": "한약사 약국 개설",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "약사-한약사 교차고용 금지법안 복지부 또 \"신중 검토\" - 데일리팜",
@@ -4264,7 +4264,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "대한약사회",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "대한약사회 \"한약사 문제, 대국민 캠페인으로 확대\" - 의약뉴스",
@@ -4368,7 +4368,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "대한약사회",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "[릴레이집회 224일차] “한약사 문제 더는 방치 못한다”… 현안 해결 촉구 - 약사공론",
@@ -4498,7 +4498,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "비대면진료 제도화",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "비대면진료 제도화 '첫발'…초진도 사실상 허용 - MEDI:GATE NEWS",
@@ -4511,7 +4511,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "비대면진료 제도화",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "비대면 진료·약배달 확대 철회 촉구…\"투약오류·약화사고 방치\" - 약업신문",
@@ -4706,7 +4706,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "성분명 처방",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "간호법은 가고 성분명 처방은 멈췄다…복지위 쟁점 법안들 하반기로 - 청년의사",
