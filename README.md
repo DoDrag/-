@@ -32,10 +32,13 @@ pip install -r requirements.txt
 ## 사용법
 
 ### 1) 즉시 1회 실행
-- `run_once.bat` 더블클릭 또는
-- `python research_crawler.py`
+| 명령 | 동작 | git push |
+|---|---|---|
+| `python scheduler.py --once` | 크롤 → 리포트 → **자동 push** ✓ | ○ |
+| `run_once.bat` 더블클릭 | 크롤 → 리포트 (push 없음) | × |
+| `python research_crawler.py` | 크롤 → 리포트 (push 없음) | × |
 
-→ `reports/research_daily.html` 생성됨
+→ 모두 `reports/research_daily.html` 갱신. 일반적으로 `scheduler.py --once` 권장.
 
 ### 2) 매일 자동 실행 (포그라운드)
 - `run_scheduler.bat` 더블클릭 또는
@@ -43,17 +46,25 @@ pip install -r requirements.txt
 
 기본 시각: 매일 09:00 메인 + 14:00 보조(메인 실패 시).
 시각 변경은 `config.json` → `schedule.main_hour` 등.
+**자동 push**: 크롤 성공 후 자동으로 `git add data/ db/ reports/` → commit → push (충돌 시 `pull --rebase` 후 최대 3회 재시도). 끄려면 `config.json`:
+```json
+"schedule": { "auto_push": false }
+```
 
 ### 3) 매일 자동 실행 (백그라운드, PC 부팅 시 자동 시작)
 Windows 작업 스케줄러에 등록 (PowerShell 관리자):
 ```powershell
-schtasks /Create /SC DAILY /TN "GLP1_Trend_Crawl" /TR "python \"C:\Users\JUNGWC\Documents\Claude\GLP-1 Trend\research_crawler.py\"" /ST 09:00
+schtasks /Create /SC DAILY /TN "GLP1_Trend_Crawl" /TR "python \"C:\Users\JUNGWC\Documents\Claude\GLP-1 Trend\scheduler.py\" --once" /ST 09:00
 ```
+> `scheduler.py --once` 사용 권장 (자동 push 포함). `research_crawler.py`만 등록하면 push 안 됨.
 
 ### 4) 스케줄 상태 확인
 ```powershell
 python scheduler.py --status
 ```
+
+### 5) GitHub Actions (서버측 자동 실행)
+PC가 꺼져있어도 `.github/workflows/daily.yml`이 매일 00:00 UTC (= 09:00 KST)에 GitHub 서버에서 동일한 크롤 → 커밋 → push → Pages 배포까지 자동 수행. 로컬 `scheduler.py`와 별개로 항상 작동하는 안전망.
 
 ## 키워드 추가/수정
 
