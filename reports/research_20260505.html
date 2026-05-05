@@ -1,0 +1,1493 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>이슈 리서치 리포트 — GLP-1 · 메디컬푸드 · 약사/한약사 — 2026-05-05 14:35</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #f0f2f5; color: #222; font-size: 14px; line-height: 1.6; }
+.top-bar { background: linear-gradient(135deg, #1a237e, #283593); color: #fff;
+  padding: 24px 32px; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.top-bar h1 { font-size: 22px; font-weight: 700; }
+.top-bar .meta { font-size: 12px; opacity: .85; margin-left: auto; }
+.container { max-width: 1280px; margin: 0 auto; padding: 24px; }
+
+/* Date Filter Tabs */
+.date-tabs { background: #fff; border-radius: 10px; padding: 14px 18px; margin-bottom: 18px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.07); position: sticky; top: 0; z-index: 50; }
+.date-tabs h3 { font-size: 13px; color: #444; margin-bottom: 10px;
+  display: flex; align-items: center; gap: 6px; }
+.date-tabs h3 .filter-info { margin-left: auto; font-size: 11px; color: #888; font-weight: 400; }
+.date-tab-row { display: flex; gap: 6px; flex-wrap: wrap; }
+.date-tab { padding: 7px 14px; border: 1px solid #ddd; background: #fff; border-radius: 6px;
+  cursor: pointer; font-size: 12px; font-weight: 600; transition: .15s; font-family: inherit;
+  display: inline-flex; align-items: center; gap: 6px; color: #333; }
+.date-tab:hover { background: #e8eaf6; border-color: #9fa8da; }
+.date-tab.active { background: #1a237e; color: #fff; border-color: #1a237e; }
+.date-tab .tab-cnt { background: rgba(0,0,0,.08); padding: 1px 7px; border-radius: 8px;
+  font-size: 10px; font-weight: 700; }
+.date-tab.active .tab-cnt { background: rgba(255,255,255,.25); color: #fff; }
+.date-tab.today { border-color: #e53935; color: #e53935; }
+.date-tab.today.active { background: #e53935; color: #fff; border-color: #e53935; }
+.date-tab.today .tab-cnt { background: rgba(229,57,53,.12); color: #e53935; }
+.date-tab.today.active .tab-cnt { background: rgba(255,255,255,.25); color: #fff; }
+
+/* TOC */
+.toc { background: #fff; border-radius: 10px; padding: 18px 24px; margin-bottom: 18px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.07); }
+.toc h3 { font-size: 14px; margin-bottom: 10px; color: #444; }
+.toc ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 6px; }
+.toc li a { display: block; padding: 8px 12px; background: #f5f5f5; border-radius: 6px;
+  text-decoration: none; color: #333; font-size: 13px; font-weight: 600; transition: .15s; }
+.toc li a:hover { background: #1a237e; color: #fff; }
+.toc li a .cnt { float: right; background: #1a237e; color: #fff; font-size: 11px;
+  padding: 1px 7px; border-radius: 8px; }
+.toc li a:hover .cnt { background: #fff; color: #1a237e; }
+
+/* KPI */
+.summary-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px; margin-bottom: 18px; }
+.kpi-card { background: #fff; border-radius: 10px; padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.07); border-left: 4px solid #1a237e; }
+.kpi-card.red { border-left-color: #e53935; }
+.kpi-card.green { border-left-color: #43a047; }
+.kpi-card.amber { border-left-color: #fb8c00; }
+.kpi-num { font-size: 22px; font-weight: 700; color: #1a237e; }
+.kpi-card.red .kpi-num { color: #e53935; }
+.kpi-card.green .kpi-num { color: #43a047; }
+.kpi-card.amber .kpi-num { color: #fb8c00; }
+.kpi-label { font-size: 12px; color: #666; margin-top: 4px; }
+
+/* Section */
+.section { background: #fff; border-radius: 10px; margin-bottom: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.06); overflow: hidden; }
+.section-header { padding: 14px 22px; font-size: 16px; font-weight: 700;
+  background: linear-gradient(90deg, #f5f7ff, #fff); border-bottom: 1px solid #e8eaed;
+  display: flex; align-items: center; gap: 8px; }
+.section-header .badge { background: #1a237e; color: #fff; font-size: 11px;
+  padding: 3px 9px; border-radius: 10px; font-weight: 600; }
+.badge.intl { background: #1565c0; }
+.badge.dom { background: #e53935; }
+.badge.policy { background: #fb8c00; }
+.section-header .meta { font-size: 11px; color: #666; margin-left: auto; font-weight: 400; }
+.section-body { padding: 18px 22px; }
+
+/* Article cards */
+.articles { display: grid; grid-template-columns: 1fr; gap: 10px; }
+.article-card { border: 1px solid #e8eaed; border-radius: 8px; padding: 12px 16px;
+  background: #fafbfc; transition: .15s; position: relative; }
+.article-card:hover { background: #f5f7ff; border-color: #c5cae9; }
+.article-card.new { border-left: 3px solid #e53935; background: #fff8f8; }
+.article-card.new::before { content: 'NEW'; position: absolute; top: 8px; right: 12px;
+  background: #e53935; color: #fff; font-size: 10px; padding: 2px 8px; border-radius: 4px;
+  font-weight: 700; }
+.article-title { font-size: 14px; font-weight: 700; margin-bottom: 5px; line-height: 1.4;
+  padding-right: 50px; }
+.article-title a { color: #1a237e; text-decoration: none; }
+.article-title a:hover { text-decoration: underline; }
+.article-meta { font-size: 11px; color: #777; margin-bottom: 6px;
+  display: flex; gap: 10px; flex-wrap: wrap; }
+.article-meta .src { font-weight: 600; color: #1565c0; }
+.article-meta .kw { background: #e8eaf6; color: #1a237e; padding: 1px 7px;
+  border-radius: 4px; font-weight: 600; font-size: 10px; }
+.article-summary { font-size: 13px; color: #444; }
+
+.empty { padding: 20px; text-align: center; color: #888; font-size: 13px; }
+
+.footer { text-align: center; color: #888; font-size: 11px; padding: 24px; margin-top: 20px; }
+
+/* ─── Keyword Editor ─── */
+.edit-fab { position: fixed; bottom: 24px; right: 24px; z-index: 100;
+  background: #1a237e; color: #fff; border: none; border-radius: 50px;
+  padding: 14px 22px; font-size: 14px; font-weight: 700; cursor: pointer;
+  box-shadow: 0 4px 12px rgba(26,35,126,.4); transition: .2s;
+  font-family: 'Noto Sans KR', sans-serif; }
+.edit-fab:hover { background: #283593; transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(26,35,126,.5); }
+
+.modal-backdrop { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,.5); z-index: 200; align-items: center; justify-content: center;
+  padding: 20px; }
+.modal-backdrop.show { display: flex; }
+.modal { background: #fff; border-radius: 12px; max-width: 900px; width: 100%;
+  max-height: 90vh; display: flex; flex-direction: column; overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0,0,0,.3); }
+.modal-header { padding: 18px 24px; background: linear-gradient(135deg, #1a237e, #283593);
+  color: #fff; display: flex; align-items: center; gap: 12px; }
+.modal-header h2 { font-size: 18px; font-weight: 700; flex: 1; }
+.modal-close { background: rgba(255,255,255,.2); color: #fff; border: none;
+  width: 32px; height: 32px; border-radius: 50%; cursor: pointer; font-size: 16px; }
+.modal-close:hover { background: rgba(255,255,255,.35); }
+.modal-body { padding: 20px 24px; overflow-y: auto; flex: 1; background: #f8f9fa; }
+.modal-footer { padding: 16px 24px; background: #fff; border-top: 1px solid #e8eaed;
+  display: flex; gap: 10px; justify-content: flex-end; align-items: center; flex-wrap: wrap; }
+
+.notice { background: #fff8e1; border-left: 4px solid #fbc02d; padding: 12px 16px;
+  border-radius: 6px; font-size: 12px; color: #6d4c1c; margin-bottom: 14px; line-height: 1.6; }
+.notice strong { color: #f57f17; }
+.notice code { background: #fff; padding: 1px 5px; border-radius: 3px; font-family: monospace; }
+
+.group-card { background: #fff; border: 1px solid #e8eaed; border-radius: 8px;
+  margin-bottom: 12px; overflow: hidden; }
+.group-head { padding: 12px 16px; background: linear-gradient(90deg, #f5f7ff, #fff);
+  display: flex; align-items: center; gap: 8px; cursor: pointer;
+  border-bottom: 1px solid #e8eaed; }
+.group-head .toggle { font-size: 12px; transition: .2s; }
+.group-head.open .toggle { transform: rotate(90deg); }
+.group-head .gname { flex: 1; font-weight: 700; font-size: 14px; color: #1a237e; }
+.group-head .gmeta { font-size: 11px; color: #666; }
+.group-body { padding: 14px 16px; display: none; }
+.group-card.open .group-body { display: block; }
+
+.field-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px; margin-bottom: 12px; }
+.field { display: flex; flex-direction: column; gap: 4px; }
+.field label { font-size: 11px; font-weight: 600; color: #666; }
+.field input, .field select { padding: 6px 10px; border: 1px solid #ccc; border-radius: 5px;
+  font-size: 13px; font-family: inherit; }
+.field input:focus, .field select:focus { outline: none; border-color: #1a237e; }
+
+.kw-list { display: flex; flex-direction: column; gap: 5px; margin-bottom: 8px; }
+.kw-item { display: flex; gap: 6px; align-items: center; }
+.kw-item input { flex: 1; padding: 5px 9px; border: 1px solid #ddd; border-radius: 5px;
+  font-size: 12px; font-family: inherit; }
+.kw-item button { background: #ffebee; color: #c62828; border: none; border-radius: 4px;
+  padding: 5px 9px; cursor: pointer; font-size: 11px; font-weight: 700; }
+.kw-item button:hover { background: #ffcdd2; }
+
+.btn { padding: 8px 14px; border: 1px solid #ddd; border-radius: 6px; background: #fff;
+  cursor: pointer; font-size: 12px; font-weight: 600; font-family: inherit; transition: .15s; }
+.btn:hover { background: #f5f5f5; }
+.btn.primary { background: #1a237e; color: #fff; border-color: #1a237e; }
+.btn.primary:hover { background: #283593; }
+.btn.danger { background: #fff; color: #c62828; border-color: #ef9a9a; }
+.btn.danger:hover { background: #ffebee; }
+.btn.small { padding: 4px 10px; font-size: 11px; }
+
+@media (max-width: 600px) {
+  .modal { max-height: 95vh; }
+  .modal-header h2 { font-size: 15px; }
+}
+  </style>
+</head>
+<body>
+<div class="top-bar">
+  <h1>📊 이슈 리서치 리포트 — GLP-1 · 메디컬푸드 · 약사/한약사</h1>
+  <span class="meta">최근 7일 · 갱신 2026-05-05 14:35 KST</span>
+</div>
+<div class="container">
+
+<div class="summary-row">
+<div class="kpi-card"><div class="kpi-num">179</div><div class="kpi-label">최근 7일 수집 기사</div></div>
+<div class="kpi-card red"><div class="kpi-num">57</div><div class="kpi-label">신규 (직전 실행 대비)</div></div>
+<div class="kpi-card amber"><div class="kpi-num">8</div><div class="kpi-label">키워드 그룹</div></div>
+<div class="kpi-card green"><div class="kpi-num">14:35</div><div class="kpi-label">갱신 시각 (KST)</div></div>
+</div>
+<div class="date-tabs">
+<h3>📅 발행일 필터 <span class="filter-info">탭 클릭 시 해당 날짜 기사만 표시</span></h3>
+<div class="date-tab-row">
+<button class="date-tab active" data-date="all">전체 <span class="tab-cnt">179</span></button>
+<button class="date-tab today" data-date="2026-05-05">오늘 (05/05) <span class="tab-cnt">6</span></button>
+<button class="date-tab" data-date="2026-05-04">어제 (05/04) <span class="tab-cnt">19</span></button>
+<button class="date-tab" data-date="2026-05-03">5/3 (05/03) <span class="tab-cnt">23</span></button>
+<button class="date-tab" data-date="2026-05-02">5/2 (05/02) <span class="tab-cnt">16</span></button>
+<button class="date-tab" data-date="2026-05-01">5/1 (05/01) <span class="tab-cnt">18</span></button>
+<button class="date-tab" data-date="2026-04-30">4/30 (04/30) <span class="tab-cnt">39</span></button>
+<button class="date-tab" data-date="2026-04-29">4/29 (04/29) <span class="tab-cnt">41</span></button>
+<button class="date-tab" data-date="2026-04-28">4/28 (04/28) <span class="tab-cnt">17</span></button>
+</div></div>
+<div class="toc"><h3>📑 그룹 목차</h3><ul>
+<li><a href="#sec-glp1_dom">GLP-1 비만치료제 국내<span class="cnt">60</span></a></li>
+<li><a href="#sec-glp1_intl">GLP-1 글로벌 트렌드<span class="cnt">47</span></a></li>
+<li><a href="#sec-glp1_side">GLP-1 부작용·임상 리스크<span class="cnt">5</span></a></li>
+<li><a href="#sec-glp1_food_impact">GLP-1이 식품업계에 미치는 영향<span class="cnt">1</span></a></li>
+<li><a href="#sec-medfood_dom">메디컬푸드 / 케어푸드 국내<span class="cnt">30</span></a></li>
+<li><a href="#sec-medfood_intl">메디컬푸드 글로벌<span class="cnt">5</span></a></li>
+<li><a href="#sec-pharm_dispute">약사 vs 한약사 분쟁<span class="cnt">3</span></a></li>
+<li><a href="#sec-pharm_policy">약사회 정책 (비대면진료·약 배송)<span class="cnt">28</span></a></li>
+</ul></div>
+<div class="section" id="sec-glp1_dom">
+<div class="section-header"><span class="badge dom">DOM</span>GLP-1 비만치료제 국내<span class="meta">60건 · 신규 20건</span></div>
+<div class="section-body">
+<div class="articles">
+<div class="article-card new" data-date="2026-05-05">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE1QdnphSWFOcFVEYTE0cHkxWWpDblJxb1NldEpWNDcwLWhQdVItMm5BZGY5MDZtRDZwVzQ1ZVJ1WmlpVGgybWYzRnhSR3B3cEFkQ0w4?oc=5" target="_blank" rel="noopener">비만약도 복용 일관 중요…GLP-1 중단과 재개 반복할수록 효과 감소 - 네이트</a></div>
+<div class="article-meta"><span class="src">네이트</span> <span>2026-05-05 12:51</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">비만약도 복용 일관 중요…GLP-1 중단과 재개 반복할수록 효과 감소 &amp;nbsp;&amp;nbsp; 네이트</div>
+</div>
+<div class="article-card new" data-date="2026-05-05">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5pQXJDbGpER0pEUFBqNVczZmtHM2ZxTWpYOFM3ZmJ1WkF4UERZSS13QzFkOVVaQnQ0enBiQmYxZlBSTkVlTWEyTHJJVHkzQVI1elR0emE0Zml3aXhVUlgyWlFfUndFWm9xVkE?oc=5" target="_blank" rel="noopener">비만치료제(GLP-1) 장기 투여 시 ‘전신 대사 불안정’ 기전 제시 - 병원신문</a></div>
+<div class="article-meta"><span class="src">병원신문</span> <span>2026-05-05 10:56</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">비만치료제(GLP-1) 장기 투여 시 ‘전신 대사 불안정’ 기전 제시 &amp;nbsp;&amp;nbsp; 병원신문</div>
+</div>
+<div class="article-card new" data-date="2026-05-05">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTFB2TV92NnNLWmhuRW1oTUVGNHdNc3JTZFplUnBFelB2OVVueFdDNVAtOEZLWVhHUVhCWkkzRzd6a3lsN3ItOS0tOTFWZ0xDbnVGajNnczBxbGFUcE1NUkJwa0ZFcTBramlmcHFZ?oc=5" target="_blank" rel="noopener">&quot;당뇨 환자가 약을 못 구해요&quot;... &#x27;미용 마운자로&#x27;가 부른 품귀 사태와 안전 경고 - kmjournal.net</a></div>
+<div class="article-meta"><span class="src">kmjournal.net</span> <span>2026-05-05 07:07</span> <span class="kw">위고비 처방</span></div>
+<div class="article-summary">&quot;당뇨 환자가 약을 못 구해요&quot;... &#x27;미용 마운자로&#x27;가 부른 품귀 사태와 안전 경고 &amp;nbsp;&amp;nbsp; kmjournal.net</div>
+</div>
+<div class="article-card new" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMickFVX3lxTE9SOUl2VGRoMElzVjRzZGpIc3RNVnVXSGN1V1VkZTJZcE1USXlPU19KWkhaY0Y3WEFEbmdMbmhSeXo1NUowVnY2WENxd2VNQ3FOWHZ3ZjBuNXdCVTRRQVVKdEw2MV9FUnBzQUN2bnAyRVJ4Z9IBdkFVX3lxTFBKMG84VWU2QlE4eVdCdTZtcHF5NlhSUDdnYklYWVhSWW9RRXNuTDBWMHRnSWhCT3FFMzNkZ1J6bzl1ZmlUZjZhdWswNjlWZTZPOHU0Q1ktQTFCdlBPZzdCcnFCanBoMXpDRUZvVnlUWDBOWGJRM3c?oc=5" target="_blank" rel="noopener">취임 한 달 ‘황상연’ 한미약품 대표, ‘에페’ 등 비만藥 시험대 - 시사저널e</a></div>
+<div class="article-meta"><span class="src">시사저널e</span> <span>2026-05-04 16:13</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">취임 한 달 ‘황상연’ 한미약품 대표, ‘에페’ 등 비만藥 시험대 &amp;nbsp;&amp;nbsp; 시사저널e</div>
+</div>
+<div class="article-card new" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTFBUYVNXcU5CWEx5N0JUS1VsSGdFWEZYUWZ6dzRvUWdVM2ZhZlJaQlhWczJtVGZZdG1HSUYwd2lxNU5Mb0ctc3ZFc09HMnJRa3dYd0gtS9IBVEFVX3lxTFBUYVNXcU5CWEx5N0JUS1VsSGdFWEZYUWZ6dzRvUWdVM2ZhZlJaQlhWczJtVGZZdG1HSUYwd2lxNU5Mb0ctc3ZFc09HMnJRa3dYd0gtSw?oc=5" target="_blank" rel="noopener">비만 치료제 열풍의 이면 : GLP-1 시대, 비만 치료와 근감소증 예방의 교차점 - 한국경제</a></div>
+<div class="article-meta"><span class="src">한국경제</span> <span>2026-05-04 08:44</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">비만 치료제 열풍의 이면 : GLP-1 시대, 비만 치료와 근감소증 예방의 교차점 &amp;nbsp;&amp;nbsp; 한국경제</div>
+</div>
+<div class="article-card" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oUHhxQ3hCTTBkSEZEWHNPbTMxSjZHY3BhX0RHczRiemJRdXVOQXJzdDNhRzFVMVZ2NE9aTEtLcG9wMWhUTzluTmExU0pqbExvWG5vd09DSkRlNkZJ?oc=5" target="_blank" rel="noopener">[모닝 리포트] &quot;한미약품, 파이프라인 순항…비만·MASH 신약 기대감 유효&quot; - 뉴스핌</a></div>
+<div class="article-meta"><span class="src">뉴스핌</span> <span>2026-05-04 08:12</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">[모닝 리포트] &quot;한미약품, 파이프라인 순항…비만·MASH 신약 기대감 유효&quot; &amp;nbsp;&amp;nbsp; 뉴스핌</div>
+</div>
+<div class="article-card" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hTnN1cVRlNUVYMXpWMmlJN3FhelZLUm96MVdUYVQxVWNHdkZLMFFDNUM2SVJFZ3VhbXM3dXMtb0s2NG9EQjRaNnhQUjVYbnEybnJ4b3U3amQ?oc=5" target="_blank" rel="noopener">&quot;연내 상용화 될까&quot;…K-비만약, 현주소는? - 뷰어스</a></div>
+<div class="article-meta"><span class="src">뷰어스</span> <span>2026-05-04 08:00</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">&quot;연내 상용화 될까&quot;…K-비만약, 현주소는? &amp;nbsp;&amp;nbsp; 뷰어스</div>
+</div>
+<div class="article-card" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE42aUc0ZmVnRXM2V1RzTTNQOXhBODJFMnVLa3BtODRVc05pWk1vY2hGV0ZlV0tEYVFmSUlaNElNdGRLcTZiV1lUU25rY1JGbkluUU5lNTFzNjYtMlJ5V3pJRVBGQzZrVTVUNHIyeA?oc=5" target="_blank" rel="noopener">비만·당뇨약 GLP-1, 대사 동반 건선 중증도 최대 80% 낮춰 - 팜뉴스</a></div>
+<div class="article-meta"><span class="src">팜뉴스</span> <span>2026-05-04 05:45</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">비만·당뇨약 GLP-1, 대사 동반 건선 중증도 최대 80% 낮춰 &amp;nbsp;&amp;nbsp; 팜뉴스</div>
+</div>
+<div class="article-card" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5BZ3NvTHo1dm1XR1VNREdvUFdWckozQV96SHhvUmhpNEJQWlFqQXhacDdqdWtBZXdtZXZTQm90UWZpNmVkZExncFhDNXVnSGt6dlhlT1FwYlBHb2FMNi15YTY4WDhfejd3R0tERlRPV18?oc=5" target="_blank" rel="noopener">주사제 지고 경구제 온다…개원가 비만치료 게임 체인저는? - 메디칼타임즈</a></div>
+<div class="article-meta"><span class="src">메디칼타임즈</span> <span>2026-05-04 05:30</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">주사제 지고 경구제 온다…개원가 비만치료 게임 체인저는? &amp;nbsp;&amp;nbsp; 메디칼타임즈</div>
+</div>
+<div class="article-card" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE1lMGI3TzNRYWhRS0pBZjhCOXZJOFh2REN2czNxTHU2eUVtRGVIb1hsVVExU1JodHVxeFh4UVRaUU5RamlNUWRhRXlRdUFxT1J1MlhFSEJR0gFQQVVfeXFMTTBka3ZreVJnamhfak5sdE5NNjBMbnFRbWlYQXJJVVFBUDhvRVRfYzlhcVhFRk1EMVNjQWl4Z1l5S2FhcC1TanRGUG9aMnRRVjY?oc=5" target="_blank" rel="noopener">20대도 50대도 비만치료제 &#x27;성지&#x27; 북적…처방 남발에도 속수무책 - 더팩트</a></div>
+<div class="article-meta"><span class="src">더팩트</span> <span>2026-05-04 00:00</span> <span class="kw">위고비 처방</span></div>
+<div class="article-summary">20대도 50대도 비만치료제 &#x27;성지&#x27; 북적…처방 남발에도 속수무책 &amp;nbsp;&amp;nbsp; 더팩트</div>
+</div>
+<div class="article-card new" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE1KU1VtcVhYYjNUNWpzSkEybnB2TEZ2WG5JdEZkbGN0aVJMQ1hfQlZwYTdPcjJoX09YQnk1ZWhUME0tTWp5dmpvTGwzMnJSZ2ZMN3pZOHc2c0pURHdTUkpKdm55R0M2djIzUVpDX1h2VQ?oc=5" target="_blank" rel="noopener">BMI 18도 처방받는 ‘기적의 약’ 위고비 - 연세춘추</a></div>
+<div class="article-meta"><span class="src">연세춘추</span> <span>2026-05-03 22:36</span> <span class="kw">위고비 처방</span></div>
+<div class="article-summary">BMI 18도 처방받는 ‘기적의 약’ 위고비 &amp;nbsp;&amp;nbsp; 연세춘추</div>
+</div>
+<div class="article-card" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ZRGk5MHVydHhheVdGc1UzVzRjelY2R29kQi1HdHFkWHFhZWNfRm9kbGttY3V5SFVjTV9CRXhKVEdVS1lfd09aM3VDVU9oclcwTVFndXBR?oc=5" target="_blank" rel="noopener">한미약품, 1분기 매출 3929억원…R&amp;D에 652억원 투자 - 지디넷코리아</a></div>
+<div class="article-meta"><span class="src">지디넷코리아</span> <span>2026-05-03 22:18</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">한미약품, 1분기 매출 3929억원…R&amp;D에 652억원 투자 &amp;nbsp;&amp;nbsp; 지디넷코리아</div>
+</div>
+<div class="article-card" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE96ZnR5WkZmNF9kcHlBSFN0M1pJZl8zLW9DTDF5YkEwOUJuUUd5Z3RLR3FubWNmVy1zc3V1RXg2MlVtOTJNTE5Kc0VVR29INF9LZjJSYlVCOHY1eXVzUnBhZlRNU1NHaU9NNXoxZHJn?oc=5" target="_blank" rel="noopener">[취재후일담] 비만치료제, ‘약’에서 ‘플랫폼’으로…에스티팜의 올리고 승부수 - 아시아투데이</a></div>
+<div class="article-meta"><span class="src">아시아투데이</span> <span>2026-05-03 16:11</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">[취재후일담] 비만치료제, ‘약’에서 ‘플랫폼’으로…에스티팜의 올리고 승부수 &amp;nbsp;&amp;nbsp; 아시아투데이</div>
+</div>
+<div class="article-card" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1NbWxJYzNXdUFpT0JuWDgtNTlSV1ZCdkttME5aWjVoeUVKUzlDZnVmNVlud2lNNzV2cmM1eTBiVk5NYzZFOFJUMklqUVVSRkVYZV9Xb0JqOTFjc053WXk3dkZsdzlXRWJR0gFsQVVfeXFMUEZCX2FxZnBCOXVyNDBjWTNmYS1xNm1weUhiQmo1V2dwTUE4T1JwVHFiVXdZYlFDc1JHNDVKU3NNa3pzOGdwSEQ4dE5vQ3F4Qk94cnlRMGxEMGxQZ21icU1DaERDdlpTVGNfZnJK?oc=5" target="_blank" rel="noopener">[제약사 리포트] 한미약품 1분기 영업익 감소…R&amp;D 투자 17% 달성 - 블로터</a></div>
+<div class="article-meta"><span class="src">블로터</span> <span>2026-05-03 16:00</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">[제약사 리포트] 한미약품 1분기 영업익 감소…R&amp;D 투자 17% 달성 &amp;nbsp;&amp;nbsp; 블로터</div>
+</div>
+<div class="article-card new" data-date="2026-05-02">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMic0FVX3lxTFBQVTVxQkxkVlUtZUFsOUY5MV9XSFdqMWZKSzJyVXIzcW9aaHBvdm9QRmZHY2RmV3BjVG1DZVN2LWpIalZXZjU4d1hWV3pndHoxclhTX2E1ZlRQVWY2WEcyNUp3UFRrSU1xVDhCRC13azNGa1E?oc=5" target="_blank" rel="noopener">GLP-1 계열 비만치료제, 우려 만큼 근손실 크지 않아 - 디지털투데이</a></div>
+<div class="article-meta"><span class="src">디지털투데이</span> <span>2026-05-02 09:50</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">GLP-1 계열 비만치료제, 우려 만큼 근손실 크지 않아 &amp;nbsp;&amp;nbsp; 디지털투데이</div>
+</div>
+<div class="article-card" data-date="2026-05-02">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE9OUWxfelRzLUdnTE92cXZra2dERk84OUtBTWJUY0pCbGEwZURXTDhuTDNzbXQ3ZTR2RWVTekFrVDROczZQN2tmc3MySnhBa19BczBMZERvVXlvRUZ1TXV2aTlBMXRtejdjV0pv?oc=5" target="_blank" rel="noopener">[의료 연구 브리프] GLP-1 장기 투여 / 생존율 낮은 췌장암 / 클로자핀, 뇌 미세구조 바꿔 - 경기메디뉴스</a></div>
+<div class="article-meta"><span class="src">경기메디뉴스</span> <span>2026-05-02 08:41</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">[의료 연구 브리프] GLP-1 장기 투여 / 생존율 낮은 췌장암 / 클로자핀, 뇌 미세구조 바꿔 &amp;nbsp;&amp;nbsp; 경기메디뉴스</div>
+</div>
+<div class="article-card new" data-date="2026-05-01">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBWEYtM01mdmpYelZCb1ZGTXF4YjNNcEw3UTlBLU8zMW1VWWJleklidmtQalZjYk0yTGlibDdIREhYRVp5d09kQ285WWM1Zi1INmh5WTB5ckJhNmVrRm9YUDhwRlM0dDY0?oc=5" target="_blank" rel="noopener">급등하는 비만치료제, 체중 너머의 대사 리스크 - 더쎈뉴스</a></div>
+<div class="article-meta"><span class="src">더쎈뉴스</span> <span>2026-05-01 15:42</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">급등하는 비만치료제, 체중 너머의 대사 리스크 &amp;nbsp;&amp;nbsp; 더쎈뉴스</div>
+</div>
+<div class="article-card new" data-date="2026-05-01">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFB1THBNZE1iejFZa1o0MW9CLTRjS21sa0U4LTNudld5SDA3bkJCa3pzVERrVEFMbzNEUHZZYnZ0N1I3YnNKLUx6blBVOFBHNi1GWTh2RmhqenNOeW5oWm9LODVCdVhCY3FYVEI1VU5zTEHSAXRBVV95cUxOY3UzcUVuV0JrMVU5NEZPSDZwRW9qNHMzcXpTbUNxcTJwTzQyWHl0VEcwaTEzY18zTXFTRUdMOWM1Wlk5ZmFsMTEyZHZFa1ZlMW1PZkJVYjJjWVA0TkFlMVRsTkF6bTBXWXNfdjRMaDZUbDhreg?oc=5" target="_blank" rel="noopener">‘문화적 현상’ 된 비만약, 기업엔 독? PwC도 보장 혜택 중단 - IT조선</a></div>
+<div class="article-meta"><span class="src">IT조선</span> <span>2026-05-01 15:35</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">‘문화적 현상’ 된 비만약, 기업엔 독? PwC도 보장 혜택 중단 &amp;nbsp;&amp;nbsp; IT조선</div>
+</div>
+<div class="article-card" data-date="2026-05-01">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Gbm9lVlVVZXZaOFNZS2dmLWRkN1gyaU1UbW9Bc1VhNFlrdWt1MWVCdXplVEM5dUNCU2ZqMFpQRVF1N3JHLWdQM2ZqMl84Uk0?oc=5" target="_blank" rel="noopener">한미약품, 일회성 기저효과 탓 수익 &#x27;뒷걸음&#x27; - 딜사이트</a></div>
+<div class="article-meta"><span class="src">딜사이트</span> <span>2026-05-01 10:47</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">한미약품, 일회성 기저효과 탓 수익 &#x27;뒷걸음&#x27; &amp;nbsp;&amp;nbsp; 딜사이트</div>
+</div>
+<div class="article-card" data-date="2026-05-01">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFAweUJ3aHgzQ3J0RzRheTZnT1lCT0tZU0xZUkdkVmI4aDg1cHROZy1GWFVFU1JfWnctMmpBZ0tyVXFfRWV0M1pVajdMMGpyQ2hyQjNZOXFleUJSbFBpYVE?oc=5" target="_blank" rel="noopener">&quot;300조 잡아라&quot;…한미약품·동아에스티·JW중외제약 앞다퉈 비만약 참전 - 더구루</a></div>
+<div class="article-meta"><span class="src">더구루</span> <span>2026-05-01 07:30</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">&quot;300조 잡아라&quot;…한미약품·동아에스티·JW중외제약 앞다퉈 비만약 참전 &amp;nbsp;&amp;nbsp; 더구루</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5mdmRqcHNQWGNIV2xoX1E0eVhmVndvSTduajhvSjlvS1VBMVpvUjhmc0hxa0huQXJIVEdSM1dwQTROb3RuejVOOXc2azcxVU5uYVAwNnJ3cGVZSVVlNEJCdE5jRlNpX0lsRWc?oc=5" target="_blank" rel="noopener">&quot;마운자로 품귀 현상&quot;··· 전문의약품인 비만 치료제, 처방전 꼭 확인할 사항은? - 하이닥</a></div>
+<div class="article-meta"><span class="src">하이닥</span> <span>2026-04-30 22:00</span> <span class="kw">위고비 처방</span></div>
+<div class="article-summary">&quot;마운자로 품귀 현상&quot;··· 전문의약품인 비만 치료제, 처방전 꼭 확인할 사항은? &amp;nbsp;&amp;nbsp; 하이닥</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wamRSZEs3a0VSMkQtUndDNjdyNnczZFBtZlRFaTd4a0dzQWNtMFV1N0xPbUVkOUVEWG1oMW0tRXF6TUFoVGo1N3A5SS0tY0NJUVJJRFRrZFpyZk54M2xBNHJoelBPdw?oc=5" target="_blank" rel="noopener">한미약품, 1분기 매출 3929억 &#x27;소폭 성장&#x27; - 디일렉</a></div>
+<div class="article-meta"><span class="src">디일렉</span> <span>2026-04-30 18:46</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">한미약품, 1분기 매출 3929억 &#x27;소폭 성장&#x27; &amp;nbsp;&amp;nbsp; 디일렉</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTFBrdDRDMmxIUHhEbVJuWk1YMXVMRDZKN0RxR295WE5Jd29ubi1jWklsczhGeS1ZNUg3VGMwb083VS03TTdMaGpFbXBfVFk1N1ZPNWdrQWM1QQ?oc=5" target="_blank" rel="noopener">한미약품, 1분기 매출 3929억..“더 큰 도약 발판 마련” - 바이오스펙테이터</a></div>
+<div class="article-meta"><span class="src">바이오스펙테이터</span> <span>2026-04-30 17:19</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">한미약품, 1분기 매출 3929억..“더 큰 도약 발판 마련” &amp;nbsp;&amp;nbsp; 바이오스펙테이터</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiREFVX3lxTE5Kd25COVNDckhJeGxKSlZmLXhKeHkwbzhnakZueUxKMWZyaG5VVjc2a2tnSkUyTXBNNVI2SzBBd1BpUUtt?oc=5" target="_blank" rel="noopener">한미약품, 올해 1분기 영업이익 536억…업계 최고 수준 - 후생신보</a></div>
+<div class="article-meta"><span class="src">후생신보</span> <span>2026-04-30 17:10</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">한미약품, 올해 1분기 영업이익 536억…업계 최고 수준 &amp;nbsp;&amp;nbsp; 후생신보</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE4yX215enRSRFR4MkV5ZlhCaVotWmlPN00zcEtLeW1KMFNZU21nQUQwc2JjMmllMU1pd0xGTXl3X1k5X3BXNzdSZ2hzZ1FsN1U?oc=5" target="_blank" rel="noopener">한미약품 1분기 영업이익 536억원…작년대비 9.1%↓ - v.daum.net</a></div>
+<div class="article-meta"><span class="src">v.daum.net</span> <span>2026-04-30 16:36</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">한미약품 1분기 영업이익 536억원…작년대비 9.1%↓ &amp;nbsp;&amp;nbsp; v.daum.net</div>
+</div>
+<div class="article-card new" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5OdXBjSzFqUnpOMkR3M3I5TndmWURrQ3VyUF9uVjJWdW1mQW5Ud2JUanpfNmxYNTAzb0RmdXo5R0Q2V0pzdHBLVDJyZk8tcnoyRzFJS1FHU2NTRy1hUE1FcUJkcktLUHNLTEJF?oc=5" target="_blank" rel="noopener">한미약품, 전문경영인 체제 안정 성장…순이익 14.4%↑ - 한스경제</a></div>
+<div class="article-meta"><span class="src">한스경제</span> <span>2026-04-30 16:23</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">한미약품, 전문경영인 체제 안정 성장…순이익 14.4%↑ &amp;nbsp;&amp;nbsp; 한스경제</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTFBOSElxMmFOVnNqN0JCT3c4NTlFcmhyVEFiYWFvZ1dYSEFzZEFOZ3owWVgtMGExS1pYUk45Y1I0YXhQZ1lPb1piSTRydmhIcjZJVUd6T3hfZktoQVY1d19jVFRKR3NYSWxrUXdZNw?oc=5" target="_blank" rel="noopener">한미약품, 1분기 매출 3929억원 &#x27;로수젯&#x27; 효자 - 약사공론</a></div>
+<div class="article-meta"><span class="src">약사공론</span> <span>2026-04-30 16:20</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">한미약품, 1분기 매출 3929억원 &#x27;로수젯&#x27; 효자 &amp;nbsp;&amp;nbsp; 약사공론</div>
+</div>
+<div class="article-card new" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFAtUVJBQkhLdFRrXzZOUjFaLUItUzBxVEVXb2h3ODNVLWktNkNRX3pQRnBId21wczJNRzE4dFBlbE8xa0F4eURJWjRDMERyZVZwU01jQTFn?oc=5" target="_blank" rel="noopener">한미약품, 1분기 매출 3929억원…영업익 536억원 ‘내실 경영’ - 헤럴드경제</a></div>
+<div class="article-meta"><span class="src">헤럴드경제</span> <span>2026-04-30 16:17</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">한미약품, 1분기 매출 3929억원…영업익 536억원 ‘내실 경영’ &amp;nbsp;&amp;nbsp; 헤럴드경제</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE1vWTNpdlhQVURYaWtEMDRXRmJsWVRJQ09VWU03Q2xCZENyY3NkZGMtR2xIeDlPWTZ4ZW8waTg2c1JwdVlHWGxGbk5XbnFEY0M0NnJHMnlMU09wVDJoMkJXQldjaVhzOUZhbXpV?oc=5" target="_blank" rel="noopener">한미약품, 1분기 매출 3,929억 달성 - 한국의약통신</a></div>
+<div class="article-meta"><span class="src">한국의약통신</span> <span>2026-04-30 16:11</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">한미약품, 1분기 매출 3,929억 달성 &amp;nbsp;&amp;nbsp; 한국의약통신</div>
+</div>
+<div class="article-card new" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xeDdhaXh2WkR2eVFRekxqX1ptLUV2QWNGc3dTNFpmY0I4bnhqejhkUmxzM0F2NmZPVDl5VUhLTzRUTHQtOXdrcWJTVUh2UWQ3bGVBQ0lBN2dlQdIBVEFVX3lxTFBEVE9obkZ4MVc0b3RZYVY4ZGtiTFhHeEI1UUFpQ2tXUjdMM19XWkVPYUYtUFlfNkRoN2FGVjdyTDc4YVFaQlVzV1RGUmgyeWNjaHZlbQ?oc=5" target="_blank" rel="noopener">“더 큰 도약 위한 발판 마련”…한미약품, 1분기 매출 3,929억원 달성 - 한국경제</a></div>
+<div class="article-meta"><span class="src">한국경제</span> <span>2026-04-30 16:09</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">“더 큰 도약 위한 발판 마련”…한미약품, 1분기 매출 3,929억원 달성 &amp;nbsp;&amp;nbsp; 한국경제</div>
+</div>
+<div class="article-card new" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxPWEUwbENoQkt4bDdCMGtJenEybndjRElrY1htbHgyWFUyM2k1UzVrVGVyMmhFYThjVXl3X1hxdUNsSmt1TmFlMXpHcTV0QWE3RzdsS0FaQTgxV29PbERVM190alpUbDlObFRlcWtHRGNNOHFDZThweGJkV29wcEt2eUF0RHLSAXdBVV95cUxNUGpDcERJYUtVWWRIMUlaNmI1bWVUYmNwcVUzRXc3c0NoVkhnNXlWSVMtclh4WXpxWGktXy12TkNIdU1IMEIweGpuTE9lOThzMFlYY2gtdTVaWnNYa01JY3MyT0lXRGkwMERFR1hza0JaWU9DVWU4dw?oc=5" target="_blank" rel="noopener">곽범, 마운자로도 못 막은 식욕 &quot;약도 이겨냈다..의미 없어&quot; - sportschosun.com</a></div>
+<div class="article-meta"><span class="src">sportschosun.com</span> <span>2026-04-30 15:53</span> <span class="kw">마운자로 처방</span></div>
+<div class="article-summary">곽범, 마운자로도 못 막은 식욕 &quot;약도 이겨냈다..의미 없어&quot; &amp;nbsp;&amp;nbsp; sportschosun.com</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VZ3UxSXMzQ29DYWlpX2VIY01BMTVNREtEekU1Z0N4R0l1R0VldHRWSWVVS2dOUENkQmZVOFF0bUxva2l5R2ZuVFg2TUVLVFU?oc=5" target="_blank" rel="noopener">위고비 오래 투여하면 근육도 소실…&#x27;전신 대사 불안정&#x27; 기전 첫 제시 - v.daum.net</a></div>
+<div class="article-meta"><span class="src">v.daum.net</span> <span>2026-04-30 09:17</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">위고비 오래 투여하면 근육도 소실…&#x27;전신 대사 불안정&#x27; 기전 첫 제시 &amp;nbsp;&amp;nbsp; v.daum.net</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE9LN1FWd1l3V1NfaFFsdUFkcnJZempTSm00VHV5alpNTVozc0dKcFFSSVE3WGhiamlKZlo1TVJEOEJPam9mWWtQbm5NSWExSjZaVGhvTA?oc=5" target="_blank" rel="noopener">위고비 오래 투여하면 근육도 소실…&#x27;전신 대사 불안정&#x27; 기전 첫 제시 - 동아사이언스</a></div>
+<div class="article-meta"><span class="src">동아사이언스</span> <span>2026-04-30 09:15</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">위고비 오래 투여하면 근육도 소실…&#x27;전신 대사 불안정&#x27; 기전 첫 제시 &amp;nbsp;&amp;nbsp; 동아사이언스</div>
+</div>
+<div class="article-card new" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiREFVX3lxTE5Ib1Z2cE5Nd0IzRWV1dGo0N0lLN3NKY1BIMTlHSXhjRDd6Sm1UNE5DOC1sMXQxVkprU0hkYzdSdFRTUGhS?oc=5" target="_blank" rel="noopener">비만치료제 GLP-1 장기투여 시 ‘전신 대사 불안정’ 유발 - 후생신보</a></div>
+<div class="article-meta"><span class="src">후생신보</span> <span>2026-04-30 08:57</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">비만치료제 GLP-1 장기투여 시 ‘전신 대사 불안정’ 유발 &amp;nbsp;&amp;nbsp; 후생신보</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTFBoamMzVDRyX256SXdONlJ3eUN3MjlLZlpjVjJqXzlXVG4xSVBsWnZqTEVaSXdJNWh0YmxzeUZFc0pGclpqcmc2WDRKaG9uLVU?oc=5" target="_blank" rel="noopener">&quot;GLP-1 비만치료제, 췌장염 위험 증가 없어…초기만 주의해야&quot; [저널톡] - v.daum.net</a></div>
+<div class="article-meta"><span class="src">v.daum.net</span> <span>2026-04-30 07:01</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">&quot;GLP-1 비만치료제, 췌장염 위험 증가 없어…초기만 주의해야&quot; [저널톡] &amp;nbsp;&amp;nbsp; v.daum.net</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE1yZkdETUtxU2xtVHl4M2M0RmwyZ3k2QU9NeE5pbEpqc25meDk4M2l5WElQQWVYRFd2bHpaMUVHa3BiN3Zwem1feTI0MG14WUFwZnc?oc=5" target="_blank" rel="noopener">&quot;GLP-1 비만치료제, 췌장염 위험 증가 없어…초기만 주의해야&quot; [저널톡] - 뉴스1</a></div>
+<div class="article-meta"><span class="src">뉴스1</span> <span>2026-04-30 07:00</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">&quot;GLP-1 비만치료제, 췌장염 위험 증가 없어…초기만 주의해야&quot; [저널톡] &amp;nbsp;&amp;nbsp; 뉴스1</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SY3AwQWphZ1VBbXNmSFptR1JIb3d3SC1XUDJIZ3Nma2xaT1g2MFNjeWc4UnlaM3ZhMzFuN2lpX25ENWNycmJQSjRxRzZmT3A2dFNqVXNRMjYwQ3dFM1E?oc=5" target="_blank" rel="noopener">[N2 뷰] 한미약품, ‘항암 8종 세트’ AACR 선봬...차세대 모달리티로 멀티플 리레이팅 노린다 - 뉴스투데이</a></div>
+<div class="article-meta"><span class="src">뉴스투데이</span> <span>2026-04-30 06:46</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">[N2 뷰] 한미약품, ‘항암 8종 세트’ AACR 선봬...차세대 모달리티로 멀티플 리레이팅 노린다 &amp;nbsp;&amp;nbsp; 뉴스투데이</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE9rY2V5STFUQnpoZ1lXb2VLSjczZHdmVkd5VDlrTFlmdkdxb1VFRlplRzZ2RW50aWtXRXY0LXBMUy1BaXpoUzBLSDBnUmJLTU1E?oc=5" target="_blank" rel="noopener">“비만 넘어 항암”…한미약품, AACR서 신약 후보물질 8개 연구결과 발표 - 문화일보</a></div>
+<div class="article-meta"><span class="src">문화일보</span> <span>2026-04-30 06:20</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">“비만 넘어 항암”…한미약품, AACR서 신약 후보물질 8개 연구결과 발표 &amp;nbsp;&amp;nbsp; 문화일보</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTFAzVHNvTHg2SXhIMVBaa1NfVlpnWHNRcEhzLUJTTVptTkR2djNta2M4bWI5amc5Nk9TejVJeS1DZkxWWjJFVzVjczRGcGdOa09hLWNSQXFvZw?oc=5" target="_blank" rel="noopener">서울대병원 공동연구팀, 비만치료제(GLP-1) 장기 투여 시 &#x27;전신 대사 불안정&#x27; 기전 제시 - MEDI:GATE NEWS</a></div>
+<div class="article-meta"><span class="src">MEDI:GATE NEWS</span> <span>2026-04-29 23:32</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">서울대병원 공동연구팀, 비만치료제(GLP-1) 장기 투여 시 &#x27;전신 대사 불안정&#x27; 기전 제시 &amp;nbsp;&amp;nbsp; MEDI:GATE NEWS</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE02V19uWlk0U3RDb0JrZ2VNc0J3S181OXRCVEcyS2YtU3lWbTZsZEszcUhUaTZ1TU51NWc3TWhWRm5JT1ZCRTIwc3hYaVl2d2dobUtJUGxB?oc=5" target="_blank" rel="noopener">제약업계 비만 신약 다변화…기전·제형 경쟁 확산 - 데일리팜</a></div>
+<div class="article-meta"><span class="src">데일리팜</span> <span>2026-04-29 21:23</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">제약업계 비만 신약 다변화…기전·제형 경쟁 확산 &amp;nbsp;&amp;nbsp; 데일리팜</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpbEtETW9lWFVQaFk1TG1rSUVvLWNTX09jcWNPejF3bHpvZTlQVVNnUWNJT1RFcFhNMWM1bnpmVlpZeHdCSzhicVhXVVc2ZjczTy16NGpQazZVcWtJdnF2SHcwSU1VZw?oc=5" target="_blank" rel="noopener">베링거인겔하임 비만 치료제 3상 결과…인벤티지랩·지투지바이오 기회? - 디일렉</a></div>
+<div class="article-meta"><span class="src">디일렉</span> <span>2026-04-29 19:36</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">베링거인겔하임 비만 치료제 3상 결과…인벤티지랩·지투지바이오 기회? &amp;nbsp;&amp;nbsp; 디일렉</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WMWF0bFhtRktxNzNVdFdYNnpiUTBVZUdfNl9oTDFrZm56cFF2WmFrcWRTNjRpMWs2eFUta2lMVVZfTnNjS3hwdFUyNkJQQmV5V2xwWlVfU1ZLWXdkOUNtc2pvZXlKdE0?oc=5" target="_blank" rel="noopener">[사설] 비만치료제의 ‘기적’에 가려진 대사의 경고 - 헬스코리아뉴스</a></div>
+<div class="article-meta"><span class="src">헬스코리아뉴스</span> <span>2026-04-29 19:14</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">[사설] 비만치료제의 ‘기적’에 가려진 대사의 경고 &amp;nbsp;&amp;nbsp; 헬스코리아뉴스</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wYmdIWGMwaVFWdUJKek1jcmF2Sm5XMkZfZkNDeXhNVy1weTRYSVJ2aVltZkw1UFUxRlNwRnNRLUJfUXBhdFpORF9RYkpCV2d3TGlxc1FtaC1HUdIBX0FVX3lxTE5ROURwSHZIZGNWSFNtQjgyek8yalBlZDhtNEZFS3p1V2o1c0Jwd2xJSmg0ekFtRThIMGQ0M0tQYnVGamJfSEs1bTI1T0IxdGJzUHRMb0FLMFBYbVB0WllZ?oc=5" target="_blank" rel="noopener">비만 치료제로 살은 뺐지만···산화 스트레스에 근육 감소까지 부작용 만만찮아 - 경향신문</a></div>
+<div class="article-meta"><span class="src">경향신문</span> <span>2026-04-29 16:51</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">비만 치료제로 살은 뺐지만···산화 스트레스에 근육 감소까지 부작용 만만찮아 &amp;nbsp;&amp;nbsp; 경향신문</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jZzZRLVpFZUlQeGVwXzdVZDhXQVotRmF4WkVMd1R3cHN1c1BKWmZ4NHQwQm5YZndPVUdkM3RtWnNoNmY0TWFEQTdSMVlJMm8zb3JPZTktSzVGZXdUNHZLdng3MS1kakk?oc=5" target="_blank" rel="noopener">제약업계 비만 신약 다변화…기전·제형 경쟁 확산 - 데일리팜</a></div>
+<div class="article-meta"><span class="src">데일리팜</span> <span>2026-04-29 16:34</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">제약업계 비만 신약 다변화…기전·제형 경쟁 확산 &amp;nbsp;&amp;nbsp; 데일리팜</div>
+</div>
+<div class="article-card new" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yejlHRWRZejVoRU13NEVxd0JJcndBOHFmb0Z5Y0hkTHpuSzQtdWt1d1ZET0twU1NfdndnN1hQUlNFX0xnV25OeHYxelVLRlBRMk0teHJtcWZsQURadG84eDd5WHQ?oc=5" target="_blank" rel="noopener">&quot;비만약 장기 복용 시 전신 대사 불안정&quot;…서울대병원 연구팀, 새 부작용 제시 - 서울경제TV</a></div>
+<div class="article-meta"><span class="src">서울경제TV</span> <span>2026-04-29 15:04</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">&quot;비만약 장기 복용 시 전신 대사 불안정&quot;…서울대병원 연구팀, 새 부작용 제시 &amp;nbsp;&amp;nbsp; 서울경제TV</div>
+</div>
+<div class="article-card new" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5FcU5mNUk5SWI2WHp2NDVlSU1lcnU4U0taRGhGSEpRT3l1Y2o3Z1FQWUM1ZnlVVW1EUTZqd2xlSWN6YURzVnY4bmtxYTM4NkhSTnJrckR1TTU1LWx5ZDQ5NHkwX0JPczNXM2c?oc=5" target="_blank" rel="noopener">임성기재단, 희귀난치질환 연구에 3년간 최대 6억원 지원 - 청년일보</a></div>
+<div class="article-meta"><span class="src">청년일보</span> <span>2026-04-29 14:56</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">임성기재단, 희귀난치질환 연구에 3년간 최대 6억원 지원 &amp;nbsp;&amp;nbsp; 청년일보</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE1yLUUyTG9wZUN1NjNNUERfODJEMXNxVzRMVGExbFRGYzRaM0R5Sks3dUVjcWJ5WTZKOG4wdHRkTkpGM2JwRHRVT05YMkRUX3poMUtOMG5iVHBGaE1DV2F3dGtaM040S0ZGdjhBMjBBbw?oc=5" target="_blank" rel="noopener">기획/비만치료제 알고쓰자③ 약의 효과를 공평하게 누릴 사회적 합의 필요 - 이코리아</a></div>
+<div class="article-meta"><span class="src">이코리아</span> <span>2026-04-29 14:28</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">기획/비만치료제 알고쓰자③ 약의 효과를 공평하게 누릴 사회적 합의 필요 &amp;nbsp;&amp;nbsp; 이코리아</div>
+</div>
+<div class="article-card new" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTFByTkpJVEE4VnR4dGFWbm1yTDBCWVFJbVZBcXhxU2VONkE3T2JCaXpvdFhaQUJyRHNXOUQtM2pOT0lxUjZXSTBBT1ZhazJrQQ?oc=5" target="_blank" rel="noopener">“GLP-1 장기 투여 시 &#x27;전신 대사 붕괴&#x27; 우려…통합 관리 필요” - 전자신문</a></div>
+<div class="article-meta"><span class="src">전자신문</span> <span>2026-04-29 14:08</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">“GLP-1 장기 투여 시 &#x27;전신 대사 붕괴&#x27; 우려…통합 관리 필요” &amp;nbsp;&amp;nbsp; 전자신문</div>
+</div>
+<div class="article-card new" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkNWZLNUR4b1g0NHR0d243a3puQ1hMVVg3a08zRHhUajU5YTBVVkZrNlJvY0FvRlpkLTc4NV9pOTBubFF6eTdqak1fVFdiektHUW5kQVBR0gH7AUFVX3lxTFBDd0ZqZXc0UG8wdkxMdDFpSDhTRkxJUUNhZ01LUnVjeHRRWnBPMnpjNUpyeW1reE9xZjlHcE9qLXl0bGtLci1jRVQxbE5WbHFvbDFLM1FmTEtqczF5ZlJDZ192WldLdlM5TEt5Skd2aThZdTluOU5vaTVWY1BOT2VvYzUxbEpvVkNOXzBleXREd19JLWd4aFZsdHY2clhsMVpGMlJfRkhfYTdDTFloSi1aVWRROVBRSTJlaUI3eHpHeFBsLXFpSzJndlkyTUJZVFp1NGZ1aV95cS1UbHZqTjdOdlFST1V3QmR0STVZMkJyWUpsU3VuMjc1Y1hZ?oc=5" target="_blank" rel="noopener">&quot;살 빠지면 뭐하나, 몸이 망가지는데&quot;…GLP-1 비만약 새 위험 신호 - 데일리안</a></div>
+<div class="article-meta"><span class="src">데일리안</span> <span>2026-04-29 13:36</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">&quot;살 빠지면 뭐하나, 몸이 망가지는데&quot;…GLP-1 비만약 새 위험 신호 &amp;nbsp;&amp;nbsp; 데일리안</div>
+</div>
+<div class="article-card new" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTFBPSGVDZ1k2Q3hhMWhyYm03VXZzTTRtT0xkOFBGOEwwdk0xZ3NZbnlpUFBibV9CSk9lNDRmUWJjMlkwaDR0eFlDcVZoWU1pRi1EcGJr?oc=5" target="_blank" rel="noopener">GLP-1 비만치료제, 장기 투여하면 대사 망가진다? - 네이트</a></div>
+<div class="article-meta"><span class="src">네이트</span> <span>2026-04-29 13:29</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">GLP-1 비만치료제, 장기 투여하면 대사 망가진다? &amp;nbsp;&amp;nbsp; 네이트</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE02VlVSN1Y4bGo2REZmeWk5MVlJanpxY2V3U0k1NEtIX2pqc3A5MU90Y2JYWk00TkltWEQ0ZThvUTFhUQ?oc=5" target="_blank" rel="noopener">GLP-1 비만치료제, 장기 투여하면 대사 망가진다? - 코메디닷컴</a></div>
+<div class="article-meta"><span class="src">코메디닷컴</span> <span>2026-04-29 13:28</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">GLP-1 비만치료제, 장기 투여하면 대사 망가진다? &amp;nbsp;&amp;nbsp; 코메디닷컴</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMickFVX3lxTE0zMnlyZGZlemZyc0c0a3lKTXM3TWZ5X1Y4UEFqVGVCbUVHT1F6dzAyS2duLVN4NXBIRF9jdUR3UnV3SDlkcTlUcklLeFFuT0R0N0hhazlYZWdVc3pDemJ0MzZua3kwZzBBRDNQMjluSjBTQQ?oc=5" target="_blank" rel="noopener">&quot;비만 넘어 항암으로&quot; 한미, AACR서 신약 연구성과 대거 공개 - 의협신문</a></div>
+<div class="article-meta"><span class="src">의협신문</span> <span>2026-04-29 13:22</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">&quot;비만 넘어 항암으로&quot; 한미, AACR서 신약 연구성과 대거 공개 &amp;nbsp;&amp;nbsp; 의협신문</div>
+</div>
+<div class="article-card new" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uYWJoSVVpTkVjcnlwMzdVaDd2MnA5VjJOZUFxeWlLYTNqXzRlV1I2RVZPVVctQXR6UmJUYUJtTXRnOGxYOTdZX2JsOGZOQ3dfcmNzeko0cW1OejV1ZEdXLVpzalBKOVE2?oc=5" target="_blank" rel="noopener">비만치료제 열풍…GLP-1 장기투여시 ‘부작용’ 촉각 - 데일리메디</a></div>
+<div class="article-meta"><span class="src">데일리메디</span> <span>2026-04-29 12:24</span> <span class="kw">GLP-1 비만치료제</span></div>
+<div class="article-summary">비만치료제 열풍…GLP-1 장기투여시 ‘부작용’ 촉각 &amp;nbsp;&amp;nbsp; 데일리메디</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTFBOUjVWQk1PcEYzOEJmYVQ5UzVzRjUxV05VN3drSm9IU1Rxelo2S2NzcDhlNHVmb0lIai1hMVdMZ1F2NDFiSmFVb2VnLWZUZ3JBbDYzNTc5T05GeEFFeEF5ZldCVTBjckJ3dVhj?oc=5" target="_blank" rel="noopener">마운자로가 위고비 제쳤다...노보노디스크, 위고비 가격 42% 인하 카드 꺼냈다 - kmjournal.net</a></div>
+<div class="article-meta"><span class="src">kmjournal.net</span> <span>2026-04-29 12:06</span> <span class="kw">마운자로 처방</span></div>
+<div class="article-summary">마운자로가 위고비 제쳤다...노보노디스크, 위고비 가격 42% 인하 카드 꺼냈다 &amp;nbsp;&amp;nbsp; kmjournal.net</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE9XakwzcDFQbW1tQ2x5V1VHTWVWRzlxYWdQN2lDTWdCRjJJVTJCa1VoSGZULW9lUWxkN2hjQ2xoS1dnSEhrMTdORzEwbTYtbU9ZVXRMeVVaVllHS2pnajJRZjJKSHlTUDNNUmhz0gFvQVVfeXFMTTNZOVBlSk1fWU45WW00Rmd5WWFFckZPUm5XZlBNSGl0Z1JnZVZaX29qdzZJVHhET0tNUUlyRThnTWYzbFN2VnVnQURrV2JOLTg2d1NUdDB4Z284Ym1fZW5HQzYzemo0ZG5jc3Z3czRr?oc=5" target="_blank" rel="noopener">먹는 비만약 첫 대결 위고비 압승…국내 출시는 언제 - 한스경제</a></div>
+<div class="article-meta"><span class="src">한스경제</span> <span>2026-04-29 06:00</span> <span class="kw">위고비 처방</span></div>
+<div class="article-summary">먹는 비만약 첫 대결 위고비 압승…국내 출시는 언제 &amp;nbsp;&amp;nbsp; 한스경제</div>
+</div>
+<div class="article-card" data-date="2026-04-28">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Kdk10VUVpMEF3bkMtNG1YazdKT0VJMU1UaE5CT0dBN21uSGRmX0RjXzRfZnE3ZV9DREMxOVBUenBQa3FEWEhGS1g5YkVObWQ2ZEczVzUyd2Z5S1E?oc=5" target="_blank" rel="noopener">[단독] 제각각 처방에 중복 처방까지…요지경 ‘비만약 성지’ - KBS 뉴스</a></div>
+<div class="article-meta"><span class="src">KBS 뉴스</span> <span>2026-04-28 21:25</span> <span class="kw">위고비 처방</span></div>
+<div class="article-summary">[단독] 제각각 처방에 중복 처방까지…요지경 ‘비만약 성지’ &amp;nbsp;&amp;nbsp; KBS 뉴스</div>
+</div>
+<div class="article-card" data-date="2026-04-28">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpYWFncXdMc3I0VGRNeEJZSzVkcUJ0UVp5Z2dTY1lZLUxNeGFxZU9kcjVUTDk5Uk1xd1FoZ0ZmZkM3TXlVZ3lhY2VUZ1NHcld6c0x1TWtfMGFLZWs?oc=5" target="_blank" rel="noopener">[단독] 제각각 처방에 중복 처방까지…요지경 ‘비만약 성지’ - KBS 뉴스</a></div>
+<div class="article-meta"><span class="src">KBS 뉴스</span> <span>2026-04-28 19:20</span> <span class="kw">위고비 처방</span></div>
+<div class="article-summary">[단독] 제각각 처방에 중복 처방까지…요지경 ‘비만약 성지’ &amp;nbsp;&amp;nbsp; KBS 뉴스</div>
+</div>
+<div class="article-card" data-date="2026-04-28">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1adzFHTl9yaTB2aHEzQnV0NGpLd2s0YzBQcDJMYnA5SER6UWJYWTlkZEdNeXlxVWFCQ0lFd2FKZDZmVFdUS1ozbVpsTHpldHhCQTV5VnpwWW9tdWR5bldlU0pfM2k?oc=5" target="_blank" rel="noopener">한미약품, AACR서 &#x27;항암 초격차&#x27; 입증…비만 넘어 혁신 신약 확장 - 포쓰저널</a></div>
+<div class="article-meta"><span class="src">포쓰저널</span> <span>2026-04-28 19:17</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">한미약품, AACR서 &#x27;항암 초격차&#x27; 입증…비만 넘어 혁신 신약 확장 &amp;nbsp;&amp;nbsp; 포쓰저널</div>
+</div>
+<div class="article-card" data-date="2026-04-28">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMickFVX3lxTE9sWmM5bTVzc3paS1lrOTF2bEUtVjFCYWx1YWR1SFlsck84Ym1ORGh3QTFacHVhX29XZnJBQl9aMWJMLW1Qa2J5Y2N1cFZnd1o3bFc4aFpBSS11Z21FYktsNElTOGJoYVNSVzNIZ2EtdUVhUQ?oc=5" target="_blank" rel="noopener">한미약품, AACR서 차세대 항암 신약 8종 공개…4년 연속 국내 최다 발표 - 인더스트리뉴스</a></div>
+<div class="article-meta"><span class="src">인더스트리뉴스</span> <span>2026-04-28 16:34</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">한미약품, AACR서 차세대 항암 신약 8종 공개…4년 연속 국내 최다 발표 &amp;nbsp;&amp;nbsp; 인더스트리뉴스</div>
+</div>
+<div class="article-card" data-date="2026-04-28">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9BQnEyM2hadGpwbmdtMl93YmNHSmkxZ0N2YlNVUmJKRGZTZDVZa2N5SUNvcWVUNlJ3RVRoaENvZWFjYk4zd2N6cjJSS01EOVNKbW1JZjNVRkNvSFg3MTgtSQ?oc=5" target="_blank" rel="noopener">한미약품 AACR서 차세대 신약 대거 공개···“비만 넘어 항암으로 혁신 확장” - 동양뉴스</a></div>
+<div class="article-meta"><span class="src">동양뉴스</span> <span>2026-04-28 15:04</span> <span class="kw">한미약품 비만 신약</span></div>
+<div class="article-summary">한미약품 AACR서 차세대 신약 대거 공개···“비만 넘어 항암으로 혁신 확장” &amp;nbsp;&amp;nbsp; 동양뉴스</div>
+</div>
+</div>
+</div></div>
+<div class="section" id="sec-glp1_intl">
+<div class="section-header"><span class="badge intl">INTL</span>GLP-1 글로벌 트렌드<span class="meta">47건 · 신규 16건</span></div>
+<div class="section-body">
+<div class="articles">
+<div class="article-card new" data-date="2026-05-05">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMipgJBVV95cUxQUzdxVUNuYjhIcXQ0Z0ZaTzBJMWFYaGtIWEswdEhfVXFuU2luLUEzb3pXMDczWWxsbDYzU3N5NFAxTHNhMVI5U2VnT2lwSk90bXU0RjhHamdPazJIWEZoRTJRUzZEblpURzRJYldUN2VwQWtUdDBqSTQwZTJ4V09xVXpBSUFkWG5JOENFS0hlM2IwWlV3Q3JrblpiTFg1MXkxYVowcmhNVmJiNHJkcHRfNUdpbThaN0Q0bVI1NGxRV0V4ck9QNzNmbXY2S2M0VWJLem1ndmJDM3RaNnBjaXRuNGRyN0llc01JdWRReFF6OGtScjVUdVNUcFFQLThkSzhaMDYtbmJCY3lBdnZUZFRSWDFubTluZ2NoeEVhY2I5T1Y0YVlEcmc?oc=5" target="_blank" rel="noopener">Amazon One Medical GLP-1 Program Evaluated: How the New - GlobeNewswire</a></div>
+<div class="article-meta"><span class="src">GlobeNewswire</span> <span>2026-05-05 02:51</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">Amazon One Medical GLP-1 Program Evaluated: How the New &amp;nbsp;&amp;nbsp; GlobeNewswire</div>
+</div>
+<div class="article-card new" data-date="2026-05-05">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxNSzJhQVhZTzhRVGhibXdGcTRDakx5dU9LMThPQnAxZlI0UV9YOHd1ODhkV0hmSWdmeU1wRk90TnZuWHd3SWh0eWxPWjg0V3h5TEFidmNjb2xfdDgyNVVpTk52Y2xBbGZhUmFWRVRGWU9tX1FtUWtzNWthVUVpaDBNSEV4Q3BBU1lqeFNlYTZhcWdBbmJUY2xVMVc2cHdwUXpObTNiUE83TmZUTTB1?oc=5" target="_blank" rel="noopener">The GLP-1 paradox: Rice study finds weight loss drugs may carry unexpected stigma - Rice University</a></div>
+<div class="article-meta"><span class="src">Rice University</span> <span>2026-05-05 02:13</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">The GLP-1 paradox: Rice study finds weight loss drugs may carry unexpected stigma &amp;nbsp;&amp;nbsp; Rice University</div>
+</div>
+<div class="article-card new" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxPU18yUW9rTXVZUzd5S3pWR0ZDZFU3NzdSZk5sV3I1b2tzY0J0c0toWURCXy1vX0VyQmROR0JfM3Y0cl9CcmdtTkhSQVVzTFJNNno3ZnRESHUwZE5wamhrOXJPZFM2VHQya2tGd1hPYzFYVVY4Tjc0eFc0c193U3Zfc1ZfcDFCdks3YTdtS2VsY2V6QVc5R3BXY1hfUkpzajU4ODM3Y1lXSDZtRGZFZkE?oc=5" target="_blank" rel="noopener">Lilly shares under pressure after serious Foundayo adverse event report - Seeking Alpha</a></div>
+<div class="article-meta"><span class="src">Seeking Alpha</span> <span>2026-05-04 23:32</span> <span class="kw">orforglipron Foundayo</span></div>
+<div class="article-summary">Lilly shares under pressure after serious Foundayo adverse event report &amp;nbsp;&amp;nbsp; Seeking Alpha</div>
+</div>
+<div class="article-card new" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiwAJBVV95cUxOREVKUkwzY0ExMUJ6ZndheVRHdTRQbzdCR294R1RxQkxiYzNWX0dITXZHLXU5V05JNGc3WUxEWlMyUjVUTjg4RDJ2d3ViSzVMTGl5RUFxLXhpYkFVMHhvN0d3RkdtVDljMGRPbjhjcTdnYy1ha29PbEw5emYtSmFzbk5pbDFFOEhWRkk0WDlkV3Frci1qbVRQRUoybXNyQkFMdnl3YnpXZnl4UGI2ekVMakZLYkpCZVNSaDc0TG56WGViUzU0ek9yMUhjWXdyT3VHT0FMNVdaZ05RVDhzMWE1NGxiS3BmOV9lYldCY0FoWC1KNHhVWjlNbEtyQVZPY1k0Wmtja09KRHlCSDhIS3RwbUpOQmZIWnZGNkx1YS1TY1RfamgwV01maXJPazlxZHRCYW5aYjBXdThHNUlVZzh4TA?oc=5" target="_blank" rel="noopener">2 Minute Medicine: Pharma Roundup – Geopolitical instability in the Strait of Hormuz threatens global generic drug supply, daraxonrasib improves pancreatic cancer survival, sparsentan (Filspari) approved for focal segmental glomerulosclerosis, glucagon-lik - 2 Minute Medicine</a></div>
+<div class="article-meta"><span class="src">2 Minute Medicine</span> <span>2026-05-04 22:03</span> <span class="kw">orforglipron Foundayo</span></div>
+<div class="article-summary">2 Minute Medicine: Pharma Roundup – Geopolitical instability in the Strait of Hormuz threatens global generic drug supply, daraxonrasib improves pancreatic cancer survival, sparsentan (Filspari) approved for focal segmental glomerulosclerosis, glucagon-lik &amp;nbsp;&amp;nbsp; 2 Minute Medicine</div>
+</div>
+<div class="article-card new" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE9sc1dGQ0FzTGRSTjV5S3FEMEZKVnZJUGRlNk4yejJtS1pSbkM2b09WQVhpM0ViNmZwUDEtNjN0Ml9yOU9ObW5IU1VEQTloczU0QjNrSmpKdHA3ek5mV3NWanQ4VWRkZkV2VEh3M0d0TQ?oc=5" target="_blank" rel="noopener">Weight loss drug Ozempic linked to lower depression and anxiety risk - ScienceDaily</a></div>
+<div class="article-meta"><span class="src">ScienceDaily</span> <span>2026-05-04 15:16</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">Weight loss drug Ozempic linked to lower depression and anxiety risk &amp;nbsp;&amp;nbsp; ScienceDaily</div>
+</div>
+<div class="article-card" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxPY3VweWdkRTRCRFhRb01zNVhRYld3c0cwazNzTFhrVXdBd0h3VHZfMUtVRnFSUGlVX1gwYVgtZ3gwRmdUOEJpbzYxSlVLYjdyemVobUg3SU1aU1JOUWNzM25yYkZabmhkS0dNSEl4S3duX2VrcnRWeXQ0ZEFLSFZqbGhnYmRKOTA?oc=5" target="_blank" rel="noopener">Ashley Graham Says GLP-1 Trend Is ‘a Smack in the Face’ After Body Positivity Movement - People.com</a></div>
+<div class="article-meta"><span class="src">People.com</span> <span>2026-05-04 04:46</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">Ashley Graham Says GLP-1 Trend Is ‘a Smack in the Face’ After Body Positivity Movement &amp;nbsp;&amp;nbsp; People.com</div>
+</div>
+<div class="article-card" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMi7AFBVV95cUxNNlc1Qm1jYjBPTmhUZjE3MFFQZG5ocDgwb3BubEtBMGU0YXhEOG8tYTNZNm9pMGlwVk4telRVMjIyRHpPTWw3TmFhdFowMVgtZUlOMENONDNneEFVMGt2N2VPLUsxUkkxM1F4YUs2Z1ROdjhsdmNmWTg5SVlaZ3NxTGc0OTVqaUhrWkM0VU9SYTZtN2toUUMzNUZCRGpyMml4OThJQXc0ek8wQk9FUmpKZmFuNDQ4UnNPSkw4LUpLU1h4OVdIMnRrQkhTR085SVZvbFgtQXh3LWF4VUR3aDhlWWJldHMxZGIxLUFLXw?oc=5" target="_blank" rel="noopener">LLY stock up 7% pre-market as Mounjaro, Zepbound sales smash expectations – retail bets on run toward $1,000 - MSN</a></div>
+<div class="article-meta"><span class="src">MSN</span> <span>2026-05-04 04:46</span> <span class="kw">Mounjaro Zepbound market</span></div>
+<div class="article-summary">LLY stock up 7% pre-market as Mounjaro, Zepbound sales smash expectations – retail bets on run toward $1,000 &amp;nbsp;&amp;nbsp; MSN</div>
+</div>
+<div class="article-card" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQMjY5a1Q2ekFiWnZhQ1A1VEZKSk90VW9KZ05MRDhOX3N4Y19xMkd0U0FnOG5fR3Nrd0l6a1FHdlVYVEF6RmRKcDBSTWVsVldDTm5IUjZueWlmbWZ5X01zREFpM0YtYW43dE1UcEh1bHFUdzVvSGZlSGZtOXpabWdOZF9qYU5rWDdJNC1OanNWSHpLWkV1RXR6eFpn0gGfAUFVX3lxTE1qWnlNaF9JcmdFVml0TDZZb1hkRVdtM2MxanlOY3R5UFJwdXlybHdPVVhOcU9XdEtNU1VPQUhLSUFFME0ySGVCNU9LNjFIQUZqTkROWVBOXzRvdVl0dzk4cTNpSVlMX2N4cWNMUldzOGRodzJnU2oxNUl0bVM2dGtHWkNobW8yMkdRUFQ1d0liNG5WbE55YVNtWHZsS2FUNA?oc=5" target="_blank" rel="noopener">Trump says GLP-1 weight-loss drugs coming at $50 for Medicare patients - LiveNOW from FOX</a></div>
+<div class="article-meta"><span class="src">LiveNOW from FOX</span> <span>2026-05-04 01:33</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">Trump says GLP-1 weight-loss drugs coming at $50 for Medicare patients &amp;nbsp;&amp;nbsp; LiveNOW from FOX</div>
+</div>
+<div class="article-card" data-date="2026-05-02">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE9PdktURjBZekMzVUphSnNMZFhBd1VweWd5Wk1aUnFaTTJTcmwtV2lJekVKYTR5NjU5MmpiWnJONzB3YkFPSjhfa0Y0M1Z2aEZMVXFJUFVkSkF6YlFWOUNabGt6QdIBaEFVX3lxTFA2R045eFZ0UjFreXZySHkxSjNDdlMxZzc3UDBvYnhhaDB1WWJZWVc0ZzNPdUVYMEpRNWdfWVUyUDN1OEpYczJ3eDJXcGt0S1RRMmVDQW1OVnQya0dSY3ZGRmRxM2JudXpG?oc=5" target="_blank" rel="noopener">Weight loss and hair loss: The growing hair treatment market from GLP-1s - CNBC</a></div>
+<div class="article-meta"><span class="src">CNBC</span> <span>2026-05-02 21:00</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">Weight loss and hair loss: The growing hair treatment market from GLP-1s &amp;nbsp;&amp;nbsp; CNBC</div>
+</div>
+<div class="article-card" data-date="2026-05-02">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxPMG1PbndqMUZiVWNPdFplWS03UmpsQVVaeTI3RF9vM0t4UlVGWEhGTFhVTUR0RURkVXhfX0p6Q080cGdzaGswSFJpWDl4TDJPa2czME5kT1dfYmZRb193cWNkMUpKbmgteThucHcyb2o4NHN2Ul9BcE16RHIzU1Jjdw?oc=5" target="_blank" rel="noopener">Medicare Could Cut Prices on These Drugs by Up to 50% - AOL.com</a></div>
+<div class="article-meta"><span class="src">AOL.com</span> <span>2026-05-02 19:33</span> <span class="kw">Medicare GLP-1 coverage</span></div>
+<div class="article-summary">Medicare Could Cut Prices on These Drugs by Up to 50% &amp;nbsp;&amp;nbsp; AOL.com</div>
+</div>
+<div class="article-card" data-date="2026-05-02">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYnZMb3dyQ0FNZXFsWFpUb3dTZnNrQTBNXzFMUGl0MTZlUG14MDFvM2tXeVBKS0cyS3M3SERIa1FvNzRMSVIyTXBZLUFfQ3FvZ0lqc1hwT0pNTDljYXJvUi1LS05saG80cGktZG9tY3lHLTFISnhXZlhqTHlEMkRfV2lpUTBnWUw5SzBr?oc=5" target="_blank" rel="noopener">5 Tips for Switching from Injectable to Oral GLP-1s - GoodRx</a></div>
+<div class="article-meta"><span class="src">GoodRx</span> <span>2026-05-02 17:50</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">5 Tips for Switching from Injectable to Oral GLP-1s &amp;nbsp;&amp;nbsp; GoodRx</div>
+</div>
+<div class="article-card" data-date="2026-05-02">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxPaUhWNlNMLU1XNzdVWk9OY0g1WnlMcG1ZaXNNUktHUHFXS3pZem9qdF81d1hwWHB5MURuTVBzN2lMaFl6bEM2Z2ZadWxZNEJzckxfNWczMm9UZVFmNGNDTUZCWmo1RUtqcWNwTmYtWkpsRXlONHpiQVJIWFFnME9Ya0kwTDZTWHpDMWhZb2xJQ09BdkJYT1Rz?oc=5" target="_blank" rel="noopener">Weight loss drugs significantly cut heart risk, major study finds - Earth.com</a></div>
+<div class="article-meta"><span class="src">Earth.com</span> <span>2026-05-02 15:14</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">Weight loss drugs significantly cut heart risk, major study finds &amp;nbsp;&amp;nbsp; Earth.com</div>
+</div>
+<div class="article-card" data-date="2026-05-02">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQeV9wbzFCN3NQZ2ZwWUx6S1NXeTB5Vk5ZZ0FBRTF2bFhyRVFlREVSTkFwUXRhWXN5MnlKa0d5cnZ0cXpRQzBUMHppck1KQ09qRnVhN0xmRDJkVElCbUhpMS1udVd5aDgzRUFrZjBPMk11SkJyUVBqRGN4TWMtRFFjRmUwWGRHbGdic3duLVhyVlM2QjIyTWZaR3JpekFlVGkzZnVrVmtxYkFhSmVpZnln?oc=5" target="_blank" rel="noopener">Trump Announces $50 Monthly Cost for Weight-Loss Drugs for Seniors on Medicare - NTD News</a></div>
+<div class="article-meta"><span class="src">NTD News</span> <span>2026-05-02 12:32</span> <span class="kw">Medicare GLP-1 coverage</span></div>
+<div class="article-summary">Trump Announces $50 Monthly Cost for Weight-Loss Drugs for Seniors on Medicare &amp;nbsp;&amp;nbsp; NTD News</div>
+</div>
+<div class="article-card new" data-date="2026-05-02">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNTUJSNjVSY2pOc1NyVGZwU21PRzFrck4xaUZFRXZPZVdQdUtWM3VxMmJqS0h6UTJlNWJ2QV9QVE0zUDc3bG0wcmlsWEJpRmxjQUROT093SjUwODd1M0l5OTZXLWtHR2o4TmhLNHkzb3FjMWt1bjkteHE5d2ZxWmhrS29SWm1CM0tyRU16QzVlcEI0dERiRnQ2ZXREYw?oc=5" target="_blank" rel="noopener">No Need to Worry About GLP-1-Induced Muscle Loss - Medscape</a></div>
+<div class="article-meta"><span class="src">Medscape</span> <span>2026-05-02 06:16</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">No Need to Worry About GLP-1-Induced Muscle Loss &amp;nbsp;&amp;nbsp; Medscape</div>
+</div>
+<div class="article-card" data-date="2026-05-02">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNUllwM1FYLVY3M3VvMUdLakdwc09OMjV5OTIwVTFMaHkwMWdOYmtraG0zdEt6dVQycXF4TC1lOHRpRzdvSmtXN1Q5WlVCczhKMXE1QXRhUWxKZXphaWR0RWZxY2JOZ21QS0FEbmQ5QUFKY2lZaFJ1VWVBaVRKNF9RRHJKa0Q4WHlCMW81WjdBNFhVWHpXVUM2TA?oc=5" target="_blank" rel="noopener">Trump says U.S. to provide GLP-1 drugs for Medicare patients - Reuters</a></div>
+<div class="article-meta"><span class="src">Reuters</span> <span>2026-05-02 05:54</span> <span class="kw">Medicare GLP-1 coverage</span></div>
+<div class="article-summary">Trump says U.S. to provide GLP-1 drugs for Medicare patients &amp;nbsp;&amp;nbsp; Reuters</div>
+</div>
+<div class="article-card" data-date="2026-05-02">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMi_gFBVV95cUxNUXp1UzdhUFJGenJQNGExZjRfWk8telRFUktVU2Y4T0NPaDdqWHRlSVpXMkVZRDRMVWQtRHFEaXFKN1lkeHhrS284WDdybGlMRlhNMlJtZzIwMzVZVURGdk5SSFZwcU5IeGphQVNfUF9WeVY3bW5kc21jc2xISWx4bU1lZ0tVbjJET1ZEc1VMejBSam1XT3Z5M0JPYkJ3cnJ4bXdJNEJraEpGa3ZWYnNuOTF5Y29uZ2Z4NHgyM2hrYWdIS3d0UEpzMXBJYk00VDVST1ZVeks5elNvYVZvNDdYa05scU5xN2IyTmI3cThaYWt1b0tZN0pOQ25vRnF2dw?oc=5" target="_blank" rel="noopener">Eli Lilly&#x27;s next-generation obesity drug delivers strong weight loss, reduces knee pain in late-stage trial - MSN</a></div>
+<div class="article-meta"><span class="src">MSN</span> <span>2026-05-02 02:47</span> <span class="kw">retatrutide Eli Lilly</span></div>
+<div class="article-summary">Eli Lilly&#x27;s next-generation obesity drug delivers strong weight loss, reduces knee pain in late-stage trial &amp;nbsp;&amp;nbsp; MSN</div>
+</div>
+<div class="article-card" data-date="2026-05-02">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxQVlJtN1hUZFRuaUo3cFJWNk1IWHpLTjFzc3NFQ3ozandRd0k1UEVEd1JxQ0dnbmNfS2VfN2c1THE2SEZ1d0pySW9CcE5jWkkwSjgtR0djZTVuamZMZHlSZUhzZFJoTGRUTzUxVnJsc2hJaHR3amgxVjZ0Yk9fTDhTb1BnSko4T05LMjNwNkZ1ekZEZnBKMjVFUkl1SjRFM2t5Ui0xRXF1cw?oc=5" target="_blank" rel="noopener">Beyond medication: A whole person approach to lasting weight loss - CVS Health</a></div>
+<div class="article-meta"><span class="src">CVS Health</span> <span>2026-05-02 01:52</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">Beyond medication: A whole person approach to lasting weight loss &amp;nbsp;&amp;nbsp; CVS Health</div>
+</div>
+<div class="article-card new" data-date="2026-05-02">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxOUHRDSUxOU3lfdG1NSWJHRURWbUNfWnB1d3I4VkYzMzEwSFgyejNkNTgxTnNoMW8xN21lM1NkR1BuZHVXU3lteHRyNGF1WVVXLVdQZ0hfR09DbERfNzFGNkJVZzJYR2RVcEdEQU9EZlNkMEdHbDZwLUExUVU0bHJfTTYtbzM?oc=5" target="_blank" rel="noopener">Will Medicare Cover Ozempic or Wegovy in 2026? What Retirees Need to Know About GLP-1 Coverage - AOL.com</a></div>
+<div class="article-meta"><span class="src">AOL.com</span> <span>2026-05-02 01:34</span> <span class="kw">Medicare GLP-1 coverage</span></div>
+<div class="article-summary">Will Medicare Cover Ozempic or Wegovy in 2026? What Retirees Need to Know About GLP-1 Coverage &amp;nbsp;&amp;nbsp; AOL.com</div>
+</div>
+<div class="article-card new" data-date="2026-05-02">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1pbkZ6d0cyQUNiWjBWclhZcjBtbm1USU1Ya3pTOHpjdmJjZ3lFNGVuNlRITFM2azl2S2N0cVFJRGdmY1ZfQmJDdWNmYlFTTW84djEtby1qSWJiTHdZU0w2a3B3?oc=5" target="_blank" rel="noopener">Will Medicare Cover Ozempic or Wegovy in 2026? What Retirees Need to Know About GLP-1 Coverage - FinanceBuzz</a></div>
+<div class="article-meta"><span class="src">FinanceBuzz</span> <span>2026-05-02 01:12</span> <span class="kw">Medicare GLP-1 coverage</span></div>
+<div class="article-summary">Will Medicare Cover Ozempic or Wegovy in 2026? What Retirees Need to Know About GLP-1 Coverage &amp;nbsp;&amp;nbsp; FinanceBuzz</div>
+</div>
+<div class="article-card" data-date="2026-05-01">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UWkVtTEhUaENGNk1ZVDh1VHJrY3B5cXc5Z2I1QVhPbk5JbkJiOU1JOFlFVlpRTXhuTXRzNXd1QTRTRWhRWWZSdFRmU3JDT19ycGZGV0ZKZDJPWFd0SmRyQ0dzVkVOdDA?oc=5" target="_blank" rel="noopener">6 Weight-Loss Pills That Work: Which Is the Best? - GoodRx</a></div>
+<div class="article-meta"><span class="src">GoodRx</span> <span>2026-05-01 23:07</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">6 Weight-Loss Pills That Work: Which Is the Best? &amp;nbsp;&amp;nbsp; GoodRx</div>
+</div>
+<div class="article-card" data-date="2026-05-01">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxQbllCYUVuVmFZUFQtdXVROTczN3lDZFhrOGhZSHJrM2hSVERZTWVwS0RaNE82b19KUFJMX0RTNmdOSnBsQjk1NmFEMF9UTlZBZ0xtWE5HcWNwODh0T0Zha29fb3pDUkRGSzRqVkp0Q2VGTEVNZldPWDRMVGd6NzJQNE1UUWFBTUxpSDBtUWV5TzZrMm5OQ2xvQ3FaaUZNZ0JYZXc?oc=5" target="_blank" rel="noopener">US could spend $1 trillion on medications. On top? Weight-loss drugs - USA Today</a></div>
+<div class="article-meta"><span class="src">USA Today</span> <span>2026-05-01 22:49</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">US could spend $1 trillion on medications. On top? Weight-loss drugs &amp;nbsp;&amp;nbsp; USA Today</div>
+</div>
+<div class="article-card new" data-date="2026-05-01">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQ3N2Q3NPUVFMZi1jYzY2Y3NWamFmb29rUWJOWHJ4Zm5MWTVsQWhPZ3lIellDT1diZ1RFUmtCWFY2V3NDUFBzbFpXTjBmbEFvdmVVSkRYQkktVFZScEpSWUE1aUQzRTlUYXRFRnpadGhLOU5NQUxtZDl5a19MVEdhWFFlV0FCOFlTa0JmT2t2YlFlbjF0eHBmbTRxVGFFd29oSk9KeGtkZVU?oc=5" target="_blank" rel="noopener">GLP-1 drugs are expanding beyond weight loss — here&#x27;s what employers need to know - The Business Journals</a></div>
+<div class="article-meta"><span class="src">The Business Journals</span> <span>2026-05-01 13:00</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">GLP-1 drugs are expanding beyond weight loss — here&#x27;s what employers need to know &amp;nbsp;&amp;nbsp; The Business Journals</div>
+</div>
+<div class="article-card" data-date="2026-05-01">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxNMl9FUnlucnlpT0NSS0dNUXZPQ080T3dQWFJzMkJMV1FCVWlSUVcwWnJDTk5UTnBJN0pkMmphejd4SV9HWTZSUnA3U3NQUkNZeDNSdzJOU3RvV0JvMVF6aWZZbFJSQWhTaG5DdzdSVElXbUFtSVZ0dTYwc1BzYUxnOWwxN09qS2ZJemUtQXBITHpYSmVyeUM3b1d5d0RhcHhhUFZnUEhXOHltMjVNemFaN0JjeE95ZGEzNkloWTJEODl3RDgxRWw2eU1n?oc=5" target="_blank" rel="noopener">Eli Lilly earnings: Mounjaro/Zepbound’s massive volume growth more than counters price pressure - Morningstar Australia</a></div>
+<div class="article-meta"><span class="src">Morningstar Australia</span> <span>2026-05-01 09:22</span> <span class="kw">Mounjaro Zepbound market</span></div>
+<div class="article-summary">Eli Lilly earnings: Mounjaro/Zepbound’s massive volume growth more than counters price pressure &amp;nbsp;&amp;nbsp; Morningstar Australia</div>
+</div>
+<div class="article-card new" data-date="2026-05-01">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wQXA2dThYSXhITWVfOGRRZUpCV3ZkSGItXzNXc2xWbnl1NlBCaG1Icl9JNkx4Uk1HZ2pjMG9NV1RmcXdqdlJJRFpvcnN1bzBXSE5IcTV2N2pPT3BIeDJ1ckRIdHBIZw?oc=5" target="_blank" rel="noopener">Eli Lilly Q1 Revenue Hits $19.8B as GLP-1 Drugs Fuel Growth - Fitt Insider</a></div>
+<div class="article-meta"><span class="src">Fitt Insider</span> <span>2026-05-01 06:31</span> <span class="kw">retatrutide Eli Lilly</span></div>
+<div class="article-summary">Eli Lilly Q1 Revenue Hits $19.8B as GLP-1 Drugs Fuel Growth &amp;nbsp;&amp;nbsp; Fitt Insider</div>
+</div>
+<div class="article-card" data-date="2026-05-01">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxPck1Vcnh4Rm05WjlDT1QxMkRlRk1VRkFObjItbm5YS3BYZlJpa1RQeEczZHpYV2tRcGRDLWdlUnZZNTF3cFJPejZQUWtGazhrdXc0MXl2U0dtcFhZTTVrXzlZWkhELVNEUTZHUTJWUC0tczZ4WUZydHlNN1NIbzYxNWlxQjI5ZjUzNWVmdmNWZjNJVTZITHlJdUpkVTczMFU2RVFj?oc=5" target="_blank" rel="noopener">More states consider dropping GLP-1 weight loss drugs from Medicaid - Stateline</a></div>
+<div class="article-meta"><span class="src">Stateline</span> <span>2026-05-01 04:22</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">More states consider dropping GLP-1 weight loss drugs from Medicaid &amp;nbsp;&amp;nbsp; Stateline</div>
+</div>
+<div class="article-card new" data-date="2026-05-01">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxQSkdWV2VuSXl2b1RxajZxbXBCQTNJZmRTOTh6MG1rMFZ0LW9JdjM3TVo0TndWU3VaNDhVLWNWSVZ2RFBJUXZQLUVoTlFuNWRTcGFRY3FURkZHNVhjWGducE1zN3ZkcHVZUVc4a2g2emVYa0JVOHp5X1gtUUY1LS1vZE82YldZVzhBZHF3WXk4dzRWdl84Q3ltRkNEMTQyRGdGT3JJYVh1LTNZUUpIQzVnUA?oc=5" target="_blank" rel="noopener">No Fasting, No Injections: Inside Eli Lilly’s New Weight‑Loss Drug - inc.com</a></div>
+<div class="article-meta"><span class="src">inc.com</span> <span>2026-05-01 02:40</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">No Fasting, No Injections: Inside Eli Lilly’s New Weight‑Loss Drug &amp;nbsp;&amp;nbsp; inc.com</div>
+</div>
+<div class="article-card" data-date="2026-05-01">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxQVnVuS2g1cldvVXo3cld6b29YaHlreDlQZ1lYejJOckZqSkZLUmljdzVtNll6U1dxM2pEbFlLVHF4RnI3dUhZNWh5SDZHWGFhTkVxM0hpMGRrT0ZwNmdWRWFkUWMybnNDNjZBc1BacmlBdm5sRHJzc2JvWDAxVkF0LUJ2QnJxNVUxaE44YlZtZzVCdTZRQ3MydQ?oc=5" target="_blank" rel="noopener">Eli Lilly Shares Jump 10% as Mounjaro, Zepbound Fuel Massive Growth - WSJ</a></div>
+<div class="article-meta"><span class="src">WSJ</span> <span>2026-05-01 01:43</span> <span class="kw">Mounjaro Zepbound market</span></div>
+<div class="article-summary">Eli Lilly Shares Jump 10% as Mounjaro, Zepbound Fuel Massive Growth &amp;nbsp;&amp;nbsp; WSJ</div>
+</div>
+<div class="article-card new" data-date="2026-05-01">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNVlE5RDB5RnlET0xYVUU4SnBhckxXWG1zLWpJdkJQaW5SLWNjN3RpS3lUSlFTZHdMOFdPalJOeEpsSmtwdDkwVWc2UzhScS1EazNYWmM4NF9KbGhrMmNGb1BOd09aTnVRV2I0MFdTU3FhUVFqekwwbnpyQUNYQk42SlFpa0FiR2NKbVdBOHh5OG5XeEtaQlE?oc=5" target="_blank" rel="noopener">Lilly posts another ‘blowout quarter’ as focus turns to Foundayo launch - BioPharma Dive</a></div>
+<div class="article-meta"><span class="src">BioPharma Dive</span> <span>2026-05-01 01:27</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">Lilly posts another ‘blowout quarter’ as focus turns to Foundayo launch &amp;nbsp;&amp;nbsp; BioPharma Dive</div>
+</div>
+<div class="article-card" data-date="2026-05-01">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdXRRWW1DdVB2UlFlRzVaMTNscThKQ0NWTzU5QzFIM3lNbjJHcmNJaEV2Q3h5a2x5d1Q5ZGhXSDJ6N0w0engzdlNZbVRCTUlaY1YzaEV5Qm1JZ21wMm1kczQtT29HZkZlMFB2TUg2OTNFTDFGWThyeDQ5QWxoVWQ0aERLTVpLcXJpOGdfeHgwZHBDX0cyTFRmeEwwYncxMTNZZ1Y0VVU3eGlUblhIcndYWmdUUlE1YTJCYk8wbFBMTnFPOGNRS0lUQU9JcVl4SXJ0dnM1UllmNTRINWVNNWc?oc=5" target="_blank" rel="noopener">Lilly lifts profit forecast as surging demand for weight-loss drugs offsets pricing pressure - Reuters</a></div>
+<div class="article-meta"><span class="src">Reuters</span> <span>2026-05-01 01:21</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">Lilly lifts profit forecast as surging demand for weight-loss drugs offsets pricing pressure &amp;nbsp;&amp;nbsp; Reuters</div>
+</div>
+<div class="article-card new" data-date="2026-05-01">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNdzNTQThHcXJUX3cyMFJyZ192dTZzalNEZHJyMzhyLTVBZ0dKdDdfUk01MDhZa3NpbmUxeG5rLTdqNThiaGFwbnJhWndNQUJaUWRwY3VrZTQxdzlrN3VNcGMwMkFDWEtfRDlsVWQyUS1NYmo5c2w0UnNMM1lNbE9CVUxTeHpEcTRvbDVkZzFPY0xfeml6OVlZeg?oc=5" target="_blank" rel="noopener">Eli Lilly Expecting A Push to Extend Medicare GLP-1 Coverage -- Market Talk - Moomoo</a></div>
+<div class="article-meta"><span class="src">Moomoo</span> <span>2026-05-01 01:15</span> <span class="kw">Medicare GLP-1 coverage</span></div>
+<div class="article-summary">Eli Lilly Expecting A Push to Extend Medicare GLP-1 Coverage -- Market Talk &amp;nbsp;&amp;nbsp; Moomoo</div>
+</div>
+<div class="article-card" data-date="2026-05-01">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxPRzIyMHRURHRTMTRicXpMT1kxaWQzTWJmUkg2bVl2RHZWVm4wOUFpM0ZMMkRHbTNzTFJSYVpoWFJHcUd6TFlwNFZXZXNuN0Y1b0lpdV9qbXREeEI3WVVteHRHZ1JWVGZvWFBGTDJpbWw5eHpuakJSeHl5Ti1fMHk1UGxJYi10TkhLOV9mUlM3OHBmbFJLbmVtUnE2bjB2X2ZGOW4tNnhId21NS2VkUVYxb1htQjdhb1BRdTA4cjltRnlNN2p2WEVJ?oc=5" target="_blank" rel="noopener">Lilly touts &#x27;encouraging&#x27; early days for Foundayo obesity launch, even as GLP-1 pill appears to lag Novo&#x27;s - Fierce Pharma</a></div>
+<div class="article-meta"><span class="src">Fierce Pharma</span> <span>2026-05-01 00:42</span> <span class="kw">orforglipron Foundayo</span></div>
+<div class="article-summary">Lilly touts &#x27;encouraging&#x27; early days for Foundayo obesity launch, even as GLP-1 pill appears to lag Novo&#x27;s &amp;nbsp;&amp;nbsp; Fierce Pharma</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxPMGVqOGN5NTQ2SklQNVFkVWgyTVFKVVNwWU9PRXRLOHl1a29SYkd4UmlOM3lleWNoOHlWVWM2eUViZ2luOWxDdUlLVjV0ZXdKMlpqYnJ0NU4xOTg1ZEFRQ3BtSDFZTlJ5MlRHZ0NNOW9GNUNYNk55M3RZazBDOGNZbUpNUElsYUQwYVJXMUNhWHJsU2tFVU93?oc=5" target="_blank" rel="noopener">U.S. Prescription Drug Spending Set to Exceed $1 Trillion in 2026: Report - Pharmaceutical Executive</a></div>
+<div class="article-meta"><span class="src">Pharmaceutical Executive</span> <span>2026-04-30 23:23</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">U.S. Prescription Drug Spending Set to Exceed $1 Trillion in 2026: Report &amp;nbsp;&amp;nbsp; Pharmaceutical Executive</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQUld2cHA5ZTBvMHc1dnFyblZIdmRwYnRqMVVrNjhYQXlYOFpvY2NzX2Z5WEpKcEFFYzY5Yk1SN1lna2l6X3pWbi03OWo1TGlSV3F2ZDJIYTRnMUloQ0tCMkNUTDlSNkNUYTlDY2stVTFLYWJkbFI0RFRwMlg1WlJKSlp6UHM1RmllN1h6TmFZQkJ4dC1kOVppczR4VkNGemJ6RlJ2bmhuN3RKRlptbXFTNUhvMA?oc=5" target="_blank" rel="noopener">LLY Stock Eyes Biggest Single-Day Gain In Three Months As Mounjaro, Zepbound Fuel Q1 Beat - Stocktwits</a></div>
+<div class="article-meta"><span class="src">Stocktwits</span> <span>2026-04-30 21:25</span> <span class="kw">Mounjaro Zepbound market</span></div>
+<div class="article-summary">LLY Stock Eyes Biggest Single-Day Gain In Three Months As Mounjaro, Zepbound Fuel Q1 Beat &amp;nbsp;&amp;nbsp; Stocktwits</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE5yRU5BMGtSZWdWM2NJQjZSS2l0Vl9tdHVMQTVqSV8wLVZZMkhvQTJQSHN3aVZFQnBQdnBINzZXd045T001YmVOMksza1VneU1uSlVfUnMwQTNCY05MSi1ZMVkzM0Ffd01qODlUSkhjUXk1bm0wUkHSAXtBVV95cUxQUHZGanotSDBzbEFBUkpYMUhBZUdPeEEwbDV3WEttS3hMekxlbHRxXzNNUWdjbGJFSlhlYlVielNobkdTMExKZ2MtY21kWHdSY3htQWV1WmJjdzdRcVlXVndLbGpQQmhWa3VjMlhmamFKMm83ZDhIOXk1ZzA?oc=5" target="_blank" rel="noopener">Eli Lilly blows past quarterly estimates, hikes outlook as Zepbound and Mounjaro sales skyrocket - CNBC</a></div>
+<div class="article-meta"><span class="src">CNBC</span> <span>2026-04-30 19:15</span> <span class="kw">Mounjaro Zepbound market</span></div>
+<div class="article-summary">Eli Lilly blows past quarterly estimates, hikes outlook as Zepbound and Mounjaro sales skyrocket &amp;nbsp;&amp;nbsp; CNBC</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE5XWDFfOTZyWU4tbU1HSURrNHVDam9NblFiS1Btblhodm5qOVFoaFF5Q1d6Q0NkOURDMHQyMHRjTi1IUXpwcXVRTnhXSHh6U3VjUV9EMmNGRy1XU2FMWUtUdUJlSGwxZXdwWXg2NkZvSXFfaFRkNTdRMURR?oc=5" target="_blank" rel="noopener">Amazon One Medical introduces weight management program with upfront GLP-1 medication costs - About Amazon</a></div>
+<div class="article-meta"><span class="src">About Amazon</span> <span>2026-04-30 16:00</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">Amazon One Medical introduces weight management program with upfront GLP-1 medication costs &amp;nbsp;&amp;nbsp; About Amazon</div>
+</div>
+<div class="article-card new" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTHA0RkY0UTB4YmNBamkyekRUM2VkQjNKZjUzdWhXLS1tY3FIRnFVUU42c2pVNzRPa2ZmZVBiOVBuMHpRWV8tdzBGb3R5ZEtGa0tJckwxMXBYZWhwNWt3Z1hvWXE4dFFiSzhCUlB1elRpY25QMlRVR2kteFpzelpUa2h2VVhPRXB5bnJ2MDhDczg4c19XbDRTN3Z1aGxZUG1GSGhlbUItZjJhWENMek1Mb1ZlRjJ0bjJmcWU2Qk93dUxxS3M?oc=5" target="_blank" rel="noopener">Adding weekly GLP-1 to cognitive behavioral therapy further reduces heavy drinking - National Institutes of Health (.gov)</a></div>
+<div class="article-meta"><span class="src">National Institutes of Health (.gov)</span> <span>2026-04-30 16:00</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">Adding weekly GLP-1 to cognitive behavioral therapy further reduces heavy drinking &amp;nbsp;&amp;nbsp; National Institutes of Health (.gov)</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMickFVX3lxTE4xNVRQaTRzMF9wV2U2YjRINmFNc0pFbzBtalpWdi1ZRmxwZnlkZGI5ckZvYzZoVDF3cG55bTNQTWdIMlNQX2FqMWNiRlEybGNpYWNlN09FbUNLWDJRaHNFa05wX3BkLV8xYTREOVNnNmFpdw?oc=5" target="_blank" rel="noopener">What Medicare Drug Price Negotiation Means for You - GoodRx</a></div>
+<div class="article-meta"><span class="src">GoodRx</span> <span>2026-04-30 16:00</span> <span class="kw">Medicare GLP-1 coverage</span></div>
+<div class="article-summary">What Medicare Drug Price Negotiation Means for You &amp;nbsp;&amp;nbsp; GoodRx</div>
+</div>
+<div class="article-card new" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIVGVUTzBDWktOdnU2a3ZwLWIxbVYtUUozb3pRcmJoR3FzeUFlVm5MUl9kYXNPQ1U2OF9EWEh0QUxpa2RIVnNPQmQ5ZmhiT2YyNUExem1RVk1ZS1A4TFRB?oc=5" target="_blank" rel="noopener">GLP-1R–GIPR–PPARα/γ/δ quintuple agonism corrects obesity and diabetes in mice - Nature</a></div>
+<div class="article-meta"><span class="src">Nature</span> <span>2026-04-30 07:15</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">GLP-1R–GIPR–PPARα/γ/δ quintuple agonism corrects obesity and diabetes in mice &amp;nbsp;&amp;nbsp; Nature</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMi-gJBVV95cUxNNGVlNU40TFgzZWg1dXh2Y0wyVjEwOU42MnRIWGtPbHVoYlVRSmV4MWRPWjFEVk5vblVRaHN0V3lRSkIzcHFXNzE3cmRDcG4wcldva3RLZjFQVFdsblA4VDFHQ01DSnZBSFU3bVR6M2pXTzh4d3AxVWZ5OGJ1WlZheVNkalQtY19PSmcwemJjS1ZLWDY0T0YtVWgwN3p6S2c3NnRqdHY2dnMwaGJCM2hHSkppX2t2WDZiVTlYVXRrR3MxMklOT01CbnlQNGphZEhVbndZTjB1Y2d4ZU5sN3pCRWd2U3JyWmFBVFgxV2pQZW5IVVMydjhLcGZRNVFPQXdrLVotQUFINEVwTThnVUlQYVNuV19ZS2JVQS1MZ09pNmpmS3hLNU9wN2d1YmlPSnVGQ0VmbmVQVlB1R2lJQmZiZk0tSVM4cFdpR2VyWmpUcmV4LVA0Y3lNemV5Q28wZjlsSXV0MzdKS1JSeEVOdE9wZFhLNk9LVHpqQ2c?oc=5" target="_blank" rel="noopener">Novo, Lilly drop as insurers are wary of joining Medicare GLP-1 coverage plan - MSN</a></div>
+<div class="article-meta"><span class="src">MSN</span> <span>2026-04-30 04:24</span> <span class="kw">Medicare GLP-1 coverage</span></div>
+<div class="article-summary">Novo, Lilly drop as insurers are wary of joining Medicare GLP-1 coverage plan &amp;nbsp;&amp;nbsp; MSN</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWnlWTlVKYWJwenJsUGVEVzg0ZmktSk92Q2Q4cHpRdjJyNGdiWEJvX3FpenRpWnl3Q2VhdjdteTh5RjVIS3VrTXQ3b0o3TzRtelJjTHBjU0tRLUkzLUVDaDROMzBWQ09yS24tWk0zNmd3VjRHbkV2TWhIRXNsOG56MC1IaWxrVFh2Skp3VVdZM1BKb09ScE1EVkktUmo3NHBTUVFYWXdRcE1hckk?oc=5" target="_blank" rel="noopener">Weight-Loss Drugs May Reduce Buildup of Alzheimer&#x27;s Proteins, Major Review Finds - ScienceAlert</a></div>
+<div class="article-meta"><span class="src">ScienceAlert</span> <span>2026-04-29 21:04</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">Weight-Loss Drugs May Reduce Buildup of Alzheimer&#x27;s Proteins, Major Review Finds &amp;nbsp;&amp;nbsp; ScienceAlert</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQcnZTSTRnWm43RXBNNWpwMldNWUVIbnNrRUtmZ0VHdWZZZmJTRnlSV3pYVzRmSnVub3E3NTJock4xVlhiMFExcGdBVzBuVFQtSlV5UlhmRGtvN3RONW1MelYtQmlac1lKUjJqOF9oLVpOMXJ2QnhUTVZjMHBxYUFXaXpibjUzOVBzcU5HRGx3SQ?oc=5" target="_blank" rel="noopener">LLY Earnings: GLP-1, Mounjaro &amp; Zepbound Read-Through for Your Position - Gotrade</a></div>
+<div class="article-meta"><span class="src">Gotrade</span> <span>2026-04-29 20:05</span> <span class="kw">Mounjaro Zepbound market</span></div>
+<div class="article-summary">LLY Earnings: GLP-1, Mounjaro &amp; Zepbound Read-Through for Your Position &amp;nbsp;&amp;nbsp; Gotrade</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMi2gFBVV95cUxOY09xU0xCdm5lSHZ3bGdMUDNMcVoyRjBHLWYtOEpMTzRYdU16bXhTQ1dHQkVEeG5sM1dqcTltNVl1RzVKLVFqZGw3VjhPNGJCMUxxOHBENm94UXNaWEFxOTFCOTItYVBSSEhBc2paWnRDWUUxMUFWb2pHZklFVTZub25KUndTZWhYTVN3VkJuczlDYk12OXVpVmh5bWR6OUR4cFZ3XzFNZm5qelZoUENVRERsQ2hIRFlYbkotOFBpSjZGVkJmdkh3T2tlRk90QnlfUmx6ZnI2R1VhZw?oc=5" target="_blank" rel="noopener">Endoscopic Procedure Prevents Weight Regain After GLP-1 Discontinuation - Gastroenterology &amp; Endoscopy News</a></div>
+<div class="article-meta"><span class="src">Gastroenterology &amp; Endoscopy News</span> <span>2026-04-29 18:00</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">Endoscopic Procedure Prevents Weight Regain After GLP-1 Discontinuation &amp;nbsp;&amp;nbsp; Gastroenterology &amp; Endoscopy News</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxPWUtQZFZ2cDdFcE9iZG1teGZtODA4bE9WTmp6QXl2cnFhQ1NZUEI4WkxuZGpoQnFZMXhBOU9vN0d0aUFOSUItc1c3aWJsYTRkN1BuSFJaWko0aXpQelc4UFphVzZIXy1OaXMzTDVhV251aU14aGFtWm51SEFYaUF1VEt4VTZPNjNsRDJnWjJ2WXkzbER2?oc=5" target="_blank" rel="noopener">Stopping and restarting certain GLP-1s to lose weight may make the drug less effective - Penn Medicine</a></div>
+<div class="article-meta"><span class="src">Penn Medicine</span> <span>2026-04-29 07:54</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">Stopping and restarting certain GLP-1s to lose weight may make the drug less effective &amp;nbsp;&amp;nbsp; Penn Medicine</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxPcFo1M0JFV0lTVkFlblZWRXF2R1hiMnBZb21XSzhUcmVDUkRtcUkwWVpHZU1ZMkoyMHgzQzlNRnE3dWpndXNwVTlOcXpsakoxSWp2dUZRQXEzb2ZacGhvc0pRTGMtc3EtaUhJUGdoaHpQTlJ2Q0tFOTFjOGt1VE1iZmpzUG5WRjFNMlk5QjdOVVdfeUxGZWxKbUVaN3I1OEJpXzZTajI2YV9kZXdsMzRGVEMwTjg?oc=5" target="_blank" rel="noopener">GLP-1 for Arthritis: Can Weight Loss Drugs Treat Joint Pain? - US News Health</a></div>
+<div class="article-meta"><span class="src">US News Health</span> <span>2026-04-29 06:54</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">GLP-1 for Arthritis: Can Weight Loss Drugs Treat Joint Pain? &amp;nbsp;&amp;nbsp; US News Health</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZGUtOHltY3Q2YVRVVDRmQ1U4NUtJNVRnM0g2b01MVEgyQ3FlV1owYUlQWndYLUYtc3ZMYm9VWEFYNkZVNXp3TEJsM3F5TnEtaC14eVREdzBlLWlNNGxDV2FMUHpuVjRTdlZkRS12VkxCT1ZRZ2xKak9WNHFkVVQtTXpqMEVUN19aNF9YVzI4Sk5ZSjkyUmYxbnM3ZmdockN4TS0zZk0xN2ZfTzhxdEQtNjgtNTdmdl9zOFdXejJRM0lUOE9IdEJwWHEzRjZRVEwxNkFhMDdHVGIwdWtfdU9CRQ?oc=5" target="_blank" rel="noopener">Bridal stores require waivers as GLP-1 drugs prompt rapid weight loss - WNEP</a></div>
+<div class="article-meta"><span class="src">WNEP</span> <span>2026-04-29 06:13</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">Bridal stores require waivers as GLP-1 drugs prompt rapid weight loss &amp;nbsp;&amp;nbsp; WNEP</div>
+</div>
+<div class="article-card" data-date="2026-04-28">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNHNQM0hxM2UzNHRUbkEzNTdxSmlZckItOEtaOXI3bFBOR19Ia0xuYkVXYmFRSE1sRTJkVG5YYVRIenpJMUpSbTh5ZnA0VV82cFVSd0E0WU9YMWd4eExJazVTSEdDSDF0aDl2LXdpdXdHN2J2U053TW9WejZwQUFNcDFLRU5qMlM5Zy1ydkJQSE1pOEtQUmZRWUpxYnlMX1pEWWtrQ0ItY0MtXzBMZmtCMjJLM2h3cUV3Snl6eVNqRkdXaVBWa3Q1a1RHdnFXczFFbnlNaHJ6UTI?oc=5" target="_blank" rel="noopener">Boehringer Ingelheim’s novel glucagon/GLP-1 dual agonist survodutide achieved significant weight loss of 16.6% delivering meaningful metabolic improvement in people with obesity or overweight in Phase III trial - Boehringer Ingelheim</a></div>
+<div class="article-meta"><span class="src">Boehringer Ingelheim</span> <span>2026-04-28 17:00</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">Boehringer Ingelheim’s novel glucagon/GLP-1 dual agonist survodutide achieved significant weight loss of 16.6% delivering meaningful metabolic improvement in people with obesity or overweight in Phase III trial &amp;nbsp;&amp;nbsp; Boehringer Ingelheim</div>
+</div>
+<div class="article-card new" data-date="2026-04-28">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMi7AJBVV95cUxNd1hBT3JTTFhZTjlUYm5TVVkxQVlPQ0RDTHZQSzRtUDBiTXNWYno2Y0RiWUhsVDhWcEdmc2FPRE5HWUlhdlJtNTFiRTJtRnI5RW52c2RHUXlNaV9Fc25SbEhXYzRPYzRLREgzcm1EV214MGNJaEFQdVRHekstU19pa2c2dS04SVFFRU1TUmtPSl9wRERFSzByZDBKRk1YdzBQR0Rra2h0NFlwNmZBUDJQcWxRblJmNVJGTzlxU3YzN1BNbk5aaU5LX0dGS1FCV0NMT3hnQXhWbEZmQTNjVW9XMno0SjE5eEdYd0ZtbFFwUFBOZ0c0WlVOTnlPUVJoTjh3Q0NJVUpEbkVrUDhFQVEtNW1aUU53WGFjQTZPZWxUdFAzZUN2Vzg3cjhWbHVlU2lEMG15MjZQc0dNOTJVcTBoMGYtYlN5LTVFbUJ2a0VJbmVMcF9JMVAzM0s3T1pGR1lid1pkZDhVT3FCblhS?oc=5" target="_blank" rel="noopener">Boehringer Ingelheim’s novel glucagon/GLP-1 dual agonist - GlobeNewswire</a></div>
+<div class="article-meta"><span class="src">GlobeNewswire</span> <span>2026-04-28 15:00</span> <span class="kw">GLP-1 weight loss 2026</span></div>
+<div class="article-summary">Boehringer Ingelheim’s novel glucagon/GLP-1 dual agonist &amp;nbsp;&amp;nbsp; GlobeNewswire</div>
+</div>
+</div>
+</div></div>
+<div class="section" id="sec-glp1_side">
+<div class="section-header"><span class="badge dom">DOM</span>GLP-1 부작용·임상 리스크<span class="meta">5건 · 신규 3건</span></div>
+<div class="section-body">
+<div class="articles">
+<div class="article-card new" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMickFVX3lxTFBnWmVhSmVmaTRpWVBOZGhzaUNzeGE5cjQ0Zmx3dWJWNU1IQW1MSml3RHNDbWRWMTNVbGZiZmpMQnZrWWhBZTNpd19sNWRUT3JUUWRFTGJWcWprUkllMHl6NlJLaTIzaGhJeFEzREFxX3h0UdIBckFVX3lxTFBnWmVhSmVmaTRpWVBOZGhzaUNzeGE5cjQ0Zmx3dWJWNU1IQW1MSml3RHNDbWRWMTNVbGZiZmpMQnZrWWhBZTNpd19sNWRUT3JUUWRFTGJWcWprUkllMHl6NlJLaTIzaGhJeFEzREFxX3h0UQ?oc=5" target="_blank" rel="noopener">[카드뉴스] 위고비·마운자로 고민중이라면...특징과 주의사항 등 ‘A-Z’ - 시선뉴스</a></div>
+<div class="article-meta"><span class="src">시선뉴스</span> <span>2026-05-04 13:33</span> <span class="kw">세마글루타이드 췌장염</span></div>
+<div class="article-summary">[카드뉴스] 위고비·마운자로 고민중이라면...특징과 주의사항 등 ‘A-Z’ &amp;nbsp;&amp;nbsp; 시선뉴스</div>
+</div>
+<div class="article-card new" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE9mRVB3ajJxWDFoMUhaZ1VzY3Mybnotc0hUMGRJWmtubnAxQlVXbW1iNnJENVhiSF9SeHJtV0NNb1ozYURvd213U0NhRlRyQV9VM1l6SlptaVZxNGlIVU0yZWFLSTRGTW11Nnd3?oc=5" target="_blank" rel="noopener">비만 치료제 열풍, “약만으로는 부족하다”…전문가가 짚은 위고비·마운자로의 한계 - kmjournal.net</a></div>
+<div class="article-meta"><span class="src">kmjournal.net</span> <span>2026-05-04 11:28</span> <span class="kw">위고비 부작용</span></div>
+<div class="article-summary">비만 치료제 열풍, “약만으로는 부족하다”…전문가가 짚은 위고비·마운자로의 한계 &amp;nbsp;&amp;nbsp; kmjournal.net</div>
+</div>
+<div class="article-card" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBscUFPRzNCS3BMSmxfNURSRFh4bTR5RzlaT1pSb1BTd3BQdF9GTllmODlPZFkyRURkeUppdzI0WlVhZlQzWGtRdDRRaFExejhWbjhNSW1mSDdhNGRwNFRwSDFfYWhWZ1RlSWxUT0pfcHJfUjF3QzRnZy0wSzNtbU0?oc=5" target="_blank" rel="noopener">10㎏ 뺐는데 다시 쪘다…빠니보틀·김준호 ‘위고비 요요’ 경고 - twig24.com</a></div>
+<div class="article-meta"><span class="src">twig24.com</span> <span>2026-05-04 08:20</span> <span class="kw">위고비 부작용</span></div>
+<div class="article-summary">10㎏ 뺐는데 다시 쪘다…빠니보틀·김준호 ‘위고비 요요’ 경고 &amp;nbsp;&amp;nbsp; twig24.com</div>
+</div>
+<div class="article-card new" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTFByYmFZVmlTOWcwMHBBWk5KY0NnbHVmYUpIeDZJaTdxdUVTai02WFZBaF9BbkdtNUpRSjhfWU5ieEdVUQ?oc=5" target="_blank" rel="noopener">“다이어트 주사 ‘이렇게’ 쓰면 부작용만 커진다”…의사가 꼽은 실수 5가지 - 코메디닷컴</a></div>
+<div class="article-meta"><span class="src">코메디닷컴</span> <span>2026-04-30 13:06</span> <span class="kw">위고비 부작용</span></div>
+<div class="article-summary">“다이어트 주사 ‘이렇게’ 쓰면 부작용만 커진다”…의사가 꼽은 실수 5가지 &amp;nbsp;&amp;nbsp; 코메디닷컴</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE96aVdncktGTjZ4WWhuY2pnZVF5Tl9RTWwxZENUa2dnZVVBRUpuYnUwbzNlbjRaYUlPQlNyZVpjWTk0N2Y5cUdqNmdTVjJWVXVWLTNUWFY4WWdzZ2hBdXNkeUZhbmJyVGI2eVFSZm9UN3RON1F2MUE?oc=5" target="_blank" rel="noopener">비만치료제 새로운 부작용… “전신 대사 불안정” - 헬스조선</a></div>
+<div class="article-meta"><span class="src">헬스조선</span> <span>2026-04-29 17:20</span> <span class="kw">위고비 부작용</span></div>
+<div class="article-summary">비만치료제 새로운 부작용… “전신 대사 불안정” &amp;nbsp;&amp;nbsp; 헬스조선</div>
+</div>
+</div>
+</div></div>
+<div class="section" id="sec-glp1_food_impact">
+<div class="section-header"><span class="badge intl">INTL</span>GLP-1이 식품업계에 미치는 영향<span class="meta">1건 · 신규 0건</span></div>
+<div class="section-body">
+<div class="articles">
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuTFNPWm1jdWZzUjdDY3FtVlAySXJYcVFaUGZ4eU50cE5XM3dJR0EybkdKTjF3Ums3MkR5b2NFVUEtZ2NLWXJrRFlCZUVyMnpNM3RvY1c4WDNqZw?oc=5" target="_blank" rel="noopener">GLP-1·고단백 열풍에…美 농지 ‘콩으로 이동’ - 농민신문</a></div>
+<div class="article-meta"><span class="src">농민신문</span> <span>2026-04-30 16:00</span> <span class="kw">GLP-1 단백질 식품</span></div>
+<div class="article-summary">GLP-1·고단백 열풍에…美 농지 ‘콩으로 이동’ &amp;nbsp;&amp;nbsp; 농민신문</div>
+</div>
+</div>
+</div></div>
+<div class="section" id="sec-medfood_dom">
+<div class="section-header"><span class="badge dom">DOM</span>메디컬푸드 / 케어푸드 국내<span class="meta">30건 · 신규 9건</span></div>
+<div class="section-body">
+<div class="articles">
+<div class="article-card new" data-date="2026-05-05">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE96MlBNSHVOQlFLN2hQa3lLQzB0TVdvdzA2VVJqVzRuT29vYWZUak1mSERfcnBsc3ZZUUl5bnJjRExjUTNkcWdNTWZfLWFGSjV2VUZFbXRjNTYyOURnNVY1MUQzVWJ0VjVYT1NNNlBtVDhNYVRJc29CVHdlNFFxUQ?oc=5" target="_blank" rel="noopener">익산신문 - 익산신문</a></div>
+<div class="article-meta"><span class="src">익산신문</span> <span>2026-05-05 01:45</span> <span class="kw">고령친화식품</span></div>
+<div class="article-summary">익산신문 &amp;nbsp;&amp;nbsp; 익산신문</div>
+</div>
+<div class="article-card" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTFBSQjJweGlhcU1hUklIVi1WWFRBZG1FVVpmZ1VjQXloQi1RVGk2NERvTTlBOFZlSkhXbnZTS01acDU1QkloMUUzMWRSUHR0cHluRjlQLW42TVRJU3FCeXcwbTVxVHpPSThOZXVnbThBc3dKU2hK?oc=5" target="_blank" rel="noopener">현대그린푸드, 기업 맞춤형 헬스케어 &#x27;그리팅 영양 케어&#x27; 영업 본격화 - 파이낸셜포스트</a></div>
+<div class="article-meta"><span class="src">파이낸셜포스트</span> <span>2026-05-03 13:21</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">현대그린푸드, 기업 맞춤형 헬스케어 &#x27;그리팅 영양 케어&#x27; 영업 본격화 &amp;nbsp;&amp;nbsp; 파이낸셜포스트</div>
+</div>
+<div class="article-card new" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9BeFBldzBDMzltV1VYZHVPcmt5a3J1ZGxIN01TZldYNG5TenF6N3hnc05Fek4ta3VCVjlBeXlJWk5FX2sybktxdHVrcXdXT3QyMjRDRlhKaWpfNDNuUFlDZkFTcEhfV2pOQWJESGJuaTZ3eXM3?oc=5" target="_blank" rel="noopener">[오늘 뭐했니?] 현대홈쇼핑·현대그린푸드·더현대 - 파이낸셜리뷰</a></div>
+<div class="article-meta"><span class="src">파이낸셜리뷰</span> <span>2026-05-03 12:14</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">[오늘 뭐했니?] 현대홈쇼핑·현대그린푸드·더현대 &amp;nbsp;&amp;nbsp; 파이낸셜리뷰</div>
+</div>
+<div class="article-card new" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMickFVX3lxTE1DTHY1UFRaWDVUd3hEN1F6LXcwaWVzYXB2a0hFRTJUZFB2eUlWb2pFVjZWUi11Rlk3bmFBVV93OUhveXhrWUY2N1IxY2d5SEVGak1jMU9VLUJSSWJrWlFGWEVmaHFrcEpaV3pPV3FvNEdwUdIBckFVX3lxTE1DTHY1UFRaWDVUd3hEN1F6LXcwaWVzYXB2a0hFRTJUZFB2eUlWb2pFVjZWUi11Rlk3bmFBVV93OUhveXhrWUY2N1IxY2d5SEVGak1jMU9VLUJSSWJrWlFGWEVmaHFrcEpaV3pPV3FvNEdwUQ?oc=5" target="_blank" rel="noopener">현대그린푸드, 기업 헬스케어 시장 공략 본격화…′그리팅 영양 케어′ 확대 - 메가경제</a></div>
+<div class="article-meta"><span class="src">메가경제</span> <span>2026-05-03 11:52</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">현대그린푸드, 기업 헬스케어 시장 공략 본격화…′그리팅 영양 케어′ 확대 &amp;nbsp;&amp;nbsp; 메가경제</div>
+</div>
+<div class="article-card" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE15OVkxMWtvMjNvS29JSUszN2gxZ3d2UmZ0YVE4Yy1IQW52YzNDU0ZwM3JVbFlRNEU3YjdGdFVrTk82TFNtSlpkZFZKWkg3TS1Oc1hiOXVYeTM2MEFG?oc=5" target="_blank" rel="noopener">현대그린푸드, B2B 헬스케어 시장 출사표…&#x27;그리팅 영양 케어&#x27; 본격화 - 뉴스핌</a></div>
+<div class="article-meta"><span class="src">뉴스핌</span> <span>2026-05-03 11:23</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">현대그린푸드, B2B 헬스케어 시장 출사표…&#x27;그리팅 영양 케어&#x27; 본격화 &amp;nbsp;&amp;nbsp; 뉴스핌</div>
+</div>
+<div class="article-card new" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9EeVB5WHczMWJFejdvS0FiSkREZnZTcXRjY1d3ZmxnR3dMb3g2aklwTFpLbnhFLURROW5RSkYyaG5UZ0FLUWI3d0I5bDJHdmY1U1NN?oc=5" target="_blank" rel="noopener">현대그린푸드, B2B 헬스케어 속도…&quot;고객사 건강 챙긴다&quot; - 네이트</a></div>
+<div class="article-meta"><span class="src">네이트</span> <span>2026-05-03 10:34</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">현대그린푸드, B2B 헬스케어 속도…&quot;고객사 건강 챙긴다&quot; &amp;nbsp;&amp;nbsp; 네이트</div>
+</div>
+<div class="article-card" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE9yaHlVM3RGRFhoS1NHaW9mdkJaT3prSEFiTnBaZEl5RGVGSHltb28ySm5HNHUxaVlfMURCWUQzZ3h6VFEwY0RxN0w3anJWZw?oc=5" target="_blank" rel="noopener">현대그린푸드, &#x27;그리팅 영양 케어&#x27; 확대…B2B 헬스케어 공략 - 전자신문</a></div>
+<div class="article-meta"><span class="src">전자신문</span> <span>2026-05-03 10:21</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">현대그린푸드, &#x27;그리팅 영양 케어&#x27; 확대…B2B 헬스케어 공략 &amp;nbsp;&amp;nbsp; 전자신문</div>
+</div>
+<div class="article-card new" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE1RNHdMSUE1cF80MFN1ekNuRTU1UUJGM3RDTzZIekN4dDBnekZLYjl5NloxbGY4TWE2YndOTU5sZTJfWndBQWlLWC1SMA?oc=5" target="_blank" rel="noopener">현대그린푸드, B2B 헬스케어 서비스 운영 본격화 - v.daum.net</a></div>
+<div class="article-meta"><span class="src">v.daum.net</span> <span>2026-05-03 09:59</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">현대그린푸드, B2B 헬스케어 서비스 운영 본격화 &amp;nbsp;&amp;nbsp; v.daum.net</div>
+</div>
+<div class="article-card new" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tdmQxamhTbnNvZWh1cEd1UTBNLS1pT0Ztd3pvaFBkcTIwTW9QNWNmR3ZBbGJsYk5aVjQzMXJRd1JLZUk4Z0M2cmNoaUN1OGc?oc=5" target="_blank" rel="noopener">현대그린푸드, B2B 헬스케어 서비스 운영 본격화 - v.daum.net</a></div>
+<div class="article-meta"><span class="src">v.daum.net</span> <span>2026-05-03 09:59</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">현대그린푸드, B2B 헬스케어 서비스 운영 본격화 &amp;nbsp;&amp;nbsp; v.daum.net</div>
+</div>
+<div class="article-card" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE41bk4ydkIxbnpDckItcVhyakdtSHZrWERnZDVMYXNQLUNqQlVlSVgyRnFraC0wbFJSMnBsS3NjaFJHMF9nLVNIMFRrZzFXTk9MdHdQWA?oc=5" target="_blank" rel="noopener">현대그린푸드, B2B 헬스케어 서비스 운영 본격화 - 이투데이</a></div>
+<div class="article-meta"><span class="src">이투데이</span> <span>2026-05-03 09:58</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">현대그린푸드, B2B 헬스케어 서비스 운영 본격화 &amp;nbsp;&amp;nbsp; 이투데이</div>
+</div>
+<div class="article-card" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnUW9pSUpUVlRaVGhyOGtXaWRLeklXdHA0QkZmS1BOVHE0MXBDMjFIR2ViYWFSbHVlWl93NEJWakNCVWRieTJNOTFhWHB2QVZQS19NNEtxYXdZMUdzZzR3?oc=5" target="_blank" rel="noopener">현대그린푸드, 임직원 원스톱 영양관리 &#x27;그리팅 영양 케어&#x27; 본격화 - 뉴스1</a></div>
+<div class="article-meta"><span class="src">뉴스1</span> <span>2026-05-03 09:57</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">현대그린푸드, 임직원 원스톱 영양관리 &#x27;그리팅 영양 케어&#x27; 본격화 &amp;nbsp;&amp;nbsp; 뉴스1</div>
+</div>
+<div class="article-card" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WYktYOVpfN0dyTjJDYzRiZUJLQjlGU3lfX3hlMTlZdExyMW9Wb3JFNTE3ODFzMFBhRHVncHdWZEpfWnFFdkhCUlZmNkRXa2dNdmJFZFBGcUlwc0V6SV9BQUcyY0Q?oc=5" target="_blank" rel="noopener">현대그린푸드, ‘그리팅 영양 케어’ 영업 본격화…“기업 EHS 시장 공략” - 서울경제TV</a></div>
+<div class="article-meta"><span class="src">서울경제TV</span> <span>2026-05-03 09:57</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">현대그린푸드, ‘그리팅 영양 케어’ 영업 본격화…“기업 EHS 시장 공략” &amp;nbsp;&amp;nbsp; 서울경제TV</div>
+</div>
+<div class="article-card" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KSnhPeXo0LU1QS3FZdFIzZE1CaUlLeFltNFBYUmdYUzJXT2tUNEN1TW85cElQUlJsYmRlMDdVQWVVNU50b1RWRDRvd2M0WWRZSldIdXJqMzZFRW1yenAtRdIBeEFVX3lxTFBOdXZreFZ1N3ZoRzFkaWNXcFBlaGs1eTJWaGw3eUhSd3NNOWJGQVRuTGt4UmtWa0djeG1MZEhjN3B3ODRMRkVyT1NBMlhtc0ZiLVpycnRSOGpvQ1prS0lPMUhYMDloR1ZLOGtMc2xiR0NRU3JLMjI1YQ?oc=5" target="_blank" rel="noopener">&quot;고객사 임직원 건강까지 챙긴다&quot;…현대그린푸드, B2B 헬스케어 속도 - 뉴시스</a></div>
+<div class="article-meta"><span class="src">뉴시스</span> <span>2026-05-03 09:48</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">&quot;고객사 임직원 건강까지 챙긴다&quot;…현대그린푸드, B2B 헬스케어 속도 &amp;nbsp;&amp;nbsp; 뉴시스</div>
+</div>
+<div class="article-card" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE12MXNGLU5uZFBaWFVWNi1qTUJmVE1Da01hR3hURHI2SDFtRzFZUFQtNVpyQlFLOHJkY1NRdzRTLVpmRmIycGw1NmE2TmVpbHBfeG5ZUkw0ck1GVmdoLVhTYtIBYEFVX3lxTE12MXNGLU5uZFBaWFVWNi1qTUJmVE1Da01hR3hURHI2SDFtRzFZUFQtNVpyQlFLOHJkY1NRdzRTLVpmRmIycGw1NmE2TmVpbHBfeG5ZUkw0ck1GVmdoLVhTYg?oc=5" target="_blank" rel="noopener">현대그린푸드, 기업용 &#x27;그리팅 영양 케어&#x27; 서비스 영업 본격화 - 연합뉴스</a></div>
+<div class="article-meta"><span class="src">연합뉴스</span> <span>2026-05-03 09:46</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">현대그린푸드, 기업용 &#x27;그리팅 영양 케어&#x27; 서비스 영업 본격화 &amp;nbsp;&amp;nbsp; 연합뉴스</div>
+</div>
+<div class="article-card" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9sRi1ZYUlHc01VRVhnUEx1Tk5pTGhxNHY1QWtpc3M1aWdsQmUyaF9YUlFoOUdOa1F0U05UYlJ1QUtfaE51SV9GRkk2S2F1OUtuUzRtdjAzZHpBZnc?oc=5" target="_blank" rel="noopener">현대그린푸드, 기업용 &#x27;그리팅 영양 케어&#x27; 서비스 영업 본격화 - 연합뉴스</a></div>
+<div class="article-meta"><span class="src">연합뉴스</span> <span>2026-05-03 09:46</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">현대그린푸드, 기업용 &#x27;그리팅 영양 케어&#x27; 서비스 영업 본격화 &amp;nbsp;&amp;nbsp; 연합뉴스</div>
+</div>
+<div class="article-card" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTFBIbnhuMlF5TFZUX1Jld0VLN3FRVUlYQjE2U3lyMDRVcWxHMmtCclRNbDI1bk44OEpGSFhzQ0VyQV9nWWtWMzI4QWotZnktSzZ5SVlqMNIBVEFVX3lxTFBIbnhuMlF5TFZUX1Jld0VLN3FRVUlYQjE2U3lyMDRVcWxHMmtCclRNbDI1bk44OEpGSFhzQ0VyQV9nWWtWMzI4QWotZnktSzZ5SVlqMA?oc=5" target="_blank" rel="noopener">현대그린푸드, 임직원 원스톱 영양관리 제공하는 B2B 헬스케어 서비스 영업 나선다 - 한국경제</a></div>
+<div class="article-meta"><span class="src">한국경제</span> <span>2026-05-03 08:30</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">현대그린푸드, 임직원 원스톱 영양관리 제공하는 B2B 헬스케어 서비스 영업 나선다 &amp;nbsp;&amp;nbsp; 한국경제</div>
+</div>
+<div class="article-card new" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pTkVIQjhZM2V4ZTB2QUxtQWJvcFlaa1Nfc3Z2eExVd3NWWld2WW1fUklickNKeF9HbXBUZVNrOXVGVVNhTFdmZnJxQ29jS0p5dHdCT3A4N1loUdIBVEFVX3lxTFBIbnhuMlF5TFZUX1Jld0VLN3FRVUlYQjE2U3lyMDRVcWxHMmtCclRNbDI1bk44OEpGSFhzQ0VyQV9nWWtWMzI4QWotZnktSzZ5SVlqMA?oc=5" target="_blank" rel="noopener">현대그린푸드, 임직원 원스톱 영양관리 제공하는 B2B 헬스케어 서비스 영업 나선다 - 한국경제</a></div>
+<div class="article-meta"><span class="src">한국경제</span> <span>2026-05-03 08:30</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">현대그린푸드, 임직원 원스톱 영양관리 제공하는 B2B 헬스케어 서비스 영업 나선다 &amp;nbsp;&amp;nbsp; 한국경제</div>
+</div>
+<div class="article-card new" data-date="2026-05-01">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE9SQVoydy1GSklDM0lqcXp4cldXS3lRVDQ3djl4UF95RHRoTjJRcl9CSWVOVV8yWHR2UmYzNVdqSm5kQXQwcWtGQ1B6U0dkLWlScDZ1WVZCMXgtTUNIZ3hzY3BkbjJCckRVTXpqMG9R?oc=5" target="_blank" rel="noopener">식품의약품안전저, &#x27;환자용 영양조제식품 정보집&#x27; 발간...&quot;올바른 선택과 사용&quot; - 이코노뉴스</a></div>
+<div class="article-meta"><span class="src">이코노뉴스</span> <span>2026-05-01 21:55</span> <span class="kw">특수의료용도식품</span></div>
+<div class="article-summary">식품의약품안전저, &#x27;환자용 영양조제식품 정보집&#x27; 발간...&quot;올바른 선택과 사용&quot; &amp;nbsp;&amp;nbsp; 이코노뉴스</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTFBBV1BUYUxZS0VGdE5FWXFMUHlPeFdxa0lqSU9lLU8tRjIyUVJoQkZ1NzljQmFtNzlYMW1JODRKV2hyMy1Oa2swNmdzQzRyY0pnVi12eThHaUdDZnVkQlhlekFWXzQ0M3k3WmY4bGpXVQ?oc=5" target="_blank" rel="noopener">AI 가짜 의사가 추천하는 식품 광고 행위 전면 금지 - 식품음료신문</a></div>
+<div class="article-meta"><span class="src">식품음료신문</span> <span>2026-04-30 16:00</span> <span class="kw">특수의료용도식품</span></div>
+<div class="article-summary">AI 가짜 의사가 추천하는 식품 광고 행위 전면 금지 &amp;nbsp;&amp;nbsp; 식품음료신문</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE4zZzBpUlVFV19taGhCZFV3eTdvUWZsQnV5dldXNmUzOGVvSmlBMTFOSHJJdDRXaWQ5RlFGNm1aa0tnZTd1NXF0a2R5alZ2SUZ3TUtQeEx4dWt5ZFEta1dkcmJYSFl0bzIyQnc?oc=5" target="_blank" rel="noopener">‘환자용 영양조제식품’, 의사도 소비자도 현명하게 선택 - 헬스경향</a></div>
+<div class="article-meta"><span class="src">헬스경향</span> <span>2026-04-29 15:49</span> <span class="kw">특수의료용도식품</span></div>
+<div class="article-summary">‘환자용 영양조제식품’, 의사도 소비자도 현명하게 선택 &amp;nbsp;&amp;nbsp; 헬스경향</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE15RmxEc1VOcjlrRnV6QkVsVmgwbzZXem45cWJXZlVQUFFhQnpHdzdyc3hyNlU0NjVKYXJPVk5jM2pocXdZZnhDU0pFUllxOUdjU2RJenF6NGUtd1BLTk5OSw?oc=5" target="_blank" rel="noopener">농진청, ‘고소애’ 식품원료 메디푸드로 가치 확산 기대 - 한국농촌경제신문</a></div>
+<div class="article-meta"><span class="src">한국농촌경제신문</span> <span>2026-04-29 14:05</span> <span class="kw">메디푸드</span></div>
+<div class="article-summary">농진청, ‘고소애’ 식품원료 메디푸드로 가치 확산 기대 &amp;nbsp;&amp;nbsp; 한국농촌경제신문</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE04MVQ0TElVUWFIdWJaUmVGT0dhQnh1VmVPQUxHeWRMSm5STy1TMlZhaUdGV3FZd2hOUWl5WWo0T0tlUmViX3U5YThhdGtkZkZDLVRV?oc=5" target="_blank" rel="noopener">동양허브메디푸드, 인도네시아 최상위 등급 &#x27;사바(SABAH)&#x27; 사용한 침향환 출시 - 네이트</a></div>
+<div class="article-meta"><span class="src">네이트</span> <span>2026-04-29 11:19</span> <span class="kw">메디푸드</span></div>
+<div class="article-summary">동양허브메디푸드, 인도네시아 최상위 등급 &#x27;사바(SABAH)&#x27; 사용한 침향환 출시 &amp;nbsp;&amp;nbsp; 네이트</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xeEFHV0dyMTVJcmF5ajk3UXBFVTNxbFduRGprQzdQZVd0dkxRblBhdkViTzJLUkE4WHlxRXhubGJfYjJPMzhHcHFZRzcyLW1teGl5ZV80cWtacTVocTVFMNIBeEFVX3lxTE45S2ZoSDRqajMxLW85V181QU5HRUtSTEktRkE4ZnpMY2NuQ29sS3l6UzBvbEJvbzVOdGtxY0trcEdXbnZaMWd0YWx6ZE5HMmNoOGFmTDFXNDY4UEJPNjF1b2FIUGpraWM1ckFPbEJuWmxvREtGbUdlSw?oc=5" target="_blank" rel="noopener">&quot;안전사용 지원&quot;…&#x27;환자용 영양조제식품 정보집&#x27; 발간 - 뉴시스</a></div>
+<div class="article-meta"><span class="src">뉴시스</span> <span>2026-04-29 09:22</span> <span class="kw">특수의료용도식품</span></div>
+<div class="article-summary">&quot;안전사용 지원&quot;…&#x27;환자용 영양조제식품 정보집&#x27; 발간 &amp;nbsp;&amp;nbsp; 뉴시스</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE45S2ZoSDRqajMxLW85V181QU5HRUtSTEktRkE4ZnpMY2NuQ29sS3l6UzBvbEJvbzVOdGtxY0trcEdXbnZaMWd0YWx6ZE5HMmNoOGFmTDFXNDY4UEJPNjF1b2FIUGpraWM1ckFPbEJuWmxvREtGbUdlS9IBeEFVX3lxTE45S2ZoSDRqajMxLW85V181QU5HRUtSTEktRkE4ZnpMY2NuQ29sS3l6UzBvbEJvbzVOdGtxY0trcEdXbnZaMWd0YWx6ZE5HMmNoOGFmTDFXNDY4UEJPNjF1b2FIUGpraWM1ckFPbEJuWmxvREtGbUdlSw?oc=5" target="_blank" rel="noopener">&quot;안전사용 지원&quot;…&#x27;환자용 영양조제식품 정보집&#x27; 발간 - 뉴시스</a></div>
+<div class="article-meta"><span class="src">뉴시스</span> <span>2026-04-29 09:22</span> <span class="kw">특수의료용도식품</span></div>
+<div class="article-summary">&quot;안전사용 지원&quot;…&#x27;환자용 영양조제식품 정보집&#x27; 발간 &amp;nbsp;&amp;nbsp; 뉴시스</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYYzlHQmxiUHZnUGIyUjZzM3ZHV3ZJMWp2YzYzU21PMWo2QzVpN3VrOEczN3BnVjdHWEl0Q1hfLV9zNy14eWw4MnozaGdmOUpOQ3lFRDF2c3dkZzdaUFFzZU1VUVBxQQ?oc=5" target="_blank" rel="noopener">식약처, ‘환자용 영양조제식품 정보집’ 발간 - 푸드투데이</a></div>
+<div class="article-meta"><span class="src">푸드투데이</span> <span>2026-04-29 09:10</span> <span class="kw">특수의료용도식품</span></div>
+<div class="article-summary">식약처, ‘환자용 영양조제식품 정보집’ 발간 &amp;nbsp;&amp;nbsp; 푸드투데이</div>
+</div>
+<div class="article-card" data-date="2026-04-28">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE93cTgzSHI2bzBtbGgtdmFBVWVselprVGFPektiZ00yOGRWdXIzcXlTdFBLOEd2UU5ZSHlSVFd2WTh0elluS2tBeThZMzdseUFiOENqMC00d0RXc0ZzSlVZZUNhdXFhbHhMYURR?oc=5" target="_blank" rel="noopener">전북농기원, 자원식물 소재 기반 식품·바이오 산업 활성화 세미나 개최 - 호남제일신문</a></div>
+<div class="article-meta"><span class="src">호남제일신문</span> <span>2026-04-28 17:00</span> <span class="kw">메디푸드</span></div>
+<div class="article-summary">전북농기원, 자원식물 소재 기반 식품·바이오 산업 활성화 세미나 개최 &amp;nbsp;&amp;nbsp; 호남제일신문</div>
+</div>
+<div class="article-card" data-date="2026-04-28">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LdW9qNms2WkI5dElaNmNUQ3d1dE1OeFJLU2Ntdld4OUs4Y090ckFFMEZFdmJGRnl5bkJrVWpLNUt2Qjh3ZXoxZnNTRVIzaFh1dFd3?oc=5" target="_blank" rel="noopener">칼로바이, &#x27;닥터더케어&#x27; 라인 강화…케어푸드 시장 공략 본격화 - 네이트</a></div>
+<div class="article-meta"><span class="src">네이트</span> <span>2026-04-28 15:31</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">칼로바이, &#x27;닥터더케어&#x27; 라인 강화…케어푸드 시장 공략 본격화 &amp;nbsp;&amp;nbsp; 네이트</div>
+</div>
+<div class="article-card" data-date="2026-04-28">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE5UZ1hITG8zQVllalotYXlNVmxUUFJyamY2ckQ2bkV4ejd2OUVCeF9vWXBKZER1cG5pcUhfbGIwVEFLSnU5ckZxd01ZYngyYWpmaU1lRm1PaXRpSC1j?oc=5" target="_blank" rel="noopener">칼로바이, ‘닥터더케어’ 라인 강화…케어푸드 시장 공략 본격화xem lịch thi đấu bóng đá tuần này [𝟴𝙭𝙗𝙚𝙩𝟮𝟰.𝙘𝙤𝙢] ptm0 - 메디컬투데이</a></div>
+<div class="article-meta"><span class="src">메디컬투데이</span> <span>2026-04-28 15:25</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">칼로바이, ‘닥터더케어’ 라인 강화…케어푸드 시장 공략 본격화xem lịch thi đấu bóng đá tuần này [𝟴𝙭𝙗𝙚𝙩𝟮𝟰.𝙘𝙤𝙢] ptm0 &amp;nbsp;&amp;nbsp; 메디컬투데이</div>
+</div>
+<div class="article-card" data-date="2026-04-28">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE5UZ1hITG8zQVllalotYXlNVmxUUFJyamY2ckQ2bkV4ejd2OUVCeF9vWXBKZER1cG5pcUhfbGIwVEFLSnU5ckZxd01ZYngyYWpmaU1lRm1PaXRpSC1j0gFsQVVfeXFMTWo0UzgzdWp3TmpkdkQ4VkJOVzdtWm1Zemdpc3JNRG9TNHdTYXBPR0JSbkRwYzdiZEJGemxVU2hZckpVYVFtajNOZV9nZ3VHU0Y5TktHU0lQWFlGM2Zla3pUZUF6REI4UmtfUFh5?oc=5" target="_blank" rel="noopener">칼로바이, ‘닥터더케어’ 라인 강화…케어푸드 시장 공략 본격화 - 메디컬투데이</a></div>
+<div class="article-meta"><span class="src">메디컬투데이</span> <span>2026-04-28 15:25</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">칼로바이, ‘닥터더케어’ 라인 강화…케어푸드 시장 공략 본격화 &amp;nbsp;&amp;nbsp; 메디컬투데이</div>
+</div>
+<div class="article-card new" data-date="2026-04-28">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE1qNFM4M3Vqd05qZHZEOFZCTlc3bVptWXpnaXNyTURvUzR3U2FwT0dCUm5EcGM3YmRCRnpsVVNoWXJKVWFRbWozTmVfZ2d1R1NGOU5LR1NJUFhZRjNmZWt6VGVBekRCOFJrX1BYedIBbEFVX3lxTE1qNFM4M3Vqd05qZHZEOFZCTlc3bVptWXpnaXNyTURvUzR3U2FwT0dCUm5EcGM3YmRCRnpsVVNoWXJKVWFRbWozTmVfZ2d1R1NGOU5LR1NJUFhZRjNmZWt6VGVBekRCOFJrX1BYeQ?oc=5" target="_blank" rel="noopener">칼로바이, ‘닥터더케어’ 라인 강화…케어푸드 시장 공략 본격화 - 메디컬투데이</a></div>
+<div class="article-meta"><span class="src">메디컬투데이</span> <span>2026-04-28 15:25</span> <span class="kw">케어푸드</span></div>
+<div class="article-summary">칼로바이, ‘닥터더케어’ 라인 강화…케어푸드 시장 공략 본격화 &amp;nbsp;&amp;nbsp; 메디컬투데이</div>
+</div>
+</div>
+</div></div>
+<div class="section" id="sec-medfood_intl">
+<div class="section-header"><span class="badge intl">INTL</span>메디컬푸드 글로벌<span class="meta">5건 · 신규 0건</span></div>
+<div class="section-body">
+<div class="articles">
+<div class="article-card" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRmI1cjBvMklieUNWVWN4UVE0UGdQSDBnV1JndnJnWG12ZWhXWGVlMmhmQU5BVnMxdTJFZTVLb0J5RzZmNlhkYU83TEQ0aGZnQUl1TXdkZ1hfSFhHd2R4QmZvdVBHS3ltdFFIX0F1VTRlYkZzc2Z0c1NydV80ZzdVdHpjVzFSUXQzQl80NnQtLVk5UldMT0x1REgtUFl6YXpNX25qQzk2MWhzUHZ2TUNyNHU1QWI2NEZrTnc4?oc=5" target="_blank" rel="noopener">Japan Oral Clinical Nutrition Desserts - Market Analysis, Forecast, Size, Trends and Insights - IndexBox</a></div>
+<div class="article-meta"><span class="src">IndexBox</span> <span>2026-05-03 16:07</span> <span class="kw">therapeutic nutrition market</span></div>
+<div class="article-summary">Japan Oral Clinical Nutrition Desserts - Market Analysis, Forecast, Size, Trends and Insights &amp;nbsp;&amp;nbsp; IndexBox</div>
+</div>
+<div class="article-card" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxOQ3NpaGItMkdSdXplWGRQZkt2MmZRMXEzREIydkZVbldXRGR2UHlSNE9DVGprejRwMmJoYVIwMmh6TDAxdU91Zl9objU2YkVZcVNLVXZrb2ZGS3BlOUlueE1lUjc4aVlwR0hmcEpTVnNSMEFmQ0I4Y09YLU9jajZBa3pHUFZhM0Y4VkhzNHMwM0dWaDJXTW9zYkdtaHFEeV9nMXRfRkxQZ3hFZ1huSVhvZVBrT2hEZXNEX0Fzbw?oc=5" target="_blank" rel="noopener">Africa Oral Clinical Nutrition Desserts - Market Analysis, Forecast, Size, Trends and Insights - IndexBox</a></div>
+<div class="article-meta"><span class="src">IndexBox</span> <span>2026-05-03 13:19</span> <span class="kw">therapeutic nutrition market</span></div>
+<div class="article-summary">Africa Oral Clinical Nutrition Desserts - Market Analysis, Forecast, Size, Trends and Insights &amp;nbsp;&amp;nbsp; IndexBox</div>
+</div>
+<div class="article-card" data-date="2026-05-02">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxOQlVmcTFCMnFjOTNYVkdla194RHV3VnhfMHJYNEFmaTVJYzNuOUN6cHhVc0JHOVhXcGdMMFplYjFiSHF4NUQwS2RRSlBQbDVpZWNJYWtOamZtLThqZlVuc3dqUnFFMGNiS2M4UDFxcTZmbGJmMEdMMnhQVkdDVDhfN0ZiTDM1STRDdDhTRFViS2poTzNqWXB1WmtHSEtJYVJHelNJNWRTeWNUVjRpeXRj?oc=5" target="_blank" rel="noopener">Northern America Medical Food - Market Analysis, Forecast, Size, Trends and Insights - IndexBox</a></div>
+<div class="article-meta"><span class="src">IndexBox</span> <span>2026-05-02 19:44</span> <span class="kw">FDA medical food regulation</span></div>
+<div class="article-summary">Northern America Medical Food - Market Analysis, Forecast, Size, Trends and Insights &amp;nbsp;&amp;nbsp; IndexBox</div>
+</div>
+<div class="article-card" data-date="2026-05-01">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxQcjNJenJ1aTY4eFNEVm5jMks3VXhEUlVxY05mVmdCck9KODhON2xuRmtZWFVwYXNRRE5PRi1DbDk5NW1FWDBvQlZndEQ4TTBmQURYMUcxN1k0MXFSUzNaYzBycE9oVzRjQlJaQjQ3WFEzaUQ5bkp2dVNnX3hWOUtnUmN3SHJobk9yLVpHaWJB?oc=5" target="_blank" rel="noopener">Food for Special Medical Purpose (FSMP) Market Size - openPR.com</a></div>
+<div class="article-meta"><span class="src">openPR.com</span> <span>2026-05-01 03:22</span> <span class="kw">FSMP food special medical purposes</span></div>
+<div class="article-summary">Food for Special Medical Purpose (FSMP) Market Size &amp;nbsp;&amp;nbsp; openPR.com</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE8xRzRTMDRzUUE4aFIyOG1WNVVuRW43QlIwNDhPX3k0UXdHOTRCUk0ybjFTZ2RQZDJFTGJrVHp6cUFKYTFnN2xJa21EWGYxRTAzLXBOUlprRkVLSGhuLURaUjBFM2NkTkNjOXEzQWd4SVpWYXNUZFE?oc=5" target="_blank" rel="noopener">Infant Formula Homepage - fda.gov</a></div>
+<div class="article-meta"><span class="src">fda.gov</span> <span>2026-04-29 09:00</span> <span class="kw">FDA medical food regulation</span></div>
+<div class="article-summary">Infant Formula Homepage &amp;nbsp;&amp;nbsp; fda.gov</div>
+</div>
+</div>
+</div></div>
+<div class="section" id="sec-pharm_dispute">
+<div class="section-header"><span class="badge policy">POLICY</span>약사 vs 한약사 분쟁<span class="meta">3건 · 신규 1건</span></div>
+<div class="section-body">
+<div class="articles">
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTFBsNGtadnZLRFhneFZieVZjX09vRUZhRldFU2dJd0lJTDhEVjFOU2ROcTFxblIxTlZJN0hGSGRCTzg5cTNWYlFsbVQ5YWo2Ry1VeDJUNm1LelNJMU5XUlFkVTFfdFFpRVVTaHRWQw?oc=5" target="_blank" rel="noopener">[릴레이집회 224일차] “한약사 문제 더는 방치 못한다”… 현안 해결 촉구 - 약사공론</a></div>
+<div class="article-meta"><span class="src">약사공론</span> <span>2026-04-30 11:59</span> <span class="kw">약사회 한약사</span></div>
+<div class="article-summary">[릴레이집회 224일차] “한약사 문제 더는 방치 못한다”… 현안 해결 촉구 &amp;nbsp;&amp;nbsp; 약사공론</div>
+</div>
+<div class="article-card new" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTFB6azlnVmk3RFplV204dGN2Mm8zNEFXb3ozcG1RUUE4WHN6bFFqeVBtbTNZRlQyY2k1MVlxemJ0eXBLQU1tTDBOS3IyaGUwWVBYMC0yWVNwUkgzOVMzbmFqTWNhSEt1NFVXTGtvWg?oc=5" target="_blank" rel="noopener">[약공시론] 터널링효과와 약사정책 - 약사공론</a></div>
+<div class="article-meta"><span class="src">약사공론</span> <span>2026-04-30 05:50</span> <span class="kw">약사회 한약사</span></div>
+<div class="article-summary">[약공시론] 터널링효과와 약사정책 &amp;nbsp;&amp;nbsp; 약사공론</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMi6gFBVV95cUxNOXBQS3l3a3JXR0ZSdzNZZG9iQ244QWdSOWxlVHpmcGQyVERIc3pLM3pxUkhxckZtdDk0UmQxTVNWNG5nZUZYWjcyVG81NjZnMEl6YmU5Tld0c2U3NkpSZGFkcXdpT1hvRFB6TGJ4dmJ0RFcyTnlraV9EZkJsN2s4ODgyT1VPX0h2VjZBVEdvMmJWTGw2elZ6Z1ZpZzB3dFFzTkpwNTNROG84T0E3Q3VIdTQ3TGVtaDA4aW03Nm5UYTVYMG94SUlVczVFWkpLRHRBS1NldkRsNFMtWUR0Z25UbU5XdTRybTFsalE?oc=5" target="_blank" rel="noopener">충남약사회 &quot;한약사·창고형 약국 문제 단호히 대처&quot; - 약업신문</a></div>
+<div class="article-meta"><span class="src">약업신문</span> <span>2026-04-30 05:21</span> <span class="kw">약사회 한약사</span></div>
+<div class="article-summary">충남약사회 &quot;한약사·창고형 약국 문제 단호히 대처&quot; &amp;nbsp;&amp;nbsp; 약업신문</div>
+</div>
+</div>
+</div></div>
+<div class="section" id="sec-pharm_policy">
+<div class="section-header"><span class="badge policy">POLICY</span>약사회 정책 (비대면진료·약 배송)<span class="meta">28건 · 신규 8건</span></div>
+<div class="section-body">
+<div class="articles">
+<div class="article-card new" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1oYWFLb3ZoeG5lZ0xiTUgyUDJ3UTdpaWpNb3Q3VVVPYkk2N05aMVFPd2ZWY0tCbHpkYi13c2UwR1JCSWJ0bGNIelY2dXIwSi0wbzZKREZXblc1TEs0b3JLYzJ3SGdRMkVRTmJVYjhzbXI?oc=5" target="_blank" rel="noopener">의료소모품 수급 비상…정부 민관협력 직배송 서비스 가동 - 메디칼타임즈</a></div>
+<div class="article-meta"><span class="src">메디칼타임즈</span> <span>2026-05-04 12:04</span> <span class="kw">비대면진료 제도화</span></div>
+<div class="article-summary">의료소모품 수급 비상…정부 민관협력 직배송 서비스 가동 &amp;nbsp;&amp;nbsp; 메디칼타임즈</div>
+</div>
+<div class="article-card new" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTFBEc3c4S1JZQUdyMjgxTGtSejI5YVNGWjUxTWhLT0MyRGtuSDJ0X2FqcDlNWmEzQXJ2c3puZ1V6dFZMLU5oRm1TbWp3MDJCTzFLMU9HUmVuZTRVV3BQNXQxX0lqdXVPTlFrMTM1eA?oc=5" target="_blank" rel="noopener">[기자의창]공동구매라는 ‘회색지대’…약사회는 어디까지 - 약사공론</a></div>
+<div class="article-meta"><span class="src">약사공론</span> <span>2026-05-04 12:00</span> <span class="kw">대한약사회</span></div>
+<div class="article-summary">[기자의창]공동구매라는 ‘회색지대’…약사회는 어디까지 &amp;nbsp;&amp;nbsp; 약사공론</div>
+</div>
+<div class="article-card" data-date="2026-05-04">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE1iSUJXMUFiVHRtWnlUT0xKcVpiVlRkUXgtMG1JcW1LbHkxU0tMRnZXMktpTUVRMnJhMnpRNGI0dWFCbkloYXJSNFVrcTBrMGk2bHFDclJYRlBNWmNOMU4wRTJqdXpocEV2ZUc2Zg?oc=5" target="_blank" rel="noopener">[박정빈 약사의 비밀노트 시즌2] Quinolone계 항생제 - 약사공론</a></div>
+<div class="article-meta"><span class="src">약사공론</span> <span>2026-05-04 05:46</span> <span class="kw">대한약사회</span></div>
+<div class="article-summary">[박정빈 약사의 비밀노트 시즌2] Quinolone계 항생제 &amp;nbsp;&amp;nbsp; 약사공론</div>
+</div>
+<div class="article-card new" data-date="2026-05-03">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPOVZpdnJVcFZyWlhLQ0NEOTVwdFg0SjZrN0N2ZVRMTTAyNmxEc1FMQXFBTms3Nms5SmgyczZKa3VtZm80akVYTTlPU0g5NXgtWEV5cGNsNzh4ajR4SDBNcE94dnFGQ3VPOGpreWpMYlZyTnJkYkVITzB3VzA1V1FnNHRST1g4WmpUakxwN3o3dmc2ZDZfOHRNa2NyUE5rRnNv?oc=5" target="_blank" rel="noopener">대한약사회 부회장에 최용석-이광민-오인석, 약사공론 사장 김종환 - 약업신문</a></div>
+<div class="article-meta"><span class="src">약업신문</span> <span>2026-05-03 13:29</span> <span class="kw">대한약사회</span></div>
+<div class="article-summary">대한약사회 부회장에 최용석-이광민-오인석, 약사공론 사장 김종환 &amp;nbsp;&amp;nbsp; 약업신문</div>
+</div>
+<div class="article-card" data-date="2026-05-02">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMi2gFBVV95cUxOOU05SjM5ZWp1S3dzMjVLaVduWWR5b0lUUm9HNFJIX050bm94cElHSE4wZFZoUnk4YUNtVWotUUVVVHpJWVBsb2NRWWx3T2tsU3BSNUJxejhLSlc2NVFZZW1CYWlQQm9nQzQ5bk9JcHhvQ1IxMWg5bzlLTE80ZGM1MUNodVhvZkJMenNOa2k4YzFIcWRYdVctYUh3WjBnNU9ucVp1eEdILUNXZmxMeTRoZEh0WmM5UWJRWm5XNjFVTm5QNFptMmlKUUpCMVZ4dWFVUnNHTFVLRGlxZw?oc=5" target="_blank" rel="noopener">대한약사회 권영희 집행부 1년…약준모 회원 83% &#x27;부정&#x27; - 약업신문</a></div>
+<div class="article-meta"><span class="src">약업신문</span> <span>2026-05-02 14:38</span> <span class="kw">대한약사회</span></div>
+<div class="article-summary">대한약사회 권영희 집행부 1년…약준모 회원 83% &#x27;부정&#x27; &amp;nbsp;&amp;nbsp; 약업신문</div>
+</div>
+<div class="article-card new" data-date="2026-05-02">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOZ1JiQnl2R2NORDk2ZlFrNTNRcUxjamlPcDJxeWhMYjRUU3RaRXJQelY1a19DS2ZiWUJPMXI4cTBacVJTc3MxZlpvN2tFd1VxSk9PQk9DdFdwd3JRaUtjUUNhM0pjRzBySUNKOS1aMDFQb0VfdnNXOHloblYyVWhBZG1XeXZmNlpobXEyT3F0YUtfT0NnMzZKUGo2TDFPYkQ0N2tucFpjTQ?oc=5" target="_blank" rel="noopener">복지부, ‘비대면진료 시범사업’ 현장 의견 청취 - 약업신문</a></div>
+<div class="article-meta"><span class="src">약업신문</span> <span>2026-05-02 10:06</span> <span class="kw">비대면진료 제도화</span></div>
+<div class="article-summary">복지부, ‘비대면진료 시범사업’ 현장 의견 청취 &amp;nbsp;&amp;nbsp; 약업신문</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9mWTI1SmpRVS1tNnBMSmVzRzdHRExaZ2ZhcDR1RzNuVWtZaHY1YlN4UC1iYXJ4UXVCejR5Z2V2V3ktS184Y2lYeXF2SFhqOGRhT3VVaVhHWldtdzlrNkRJVFhfeThEVTFpRkhRcw?oc=5" target="_blank" rel="noopener">&quot;창고·공장 이름 뗀다&quot;…약사법 개정안, 복지위 법안소위 통과 - 금융경제플러스</a></div>
+<div class="article-meta"><span class="src">금융경제플러스</span> <span>2026-04-30 23:15</span> <span class="kw">약사법 개정</span></div>
+<div class="article-summary">&quot;창고·공장 이름 뗀다&quot;…약사법 개정안, 복지위 법안소위 통과 &amp;nbsp;&amp;nbsp; 금융경제플러스</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxORVA1dHNZNW1wcThuSnJ1bXZ5aVhNM1FNaDdyODhWeGJsRmRINS05U0tLbHQ3QnJRbFJ5WDNhVy1pY3Q5WjR3UFgtRDhXM0VQOUhhcm1JNTFzbzRaU1p5ZEUzRlFYZXp2WTlBbDZMNmh4Vm1JWWtSeUF6SDQ4MUswRDg1c3pfT3p4QkcwcnJzZU95cGQ1YXpiRm1DSUZOR003aGtSWWh5Q1ZUN3dpXzJ5NG1sOXBCd3pkYlJN?oc=5" target="_blank" rel="noopener">비대면 진료·약배달 확대 철회 촉구…&quot;투약오류·약화사고 방치&quot; - 약업신문</a></div>
+<div class="article-meta"><span class="src">약업신문</span> <span>2026-04-30 15:08</span> <span class="kw">약 배달 약사회</span></div>
+<div class="article-summary">비대면 진료·약배달 확대 철회 촉구…&quot;투약오류·약화사고 방치&quot; &amp;nbsp;&amp;nbsp; 약업신문</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE8xdlBSejNRdEkxbzJQdFhvTmtMcS00ODRfYzVKSkpGaWNvb2J6VkxfWXlTTG9sYTQ4TGhSYjhQMGpsZTZRWGxXbFc2bFdLY2wyR3RZQ1dQa1Q1ZXJNUHdGRlhhYVNVZHoyc2JCXw?oc=5" target="_blank" rel="noopener">미래 산업약사 인재 양성‘PYLA 12기’ 교육생 모집 - 약사공론</a></div>
+<div class="article-meta"><span class="src">약사공론</span> <span>2026-04-30 14:53</span> <span class="kw">대한약사회</span></div>
+<div class="article-summary">미래 산업약사 인재 양성‘PYLA 12기’ 교육생 모집 &amp;nbsp;&amp;nbsp; 약사공론</div>
+</div>
+<div class="article-card new" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFBWRnJ2WGNiWU9OZDVISUNmeWJTVU9JVnAwV2I4SEdsSEdlVE9TVDJ6WGNKV2dXakZOZnlvd1kzNTJTZC1NSmFrZzVoYw?oc=5" target="_blank" rel="noopener">대웅제약 거점도매로 약국 수급 불안정…&#x27;성분명 처방&#x27; 요구 확대 - v.daum.net</a></div>
+<div class="article-meta"><span class="src">v.daum.net</span> <span>2026-04-30 13:28</span> <span class="kw">성분명 처방</span></div>
+<div class="article-summary">대웅제약 거점도매로 약국 수급 불안정…&#x27;성분명 처방&#x27; 요구 확대 &amp;nbsp;&amp;nbsp; v.daum.net</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5JT0V1Z0JweUh6dHBabHZ4V1lVTE85ZW1EWWhMNjdQT1Nzd2FfQjEtMVVqZkRCVHdZUXU4bDQ3aUhwQlhycFY2alVQNk0wRlNNOFFidlNueXpGZ9IBVEFVX3lxTE5DZXROUjg3U05MSERfcXRmOVFWSlF0Nkd4UkdYbndDWlF2aTdEQnVJY1NnYW1HbUNJLVplNlp2MGw4dEhLTFNQd01Ob1c3NktQamJSag?oc=5" target="_blank" rel="noopener">대웅제약 거점도매로 약국 수급 불안정…&#x27;성분명 처방&#x27; 요구 확대 - 더팩트</a></div>
+<div class="article-meta"><span class="src">더팩트</span> <span>2026-04-30 13:26</span> <span class="kw">성분명 처방</span></div>
+<div class="article-summary">대웅제약 거점도매로 약국 수급 불안정…&#x27;성분명 처방&#x27; 요구 확대 &amp;nbsp;&amp;nbsp; 더팩트</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5wNXpWVkZvLVNVcU9IU1c4ZUxYZHluNjExMU13dWlrenFjQzUyOTg3UjByeXJLTmxZbWlZWGhoYnBldkd5NTJ5OWlHMUtoTGhaWmRrcHhPa0VPemhRU2dlTm1JMmZ1U25IV1d3?oc=5" target="_blank" rel="noopener">경기도약사회 228차 이사회 개최 - 한국의약통신</a></div>
+<div class="article-meta"><span class="src">한국의약통신</span> <span>2026-04-30 09:31</span> <span class="kw">대한약사회</span></div>
+<div class="article-summary">경기도약사회 228차 이사회 개최 &amp;nbsp;&amp;nbsp; 한국의약통신</div>
+</div>
+<div class="article-card" data-date="2026-04-30">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTFBWZTFmMlVudW9iQ2JhODhFSUhJRGNHblN0UkFwZTBILXROYlFsYTNHM0ROUmJQcFRDbmptbHJ2Rnl2ekZVX1ctck5rdUF6OGFHUFFjLXltQ1MwN0otRko5SUowWmgtVEtndDBnSQ?oc=5" target="_blank" rel="noopener">경기약사학술대회 점검 나선 경기도약사회, 제228차 이사회 진행 - 팜뉴스</a></div>
+<div class="article-meta"><span class="src">팜뉴스</span> <span>2026-04-30 08:56</span> <span class="kw">대한약사회</span></div>
+<div class="article-summary">경기약사학술대회 점검 나선 경기도약사회, 제228차 이사회 진행 &amp;nbsp;&amp;nbsp; 팜뉴스</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFA5YUh3WkpoVGtUVlFuTTV2TklzVTdhaG44SENwVjQtdzUxZmJPNXZFcTcxZGl4MXpnZUxYQU1kNjBhM09OeWFxaUlyZDBVczBndER1MDVn?oc=5" target="_blank" rel="noopener">경기도약 이사들 &quot;창고형약국 급증...지역약국 경영악화 심화&quot; - 데일리팜</a></div>
+<div class="article-meta"><span class="src">데일리팜</span> <span>2026-04-29 22:20</span> <span class="kw">대한약사회</span></div>
+<div class="article-summary">경기도약 이사들 &quot;창고형약국 급증...지역약국 경영악화 심화&quot; &amp;nbsp;&amp;nbsp; 데일리팜</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NTVR5OG9lOFFvcVh6YTlVQVM4WlQ3cFQ0Z0t4TUUzWmtjbXpBbml5OUJ3N2Nfa2EydGJ4V0ttWmRLS3hkY2JrR2R0bDVPaEZqLVlvQVp3?oc=5" target="_blank" rel="noopener">&quot;제약바이오 이끌 인재 찾아요&quot; 산업약사회, 12기 모집 - 데일리팜</a></div>
+<div class="article-meta"><span class="src">데일리팜</span> <span>2026-04-29 21:10</span> <span class="kw">대한약사회</span></div>
+<div class="article-summary">&quot;제약바이오 이끌 인재 찾아요&quot; 산업약사회, 12기 모집 &amp;nbsp;&amp;nbsp; 데일리팜</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oajB0aURnQ2g5V09IelZ6cVA5YVNtaXZPcmd1T25UYnpfdVNseDJ0TkpMU2Itd0JSdGdvcmMzRlRBT0tJdlhyN0MtaFhpSC1IY2tyZVlwaGVqOVNER296LURDRjhVVUNJ?oc=5" target="_blank" rel="noopener">‘저출산고령사회기본법’ 개정안 의결… 약사법 개정 및 환자 생명권 보호 병행 - 창업일보</a></div>
+<div class="article-meta"><span class="src">창업일보</span> <span>2026-04-29 17:49</span> <span class="kw">약사법 개정</span></div>
+<div class="article-summary">‘저출산고령사회기본법’ 개정안 의결… 약사법 개정 및 환자 생명권 보호 병행 &amp;nbsp;&amp;nbsp; 창업일보</div>
+</div>
+<div class="article-card new" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTFBORmxsdDVQWGJ2c0E2SDNnZFNQZGdNOGFJaWhIWEVGd0NYdmlLdVVmblZKc3dMbzFxWmtTbGNHY0dSYk9VWjI3a25nZEJ1MVkyTDlfUzNmbDRRbmlxeTJJRFBSX0l0Z1VWblhJ?oc=5" target="_blank" rel="noopener">산업약사회, 미래 산업약사 양성 &#x27;PYLA 12기&#x27; 교육생 모집 - 메디파나뉴스</a></div>
+<div class="article-meta"><span class="src">메디파나뉴스</span> <span>2026-04-29 09:56</span> <span class="kw">대한약사회</span></div>
+<div class="article-summary">산업약사회, 미래 산업약사 양성 &#x27;PYLA 12기&#x27; 교육생 모집 &amp;nbsp;&amp;nbsp; 메디파나뉴스</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE8yVGhpUVZldEwwNFpCLVVBbF9hU0duUlVPT1JwcXNrdzFIY0pCNW1tbnJwbXFCQ3p1QjhYRmhjWi0xWFRvUXUxNERMUjRsQ3EyeUJsdEFiY2daNlByaWp3UVFNc1Z1Q285dnVvWQ?oc=5" target="_blank" rel="noopener">한국산업약사회, 미래 산업약사 인재 양성‘PYLA 12기’ 교육생 모집 및 오픈세미나 개최 - 팜뉴스</a></div>
+<div class="article-meta"><span class="src">팜뉴스</span> <span>2026-04-29 09:12</span> <span class="kw">대한약사회</span></div>
+<div class="article-summary">한국산업약사회, 미래 산업약사 인재 양성‘PYLA 12기’ 교육생 모집 및 오픈세미나 개최 &amp;nbsp;&amp;nbsp; 팜뉴스</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMickFVX3lxTFB4LVJkVjZkNEE1bmR4NTQwSy1xRnRtLUthUWI3SDlhSGJhVDUzVXFZLUpDbXNWb0daWFAzRDl3dUpGeDJuY3NLQm40OWFZWXVDX0k3ak03MVI1Q1BuT2pYV2psU1dqcU56UkJvblZzYjh0QQ?oc=5" target="_blank" rel="noopener">&#x27;창고형·팩토리 약국&#x27; 명칭 사라질까? 금지 법안, 국회 첫 관문 통과 - 의협신문</a></div>
+<div class="article-meta"><span class="src">의협신문</span> <span>2026-04-29 06:43</span> <span class="kw">약사법 개정</span></div>
+<div class="article-summary">&#x27;창고형·팩토리 약국&#x27; 명칭 사라질까? 금지 법안, 국회 첫 관문 통과 &amp;nbsp;&amp;nbsp; 의협신문</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjX3l5V1VPZkw5Wlk0X3IwWGJyUVBJZGZwUnEwYVZYa1ZqdEYwaWZYUjJ3UmE1UE55NmZUMER2LUFCT1lVbElKbC1wc0s1UG5mRTVUcnBSelA4UGc4OWNJd3N6QQ?oc=5" target="_blank" rel="noopener">시행령 넘어 법까지…강해지는 창고형 약국 규제 - 쿠키메디</a></div>
+<div class="article-meta"><span class="src">쿠키메디</span> <span>2026-04-29 06:00</span> <span class="kw">약사법 개정</span></div>
+<div class="article-summary">시행령 넘어 법까지…강해지는 창고형 약국 규제 &amp;nbsp;&amp;nbsp; 쿠키메디</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTemg1c1JFbk5YVldrNHZYUG1oN18zc2s5bzVYcENzeU5WRXBkd2FzUGo2eTZ4WnNIWV9WVEpQWkQ2MWZTSGZyOUVsRkNYRHhBMWxZMDRMd2k3M053REFfdTBmWnI?oc=5" target="_blank" rel="noopener">시행령 넘어 법까지…강해지는 창고형 약국 규제 - 쿠키메디</a></div>
+<div class="article-meta"><span class="src">쿠키메디</span> <span>2026-04-29 06:00</span> <span class="kw">약사법 개정</span></div>
+<div class="article-summary">시행령 넘어 법까지…강해지는 창고형 약국 규제 &amp;nbsp;&amp;nbsp; 쿠키메디</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9qdldURFZ5TmxOWm5ud1NyZGZZODVZNjFmN2VoTlNGdmprck9rV1pPNXFjelhfWHh3YndfZFMyN01CZmVwNGVGQXVRa2F3UnlSd0d3VnhJNzVUa0hLTlBvWWVyS25kbDZveWo4cg?oc=5" target="_blank" rel="noopener">고유가 피해지원금 약국 사용 가능…약사회, 안내 포스터 배포 - 약사공론</a></div>
+<div class="article-meta"><span class="src">약사공론</span> <span>2026-04-29 05:50</span> <span class="kw">대한약사회</span></div>
+<div class="article-summary">고유가 피해지원금 약국 사용 가능…약사회, 안내 포스터 배포 &amp;nbsp;&amp;nbsp; 약사공론</div>
+</div>
+<div class="article-card" data-date="2026-04-29">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9ENU9GeklwWnpyLS1FaTFOcU5ud2F2NjlDbXA1MlRVQzhKak5nSHBfSWo1Y2ZjQlBVdTNTLXdxVGN5dXdoeGpWSnkxSlBPQXA3Q0g3U3E5cUVRbnQtYWpzOTJsYmdoWWZ0X0xqag?oc=5" target="_blank" rel="noopener">&quot;환자 중심 일반약 상담 빛났다&quot; 우수 약사 복약지도 15인 선정 - 약사공론</a></div>
+<div class="article-meta"><span class="src">약사공론</span> <span>2026-04-29 05:50</span> <span class="kw">대한약사회</span></div>
+<div class="article-summary">&quot;환자 중심 일반약 상담 빛났다&quot; 우수 약사 복약지도 15인 선정 &amp;nbsp;&amp;nbsp; 약사공론</div>
+</div>
+<div class="article-card" data-date="2026-04-28">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxQbFhGQzdtTXZjMHFERnRuYnlsSWJQa0ZqdHVTTkZTcGRuQW5GNzBwZU1GMU5EVkV4V0RsYWFWa2xBOHBlc3pOX1NyZEJ4elZ6QmRyRnZEN0FjU3dERkUwMnhkY3RxZDU4RGh4VHAyMXFjYjdkaWdScE5FNzFwSEluakJIZ1Ffd0ZaUnc?oc=5" target="_blank" rel="noopener">[기고] 복약 지도 없는 ‘창고형 약국’, 약물 오남용 부추길 수도 - 조선일보</a></div>
+<div class="article-meta"><span class="src">조선일보</span> <span>2026-04-28 23:45</span> <span class="kw">대한약사회</span></div>
+<div class="article-summary">[기고] 복약 지도 없는 ‘창고형 약국’, 약물 오남용 부추길 수도 &amp;nbsp;&amp;nbsp; 조선일보</div>
+</div>
+<div class="article-card" data-date="2026-04-28">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBKSEp2ano3OHN2dVFvd0dpV21STUJIQXJKdWF3VXJtVzFBYTFTWGdadktmSnk1UHBpN0xObkt5RE9kc0pKSDlRUE1xWjc0aFE3akdSanpn?oc=5" target="_blank" rel="noopener">대체조제 이어 &#x27;성분명 처방 의무화&#x27; 국회 입법 촉각 - 데일리팜</a></div>
+<div class="article-meta"><span class="src">데일리팜</span> <span>2026-04-28 21:54</span> <span class="kw">성분명 처방</span></div>
+<div class="article-summary">대체조제 이어 &#x27;성분명 처방 의무화&#x27; 국회 입법 촉각 &amp;nbsp;&amp;nbsp; 데일리팜</div>
+</div>
+<div class="article-card new" data-date="2026-04-28">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNNDRrc1V2MXQ1WlNMN292Q0pKU1NVQnNaRnIwc29IYkZYdGxFUGJxOGxqZllHbFBZeXpoSVcxSC0yN242SVdnMUNacjhtWklnRndPRlZNTFFFWTBVb09oQlJ4T2F6SDMxbmN0RjZPZWJoX1dYY0YzM285Y3FUQmJrUWZyRi1ObDkzUmtmZmUzdkRxTXF6UG1iRWkzOVI0M1p2V1E?oc=5" target="_blank" rel="noopener">보건복지부-대한약사회, &#x27;위기임산부 상담전화 1308&#x27; 홍보 - 약업신문</a></div>
+<div class="article-meta"><span class="src">약업신문</span> <span>2026-04-28 20:22</span> <span class="kw">대한약사회</span></div>
+<div class="article-summary">보건복지부-대한약사회, &#x27;위기임산부 상담전화 1308&#x27; 홍보 &amp;nbsp;&amp;nbsp; 약업신문</div>
+</div>
+<div class="article-card" data-date="2026-04-28">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE1MYVNvZmlNOC1DVmM3VGU2V1FUbmpFdGZkU1VlaF9JbEFzazB1d0xfUVZrUDhfQ2Q1dnU3QmRNS0VHdFN1OHpNX2xUdWhHYmtIcjktMVF3?oc=5" target="_blank" rel="noopener">&quot;조제용품 수가 인상 건의를&quot;…서울시약, 정원오 후보와 회동 - 데일리팜</a></div>
+<div class="article-meta"><span class="src">데일리팜</span> <span>2026-04-28 19:30</span> <span class="kw">대한약사회</span></div>
+<div class="article-summary">&quot;조제용품 수가 인상 건의를&quot;…서울시약, 정원오 후보와 회동 &amp;nbsp;&amp;nbsp; 데일리팜</div>
+</div>
+<div class="article-card new" data-date="2026-04-28">
+<div class="article-title"><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9PV19tblRKQURaOWRaY1NPdy1IWmxQUFl3VlIzaEtKa3VEcUlYSUx0alpudzdOTHk2emVmWXhsQXU4UWZzQmpJbXVCbFhsd2ZfUG1WbF9GWTNKSjdwUWlzS3ZENmZLWEE?oc=5" target="_blank" rel="noopener">서울시약사회, 더불어민주당 정원오 서울시장 후보와 약국 현안 논의 外 - 의약뉴스</a></div>
+<div class="article-meta"><span class="src">의약뉴스</span> <span>2026-04-28 18:56</span> <span class="kw">대한약사회</span></div>
+<div class="article-summary">서울시약사회, 더불어민주당 정원오 서울시장 후보와 약국 현안 논의 外 &amp;nbsp;&amp;nbsp; 의약뉴스</div>
+</div>
+</div>
+</div></div>
+
+<div class="footer">
+  GLP-1 Trend · 자동 생성 2026-05-05 14:35:00 KST<br>
+  키워드 편집: 우측 하단 ⚙️ 버튼 클릭 · 설정: <code>config.json</code>
+</div>
+</div>
+
+<!-- 키워드 편집 FAB -->
+<button class="edit-fab" id="editFab">⚙️ 키워드 편집</button>
+
+<!-- 키워드 편집 모달 -->
+<div class="modal-backdrop" id="editModal">
+  <div class="modal">
+    <div class="modal-header">
+      <h2>⚙️ 키워드 편집</h2>
+      <button class="modal-close" id="modalClose">×</button>
+    </div>
+    <div class="modal-body">
+      <div class="notice">
+        <strong>적용 방법:</strong> 편집 후 <strong>"💾 JSON 다운로드"</strong> 클릭 →
+        브라우저가 <code>research_keywords.json</code>을 받음 →
+        그 파일을 <code>GLP-1 Trend</code> 폴더에 덮어쓰기 →
+        다음 크롤(또는 <code>run_once.bat</code> 재실행)부터 새 키워드로 수집됩니다.<br>
+        <small style="opacity:.8;">※ HTML만으로는 PC 파일을 직접 수정할 수 없어 이 방식을 씁니다.</small>
+      </div>
+      <div id="groupsContainer"></div>
+      <button class="btn primary" id="addGroupBtn" style="margin-top:8px;">+ 새 그룹 추가</button>
+    </div>
+    <div class="modal-footer">
+      <span id="changeStatus" style="font-size:11px; color:#888; margin-right:auto;"></span>
+      <button class="btn" id="resetBtn">처음 상태로</button>
+      <button class="btn primary" id="downloadBtn">💾 JSON 다운로드</button>
+    </div>
+  </div>
+</div>
+
+<!-- 임베디드 키워드 데이터 -->
+<script type="application/json" id="kwData">{"_comment": "크롤링할 키워드를 그룹별로 등록하세요. 그룹·키워드 자유롭게 추가/수정 가능합니다.", "_format": {"group_id": "리포트에 섹션 ID로 사용 (영문/숫자/_만 권장)", "label": "리포트에 표시될 한글 제목", "badge": "dom(국내 빨강) / intl(해외 파랑) / policy(정책 주황)", "keywords": "Google News RSS 검색에 사용할 키워드 리스트", "lang": "ko(한국어) / en(영어). 영어로 검색하면 해외 기사 위주로 수집", "max_per_keyword": "키워드당 최대 수집 개수 (기본 10)"}, "groups": [{"group_id": "glp1_dom", "label": "GLP-1 비만치료제 국내", "badge": "dom", "lang": "ko", "max_per_keyword": 10, "keywords": ["GLP-1 비만치료제", "위고비 처방", "마운자로 처방", "오남용 우려 의약품 비만치료제", "한미약품 비만 신약", "동아ST DA-1726"]}, {"group_id": "glp1_intl", "label": "GLP-1 글로벌 트렌드", "badge": "intl", "lang": "en", "max_per_keyword": 10, "keywords": ["GLP-1 weight loss 2026", "Wegovy oral pill FDA", "Mounjaro Zepbound market", "orforglipron Foundayo", "retatrutide Eli Lilly", "Medicare GLP-1 coverage"]}, {"group_id": "glp1_side", "label": "GLP-1 부작용·임상 리스크", "badge": "dom", "lang": "ko", "max_per_keyword": 8, "keywords": ["GLP-1 근감소증", "위고비 부작용", "세마글루타이드 췌장염", "비만치료제 위마비"]}, {"group_id": "glp1_food_impact", "label": "GLP-1이 식품업계에 미치는 영향", "badge": "intl", "lang": "ko", "max_per_keyword": 8, "keywords": ["GLP-1 식품업계", "GLP-1 단백질 식품", "비만치료제 식품 트렌드", "GLP-1 friendly food"]}, {"group_id": "medfood_dom", "label": "메디컬푸드 / 케어푸드 국내", "badge": "dom", "lang": "ko", "max_per_keyword": 10, "keywords": ["메디컬푸드", "메디푸드", "케어푸드", "특수의료용도식품", "환자식 시장", "고령친화식품", "CJ제일제당 케어푸드", "풀무원 케어푸드"]}, {"group_id": "medfood_intl", "label": "메디컬푸드 글로벌", "badge": "intl", "lang": "en", "max_per_keyword": 8, "keywords": ["medical food market 2026", "FSMP food special medical purposes", "FDA medical food regulation", "therapeutic nutrition market"]}, {"group_id": "pharm_dispute", "label": "약사 vs 한약사 분쟁", "badge": "policy", "lang": "ko", "max_per_keyword": 10, "keywords": ["한약사협회", "한약사 일반의약품", "한약사 약국 개설", "약사회 한약사", "대한약사회 집회", "한약사 면허 범위"]}, {"group_id": "pharm_policy", "label": "약사회 정책 (비대면진료·약 배송)", "badge": "policy", "lang": "ko", "max_per_keyword": 10, "keywords": ["대한약사회", "비대면진료 제도화", "약 배달 약사회", "성분명 처방", "공적 전자처방전", "약사법 개정"]}]}</script>
+
+<script>
+// ─── TOC 스무스 스크롤 ───
+document.querySelectorAll('.toc a[href^="#"]').forEach(a => {
+  a.addEventListener('click', function(e) {
+    e.preventDefault();
+    const t = document.querySelector(this.getAttribute('href'));
+    if (t) t.scrollIntoView({behavior:'smooth', block:'start'});
+  });
+});
+
+// ─── 날짜 필터 ───
+function applyDateFilter(targetDate) {
+  // 탭 활성화 상태
+  document.querySelectorAll('.date-tab').forEach(b => {
+    b.classList.toggle('active', b.dataset.date === targetDate);
+  });
+
+  // 카드 표시/숨김
+  document.querySelectorAll('.article-card').forEach(card => {
+    const cardDate = card.dataset.date || '';
+    const visible = (targetDate === 'all') || (cardDate === targetDate);
+    card.style.display = visible ? '' : 'none';
+  });
+
+  // 섹션별 카운트와 빈 상태 갱신
+  document.querySelectorAll('.section').forEach(section => {
+    const cards = section.querySelectorAll('.article-card');
+    const visibleCards = Array.from(cards).filter(c => c.style.display !== 'none');
+    const newCount = visibleCards.filter(c => c.classList.contains('new')).length;
+
+    // section-header 메타 카운트
+    const meta = section.querySelector('.section-header .meta');
+    if (meta) {
+      meta.textContent = `${visibleCards.length}건 · 신규 ${newCount}건`;
+    }
+
+    // 빈 상태 메시지
+    const articlesDiv = section.querySelector('.articles');
+    if (!articlesDiv) return;
+    let emptyMsg = section.querySelector('.empty-filter');
+    if (visibleCards.length === 0) {
+      if (!emptyMsg) {
+        emptyMsg = document.createElement('div');
+        emptyMsg.className = 'empty empty-filter';
+        articlesDiv.parentNode.insertBefore(emptyMsg, articlesDiv);
+      }
+      emptyMsg.textContent = (targetDate === 'all')
+        ? '최근 기간 내 수집된 기사가 없습니다.'
+        : `${targetDate} 발행 기사가 없습니다.`;
+      emptyMsg.style.display = '';
+      articlesDiv.style.display = 'none';
+    } else {
+      articlesDiv.style.display = '';
+      if (emptyMsg) emptyMsg.style.display = 'none';
+    }
+  });
+
+  // TOC 카운트 갱신
+  document.querySelectorAll('.toc li a').forEach(link => {
+    const href = link.getAttribute('href');
+    if (!href || !href.startsWith('#sec-')) return;
+    const section = document.querySelector(href);
+    if (!section) return;
+    const cards = section.querySelectorAll('.article-card');
+    const count = Array.from(cards).filter(c => c.style.display !== 'none').length;
+    const cntEl = link.querySelector('.cnt');
+    if (cntEl) cntEl.textContent = count;
+  });
+}
+
+document.querySelectorAll('.date-tab').forEach(btn => {
+  btn.addEventListener('click', () => applyDateFilter(btn.dataset.date));
+});
+
+// ─── 키워드 편집기 ───
+const KW_INITIAL = JSON.parse(document.getElementById('kwData').textContent);
+let kwState = JSON.parse(JSON.stringify(KW_INITIAL));  // deep clone
+
+const fab = document.getElementById('editFab');
+const modal = document.getElementById('editModal');
+const closeBtn = document.getElementById('modalClose');
+const container = document.getElementById('groupsContainer');
+const addGroupBtn = document.getElementById('addGroupBtn');
+const downloadBtn = document.getElementById('downloadBtn');
+const resetBtn = document.getElementById('resetBtn');
+const statusEl = document.getElementById('changeStatus');
+
+const BADGES = [
+  {value:'dom', label:'국내(빨강)'},
+  {value:'intl', label:'해외(파랑)'},
+  {value:'policy', label:'정책(주황)'}
+];
+const LANGS = [{value:'ko', label:'한국어'}, {value:'en', label:'영어'}];
+
+function escapeHtml(s) {
+  return String(s||'').replace(/[&<>"']/g, c => (
+    {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]
+  ));
+}
+
+function render() {
+  container.innerHTML = '';
+  (kwState.groups || []).forEach((g, gi) => {
+    const card = document.createElement('div');
+    card.className = 'group-card open';
+    const totalKw = (g.keywords || []).length;
+    card.innerHTML = `
+      <div class="group-head open" data-toggle="${gi}">
+        <span class="toggle">▶</span>
+        <span class="gname">${escapeHtml(g.label || g.group_id || '(이름 없음)')}</span>
+        <span class="gmeta">${escapeHtml(g.badge||'dom')} · ${escapeHtml(g.lang||'ko')} · ${totalKw}개 키워드</span>
+        <button class="btn small danger" data-del-group="${gi}">🗑 삭제</button>
+      </div>
+      <div class="group-body">
+        <div class="field-row">
+          <div class="field">
+            <label>그룹 ID (영문/숫자/_)</label>
+            <input type="text" data-gi="${gi}" data-field="group_id" value="${escapeHtml(g.group_id||'')}">
+          </div>
+          <div class="field">
+            <label>표시 라벨</label>
+            <input type="text" data-gi="${gi}" data-field="label" value="${escapeHtml(g.label||'')}">
+          </div>
+          <div class="field">
+            <label>뱃지 색상</label>
+            <select data-gi="${gi}" data-field="badge">
+              ${BADGES.map(b=>`<option value="${b.value}" ${g.badge===b.value?'selected':''}>${b.label}</option>`).join('')}
+            </select>
+          </div>
+          <div class="field">
+            <label>언어</label>
+            <select data-gi="${gi}" data-field="lang">
+              ${LANGS.map(l=>`<option value="${l.value}" ${g.lang===l.value?'selected':''}>${l.label}</option>`).join('')}
+            </select>
+          </div>
+          <div class="field">
+            <label>키워드당 최대 수집</label>
+            <input type="number" min="1" max="50" data-gi="${gi}" data-field="max_per_keyword" value="${g.max_per_keyword||10}">
+          </div>
+        </div>
+        <div class="field">
+          <label>키워드 목록</label>
+          <div class="kw-list">
+            ${(g.keywords||[]).map((k,ki)=>`
+              <div class="kw-item">
+                <input type="text" data-gi="${gi}" data-ki="${ki}" data-field="keyword" value="${escapeHtml(k)}">
+                <button data-del-kw="${gi}_${ki}">×</button>
+              </div>
+            `).join('')}
+          </div>
+          <button class="btn small" data-add-kw="${gi}">+ 키워드 추가</button>
+        </div>
+      </div>
+    `;
+    container.appendChild(card);
+  });
+  bindEvents();
+  updateStatus();
+}
+
+function bindEvents() {
+  // 그룹 헤더 토글
+  container.querySelectorAll('[data-toggle]').forEach(el => {
+    el.addEventListener('click', e => {
+      if (e.target.tagName === 'BUTTON') return;
+      el.parentElement.classList.toggle('open');
+      el.classList.toggle('open');
+    });
+  });
+  // 필드 변경
+  container.querySelectorAll('input[data-field], select[data-field]').forEach(el => {
+    el.addEventListener('input', e => {
+      const gi = parseInt(el.dataset.gi);
+      const field = el.dataset.field;
+      if (field === 'keyword') {
+        const ki = parseInt(el.dataset.ki);
+        kwState.groups[gi].keywords[ki] = el.value;
+      } else if (field === 'max_per_keyword') {
+        kwState.groups[gi][field] = parseInt(el.value) || 10;
+      } else {
+        kwState.groups[gi][field] = el.value;
+      }
+      updateStatus();
+    });
+  });
+  // 키워드 추가
+  container.querySelectorAll('[data-add-kw]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const gi = parseInt(btn.dataset.addKw);
+      kwState.groups[gi].keywords.push('');
+      render();
+    });
+  });
+  // 키워드 삭제
+  container.querySelectorAll('[data-del-kw]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const [gi, ki] = btn.dataset.delKw.split('_').map(Number);
+      kwState.groups[gi].keywords.splice(ki, 1);
+      render();
+    });
+  });
+  // 그룹 삭제
+  container.querySelectorAll('[data-del-group]').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      const gi = parseInt(btn.dataset.delGroup);
+      const name = kwState.groups[gi].label || kwState.groups[gi].group_id;
+      if (confirm(`그룹 "${name}" 을 삭제하시겠습니까?`)) {
+        kwState.groups.splice(gi, 1);
+        render();
+      }
+    });
+  });
+}
+
+function updateStatus() {
+  const changed = JSON.stringify(kwState) !== JSON.stringify(KW_INITIAL);
+  statusEl.textContent = changed ? '● 변경사항 있음 — 다운로드 필요' : '저장된 상태와 동일';
+  statusEl.style.color = changed ? '#e53935' : '#888';
+}
+
+addGroupBtn.addEventListener('click', () => {
+  const id = prompt('새 그룹 ID (영문/숫자/_만):', 'new_group');
+  if (!id || !/^[a-zA-Z0-9_]+$/.test(id)) {
+    if (id !== null) alert('영문/숫자/_ 만 사용 가능합니다.');
+    return;
+  }
+  if (kwState.groups.some(g => g.group_id === id)) {
+    alert('이미 존재하는 ID 입니다.');
+    return;
+  }
+  kwState.groups.push({
+    group_id: id,
+    label: id,
+    badge: 'dom',
+    lang: 'ko',
+    max_per_keyword: 10,
+    keywords: ['']
+  });
+  render();
+});
+
+resetBtn.addEventListener('click', () => {
+  if (confirm('모든 변경사항을 버리고 처음 상태로 되돌릴까요?')) {
+    kwState = JSON.parse(JSON.stringify(KW_INITIAL));
+    render();
+  }
+});
+
+downloadBtn.addEventListener('click', () => {
+  // 빈 키워드 자동 정리
+  kwState.groups.forEach(g => {
+    g.keywords = (g.keywords||[]).map(k => k.trim()).filter(k => k.length > 0);
+  });
+  // 검증
+  const ids = kwState.groups.map(g => g.group_id);
+  const dupId = ids.find((id, i) => ids.indexOf(id) !== i);
+  if (dupId) {
+    alert('중복된 그룹 ID: ' + dupId);
+    return;
+  }
+  for (const g of kwState.groups) {
+    if (!/^[a-zA-Z0-9_]+$/.test(g.group_id)) {
+      alert('그룹 ID는 영문/숫자/_만 가능: ' + g.group_id);
+      return;
+    }
+    if (g.keywords.length === 0) {
+      if (!confirm(`그룹 "${g.label}"에 키워드가 없습니다. 그래도 다운로드할까요?`)) return;
+    }
+  }
+  // 메타 보존
+  const out = Object.assign({}, KW_INITIAL, {groups: kwState.groups});
+  const json = JSON.stringify(out, null, 2);
+  const blob = new Blob([json], {type: 'application/json;charset=utf-8'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'research_keywords.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+  alert('다운로드 완료!\n\nGLP-1 Trend 폴더의 research_keywords.json 을 방금 받은 파일로 교체하세요.\n그 다음 run_once.bat 을 실행하면 새 키워드로 수집됩니다.');
+});
+
+fab.addEventListener('click', () => {
+  modal.classList.add('show');
+  if (container.children.length === 0) render();
+});
+closeBtn.addEventListener('click', () => modal.classList.remove('show'));
+modal.addEventListener('click', e => {
+  if (e.target === modal) modal.classList.remove('show');
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') modal.classList.remove('show');
+});
+</script>
+</body>
+</html>
