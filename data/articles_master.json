@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-08T09:35:37.657040+09:00",
+  "updated_at": "2026-05-08T09:35:55.554306+09:00",
   "count": 1041,
   "articles": [
     {
@@ -13,7 +13,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "성분명 처방",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "대웅제약, 티온랩과 ‘월 1회 비만약’ 개발 추진 - 조선비즈 - Chosunbiz",
@@ -26,7 +26,7 @@
       "group_label": "GLP-1 비만치료제 국내",
       "badge": "dom",
       "keyword": "GLP-1 비만치료제",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "대웅제약, 비만치료제 포트폴리오 완성 '월 1회' 제형 시동 - 약사공론",
@@ -39,7 +39,7 @@
       "group_label": "GLP-1 비만치료제 국내",
       "badge": "dom",
       "keyword": "GLP-1 비만치료제",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "[출근길인터뷰] 위고비·마운자로 부작용 '급성 췌장염' 주의해야 - 네이트",
@@ -52,7 +52,7 @@
       "group_label": "GLP-1 부작용·임상 리스크",
       "badge": "dom",
       "keyword": "위고비 부작용",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "[출근길인터뷰] 위고비·마운자로 부작용 '급성 췌장염' 주의해야 - v.daum.net",
@@ -65,7 +65,7 @@
       "group_label": "GLP-1 부작용·임상 리스크",
       "badge": "dom",
       "keyword": "위고비 부작용",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "“행위별 수가제 한계 봉착…‘의사 무한경쟁’ 방지해야” - 의학신문",
@@ -78,7 +78,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "성분명 처방",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "[파이프라인 디코드][한미약품]‘HM15275’ 美2상 속도…삼중작용제로 GLP-1 후속시장 정조준 - 메디코파마",
@@ -91,7 +91,7 @@
       "group_label": "GLP-1 비만치료제 국내",
       "badge": "dom",
       "keyword": "GLP-1 비만치료제",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "[컨콜] 노보, ‘위고비필’ 16주만에 100만명···GLP-1 성장 기대에 전망치 상향 - 더바이오",
@@ -104,7 +104,7 @@
       "group_label": "GLP-1 비만치료제 국내",
       "badge": "dom",
       "keyword": "GLP-1 비만치료제",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "‘I intend to stay on it forever.’ Along with rapid weight loss, patients see other benefits and risks of GLP-1 drugs - Baltimore Sun",
@@ -117,7 +117,7 @@
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "GLP-1 weight loss 2026",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "복지부, CSO 관리 연구용역…6월 말 결과 도출 목표 - 히트뉴스",
@@ -130,7 +130,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "약사법 개정",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "\"환자식 넘어 일상식으로\"…케어푸드 시장 커진다 - 네이트",
@@ -143,7 +143,7 @@
       "group_label": "메디컬푸드 / 케어푸드 국내",
       "badge": "dom",
       "keyword": "케어푸드",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "암젠, 월1회 투여 비만치료제 '마리타이드' 韓 임상 착수 - 메디칼업저버",
@@ -156,7 +156,7 @@
       "group_label": "GLP-1 비만치료제 국내",
       "badge": "dom",
       "keyword": "GLP-1 비만치료제",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "\"환자식 넘어 일상식으로\"…케어푸드 시장 커진다 - 아이뉴스24",
@@ -169,7 +169,7 @@
       "group_label": "메디컬푸드 / 케어푸드 국내",
       "badge": "dom",
       "keyword": "환자식 시장",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "국회 부의장 출마 남인순 의원 \"성분명 처방 품절약부터\" - 약사공론",
@@ -182,7 +182,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "성분명 처방",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "일반약 소분·할인…창고형약국 잇단 논란 끝 영업중단 수순 - 약사공론",
@@ -195,7 +195,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "대한약사회",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "약사회, 6.3 지방선거 앞두고 ‘약사 정책제안서’ 전국 배포 - 데일리팜",
@@ -208,7 +208,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "대한약사회",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "김부겸 대구시장 후보 \"공공병원 성분명처방 시행 적극 협의\" - 데일리팜",
@@ -221,7 +221,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "성분명 처방",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "서울시약, 비대면 약국정보 개방 반발…\"성분명처방 확대를\" - 데일리팜",
@@ -247,7 +247,7 @@
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "orforglipron Foundayo",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "LLY stock up 7% pre-market as Mounjaro, Zepbound sales smash expectations – retail bets on run toward $1,000 - MSN",
@@ -273,7 +273,7 @@
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "Medicare GLP-1 coverage",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "Retatrutide Black Market: Why Consumers Will Do Anything To Get Eli Lilly's New GLP - Investor's Business Daily",
@@ -286,7 +286,7 @@
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "retatrutide Eli Lilly",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "LLY vs Novo Nordisk 2026: GLP-1 Stocks Compared - Gotrade",
@@ -312,7 +312,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "대한약사회",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "Medicare’s GLP-1 Bridge Model Expands Obesity Drug Access - Drug Topics",
@@ -325,7 +325,7 @@
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "Medicare GLP-1 coverage",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "Many Medicare enrollees can get GLP-1 drugs for $50 starting in July - ABC News - Breaking News, Latest News and Videos",
@@ -338,7 +338,7 @@
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "GLP-1 weight loss 2026",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "대구한의대 메디푸드HMR산업학과, 버섯농장 현장학습 실시 - 아시아뉴스통신",
@@ -351,7 +351,7 @@
       "group_label": "메디컬푸드 / 케어푸드 국내",
       "badge": "dom",
       "keyword": "메디푸드",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "Wegovy® access expanded for Medicare beneficiaries living with obesity through the Medicare GLP-1 Bridge starting July 1, 2026 - PR Newswire",
@@ -364,7 +364,7 @@
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "GLP-1 weight loss 2026",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "\"비만치료제가 부르는 '위고비 페이스'... 요요 방지 위해 3가지 실천해야\" - 하이닥",
@@ -390,7 +390,7 @@
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "retatrutide Eli Lilly",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "Eli Lilly Indiana Expansion Supports Obesity Pipeline And Undervalued Story - simplywall.st",
@@ -416,7 +416,7 @@
       "group_label": "메디컬푸드 / 케어푸드 국내",
       "badge": "dom",
       "keyword": "케어푸드",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "약사법 개정에 커지는 논란⋯대구 ‘창고형 약국’ 확산 속 안전성 우려도 - 경북매일",
@@ -780,7 +780,7 @@
       "group_label": "GLP-1 비만치료제 국내",
       "badge": "dom",
       "keyword": "한미약품 비만 신약",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "한미약품, 비만·MASH 중심 'R&D 모멘텀' 지속…기술이전 기대감 - 프라임경제",
@@ -949,7 +949,7 @@
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "GLP-1 weight loss 2026",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "풍자, 결국 '30kg 감량' 해냈다…위고비 부작용→요요 겪더니 \"드디어\" [엑's 이슈] - 엑스포츠뉴스",
@@ -1404,7 +1404,7 @@
       "group_label": "GLP-1이 식품업계에 미치는 영향",
       "badge": "intl",
       "keyword": "비만치료제 식품 트렌드",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "비만 치료제 열풍의 이면 : GLP-1 시대, 비만 치료와 근감소증 예방의 교차점 - 한국경제",
@@ -1612,7 +1612,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "성분명 처방",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "Pills or Shots for Obesity? New Foundayo Pills vs. Oral Wegovy - The People's Pharmacy",
@@ -2496,7 +2496,7 @@
       "group_label": "메디컬푸드 글로벌",
       "badge": "intl",
       "keyword": "therapeutic nutrition market",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "급등하는 비만치료제, 체중 너머의 대사 리스크 - 더쎈뉴스",
@@ -2990,7 +2990,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "성분명 처방",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "대웅제약 거점도매로 약국 수급 불안정…'성분명 처방' 요구 확대 - 더팩트",
@@ -5291,7 +5291,7 @@
       "group_label": "메디컬푸드 / 케어푸드 국내",
       "badge": "dom",
       "keyword": "메디푸드",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "동양허브메디푸드, 인도네시아 최상위 침향 ‘사바(SABAH)’ 50% 한정판 할인 - 매일경제",
@@ -7410,7 +7410,7 @@
       "group_label": "메디컬푸드 / 케어푸드 국내",
       "badge": "dom",
       "keyword": "풀무원 케어푸드",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "중기부, 비대면진료 제도화 속도낸다 … 처방·지역 기준 손질 - 뉴데일리 경제",
@@ -9191,7 +9191,7 @@
       "group_label": "GLP-1 비만치료제 국내",
       "badge": "dom",
       "keyword": "동아ST DA-1726",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "공적 전자처방전 드라이브 걸던 정부, 주춤하는 이유 - 데일리팜",
@@ -11544,7 +11544,7 @@
       "group_label": "GLP-1 부작용·임상 리스크",
       "badge": "dom",
       "keyword": "세마글루타이드 췌장염",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "현대그린푸드, 정부 지정 '고령친화우수식품' 16종 출시…식품업계 최다 - 전자신문",
@@ -13351,7 +13351,7 @@
       "group_label": "메디컬푸드 / 케어푸드 국내",
       "badge": "dom",
       "keyword": "환자식 시장",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "초고령사회에 떠오르는 케어푸드...현대그린푸드 vs 풀무원, 구독서비스로 경쟁 - 뉴스핌",
