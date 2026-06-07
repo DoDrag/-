@@ -1,19 +1,201 @@
 {
-  "updated_at": "2026-06-06T12:59:07.759164+09:00",
-  "count": 1310,
+  "updated_at": "2026-06-07T13:25:37.450586+09:00",
+  "count": 1340,
   "articles": [
+    {
+      "title": "\"전문성으로 여는 약국의 미래\"…충남약사회 학술제·연수교육 개최 - 약사공론",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBEMVJZWW80d2Q0YVdDY19PU0lvaW9HeXluWFVQR3JpMEl4alZZM3FrV3REZ3Z2SVZESm5INGR3NS1OOWVPS1ZVV0RMLXI2NWNBOUI4Q1dRLU9reUZJNkxCSVU3eVhjRmxzSDQ4ZA?oc=5",
+      "source": "약사공론",
+      "summary": "\"전문성으로 여는 약국의 미래\"…충남약사회 학술제·연수교육 개최 &nbsp;&nbsp; 약사공론",
+      "pub_iso": "2026-06-07T12:22:24+09:00",
+      "pub_display": "2026-06-07 12:22",
+      "group_id": "pharm_dispute",
+      "group_label": "약사 vs 한약사 분쟁",
+      "badge": "policy",
+      "keyword": "약사회 한약사",
+      "is_new": true
+    },
+    {
+      "title": "Retatrutide shows substantial weight loss, glycemic control in obesity and type 2 diabetes | ADA 2026 - Managed Healthcare Executive",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMzB0ZFd4cVhOSVhnVmFZblFiQUc3aENDb0p1UVIzS0lMTnVTRGk2alZtZUhEd09xOTZkcDZyXzNKU1pwOE1WYmp5WFp0YUx5UjZWMFpVSF94QkVmSV9ZUlYtM1I4QVpBODZNWGR4anBucUFfN1VtTmM5dXpzV2pXbXpHZi1vSXVmNjRtQ1NFQUFLc0RzdHlIdVhCOG9fVW1CbzJqVDIzLXFwTGhpemdlQ1V0Y2FYMEQ2bXJfdS1zRTZ4M1NtZE55cVZDRDQ2OTJwRFdwMll1dE5nTmFQc3pV?oc=5",
+      "source": "Managed Healthcare Executive",
+      "summary": "Retatrutide shows substantial weight loss, glycemic control in obesity and type 2 diabetes | ADA 2026 &nbsp;&nbsp; Managed Healthcare Executive",
+      "pub_iso": "2026-06-07T10:42:12+09:00",
+      "pub_display": "2026-06-07 10:42",
+      "group_id": "glp1_intl",
+      "group_label": "GLP-1 글로벌 트렌드",
+      "badge": "intl",
+      "keyword": "GLP-1 weight loss 2026",
+      "is_new": true
+    },
+    {
+      "title": "싼 약값에 창고형 약국 인기…동네약국 붕괴 우려도 - 문화투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CZDBLOThjaDhhU3d0cDVGeTNaa2pQR1pMTHB5bjhuX3FVa2oxN0RTd2R0RF9LWnF6VFV1Qzh4Mng1NWZ6WmRXQTd5d1BLNTU4Q2lPWTg5OVNMVFo4LUlTdzcxdkRBbTNO?oc=5",
+      "source": "문화투데이",
+      "summary": "싼 약값에 창고형 약국 인기…동네약국 붕괴 우려도 &nbsp;&nbsp; 문화투데이",
+      "pub_iso": "2026-06-07T09:25:04+09:00",
+      "pub_display": "2026-06-07 09:25",
+      "group_id": "pharm_dispute",
+      "group_label": "약사 vs 한약사 분쟁",
+      "badge": "policy",
+      "keyword": "한약사 일반의약품",
+      "is_new": true
+    },
+    {
+      "title": "Eli Lilly reports broad benefits for experimental obesity drug retatrutide (LLY:NYSE) - Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaWJMR2xXRTBwbzVWVl9iRkVlQVMwUzM1SjBLd2IycDA2WUR1NnNKRVdLNXBPak15dDBJeDJRbzBXMnlBX09KVDhNQUFLdHFMcjNfUW0wQlVmMEhTZ3Bac0xpTjJPQ2ZiSEpiWTRPR3JFU2Z5Tkd3X01vUWxxRjZoWEk3cGZ4M1VnM0FlWS1STHhrZDluNU10Q0kzcll1bUpqanJieDIxNDN6T283THpSLWhR?oc=5",
+      "source": "Seeking Alpha",
+      "summary": "Eli Lilly reports broad benefits for experimental obesity drug retatrutide (LLY:NYSE) &nbsp;&nbsp; Seeking Alpha",
+      "pub_iso": "2026-06-07T06:37:02+09:00",
+      "pub_display": "2026-06-07 06:37",
+      "group_id": "glp1_intl",
+      "group_label": "GLP-1 글로벌 트렌드",
+      "badge": "intl",
+      "keyword": "retatrutide Eli Lilly",
+      "is_new": true
+    },
+    {
+      "title": "\"비만 치료는 미용이 아닌 의학, 약물은 선택이 아닌 책임\" - 히트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSXzUtTHQ3Mjdsc25iZllGQ1lyeW1XNi1DbVZRWW9BM0JoMDMyWFphUjlRY19pVDhnZjJnaThMQU9zNW9MLXZDV1FtcXBQTDE3eDRCTXMyNnlfSmpobklpbGNTaGt4Tkx6WnM4?oc=5",
+      "source": "히트뉴스",
+      "summary": "\"비만 치료는 미용이 아닌 의학, 약물은 선택이 아닌 책임\" &nbsp;&nbsp; 히트뉴스",
+      "pub_iso": "2026-06-07T06:06:00+09:00",
+      "pub_display": "2026-06-07 06:06",
+      "group_id": "glp1_dom",
+      "group_label": "GLP-1 비만치료제 국내",
+      "badge": "dom",
+      "keyword": "GLP-1 비만치료제",
+      "is_new": true
+    },
+    {
+      "title": "Eli Lilly’s new weight loss drug may also help sleep apnea according to Phase 3 data - The Independent",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb1dJTG11dmdKbmcwcXZ2RGZVcW9mYUZYaDdyb1VReWZmSnZHamhVZE1pZ2RoV0tqaXlrWGFBdGxOUTZkVWNwakJJYXJUZVNETGZrRVNxREIzOVN6cTQxRnB6N2F1aS1ZenVBeDRSbDUwLTNaLWttWVhxSHJ4MXJ3RjU0ZzdrUEtYekIyTE9SZkxYU290YkVaUS1wdDBPOUM1d1FrdUhUSG9kVEtXeW05dnJLbUp0TEZTa1VJdzVn?oc=5",
+      "source": "The Independent",
+      "summary": "Eli Lilly’s new weight loss drug may also help sleep apnea according to Phase 3 data &nbsp;&nbsp; The Independent",
+      "pub_iso": "2026-06-07T05:54:00+09:00",
+      "pub_display": "2026-06-07 05:54",
+      "group_id": "glp1_intl",
+      "group_label": "GLP-1 글로벌 트렌드",
+      "badge": "intl",
+      "keyword": "retatrutide Eli Lilly",
+      "is_new": true
+    },
+    {
+      "title": "ADA: Lilly pulls back curtain on impressive triple-G efficacy in patients with obesity, diabetes - Fierce Biotech",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPY0M4YXhweDh4RnJNQXRjTmF5MDBGbW9mdmx5UjZVNWlhZXpfMW1memN3Rk80TTg5elBnTFBwU0J3X2JhNy1adkhuM1czSEo5OUZTa2FMaTZTOGwzNmptcjYtRmdLek83UE0teWFhdVVoekZmVldtODFiN3VrREc1SWhQMldQbjBWZldQV204cjFkV0pRNmNQNDlFQ2FkbjZ6WjhhaTBTWGg5YjE2eVhTX29XSl9vbXVxOU9QZU1pVm9SbkVEd2Zr?oc=5",
+      "source": "Fierce Biotech",
+      "summary": "ADA: Lilly pulls back curtain on impressive triple-G efficacy in patients with obesity, diabetes &nbsp;&nbsp; Fierce Biotech",
+      "pub_iso": "2026-06-07T04:28:57+09:00",
+      "pub_display": "2026-06-07 04:28",
+      "group_id": "glp1_intl",
+      "group_label": "GLP-1 글로벌 트렌드",
+      "badge": "intl",
+      "keyword": "retatrutide Eli Lilly",
+      "is_new": true
+    },
+    {
+      "title": "대한한약사회 \"복지부, 직능 눈치보기식 유권해석 중단해야\" - 약업신문",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcVJXR21rYkotSHc5NEFjMUpCaTlXdVNYU251VUpfSW1fMHJmM2I5YTdPR3RTWGgtaUhWRnFmNTVtWWt1TnpXY2dwQ3JhQ0o5d29CTmZsdENQWEZDZ3pyQVZRaDZ2RG5rVzc4NEpsU1d3UlFfOUJnVnN0LVNqLWJJbGJPZE9PSjVrb00tMTM4TlAzclM1WFpKV01LZlBRRlBVLTd6Xy05SHVWRm1FX0EyX3Bmb08waDk4TUkzTVlMdjdSV2Z1dmpEa09fb3JOdUh3ZEt6cXBsbFYtQnhMYVNGLQ?oc=5",
+      "source": "약업신문",
+      "summary": "대한한약사회 \"복지부, 직능 눈치보기식 유권해석 중단해야\" &nbsp;&nbsp; 약업신문",
+      "pub_iso": "2026-06-07T03:39:39+09:00",
+      "pub_display": "2026-06-07 03:39",
+      "group_id": "pharm_dispute",
+      "group_label": "약사 vs 한약사 분쟁",
+      "badge": "policy",
+      "keyword": "한약사 일반의약품",
+      "is_new": true
+    },
+    {
+      "title": "Eli Lilly says next-gen obesity drug curbs sleep apnea, among other benefits - Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOa0N4Q2NESzRzZklIazcwUVl3dHdCUHYxd1o4OHVybmRlTEM2ZGxUc3Myc01KM1hDMW9HZ3gtRmRzRHZzLXVXUDBPSFJTYWctQTN0eFgzOGthOHlteVJxckdLSlhiRHFIZFRreDVqdmJGcnlDVi1Ta1BVaFNRT29XUFhYdnBDSGZCY1E?oc=5",
+      "source": "Yahoo",
+      "summary": "Eli Lilly says next-gen obesity drug curbs sleep apnea, among other benefits &nbsp;&nbsp; Yahoo",
+      "pub_iso": "2026-06-07T03:33:55+09:00",
+      "pub_display": "2026-06-07 03:33",
+      "group_id": "glp1_intl",
+      "group_label": "GLP-1 글로벌 트렌드",
+      "badge": "intl",
+      "keyword": "retatrutide Eli Lilly",
+      "is_new": true
+    },
+    {
+      "title": "Lilly's triple agonist, retatrutide, drove substantial improvements in weight, A1C, knee osteoarthritis pain, and obstructive sleep apnea, demonstrating its remarkable potential to treat obesity and its complications - investor.lilly.com",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPREo2N2ZpTXd0bENHTGh5NFVpVUVIckZnOHB5MEk5WW90a0JTaGU4dGJubzVkWEdtMnh5SG5oVEVPV0E4X3hGUFpQQ0JpUk5iMHlEdWZFRDhxakNGWDhEZ0g3Zkt2alpnSzZSNmJpSmNURG12NjBzd1JiS0pPQko5ZFREY2poSW94NWNGaFA2T2swSy1xUWZPM2JLVzg5eEpVRDNaMS01NkpjUjhvYzQ4VHRNVVRSQTJBa2FLREZ4ZDhfdVlu?oc=5",
+      "source": "investor.lilly.com",
+      "summary": "Lilly's triple agonist, retatrutide, drove substantial improvements in weight, A1C, knee osteoarthritis pain, and obstructive sleep apnea, demonstrating its remarkable potential to treat obesity and its complications &nbsp;&nbsp; investor.lilly.com",
+      "pub_iso": "2026-06-07T03:32:21+09:00",
+      "pub_display": "2026-06-07 03:32",
+      "group_id": "glp1_intl",
+      "group_label": "GLP-1 글로벌 트렌드",
+      "badge": "intl",
+      "keyword": "retatrutide Eli Lilly",
+      "is_new": true
+    },
+    {
+      "title": "GLP-1-based meds linked to fewer heart events in adults with obesity, autoimmune disease - www.heart.org",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNUtkYjMwS0JsaHlib0VxeGxWbzdXd0cwV0szZWppMG9tQjJfNE1BQ2xadVZNMXFYYTREUU1pQUsyb3dMbmRCQTFENXQ3UDlBWGhrUjc3d3Y1ZHRfRUZxdERyaktFWVdIVnU0c1FrSDhjMWU2cnl1NnVtRDVtT0lubTlublplOUJ1UW5ISTEwNVlveW1lUElOZTg0VERENlhvNmQzZElzWHIwS3NkcC0wdDd2UTZocFdtX0E4?oc=5",
+      "source": "www.heart.org",
+      "summary": "GLP-1-based meds linked to fewer heart events in adults with obesity, autoimmune disease &nbsp;&nbsp; www.heart.org",
+      "pub_iso": "2026-06-07T02:34:02+09:00",
+      "pub_display": "2026-06-07 02:34",
+      "group_id": "glp1_intl",
+      "group_label": "GLP-1 글로벌 트렌드",
+      "badge": "intl",
+      "keyword": "GLP-1 weight loss 2026",
+      "is_new": true
+    },
+    {
+      "title": "Ozempic and similar weight-loss drugs linked to 30% lower breast cancer risk - ScienceDaily",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE84SXFMc2VQdWswRGdjVndnTVFzUlNrVGFUZy1leG5PZnFoaXlhcmVLbFJvcVhUdDMxRXdiaXRrMG9BUFR1dkR1anNYUDdWS1JYdkprZHlCTzJzZGJhbVdIbGNnNXRVQjJuak9hQ3A4UQ?oc=5",
+      "source": "ScienceDaily",
+      "summary": "Ozempic and similar weight-loss drugs linked to 30% lower breast cancer risk &nbsp;&nbsp; ScienceDaily",
+      "pub_iso": "2026-06-06T22:28:59+09:00",
+      "pub_display": "2026-06-06 22:28",
+      "group_id": "glp1_intl",
+      "group_label": "GLP-1 글로벌 트렌드",
+      "badge": "intl",
+      "keyword": "GLP-1 weight loss 2026",
+      "is_new": true
+    },
     {
       "title": "FDA approves Eli Lilly’s weight-loss pill; Judge revokes citizenship over stolen medical secrets for China; new COVID-19 ‘Cicada’ variant spreads to 25 states – Morning Medical Update - Medical Economics",
       "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOWkZQbDZHX1VRLUZKTEszbVpwOGpXVVBPT3I0eHVReHZUR25FcXFfdEJnUVdVTGtpX1JCaHZFdGRZRXpCNzEyaDAtT21OQ2lPelVVSkFXTUN2Q2lZRlNVTXBkeHBsclc2Z2w1b2ZaaXF5dlpsSmlKTGt3c1RyZldBTHdIRDlGNGM4d1NXcmcxSWhpSXB0TXZRQzRCb1d5NGQ4UDY4X1BrTXNNa0t3a25ldm1GTlBGdHhGM0dfX2hRRkNvVXRjaEZsS3hxZDY3am1nbEZkRVBKcGVpM2IwTGZBZGJ4cnB5SXB0SVk3WkFRcHNSc3MybWRJWFBRaUlfbldST1RfbTBuTENqaGJ2YU5rZlBKeEVDNjRyR29hLUhwNk9YRWFXREpIYmNET1RRZUhhTjAxbWR1Vl9iVlU?oc=5",
       "source": "Medical Economics",
       "summary": "FDA approves Eli Lilly’s weight-loss pill; Judge revokes citizenship over stolen medical secrets for China; new COVID-19 ‘Cicada’ variant spreads to 25 states – Morning Medical Update &nbsp;&nbsp; Medical Economics",
-      "pub_iso": "2026-06-06T08:32:57+09:00",
-      "pub_display": "2026-06-06 08:32",
+      "pub_iso": "2026-06-06T20:55:35+09:00",
+      "pub_display": "2026-06-06 20:55",
       "group_id": "glp1_intl",
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "Wegovy oral pill FDA",
       "is_new": false
+    },
+    {
+      "title": "FAQ: The Medicare GLP-1 Bridge Program - Pharmaceutical Commerce",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQXzk4dDNpQlhHTmw0OUg5YjhYUlMxMHhDUDVFTEd1czR2R0ZjSUk1TWRrbWxCY0xGWEl3bjVqTGZRajU2dmdpSE5zelJaY21NRjdqMURhWXZKaEcySFVLdWxLRnZoRnRUMjlOdklxbTh1T2NFbDBtV0FvTzIyVFBuT056aHJkQWJw?oc=5",
+      "source": "Pharmaceutical Commerce",
+      "summary": "FAQ: The Medicare GLP-1 Bridge Program &nbsp;&nbsp; Pharmaceutical Commerce",
+      "pub_iso": "2026-06-06T15:06:26+09:00",
+      "pub_display": "2026-06-06 15:06",
+      "group_id": "glp1_intl",
+      "group_label": "GLP-1 글로벌 트렌드",
+      "badge": "intl",
+      "keyword": "Medicare GLP-1 coverage",
+      "is_new": true
+    },
+    {
+      "title": "Novo Nordisk's investigational zenagamtide shows significant A1C reductions with up to 14.6% weight loss in adults with type 2 diabetes--presented at ADA 2026 - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQRHJTUnhWVEJfSWc2SmJYWGFxNHhhM2N4Z1lhZ1ZaM3hMdTczSDEzNmt3SHZmVmw5RmdHSjQtY255Y0RreENQZVB3NXJfQ0dCalFmUDNHd0NraXNGNGlFdUdvVE8xT1RsYnRoWnJXZTVEemZtelpSYXJhVFdhMDFUOEtGbjVQcXB4WUJFSU83ckdpcW5ZbnZUXzduV2p6YzNfZGhYSWNsb21UT0pPeEFyZ2ZxVTNKQXhQcjZIcy1oZ003aV90Z1FmMkp4b1pVczkyekxaMXc5Y0Roa2xSRXpCOFUzeWhXQmtrMlJBWjZlUklIVWhlN0pISXRWdGpFRnBDLUhZOFZMSVJjNHdHTWVyRjlFZ2VUdWFzb3p6eTloaUlmTGlWUHhtR1lWRUlweGpzV0U2S0t3?oc=5",
+      "source": "PR Newswire",
+      "summary": "Novo Nordisk's investigational zenagamtide shows significant A1C reductions with up to 14.6% weight loss in adults with type 2 diabetes--presented at ADA 2026 &nbsp;&nbsp; PR Newswire",
+      "pub_iso": "2026-06-06T08:30:00+09:00",
+      "pub_display": "2026-06-06 08:30",
+      "group_id": "glp1_intl",
+      "group_label": "GLP-1 글로벌 트렌드",
+      "badge": "intl",
+      "keyword": "GLP-1 weight loss 2026",
+      "is_new": true
     },
     {
       "title": "Here's How Medicare Beneficiaries Can Get GLP-1 Coverage for Weight Loss in 2026 - AOL.com",
@@ -78,7 +260,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "비대면진료 제도화",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "비만약 다음은 '근육'…근감소증 치료제도 뜬다 - 약사공론",
@@ -91,7 +273,7 @@
       "group_label": "GLP-1 비만치료제 국내",
       "badge": "dom",
       "keyword": "GLP-1 비만치료제",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "팜젠사이언스, 수탁사 표시재료 관리 미흡에 ‘솔페나신정’ 제조정지 - 약사공론",
@@ -129,8 +311,8 @@
       "group_id": "pharm_dispute",
       "group_label": "약사 vs 한약사 분쟁",
       "badge": "policy",
-      "keyword": "한약사 일반의약품",
-      "is_new": true
+      "keyword": "약사회 한약사",
+      "is_new": false
     },
     {
       "title": "무심코 보낸 약 한 상자…약사법 위반 가능 - 약사공론",
@@ -159,12 +341,12 @@
       "is_new": true
     },
     {
-      "title": "Lilly and Novo face off at ADA 2026 as others seek to compete in obesity - BioSpace",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdWoyVHc0R2Q2NExFMzQ3c1VrWEVUdGJrc2VrWXFUOE8wTG5WTlVyWGhXekEzQU9pNHhpQ0ZJa25CbDhSLUJ1b3dYcnBjR3JVWDZNU2kzb3hock04bGFQYzdfeS1ETnhmSE9EZG9KWm56UW9XWXhRU1I4TjFVODhMZDl3anNQOTFJa1lDOHpjbWxPNjJoRjhUMQ?oc=5",
-      "source": "BioSpace",
-      "summary": "Lilly and Novo face off at ADA 2026 as others seek to compete in obesity &nbsp;&nbsp; BioSpace",
-      "pub_iso": "2026-06-05T23:57:48+09:00",
-      "pub_display": "2026-06-05 23:57",
+      "title": "Oral small molecule GLP-1 receptor agonist aleniglipron in people with overweight or obesity: a randomized, double-blind, placebo-controlled phase 2b trial - Nature",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWRk5yYmlrNGRPUTVMeTNFU3FoVFdQLUlERzN2N1M1WVV3dXduRldjOUhvRy1QNHA4WXU5SVNfSDFzcjJsMEptTTlIWGhvMldrSlhweGlYLS1GZ3dEdHU0?oc=5",
+      "source": "Nature",
+      "summary": "Oral small molecule GLP-1 receptor agonist aleniglipron in people with overweight or obesity: a randomized, double-blind, placebo-controlled phase 2b trial &nbsp;&nbsp; Nature",
+      "pub_iso": "2026-06-06T03:50:06+09:00",
+      "pub_display": "2026-06-06 03:50",
       "group_id": "glp1_intl",
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
@@ -211,6 +393,19 @@
       "is_new": true
     },
     {
+      "title": "한국일보 사진DB검색 - 한국일보",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmbHB0Qk45aXJydDZtNHFjOW5SOVJUQWY0YjU4NDJHdjhQR0dJcG85YW9DdWZURzB0eUVWaWlfY01UTkcwTEwyUGlyRHpsLWRyeWRLaGQyWWdlTjhIdjRfdjQ4WS1qZXB1TlE?oc=5",
+      "source": "한국일보",
+      "summary": "한국일보 사진DB검색 &nbsp;&nbsp; 한국일보",
+      "pub_iso": "2026-06-05T20:06:54+09:00",
+      "pub_display": "2026-06-05 20:06",
+      "group_id": "pharm_policy",
+      "group_label": "약사회 정책 (비대면진료·약 배송)",
+      "badge": "policy",
+      "keyword": "대한약사회",
+      "is_new": true
+    },
+    {
       "title": "[PartⅡ] 비만치료제가 바꾼 식탁, 옷장 그리고 거울 | 양보다 질, 사이즈 다운, 리프팅에 주목 - 매일경제",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1OZW5ueDJnejhPcmRCNGxkRmY0N01iSXZaOUZRQXQxNVR2azRaOG5IXy0yNVJ1cDJYTW50SlpneUpRRlhSWTBadjdYcWFLU0dEZGRseg?oc=5",
       "source": "매일경제",
@@ -221,7 +416,7 @@
       "group_label": "GLP-1이 식품업계에 미치는 영향",
       "badge": "intl",
       "keyword": "GLP-1 friendly food",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "식사량은 줄이고 건강 관리는 늘리고, 비만치료제가 바꾼 소비 지도 - The Economy Korea",
@@ -234,7 +429,20 @@
       "group_label": "GLP-1이 식품업계에 미치는 영향",
       "badge": "intl",
       "keyword": "비만치료제 식품 트렌드",
-      "is_new": true
+      "is_new": false
+    },
+    {
+      "title": "Lilly and Novo face off at ADA 2026 as others seek to compete in obesity - BioSpace",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdWoyVHc0R2Q2NExFMzQ3c1VrWEVUdGJrc2VrWXFUOE8wTG5WTlVyWGhXekEzQU9pNHhpQ0ZJa25CbDhSLUJ1b3dYcnBjR3JVWDZNU2kzb3hock04bGFQYzdfeS1ETnhmSE9EZG9KWm56UW9XWXhRU1I4TjFVODhMZDl3anNQOTFJa1lDOHpjbWxPNjJoRjhUMQ?oc=5",
+      "source": "BioSpace",
+      "summary": "Lilly and Novo face off at ADA 2026 as others seek to compete in obesity &nbsp;&nbsp; BioSpace",
+      "pub_iso": "2026-06-05T16:00:00+09:00",
+      "pub_display": "2026-06-05 16:00",
+      "group_id": "glp1_intl",
+      "group_label": "GLP-1 글로벌 트렌드",
+      "badge": "intl",
+      "keyword": "retatrutide Eli Lilly",
+      "is_new": false
     },
     {
       "title": "살 빼되 근육 지켜라…‘꿈의 비만약’ 나오나 - 매일경제",
@@ -273,7 +481,7 @@
       "group_label": "GLP-1 부작용·임상 리스크",
       "badge": "dom",
       "keyword": "위고비 부작용",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "오를 약은 오른다, 세대만 바뀔 뿐… GLP-1·성장호르몬·항암이 '증표' - 히트뉴스",
@@ -406,6 +614,19 @@
       "is_new": false
     },
     {
+      "title": "“반품하면 절반만 돌려받는다?”…약국가, \"도매 반품조건 공개하라\" - 약사공론",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XR3R1SDNQT2toSlRSYl82N01CSFBNakZBVDZ0WE1fdV9fVDBMdGJxM2NkQ0FLUlN2TUNIM3N0NGhmUkkzR1ZsLXl3VVZVaTFuQ0c2a0hIT3BHek8taFg4Q2lPeXFZZ3A1RVFiUA?oc=5",
+      "source": "약사공론",
+      "summary": "“반품하면 절반만 돌려받는다?”…약국가, \"도매 반품조건 공개하라\" &nbsp;&nbsp; 약사공론",
+      "pub_iso": "2026-06-05T05:52:00+09:00",
+      "pub_display": "2026-06-05 05:52",
+      "group_id": "pharm_policy",
+      "group_label": "약사회 정책 (비대면진료·약 배송)",
+      "badge": "policy",
+      "keyword": "대한약사회",
+      "is_new": true
+    },
+    {
       "title": "[릴레이집회-260일차] \"약사는 약국, 한약사는 한약국\"…면허체계 정상화 촉구 - 약사공론",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5MTNCLXBNanpkcmVlUzNRUktiYUdUdnNiMnQzdi1pZWE4S1pVaVBESWJnYlF4UFE5dFY5dnpSX3kwS3Z5TTQ3ZEdoT2J6cjVrbHNhaVpnbTZXeHphQ1lycGNSc084VHpDYjFMQw?oc=5",
       "source": "약사공론",
@@ -419,6 +640,32 @@
       "is_new": false
     },
     {
+      "title": "글로벌 선진국 비만치료제 약가인하ㆍ보험적용…“가격 저렴해 진다” - 대한경제",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ISlROUFVYcDdzR1FOZ3QwSDBPVWlXZlg2cWdZTGZWTEVPblUyWnk1a1EzSzZvTEd0REtEZy1jUUJCam1faVJ4RXc4YzFNNnNCdnJ4TFZTalF1M0FsemRFdDdmRDdmV2pWd0xiTnFNSW5hRXdD?oc=5",
+      "source": "대한경제",
+      "summary": "글로벌 선진국 비만치료제 약가인하ㆍ보험적용…“가격 저렴해 진다” &nbsp;&nbsp; 대한경제",
+      "pub_iso": "2026-06-05T05:20:18+09:00",
+      "pub_display": "2026-06-05 05:20",
+      "group_id": "glp1_dom",
+      "group_label": "GLP-1 비만치료제 국내",
+      "badge": "dom",
+      "keyword": "GLP-1 비만치료제",
+      "is_new": true
+    },
+    {
+      "title": "Solutions Emerging for Post-GLP-1 Weight Regain - Medscape",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQjhVaGRudGI3aWRZZFRZWUw1M1lnSGR3czkyY0ZzbkpqZDhDMFcwOWRaelhsWkh2amxFR0NVeTNaY3ZBTEttNTI4cVlnSUpUdVhIcnMxT09FaDhWWGN6dEhzX3BvNkhGMnlYZnQ5RmhkQVloVGJuS3Z2Zy00Z01GdGJsSk1QTDBxdlJnRUhQSFQ2V0F4ZFlPUg?oc=5",
+      "source": "Medscape",
+      "summary": "Solutions Emerging for Post-GLP-1 Weight Regain &nbsp;&nbsp; Medscape",
+      "pub_iso": "2026-06-05T04:05:10+09:00",
+      "pub_display": "2026-06-05 04:05",
+      "group_id": "glp1_intl",
+      "group_label": "GLP-1 글로벌 트렌드",
+      "badge": "intl",
+      "keyword": "GLP-1 weight loss 2026",
+      "is_new": true
+    },
+    {
       "title": "어수선한 약정원…차용일 원장 체제가 풀어야 할 숙제는 - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wUG1SemJISVRYaE5wa3FnOHhPd21ZSC04QzUtNGVqVFQ0MEVzS1VNWmJjZ3hWZ2c3bFBlczhJZy1paFFtX2pjZXhRdkpRQjZVZ0dycU5n?oc=5",
       "source": "데일리팜",
@@ -429,7 +676,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "대한약사회",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "Solutions Emerging for Post-GLP-1 Weight Regain— Medscape - Dartmouth Geisel School of Medicine",
@@ -455,7 +702,7 @@
       "group_label": "GLP-1 부작용·임상 리스크",
       "badge": "dom",
       "keyword": "GLP-1 근감소증",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "고령친화식품, 급식 현장 문턱 넘을까 - 대한급식신문",
@@ -636,7 +883,7 @@
       "group_id": "glp1_dom",
       "group_label": "GLP-1 비만치료제 국내",
       "badge": "dom",
-      "keyword": "마운자로 처방",
+      "keyword": "위고비 처방",
       "is_new": false
     },
     {
@@ -741,7 +988,7 @@
       "group_label": "GLP-1 비만치료제 국내",
       "badge": "dom",
       "keyword": "한미약품 비만 신약",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "복지부 약사법 시행규칙 개정안 상당수 조항 폐기 - 메디컬투데이",
@@ -792,8 +1039,8 @@
       "group_id": "glp1_dom",
       "group_label": "GLP-1 비만치료제 국내",
       "badge": "dom",
-      "keyword": "GLP-1 비만치료제",
-      "is_new": true
+      "keyword": "한미약품 비만 신약",
+      "is_new": false
     },
     {
       "title": "문신사 일반의약품 취급 논의 본격화…약국·약사 역할 커진다 - 약사공론",
@@ -806,7 +1053,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "대한약사회",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "[릴레이집회-258일차] 숙명약대 개국동문회, 한약사 문제 해결 촉구 동참 - 약사공론",
@@ -818,7 +1065,7 @@
       "group_id": "pharm_dispute",
       "group_label": "약사 vs 한약사 분쟁",
       "badge": "policy",
-      "keyword": "약사회 한약사",
+      "keyword": "대한약사회 집회",
       "is_new": false
     },
     {
@@ -1030,10 +1277,10 @@
       "is_new": false
     },
     {
-      "title": "What You Need To Know Before the Medicare GLP-1 Bridge Goes Live - AJMC",
+      "title": "What You Need To Know Before the Medicare GLP-1 Bridge Goes Live - The American Journal of Managed Care",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbW83MDhpN0tDUTBvTWd4dGV0cEt4T2tIbkhSN2dCbXU4N3hhNWg1T2VhR1hqam5rY3RfNDBFeHRNdHpXVHNsT1ZCajU1NVp0eXdYQzRCTTZFbElhQ25UWUNYZnVrMldVeURneGtyMUhITU9fWmJjYTA4WVVvMXZudjJQaUJjcDIyRTRjSnRiNDE2Tjd0?oc=5",
-      "source": "AJMC",
-      "summary": "What You Need To Know Before the Medicare GLP-1 Bridge Goes Live &nbsp;&nbsp; AJMC",
+      "source": "The American Journal of Managed Care",
+      "summary": "What You Need To Know Before the Medicare GLP-1 Bridge Goes Live &nbsp;&nbsp; The American Journal of Managed Care",
       "pub_iso": "2026-06-03T00:35:49+09:00",
       "pub_display": "2026-06-03 00:35",
       "group_id": "glp1_intl",
@@ -1144,7 +1391,7 @@
       "group_label": "메디컬푸드 / 케어푸드 국내",
       "badge": "dom",
       "keyword": "고령친화식품",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "해성인터내셔널, 고령친화식품 3단계 인증 매생이 신제품 선봬 - 네이트",
@@ -1196,7 +1443,7 @@
       "group_label": "메디컬푸드 글로벌",
       "badge": "intl",
       "keyword": "medical food market 2026",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "\"신약개발, 연구·임상·인허가 연결이 핵심\"…산업약사회 연구개발 포럼 개최 - 약업신문",
@@ -1655,6 +1902,19 @@
     },
     {
       "title": "한미약품, 릴리에 비만신약 1.9조 기술수출..K바이오 한달새 11조원 잭팟 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1iamluVnhXaVJ0cTRHTkV0YXEtVDhQR3BXV1BtcE53akE0NUN2NGlQN0hYLS1JUnM3eWhRU0kwekIzSkFDY3c?oc=5",
+      "source": "v.daum.net",
+      "summary": "한미약품, 릴리에 비만신약 1.9조 기술수출..K바이오 한달새 11조원 잭팟 &nbsp;&nbsp; v.daum.net",
+      "pub_iso": "2026-06-01T17:18:54+09:00",
+      "pub_display": "2026-06-01 17:18",
+      "group_id": "glp1_dom",
+      "group_label": "GLP-1 비만치료제 국내",
+      "badge": "dom",
+      "keyword": "한미약품 비만 신약",
+      "is_new": false
+    },
+    {
+      "title": "한미약품, 릴리에 비만신약 1.9조 기술수출..K바이오 한달새 11조원 잭팟 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1vQ0M0OVNpRkhTbVBSVVllc0xzZ09ORzNscW5sM3pZTXNpbHNKdkE4Q084VUZaMzFOYTZ6c09GZ2E0TXd6WHM5ckFoSGRmdldELVk4Qg?oc=5",
       "source": "v.daum.net",
       "summary": "한미약품, 릴리에 비만신약 1.9조 기술수출..K바이오 한달새 11조원 잭팟 &nbsp;&nbsp; v.daum.net",
@@ -1672,19 +1932,6 @@
       "source": "v.daum.net",
       "summary": "한미약품, 릴리에 비만신약 1.9조 기술수출..K바이오 한달새 11조원 잭팟 &nbsp;&nbsp; v.daum.net",
       "pub_iso": "2026-06-01T17:18:54+09:00",
-      "pub_display": "2026-06-01 17:18",
-      "group_id": "glp1_dom",
-      "group_label": "GLP-1 비만치료제 국내",
-      "badge": "dom",
-      "keyword": "한미약품 비만 신약",
-      "is_new": true
-    },
-    {
-      "title": "한미약품, 릴리에 비만신약 1.9조 기술수출..K바이오 한달새 11조원 잭팟 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1iamluVnhXaVJ0cTRHTkV0YXEtVDhQR3BXV1BtcE53akE0NUN2NGlQN0hYLS1JUnM3eWhRU0kwekIzSkFDY3c?oc=5",
-      "source": "v.daum.net",
-      "summary": "한미약품, 릴리에 비만신약 1.9조 기술수출..K바이오 한달새 11조원 잭팟 &nbsp;&nbsp; v.daum.net",
-      "pub_iso": "2026-06-01T17:18:00+09:00",
       "pub_display": "2026-06-01 17:18",
       "group_id": "glp1_dom",
       "group_label": "GLP-1 비만치료제 국내",
@@ -2642,6 +2889,19 @@
       "is_new": true
     },
     {
+      "title": "작년 식품산업 생산 120조…케어푸드·디저트 성장 타고 4.3%↑ - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9hZ0dQbDREeFJocDlaVkpYR3BzZXlRSGhtTk9hdTg1ZWM3Mk1kRVhERkhtZHJpUmVDcFpOX1pxblQzUElMeWc?oc=5",
+      "source": "v.daum.net",
+      "summary": "작년 식품산업 생산 120조…케어푸드·디저트 성장 타고 4.3%↑ &nbsp;&nbsp; v.daum.net",
+      "pub_iso": "2026-05-29T16:00:00+09:00",
+      "pub_display": "2026-05-29 16:00",
+      "group_id": "medfood_dom",
+      "group_label": "메디컬푸드 / 케어푸드 국내",
+      "badge": "dom",
+      "keyword": "케어푸드",
+      "is_new": true
+    },
+    {
       "title": "식품산업 생산 119조 ↑…케어푸드·고단백 식품 성장 - 중기이코노미",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQa1VYb2ktMGVleUhFVThXV0t2MHFuZDdfQlpITC1iRlBkVHhDcU1iZE1VU1ZEMF83YTg2bEFQdGFXaDNvRmR6dV9IQm9uSGw0TnI4Z3ZzU1Z6ak8xMUpKYnlUb0g3bHplcHc?oc=5",
       "source": "중기이코노미",
@@ -3279,19 +3539,6 @@
       "is_new": true
     },
     {
-      "title": "비만약 원정·중복 처방에…'오남용 우려 의약품' 초읽기 - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XUVNzSWNIZWlaQTlnVlZzRHVpeXowZlZsZVIyZXRYXy04cjVReVBRTmtLUkU2dHR6UzRtWmJETGR1eTcwMFNaUlAtN284QkxuLUdzVWlOT2NkenfSAWBBVV95cUxQM0hsR041WkpvS0xNLXVac3d1WTZKdko1cUNtTHhoYlFJeGdDeVNHRDRSbl9yejlxWVZQbDZPclNLQVFRSS1XQ1FMdDZUdk1fTjB3MFVUaENlWmFzc3dWTXM?oc=5",
-      "source": "연합뉴스",
-      "summary": "비만약 원정·중복 처방에…'오남용 우려 의약품' 초읽기 &nbsp;&nbsp; 연합뉴스",
-      "pub_iso": "2026-05-28T18:11:17+09:00",
-      "pub_display": "2026-05-28 18:11",
-      "group_id": "glp1_dom",
-      "group_label": "GLP-1 비만치료제 국내",
-      "badge": "dom",
-      "keyword": "위고비 처방",
-      "is_new": false
-    },
-    {
       "title": "비만약 원정·중복 처방에…'오남용 우려 의약품' 초읽기 - 매일경제 마켓",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9sS2x1SXRmZ2NTWndvb2pzTUNwUW5jaF90T3A4ME5zRVpxVjRSeHpTWkx0SGdpRU9jX08zM2JmRTBSenpYWl9ub29wZkJlSFlXMFE?oc=5",
       "source": "매일경제 마켓",
@@ -3367,7 +3614,7 @@
       "group_label": "메디컬푸드 / 케어푸드 국내",
       "badge": "dom",
       "keyword": "케어푸드",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "비만약 '오남용 우려약' 지정 임박…\"국가적 관리체계가 우선\" 목소리도 - 머니투데이 - 머니투데이",
@@ -3409,6 +3656,19 @@
       "is_new": false
     },
     {
+      "title": "비만약 원정·중복 처방에…'오남용 우려 의약품' 초읽기 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XUVNzSWNIZWlaQTlnVlZzRHVpeXowZlZsZVIyZXRYXy04cjVReVBRTmtLUkU2dHR6UzRtWmJETGR1eTcwMFNaUlAtN284QkxuLUdzVWlOT2NkenfSAWBBVV95cUxQM0hsR041WkpvS0xNLXVac3d1WTZKdko1cUNtTHhoYlFJeGdDeVNHRDRSbl9yejlxWVZQbDZPclNLQVFRSS1XQ1FMdDZUdk1fTjB3MFVUaENlWmFzc3dWTXM?oc=5",
+      "source": "연합뉴스",
+      "summary": "비만약 원정·중복 처방에…'오남용 우려 의약품' 초읽기 &nbsp;&nbsp; 연합뉴스",
+      "pub_iso": "2026-05-28T16:00:00+09:00",
+      "pub_display": "2026-05-28 16:00",
+      "group_id": "glp1_dom",
+      "group_label": "GLP-1 비만치료제 국내",
+      "badge": "dom",
+      "keyword": "위고비 처방",
+      "is_new": false
+    },
+    {
       "title": "비만도 아닌데 너도나도… 위고비·마운자로, 오남용 우려약 지정 코앞 - 한국일보",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBySHlsRnJtNmFNNFIyblRUb2o1Ty1lcjU3T1ZMeTZNdm4wX0I4VU5USC1Xd3V1UzNIcUtBWE4yQm90OFpjQWVaU3hGVTFZWG85ZmRZN1RBX2JpRXBZX3JVMlNvdU8tT1pEZlhWdjJn0gFzQVVfeXFMTk1KU0FiLTZ6aGd2SEZSUXZCWjZJdVNzUEpubkJxS0RuejFGMHNwcEI1Zm5wNFlzQ2VvMWtXNnA4NjVhS0N0X3J0d0dzUUo2SFdpMXdJR3BQU25IblNUQ1pBYmt4OFJUYWN0bS0xYXcwNU9xSQ?oc=5",
       "source": "한국일보",
@@ -3432,6 +3692,19 @@
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "orforglipron Foundayo",
+      "is_new": false
+    },
+    {
+      "title": "[릴레이집회-252일차] \"한약사 불법행위 즉각 해결하라\" - 약사공론",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tY0FQX1UtZDQtbmYxWjJid0QyOXR1TUswZFFWREUzX2NQRWk4dkdDd296bkQtWWdKTUlnbWtIS3QzeGhnNW9GQjdmanNEY3F4TmFnRHZNT01vY1Fzc21sNFFYWW9DNWR4RGtuTQ?oc=5",
+      "source": "약사공론",
+      "summary": "[릴레이집회-252일차] \"한약사 불법행위 즉각 해결하라\" &nbsp;&nbsp; 약사공론",
+      "pub_iso": "2026-05-28T16:00:00+09:00",
+      "pub_display": "2026-05-28 16:00",
+      "group_id": "pharm_dispute",
+      "group_label": "약사 vs 한약사 분쟁",
+      "badge": "policy",
+      "keyword": "약사회 한약사",
       "is_new": false
     },
     {
@@ -3995,7 +4268,7 @@
     },
     {
       "title": "삼성, 갤럭시 워치로 위고비 부작용 추적한다···하버드 MGH와 공동 연구 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5YRUhDMGpwSFdrWi1JTm9XR1VSSVQweUVid29sdGVienhWdkFlSGpmbGpadEVOemZiZEJ6RnZ3ZURtTjM1WFE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5mTFdvMWU0T1g3UzZNdDVuLUdONEFnZDJOWlE1WlR1bHZQSC00YnJtVko3T0dXUkc2azhobGZnYWVfRnQzRW9UVGlSbw?oc=5",
       "source": "v.daum.net",
       "summary": "삼성, 갤럭시 워치로 위고비 부작용 추적한다···하버드 MGH와 공동 연구 &nbsp;&nbsp; v.daum.net",
       "pub_iso": "2026-05-28T08:39:42+09:00",
@@ -4008,7 +4281,7 @@
     },
     {
       "title": "삼성, 갤럭시 워치로 위고비 부작용 추적한다···하버드 MGH와 공동 연구 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5mTFdvMWU0T1g3UzZNdDVuLUdONEFnZDJOWlE1WlR1bHZQSC00YnJtVko3T0dXUkc2azhobGZnYWVfRnQzRW9UVGlSbw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5YRUhDMGpwSFdrWi1JTm9XR1VSSVQweUVid29sdGVienhWdkFlSGpmbGpadEVOemZiZEJ6RnZ3ZURtTjM1WFE?oc=5",
       "source": "v.daum.net",
       "summary": "삼성, 갤럭시 워치로 위고비 부작용 추적한다···하버드 MGH와 공동 연구 &nbsp;&nbsp; v.daum.net",
       "pub_iso": "2026-05-28T08:39:42+09:00",
@@ -4098,19 +4371,6 @@
       "is_new": false
     },
     {
-      "title": "[릴레이집회-252일차] \"한약사 불법행위 즉각 해결하라\" - 약사공론",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tY0FQX1UtZDQtbmYxWjJid0QyOXR1TUswZFFWREUzX2NQRWk4dkdDd296bkQtWWdKTUlnbWtIS3QzeGhnNW9GQjdmanNEY3F4TmFnRHZNT01vY1Fzc21sNFFYWW9DNWR4RGtuTQ?oc=5",
-      "source": "약사공론",
-      "summary": "[릴레이집회-252일차] \"한약사 불법행위 즉각 해결하라\" &nbsp;&nbsp; 약사공론",
-      "pub_iso": "2026-05-28T05:50:00+09:00",
-      "pub_display": "2026-05-28 05:50",
-      "group_id": "pharm_dispute",
-      "group_label": "약사 vs 한약사 분쟁",
-      "badge": "policy",
-      "keyword": "약사회 한약사",
-      "is_new": false
-    },
-    {
       "title": "비만도 아닌데 너도나도…위고비·마운자로, 오남용 우려약 지정 코앞 - 네이트",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB0ZFVOY29sZnVQbjROSnBzR3Z3OUlFeEtSZHl3Ujk0LUNmbnk5OTVXSXRDN05YVFpEZ283dGRvTzJhbVp5ZTNQVlVnQ2JJTno4M0o0?oc=5",
       "source": "네이트",
@@ -4174,6 +4434,19 @@
       "badge": "intl",
       "keyword": "GLP-1 weight loss 2026",
       "is_new": true
+    },
+    {
+      "title": "[GLP-1] “비만치료제가 바꾼 美 소비 지형” 식욕 잃은 미국인들, 외식 줄이고 영양 관리 집중 - The Economy Korea",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10VUhuZzQtMEZtR25qSE5ac1hVZEh1UFNLSVpTQTRCdThQclpUNjlRUE1MSWg2ZmRJQ1pqN0RkaHgybDF1WFgtVHY2cXZTeE00bi1WR19JLUVDZUk?oc=5",
+      "source": "The Economy Korea",
+      "summary": "[GLP-1] “비만치료제가 바꾼 美 소비 지형” 식욕 잃은 미국인들, 외식 줄이고 영양 관리 집중 &nbsp;&nbsp; The Economy Korea",
+      "pub_iso": "2026-05-27T23:29:11+09:00",
+      "pub_display": "2026-05-27 23:29",
+      "group_id": "glp1_food_impact",
+      "group_label": "GLP-1이 식품업계에 미치는 영향",
+      "badge": "intl",
+      "keyword": "GLP-1 식품업계",
+      "is_new": false
     },
     {
       "title": "한미약품, 근육 양·기능 개선하는 비만 신약 제안… 내달 美서 연구결과 발표 - v.daum.net",
@@ -4371,6 +4644,45 @@
       "is_new": false
     },
     {
+      "title": "政, GLP-1 계열 비만치료제 '오남용 우려 의약품' 지정 착수 - 청년의사",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ONVpzM0ZFMjJ5S2s0ZmNFNGI0UmVCMmlkNUZwbExvZFFnUzFtRGcwcUNfVGtrMzE4MlFiMEdiY0tXd3hDZnJWUjQ5SjZYanBvdjZoc2xWbWJPMkJWUWo0TVhBczNpNFdYREdwSEdOdWHSAXNBVV95cUxQbUdXZ29XOUh3SDFRSW05ejhDb2pseEZpZ1dIU1JWU09OamY4MW1SaFhHVjBjc0N5VGJLX3RMYXBMYW9iVnVqYVpUZ0Z0LWNwNm9RZGpZcm5Lel9ScHRVTTBhT0o2aF95S3hJVmVSbzZMTlZj?oc=5",
+      "source": "청년의사",
+      "summary": "政, GLP-1 계열 비만치료제 '오남용 우려 의약품' 지정 착수 &nbsp;&nbsp; 청년의사",
+      "pub_iso": "2026-05-27T16:00:00+09:00",
+      "pub_display": "2026-05-27 16:00",
+      "group_id": "glp1_dom",
+      "group_label": "GLP-1 비만치료제 국내",
+      "badge": "dom",
+      "keyword": "오남용 우려 의약품 비만치료제",
+      "is_new": false
+    },
+    {
+      "title": "한미약품, 6월 '근육 보전 비만치료제' 후보물질 첫 공개 - 의협신문",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtWEVWdUVnQWUwRm5KcXlhcTF3bWlZMVA1LUt4Qmg0QXlYVl9Fb1dGOEJ4S0FEeE9aMmowTkREY3NFNVYyNTZwQXNFQjBjRDFRTnRDNG9fX0hCYmZsMnlwcmZRMDhLSHpVM0RtTExhbEY5UQ?oc=5",
+      "source": "의협신문",
+      "summary": "한미약품, 6월 '근육 보전 비만치료제' 후보물질 첫 공개 &nbsp;&nbsp; 의협신문",
+      "pub_iso": "2026-05-27T16:00:00+09:00",
+      "pub_display": "2026-05-27 16:00",
+      "group_id": "glp1_dom",
+      "group_label": "GLP-1 비만치료제 국내",
+      "badge": "dom",
+      "keyword": "한미약품 비만 신약",
+      "is_new": false
+    },
+    {
+      "title": "[릴레이집회-251일차] \"한약사 불법행위 더는 방치 못해\" - 약사공론",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1keFg4T3duQzRVR3ZKRzBzTlZvSVc1WHpxMmtTVVR6WFcwUWF5d3VUZkF1T2VEallwMU5JSS1heS1uQ3Q5UmN0eTNrc3g1dVRDdXByZmRhOFBXQk1hT3hPUTNDdlVrWXFWRHRCVQ?oc=5",
+      "source": "약사공론",
+      "summary": "[릴레이집회-251일차] \"한약사 불법행위 더는 방치 못해\" &nbsp;&nbsp; 약사공론",
+      "pub_iso": "2026-05-27T16:00:00+09:00",
+      "pub_display": "2026-05-27 16:00",
+      "group_id": "pharm_dispute",
+      "group_label": "약사 vs 한약사 분쟁",
+      "badge": "policy",
+      "keyword": "약사회 한약사",
+      "is_new": false
+    },
+    {
       "title": "“외국인환자 비대면 진료 제도화…K-의료 기회인 동시에 안전장치 보완 필요” - 후생신보",
       "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBqVkpOcnBZYmI2ajVDYnEzSUxwdTNqNDVtc1dzYXVUZnY5SVltalI5U1htZmhnWHU0dHdsd3ZTUVJKV1Z4?oc=5",
       "source": "후생신보",
@@ -4514,19 +4826,6 @@
       "is_new": true
     },
     {
-      "title": "한미약품, 6월 '근육 보전 비만치료제' 후보물질 첫 공개 - 의협신문",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtWEVWdUVnQWUwRm5KcXlhcTF3bWlZMVA1LUt4Qmg0QXlYVl9Fb1dGOEJ4S0FEeE9aMmowTkREY3NFNVYyNTZwQXNFQjBjRDFRTnRDNG9fX0hCYmZsMnlwcmZRMDhLSHpVM0RtTExhbEY5UQ?oc=5",
-      "source": "의협신문",
-      "summary": "한미약품, 6월 '근육 보전 비만치료제' 후보물질 첫 공개 &nbsp;&nbsp; 의협신문",
-      "pub_iso": "2026-05-27T12:44:32+09:00",
-      "pub_display": "2026-05-27 12:44",
-      "group_id": "glp1_dom",
-      "group_label": "GLP-1 비만치료제 국내",
-      "badge": "dom",
-      "keyword": "한미약품 비만 신약",
-      "is_new": false
-    },
-    {
       "title": "한미약품, 근육 늘리는 비만 치료제 2호 선봬...ADA 2026서 공개 - PRESS9",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE93cHhtYVFfclhrTXVPZW9PaEZfVHJvc3JHRHR1UXRVck9VMC1YZTVEM0M5SjNnOVk1WC1tT2cyVEVGSnVaODBDMlh2amFFWVdYaWExNTVnTFlhMDE5MmpLb3FzRkk?oc=5",
       "source": "PRESS9",
@@ -4601,8 +4900,8 @@
       "group_id": "pharm_dispute",
       "group_label": "약사 vs 한약사 분쟁",
       "badge": "policy",
-      "keyword": "한약사 일반의약품",
-      "is_new": true
+      "keyword": "약사회 한약사",
+      "is_new": false
     },
     {
       "title": "비대면진료 플랫폼업계 \"참여 의사 62% '처방 7일 제한 반대'\" - 뉴스1",
@@ -4865,19 +5164,6 @@
       "is_new": false
     },
     {
-      "title": "政, GLP-1 계열 비만치료제 '오남용 우려 의약품' 지정 착수 - 청년의사",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ONVpzM0ZFMjJ5S2s0ZmNFNGI0UmVCMmlkNUZwbExvZFFnUzFtRGcwcUNfVGtrMzE4MlFiMEdiY0tXd3hDZnJWUjQ5SjZYanBvdjZoc2xWbWJPMkJWUWo0TVhBczNpNFdYREdwSEdOdWHSAXNBVV95cUxQbUdXZ29XOUh3SDFRSW05ejhDb2pseEZpZ1dIU1JWU09OamY4MW1SaFhHVjBjc0N5VGJLX3RMYXBMYW9iVnVqYVpUZ0Z0LWNwNm9RZGpZcm5Lel9ScHRVTTBhT0o2aF95S3hJVmVSbzZMTlZj?oc=5",
-      "source": "청년의사",
-      "summary": "政, GLP-1 계열 비만치료제 '오남용 우려 의약품' 지정 착수 &nbsp;&nbsp; 청년의사",
-      "pub_iso": "2026-05-27T06:38:33+09:00",
-      "pub_display": "2026-05-27 06:38",
-      "group_id": "glp1_dom",
-      "group_label": "GLP-1 비만치료제 국내",
-      "badge": "dom",
-      "keyword": "오남용 우려 의약품 비만치료제",
-      "is_new": false
-    },
-    {
       "title": "GLP-1 비만치료제 열풍..식약처 ‘NO', 오남용 관리체계 가동 - 약업신문",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PZXktTnlZQUw4aTlwQ0RqZEstRXItd3F1NnBLaEhybi1kT05xUE1nMDBxbVFEZzZpZXZNdXZ6dW90MEtJVjl4N1ZHQTR1MWZMZ3haVnRiS3RDQ0gwaERHYzhMOFFaR3dZME9MdHAyMm5iUQ?oc=5",
       "source": "약업신문",
@@ -4914,19 +5200,6 @@
       "group_label": "GLP-1 비만치료제 국내",
       "badge": "dom",
       "keyword": "마운자로 처방",
-      "is_new": false
-    },
-    {
-      "title": "[릴레이집회-251일차] \"한약사 불법행위 더는 방치 못해\" - 약사공론",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1keFg4T3duQzRVR3ZKRzBzTlZvSVc1WHpxMmtTVVR6WFcwUWF5d3VUZkF1T2VEallwMU5JSS1heS1uQ3Q5UmN0eTNrc3g1dVRDdXByZmRhOFBXQk1hT3hPUTNDdlVrWXFWRHRCVQ?oc=5",
-      "source": "약사공론",
-      "summary": "[릴레이집회-251일차] \"한약사 불법행위 더는 방치 못해\" &nbsp;&nbsp; 약사공론",
-      "pub_iso": "2026-05-27T05:50:00+09:00",
-      "pub_display": "2026-05-27 05:50",
-      "group_id": "pharm_dispute",
-      "group_label": "약사 vs 한약사 분쟁",
-      "badge": "policy",
-      "keyword": "약사회 한약사",
       "is_new": false
     },
     {
@@ -5125,6 +5398,19 @@
       "is_new": true
     },
     {
+      "title": "日로 ‘마운자로 원정’… 영상통화로 진료받고 호텔서 약 받는다 - 국민일보",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4RXFSWExfZWVDWWZ2RTUtVjNCSUVKMG9hR3djMDFhZ0dsTWVhU0EzMjdVTEs0QnZoNVpKTDVXX2llQXNwTm9KOEJRd1ZBLWRsTktSckdLdUxpcW5LUzZqRVhxcEl1Y3PSAWxBVV95cUxPSUR3ZGF5ekdfMFU0dlpOcEtkRkFoQXhHYVBhYmotcnRpdjhYU0hjOWgwNGotU24tLWk2SlZqUnBHcUN4ajVFT0xRSThsTVZyTkoyU3YtN0kya2owSHFaYmFzTWd2UGdiMjlodGI?oc=5",
+      "source": "국민일보",
+      "summary": "日로 ‘마운자로 원정’… 영상통화로 진료받고 호텔서 약 받는다 &nbsp;&nbsp; 국민일보",
+      "pub_iso": "2026-05-26T16:00:00+09:00",
+      "pub_display": "2026-05-26 16:00",
+      "group_id": "glp1_dom",
+      "group_label": "GLP-1 비만치료제 국내",
+      "badge": "dom",
+      "keyword": "마운자로 처방",
+      "is_new": false
+    },
+    {
       "title": "Weight Loss: Lilly's New Drug Helped People Lose Up to 85 Pounds - Healthline",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMThGZ1VBa2d2RVI4MEViMXg0RGZmZFU5ZEplS0NuWGtzMG4xMmJjWHVzTm15b2RTQVp0c3VQeUJyWUxQQllSRUpVU3Y3QkdZYjI5Rk5LMHdCNGJlNGFPVjl5ZGxqM2lYWV9jZVo4TzZqbll5a1lxa2dlLTFld0NLRTdKRVFxVWpXVUp3dWZGV2ZRVWN1RlFyTlpjYjdFdHR6MjVIcDVB?oc=5",
       "source": "Healthline",
@@ -5161,6 +5447,19 @@
       "group_label": "GLP-1 부작용·임상 리스크",
       "badge": "dom",
       "keyword": "비만치료제 위마비",
+      "is_new": false
+    },
+    {
+      "title": "내년부터 '한해 200만명' 외국인환자도 비대면 진료받는다 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5feVg4OEdLejRhdEtmUTVyaVZMMmFRLV9lTjh0WjdGb1lmUy1Va3FucWJSNy0tYUg5Y2k3S2lKZUlPM3lCeG5tMERkeXpzbXlIZzZMU3pCVUJpSjjSAWBBVV95cUxPcmN0aDlwdS1oYXlnU1FobDVhcGlYSW9iczQ0dDBITWpHS0M0T0gyWDJUdi1DYWxoc1FOZ1Z4dXZ5bEtRal9hNWNhdGtoOTdDYThfVk5xRnZVUzdBUWMyQjI?oc=5",
+      "source": "연합뉴스",
+      "summary": "내년부터 '한해 200만명' 외국인환자도 비대면 진료받는다 &nbsp;&nbsp; 연합뉴스",
+      "pub_iso": "2026-05-26T16:00:00+09:00",
+      "pub_display": "2026-05-26 16:00",
+      "group_id": "pharm_policy",
+      "group_label": "약사회 정책 (비대면진료·약 배송)",
+      "badge": "policy",
+      "keyword": "비대면진료 제도화",
       "is_new": false
     },
     {
@@ -5240,19 +5539,6 @@
       "badge": "policy",
       "keyword": "비대면진료 제도화",
       "is_new": true
-    },
-    {
-      "title": "내년부터 '한해 200만명' 외국인환자도 비대면 진료받는다 - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5feVg4OEdLejRhdEtmUTVyaVZMMmFRLV9lTjh0WjdGb1lmUy1Va3FucWJSNy0tYUg5Y2k3S2lKZUlPM3lCeG5tMERkeXpzbXlIZzZMU3pCVUJpSjjSAWBBVV95cUxPcmN0aDlwdS1oYXlnU1FobDVhcGlYSW9iczQ0dDBITWpHS0M0T0gyWDJUdi1DYWxoc1FOZ1Z4dXZ5bEtRal9hNWNhdGtoOTdDYThfVk5xRnZVUzdBUWMyQjI?oc=5",
-      "source": "연합뉴스",
-      "summary": "내년부터 '한해 200만명' 외국인환자도 비대면 진료받는다 &nbsp;&nbsp; 연합뉴스",
-      "pub_iso": "2026-05-26T13:44:25+09:00",
-      "pub_display": "2026-05-26 13:44",
-      "group_id": "pharm_policy",
-      "group_label": "약사회 정책 (비대면진료·약 배송)",
-      "badge": "policy",
-      "keyword": "비대면진료 제도화",
-      "is_new": false
     },
     {
       "title": "내년부터 '한해 200만명' 외국인환자도 비대면 진료받는다 - 연합뉴스",
@@ -5500,19 +5786,6 @@
       "badge": "dom",
       "keyword": "마운자로 처방",
       "is_new": true
-    },
-    {
-      "title": "日로 ‘마운자로 원정’… 영상통화로 진료받고 호텔서 약 받는다 - 국민일보",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4RXFSWExfZWVDWWZ2RTUtVjNCSUVKMG9hR3djMDFhZ0dsTWVhU0EzMjdVTEs0QnZoNVpKTDVXX2llQXNwTm9KOEJRd1ZBLWRsTktSckdLdUxpcW5LUzZqRVhxcEl1Y3PSAWxBVV95cUxPSUR3ZGF5ekdfMFU0dlpOcEtkRkFoQXhHYVBhYmotcnRpdjhYU0hjOWgwNGotU24tLWk2SlZqUnBHcUN4ajVFT0xRSThsTVZyTkoyU3YtN0kya2owSHFaYmFzTWd2UGdiMjlodGI?oc=5",
-      "source": "국민일보",
-      "summary": "日로 ‘마운자로 원정’… 영상통화로 진료받고 호텔서 약 받는다 &nbsp;&nbsp; 국민일보",
-      "pub_iso": "2026-05-26T02:08:00+09:00",
-      "pub_display": "2026-05-26 02:08",
-      "group_id": "glp1_dom",
-      "group_label": "GLP-1 비만치료제 국내",
-      "badge": "dom",
-      "keyword": "마운자로 처방",
-      "is_new": false
     },
     {
       "title": "Scientists discover why Ozempic and Wegovy weight loss eventually plateaus - ScienceDaily",
@@ -6217,6 +6490,19 @@
       "is_new": false
     },
     {
+      "title": "국산 잡곡, 메디푸드·고령친화식품 등 미래 식품 소재 주목 - 식품음료신문",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBDZ1RyZ3d6LUxfbHpCWHViTkphM2JSNDEyNGRKTWJ3NFNhMWxOTkhwLTJJRTJqLUhLQUdFOVJNb0FhZVpGSUJDY3hUWlZ4Ym9EajQwd1JCZWxnZDhDaHdOR0NYR214bTk1dVVuSGpBWQ?oc=5",
+      "source": "식품음료신문",
+      "summary": "국산 잡곡, 메디푸드·고령친화식품 등 미래 식품 소재 주목 &nbsp;&nbsp; 식품음료신문",
+      "pub_iso": "2026-05-22T16:00:00+09:00",
+      "pub_display": "2026-05-22 16:00",
+      "group_id": "medfood_dom",
+      "group_label": "메디컬푸드 / 케어푸드 국내",
+      "badge": "dom",
+      "keyword": "특수의료용도식품",
+      "is_new": false
+    },
+    {
       "title": "[릴레이집회-246일차] \"약사는 약국, 한약사는 한약국 즉각 분리하라\" - 약사공론",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tRldvS2QxRHl4M1FQQm9KSFllVnlkaDJaajBLVWV2blVmUzItYXFVMkZtU1Yzd2hxQ3FkeFY1NkNJNVM0Nm5xSWNxU0pUeWZseVo0MlZ6NXBOQTY1SERiMF9sVlFTS0xMc09pYg?oc=5",
       "source": "약사공론",
@@ -6226,7 +6512,7 @@
       "group_id": "pharm_dispute",
       "group_label": "약사 vs 한약사 분쟁",
       "badge": "policy",
-      "keyword": "약사회 한약사",
+      "keyword": "대한약사회 집회",
       "is_new": false
     },
     {
@@ -6776,16 +7062,16 @@
       "is_new": false
     },
     {
-      "title": "Lilly's triple agonist, retatrutide, delivered powerful weight loss in pivotal Phase 3 obesity trial | Eli Lilly and Company - investor.lilly.com",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxON3NVckJMRldHbWRFSGlabUtDcEdycEd2MkxmUGlSc2dfcWhkWlQ3aDZ3QUlBeS11akFzMU40QjE1VzdwZE1hU2RoTWlxdVlYdmd0b2x4Yk4tcXR6SWNRZnFqa1dlU2haOFp5NkJWRjFSQXVVdmJYUzlMS3FtT3RDSFU4cmtlSkhXLUZtQkMzQ2M1cXF1RzJjRXFDc1lfOWw3ZnRjblVlc0UzRVRzeV93NDV6dERqWDJMaEN5V1hOMXZheHc2?oc=5",
-      "source": "investor.lilly.com",
-      "summary": "Lilly's triple agonist, retatrutide, delivered powerful weight loss in pivotal Phase 3 obesity trial | Eli Lilly and Company &nbsp;&nbsp; investor.lilly.com",
+      "title": "Can Mounjaro, Zepbound & Foundayo Keep Fueling LLY's Growth Story? - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdFNaZ2ZfZlhUcFBpZ29iZ2FZcG9WeVo5dzcwMjV5QUpRV0wwMEY3bkVIQmtBcjJOYmg3bi04bUNmRWlRZ3hfaDFpQVpfS25OMWtXanVlX2ZSR1VpdnR3NENGV2hfd1MtMWp6emJvM2ZlSVBkRHoxcWRubTZxTThJSWFOS1prWjlPRnBzV3NBTVdoRHFEVjRVcE5VSU5JT1B4OUFsQmdVUFh3aVBr?oc=5",
+      "source": "Yahoo Finance",
+      "summary": "Can Mounjaro, Zepbound & Foundayo Keep Fueling LLY's Growth Story? &nbsp;&nbsp; Yahoo Finance",
       "pub_iso": "2026-05-21T16:00:00+09:00",
       "pub_display": "2026-05-21 16:00",
       "group_id": "glp1_intl",
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
-      "keyword": "retatrutide Eli Lilly",
+      "keyword": "Mounjaro Zepbound market",
       "is_new": false
     },
     {
@@ -6806,6 +7092,19 @@
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUzlTTGJ0UGlrM0FMc0dCeHk1NjZGN1VLYW1pSERrLVZNT0huSGF5bkx1OWw2Slc4M09FTi1ORzhpa0U1bkFrRlg5M0F4ajllMHdDMlJZSmdXZDNSSGkyR0hva0J2ZVU0bkk5ZWg3YlB6a3FCQUZQbjVNemp6UXgteW5URDVIVHJ0d3BnRzdTalY5OGVUUm4wa05tMWdma25RSnF1LVdlTXdjcFVreG1hYVVhVjhEZHFGZUYwOXVVbnVkQQ?oc=5",
       "source": "NBC News",
       "summary": "People lost up to 85 pounds on Lilly’s experimental weight loss drug, company says &nbsp;&nbsp; NBC News",
+      "pub_iso": "2026-05-21T16:00:00+09:00",
+      "pub_display": "2026-05-21 16:00",
+      "group_id": "glp1_intl",
+      "group_label": "GLP-1 글로벌 트렌드",
+      "badge": "intl",
+      "keyword": "retatrutide Eli Lilly",
+      "is_new": false
+    },
+    {
+      "title": "Lilly's triple agonist, retatrutide, delivered powerful weight loss in pivotal Phase 3 obesity trial | Eli Lilly and Company - investor.lilly.com",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxON3NVckJMRldHbWRFSGlabUtDcEdycEd2MkxmUGlSc2dfcWhkWlQ3aDZ3QUlBeS11akFzMU40QjE1VzdwZE1hU2RoTWlxdVlYdmd0b2x4Yk4tcXR6SWNRZnFqa1dlU2haOFp5NkJWRjFSQXVVdmJYUzlMS3FtT3RDSFU4cmtlSkhXLUZtQkMzQ2M1cXF1RzJjRXFDc1lfOWw3ZnRjblVlc0UzRVRzeV93NDV6dERqWDJMaEN5V1hOMXZheHc2?oc=5",
+      "source": "investor.lilly.com",
+      "summary": "Lilly's triple agonist, retatrutide, delivered powerful weight loss in pivotal Phase 3 obesity trial | Eli Lilly and Company &nbsp;&nbsp; investor.lilly.com",
       "pub_iso": "2026-05-21T16:00:00+09:00",
       "pub_display": "2026-05-21 16:00",
       "group_id": "glp1_intl",
@@ -6864,19 +7163,6 @@
       "group_label": "약사 vs 한약사 분쟁",
       "badge": "policy",
       "keyword": "대한약사회 집회",
-      "is_new": false
-    },
-    {
-      "title": "Can Mounjaro, Zepbound & Foundayo Keep Fueling LLY's Growth Story? - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdFNaZ2ZfZlhUcFBpZ29iZ2FZcG9WeVo5dzcwMjV5QUpRV0wwMEY3bkVIQmtBcjJOYmg3bi04bUNmRWlRZ3hfaDFpQVpfS25OMWtXanVlX2ZSR1VpdnR3NENGV2hfd1MtMWp6emJvM2ZlSVBkRHoxcWRubTZxTThJSWFOS1prWjlPRnBzV3NBTVdoRHFEVjRVcE5VSU5JT1B4OUFsQmdVUFh3aVBr?oc=5",
-      "source": "Yahoo Finance",
-      "summary": "Can Mounjaro, Zepbound & Foundayo Keep Fueling LLY's Growth Story? &nbsp;&nbsp; Yahoo Finance",
-      "pub_iso": "2026-05-21T16:00:00+09:00",
-      "pub_display": "2026-05-21 16:00",
-      "group_id": "glp1_intl",
-      "group_label": "GLP-1 글로벌 트렌드",
-      "badge": "intl",
-      "keyword": "Mounjaro Zepbound market",
       "is_new": false
     },
     {
@@ -7244,19 +7530,6 @@
       "is_new": false
     },
     {
-      "title": "Oral GLP-1 Orforglipron Is Approved for Obesity - Pharmacy Times",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSm5UYzRqbWNMSi1fUldZZThCVUd3b0FJbi0teWxwV09BOVhIU2lUSjdNeWxnc0QtTWFhSk9qRWNkQmZrbjktVXBiSktSbkl2T1RyVGF5ejVZU0g3Q3dWazRtUWhDQThRUGdJdmxyclhLRFFzblhxQjY2ZWphZEFLVWRmU1YzQQ?oc=5",
-      "source": "Pharmacy Times",
-      "summary": "Oral GLP-1 Orforglipron Is Approved for Obesity &nbsp;&nbsp; Pharmacy Times",
-      "pub_iso": "2026-05-20T22:38:43+09:00",
-      "pub_display": "2026-05-20 22:38",
-      "group_id": "glp1_intl",
-      "group_label": "GLP-1 글로벌 트렌드",
-      "badge": "intl",
-      "keyword": "orforglipron Foundayo",
-      "is_new": false
-    },
-    {
       "title": "Is ‘GLP-1 Friendly’ the New ‘Natural’? The Latest F&B Buzzword Is Here - The Food Institute",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaDFmS3dkcjNtT3VzVHdYZ3NjWjFkN3g0VnRLT05oZTQ4UHlibFdEa2cxeXVBaUtTN1dnRmFQUU9yLWJUbEZ2YU45UHFxS0NfaElaV3ZFV285dzJJR2M0U2VsU09xclczM3JUMTg0UDZiOW5rcTFDb21qWC04NWpQcExobS1pSE1PVTJ3Y2JDejZNeFdyZ3NBbGdQTzdaUQ?oc=5",
       "source": "The Food Institute",
@@ -7387,16 +7660,16 @@
       "is_new": false
     },
     {
-      "title": "암 환자·고령자 식사 돕는다\"…KIST 강릉분원 '3D 메디푸드' 구현 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92MUlqN0p5ODJyVDNzTzBpM0pWZll0em1oOEVCdGJLZmZXR1o0WXh1Zm5xa2xWS09JcktPSmtvRTFKc3p2N3hhTXdoV3pWS0U?oc=5",
-      "source": "v.daum.net",
-      "summary": "암 환자·고령자 식사 돕는다\"…KIST 강릉분원 '3D 메디푸드' 구현 &nbsp;&nbsp; v.daum.net",
+      "title": "Oral GLP-1 Orforglipron Is Approved for Obesity - Pharmacy Times",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSm5UYzRqbWNMSi1fUldZZThCVUd3b0FJbi0teWxwV09BOVhIU2lUSjdNeWxnc0QtTWFhSk9qRWNkQmZrbjktVXBiSktSbkl2T1RyVGF5ejVZU0g3Q3dWazRtUWhDQThRUGdJdmxyclhLRFFzblhxQjY2ZWphZEFLVWRmU1YzQQ?oc=5",
+      "source": "Pharmacy Times",
+      "summary": "Oral GLP-1 Orforglipron Is Approved for Obesity &nbsp;&nbsp; Pharmacy Times",
       "pub_iso": "2026-05-20T16:00:00+09:00",
       "pub_display": "2026-05-20 16:00",
-      "group_id": "medfood_dom",
-      "group_label": "메디컬푸드 / 케어푸드 국내",
-      "badge": "dom",
-      "keyword": "메디푸드",
+      "group_id": "glp1_intl",
+      "group_label": "GLP-1 글로벌 트렌드",
+      "badge": "intl",
+      "keyword": "orforglipron Foundayo",
       "is_new": false
     },
     {
@@ -7410,6 +7683,19 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "약사법 개정",
+      "is_new": false
+    },
+    {
+      "title": "암 환자·고령자 식사 돕는다\"…KIST 강릉분원 '3D 메디푸드' 구현 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92MUlqN0p5ODJyVDNzTzBpM0pWZll0em1oOEVCdGJLZmZXR1o0WXh1Zm5xa2xWS09JcktPSmtvRTFKc3p2N3hhTXdoV3pWS0U?oc=5",
+      "source": "v.daum.net",
+      "summary": "암 환자·고령자 식사 돕는다\"…KIST 강릉분원 '3D 메디푸드' 구현 &nbsp;&nbsp; v.daum.net",
+      "pub_iso": "2026-05-20T16:00:00+09:00",
+      "pub_display": "2026-05-20 16:00",
+      "group_id": "medfood_dom",
+      "group_label": "메디컬푸드 / 케어푸드 국내",
+      "badge": "dom",
+      "keyword": "메디푸드",
       "is_new": false
     },
     {
@@ -7878,19 +8164,6 @@
       "group_label": "메디컬푸드 / 케어푸드 국내",
       "badge": "dom",
       "keyword": "메디푸드",
-      "is_new": false
-    },
-    {
-      "title": "[GLP-1] “비만치료제가 바꾼 美 소비 지형” 식욕 잃은 미국인들, 외식 줄이고 영양 관리 집중 - The Economy Korea",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10VUhuZzQtMEZtR25qSE5ac1hVZEh1UFNLSVpTQTRCdThQclpUNjlRUE1MSWg2ZmRJQ1pqN0RkaHgybDF1WFgtVHY2cXZTeE00bi1WR19JLUVDZUk?oc=5",
-      "source": "The Economy Korea",
-      "summary": "[GLP-1] “비만치료제가 바꾼 美 소비 지형” 식욕 잃은 미국인들, 외식 줄이고 영양 관리 집중 &nbsp;&nbsp; The Economy Korea",
-      "pub_iso": "2026-05-19T19:56:18+09:00",
-      "pub_display": "2026-05-19 19:56",
-      "group_id": "glp1_food_impact",
-      "group_label": "GLP-1이 식품업계에 미치는 영향",
-      "badge": "intl",
-      "keyword": "GLP-1 식품업계",
       "is_new": false
     },
     {
@@ -8661,6 +8934,19 @@
       "is_new": false
     },
     {
+      "title": "농진청, 국산 잡곡 활용한 고령친화·메디푸드 상용화 - 푸드투데이",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aN1c0eU9VcE5UeU5zV3B6UTYxS0FIbTRPbUtRVW9MdXhTcklEX05lRGJ1SXZmQjBRdnhQN0lYSEFqbG1pY1FSdkkwdk5vWF8zLWVjQzdLOEt5ZE0zNjNOZFdhb281UQ?oc=5",
+      "source": "푸드투데이",
+      "summary": "농진청, 국산 잡곡 활용한 고령친화·메디푸드 상용화 &nbsp;&nbsp; 푸드투데이",
+      "pub_iso": "2026-05-18T16:00:00+09:00",
+      "pub_display": "2026-05-18 16:00",
+      "group_id": "medfood_dom",
+      "group_label": "메디컬푸드 / 케어푸드 국내",
+      "badge": "dom",
+      "keyword": "메디푸드",
+      "is_new": false
+    },
+    {
       "title": "약사회, 정부에 ‘약사는 약국, 한약사는 한약국’ 분명한 면허체계 요구 - 데일리메디팜",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xVDktcFUwajVtWklIUk5kcHpzSDJTekpIQmsxaGEwbVR0MjdYeWFyQmRmR29ldmZUaUR4RlRucXZ2Tkg0S0JENGF3ZmVmZVpKRHE0dWNCU3FOYUgtQXl4bzF5R29tbExiVjFwZ01GS2g?oc=5",
       "source": "데일리메디팜",
@@ -8723,19 +9009,6 @@
       "group_label": "GLP-1 비만치료제 국내",
       "badge": "dom",
       "keyword": "한미약품 비만 신약",
-      "is_new": false
-    },
-    {
-      "title": "국산 잡곡, 메디푸드·고령친화식품 등 미래 식품 소재 주목 - 식품음료신문",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBDZ1RyZ3d6LUxfbHpCWHViTkphM2JSNDEyNGRKTWJ3NFNhMWxOTkhwLTJJRTJqLUhLQUdFOVJNb0FhZVpGSUJDY3hUWlZ4Ym9EajQwd1JCZWxnZDhDaHdOR0NYR214bTk1dVVuSGpBWQ?oc=5",
-      "source": "식품음료신문",
-      "summary": "국산 잡곡, 메디푸드·고령친화식품 등 미래 식품 소재 주목 &nbsp;&nbsp; 식품음료신문",
-      "pub_iso": "2026-05-18T15:14:59+09:00",
-      "pub_display": "2026-05-18 15:14",
-      "group_id": "medfood_dom",
-      "group_label": "메디컬푸드 / 케어푸드 국내",
-      "badge": "dom",
-      "keyword": "특수의료용도식품",
       "is_new": false
     },
     {
@@ -8895,19 +9168,6 @@
       "is_new": true
     },
     {
-      "title": "농진청, 국산 잡곡 활용한 고령친화·메디푸드 상용화 - 푸드투데이",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aN1c0eU9VcE5UeU5zV3B6UTYxS0FIbTRPbUtRVW9MdXhTcklEX05lRGJ1SXZmQjBRdnhQN0lYSEFqbG1pY1FSdkkwdk5vWF8zLWVjQzdLOEt5ZE0zNjNOZFdhb281UQ?oc=5",
-      "source": "푸드투데이",
-      "summary": "농진청, 국산 잡곡 활용한 고령친화·메디푸드 상용화 &nbsp;&nbsp; 푸드투데이",
-      "pub_iso": "2026-05-18T09:55:22+09:00",
-      "pub_display": "2026-05-18 09:55",
-      "group_id": "medfood_dom",
-      "group_label": "메디컬푸드 / 케어푸드 국내",
-      "badge": "dom",
-      "keyword": "메디푸드",
-      "is_new": false
-    },
-    {
       "title": "대한약사회, 약국·한약국 구분 촉구 캠페인 - 한국의약통신",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ndXV0ZnJRRnN4RG9Yd3ZmYV9yMVZtelpJcHZFdVpZMDF4aGRHNjZ2aXhKRmlhcVpCSXVScm5VTFVZU3p6eXR2Nk8zMThvWU5vbWQ4WUs5YWFya0ZHczdqNmk5MUtOSmxzM3BB?oc=5",
       "source": "한국의약통신",
@@ -9064,19 +9324,6 @@
       "is_new": false
     },
     {
-      "title": "한 병에 단백질 45g…비만치료제 열풍, 식품 매대가 바뀐다 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HX2ZZbUdmRDJNcDFGTmNKdTFwdVM4aWZoUFByYTNac2t5T1JNNTRDOWg2dVZ3ZmdxTkI2NjlrZk9tRE1nVjZsQlJRSU5VWjA?oc=5",
-      "source": "v.daum.net",
-      "summary": "한 병에 단백질 45g…비만치료제 열풍, 식품 매대가 바뀐다 &nbsp;&nbsp; v.daum.net",
-      "pub_iso": "2026-05-17T16:00:00+09:00",
-      "pub_display": "2026-05-17 16:00",
-      "group_id": "glp1_food_impact",
-      "group_label": "GLP-1이 식품업계에 미치는 영향",
-      "badge": "intl",
-      "keyword": "GLP-1 단백질 식품",
-      "is_new": false
-    },
-    {
       "title": "“혈당 잡는 잡곡 나온다”…국산 혼합곡, ‘메디푸드’ 시장 진출 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNeW5qeFhpTmhGYzFnWDdWUlNwYUxoTmdnRnRYOFg3bGZGNWhQV0NYaVBJVEhiTGpyMTNFSUM3TEoxbVpMQUhUbW1QVW5NXzM0Mm5mVw?oc=5",
       "source": "v.daum.net",
@@ -9100,6 +9347,19 @@
       "group_label": "메디컬푸드 / 케어푸드 국내",
       "badge": "dom",
       "keyword": "고령친화식품",
+      "is_new": false
+    },
+    {
+      "title": "한 병에 단백질 45g…비만치료제 열풍, 식품 매대가 바뀐다 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HX2ZZbUdmRDJNcDFGTmNKdTFwdVM4aWZoUFByYTNac2t5T1JNNTRDOWg2dVZ3ZmdxTkI2NjlrZk9tRE1nVjZsQlJRSU5VWjA?oc=5",
+      "source": "v.daum.net",
+      "summary": "한 병에 단백질 45g…비만치료제 열풍, 식품 매대가 바뀐다 &nbsp;&nbsp; v.daum.net",
+      "pub_iso": "2026-05-17T16:00:00+09:00",
+      "pub_display": "2026-05-17 16:00",
+      "group_id": "glp1_food_impact",
+      "group_label": "GLP-1이 식품업계에 미치는 영향",
+      "badge": "intl",
+      "keyword": "GLP-1 단백질 식품",
       "is_new": false
     },
     {
@@ -9285,19 +9545,6 @@
       "is_new": false
     },
     {
-      "title": "정부, 한약사 전문약 조제 문제에 쐐기…“약사만 조제·판매” - 약사공론",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaRE5WYlhONTUySG5TUkx2Z1VzUnE0MDVrbEstSF9xNXU2ODBxRjdfal8xS1I5ZGRvUGdQQnd3U0ItRmpxZTFTekNkTC11YWFvc2ZqTkZqRjFDY3J2NlZBUjh2blNKOWtlb2h4Qg?oc=5",
-      "source": "약사공론",
-      "summary": "정부, 한약사 전문약 조제 문제에 쐐기…“약사만 조제·판매” &nbsp;&nbsp; 약사공론",
-      "pub_iso": "2026-05-16T16:00:00+09:00",
-      "pub_display": "2026-05-16 16:00",
-      "group_id": "pharm_dispute",
-      "group_label": "약사 vs 한약사 분쟁",
-      "badge": "policy",
-      "keyword": "약사회 한약사",
-      "is_new": false
-    },
-    {
       "title": "[릴레이집회-240일차] \"약사는 약국, 한약사는 한약국\"…당연한 원칙 왜 무너지나 - 약사공론",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB5ZFhhQjVXX0xwVWRVRU1oSnRwQVFrY3NNT2JDemRKVm84Ynk5V2RMNFE3elpoZG9EWDBBNHVla1RwSDM0MGtjMENBTjJlTDFVQVhTYnZOTWNFcnUzcE1Ebk5RbndFUFA4bTJuVw?oc=5",
       "source": "약사공론",
@@ -9308,6 +9555,19 @@
       "group_label": "약사 vs 한약사 분쟁",
       "badge": "policy",
       "keyword": "대한약사회 집회",
+      "is_new": false
+    },
+    {
+      "title": "정부, 한약사 전문약 조제 문제에 쐐기…“약사만 조제·판매” - 약사공론",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaRE5WYlhONTUySG5TUkx2Z1VzUnE0MDVrbEstSF9xNXU2ODBxRjdfal8xS1I5ZGRvUGdQQnd3U0ItRmpxZTFTekNkTC11YWFvc2ZqTkZqRjFDY3J2NlZBUjh2blNKOWtlb2h4Qg?oc=5",
+      "source": "약사공론",
+      "summary": "정부, 한약사 전문약 조제 문제에 쐐기…“약사만 조제·판매” &nbsp;&nbsp; 약사공론",
+      "pub_iso": "2026-05-16T16:00:00+09:00",
+      "pub_display": "2026-05-16 16:00",
+      "group_id": "pharm_dispute",
+      "group_label": "약사 vs 한약사 분쟁",
+      "badge": "policy",
+      "keyword": "약사회 한약사",
       "is_new": false
     },
     {
@@ -9454,19 +9714,6 @@
       "is_new": false
     },
     {
-      "title": "키 포기하고 살 뺀다?...10대 '비만약' 처방 급증, 마운자로 5배·위고비 2.4배 - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VdXhJbzREMG8zQnQyOEUtYncxSURXWjYzUWlDS3kzcHJlZEpDdW5DSGV3Umk4UXdnUlFBMVNaQUo0STdVZmZQSDlNU2t1TlhDUXNtZWYxYWdLdnR2QVRmQjVOaHN2bGpwcGfSAW9BVV95cUxPZjhGN1RXUnd5SGlHRXFmaENSWkRqb1dqaERNMjVlVFM4LVVtY29Xc3N0aVQ2bEpLZFZ2OVIwZ2VnUnhtZVhlaE9FLWZVOUpRYUlqeFU0ajZqNkJDd1hHQzUyUzUtYkhHemtSVDAxNDQ?oc=5",
-      "source": "머니투데이",
-      "summary": "키 포기하고 살 뺀다?...10대 '비만약' 처방 급증, 마운자로 5배·위고비 2.4배 - 머니투데이 &nbsp;&nbsp; 머니투데이",
-      "pub_iso": "2026-05-15T16:00:00+09:00",
-      "pub_display": "2026-05-15 16:00",
-      "group_id": "glp1_dom",
-      "group_label": "GLP-1 비만치료제 국내",
-      "badge": "dom",
-      "keyword": "위고비 처방",
-      "is_new": false
-    },
-    {
       "title": "A Guide to Medicare’s New Coverage for Obesity Drugs - The New York Times",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNS3BtTzBUSEl2RDB0QTl1SkdGdVFGaUFmYk43VHFhVzZkSWZWaXp3Nm55Rk9sdS11dEtVU1JYd09OZGpDVGhRcGxHRm1SdEMxZnRiSFJlbFdEdDJpZXRUVlhSa0tmSF85bnJjYUI0akd6bWJfdTZZU1pMN3VYcFZqVkpfdlFIeTIwNnhCMFJtZw?oc=5",
       "source": "The New York Times",
@@ -9493,32 +9740,6 @@
       "is_new": false
     },
     {
-      "title": "대한연하장애학회 춘계학술대회 참가한 한국메디칼푸드, 연하곤란 관련 제품 소개 - 중앙일보",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIbklTUm9jMk9rNExONE9EM1U3YWZNM3NhNHhCNzlfMUF5R1luN0N2Rm5NUzAwWF9KMkRxRHljX3dIeGhpcW1McXdCY3ExWTZpOXIzUGVR?oc=5",
-      "source": "중앙일보",
-      "summary": "대한연하장애학회 춘계학술대회 참가한 한국메디칼푸드, 연하곤란 관련 제품 소개 &nbsp;&nbsp; 중앙일보",
-      "pub_iso": "2026-05-15T16:00:00+09:00",
-      "pub_display": "2026-05-15 16:00",
-      "group_id": "medfood_dom",
-      "group_label": "메디컬푸드 / 케어푸드 국내",
-      "badge": "dom",
-      "keyword": "메디컬푸드",
-      "is_new": false
-    },
-    {
-      "title": "한국메디칼푸드, 대한연하장애학회서 연하곤란 보조식품 6종 선봬 - 서울경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DemxWV1M1ZTJmTWE5SUltdEhfNzJJY2dDeV9qZnlYY0hoV2xtNkdKMk5aRGlhbWo5ZmwtUmxNQUtrWFJfcUoxTkNfR2NBWG1nTEUybVFsSUllOUtRU3pSMzZMMmc?oc=5",
-      "source": "서울경제TV",
-      "summary": "한국메디칼푸드, 대한연하장애학회서 연하곤란 보조식품 6종 선봬 &nbsp;&nbsp; 서울경제TV",
-      "pub_iso": "2026-05-15T16:00:00+09:00",
-      "pub_display": "2026-05-15 16:00",
-      "group_id": "medfood_dom",
-      "group_label": "메디컬푸드 / 케어푸드 국내",
-      "badge": "dom",
-      "keyword": "메디컬푸드",
-      "is_new": false
-    },
-    {
       "title": "\"초고령사회 정조준\"…아워홈, 시니어 맞춤 '메디푸드' 키운다 - 뉴스1",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9xZ3FYMnpQRDhDX3k5NEljdU9Ja0JILUtSMGhWVTZtNHBkNDVqU21JUjZlazVSUDFkY09vQ1BMN1djdTVmUmJuTUV4Wjd0SWJxbUMtSE56QWcycFV6TjVV?oc=5",
       "source": "뉴스1",
@@ -9532,10 +9753,10 @@
       "is_new": false
     },
     {
-      "title": "아워홈, 인지기능 개선 메디푸드 개발 나선다…정부 연구과제 수행 기업 선정 - 전자신문",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5WGpwbmQxN0VEVVBUWVcwM3l2OWNqb3ZSRnRuRWFiVkhJV2l0Q1lNTVF4TzR5SlM4d21zQlMxdkJKSEZ2YlAzU3dtTDJPdw?oc=5",
-      "source": "전자신문",
-      "summary": "아워홈, 인지기능 개선 메디푸드 개발 나선다…정부 연구과제 수행 기업 선정 &nbsp;&nbsp; 전자신문",
+      "title": "\"메디푸드 시장 선점\"…아워홈, 시니어 맞춤 식단 개발 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zZ2kyazc5NWh4b3g1d0RBbEJlRVppMG4yNmNXV212N2k4Mk1rbzFIQWIyNTQ3LWk3RlRBLU4yT3g2NXBMMS1FQmRQdXc4Szg?oc=5",
+      "source": "v.daum.net",
+      "summary": "\"메디푸드 시장 선점\"…아워홈, 시니어 맞춤 식단 개발 &nbsp;&nbsp; v.daum.net",
       "pub_iso": "2026-05-15T16:00:00+09:00",
       "pub_display": "2026-05-15 16:00",
       "group_id": "medfood_dom",
@@ -9545,10 +9766,10 @@
       "is_new": false
     },
     {
-      "title": "아워홈, ‘메디푸드’ 시장 나서...시니어 맞춤 인지기능 개선 식단 개발 - 뉴시니어",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9PdmY4NHBSeTg5M0ZkcGdibWM2Tmp4TjJsRW10Mm53OFF6ZjNadHBwUUxLUTVMXzE3a3J0WnJxYmhJNTFhRHNRVG9XRUhrOHBPbGpEN3kxcnM5UXd3QWowUTVNMA?oc=5",
-      "source": "뉴시니어",
-      "summary": "아워홈, ‘메디푸드’ 시장 나서...시니어 맞춤 인지기능 개선 식단 개발 &nbsp;&nbsp; 뉴시니어",
+      "title": "아워홈, 인지기능 개선 메디푸드 개발 나선다…정부 연구과제 수행 기업 선정 - 전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5WGpwbmQxN0VEVVBUWVcwM3l2OWNqb3ZSRnRuRWFiVkhJV2l0Q1lNTVF4TzR5SlM4d21zQlMxdkJKSEZ2YlAzU3dtTDJPdw?oc=5",
+      "source": "전자신문",
+      "summary": "아워홈, 인지기능 개선 메디푸드 개발 나선다…정부 연구과제 수행 기업 선정 &nbsp;&nbsp; 전자신문",
       "pub_iso": "2026-05-15T16:00:00+09:00",
       "pub_display": "2026-05-15 16:00",
       "group_id": "medfood_dom",
@@ -9584,6 +9805,19 @@
       "is_new": false
     },
     {
+      "title": "아워홈, '메디푸드' 시장 개척한다…\"시니어 치매 개선 식단 개발\" - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vVDFsRUZUem9BX0g3Y0dUejhZUVZUOURsRzY3dnE3MmtMbGozUWtORHpDRzk3X3gtY3BLdnVIcFZ6UWROcXJLVWRDREFsNi1DU0VLNW00ZGVDOHBjSnNZRERVNjZnbGtEcHg3bXduSXhyNFh2dEpIdNIBeEFVX3lxTE9vVDFsRUZUem9BX0g3Y0dUejhZUVZUOURsRzY3dnE3MmtMbGozUWtORHpDRzk3X3gtY3BLdnVIcFZ6UWROcXJLVWRDREFsNi1DU0VLNW00ZGVDOHBjSnNZRERVNjZnbGtEcHg3bXduSXhyNFh2dEpIdA?oc=5",
+      "source": "뉴시스",
+      "summary": "아워홈, '메디푸드' 시장 개척한다…\"시니어 치매 개선 식단 개발\" &nbsp;&nbsp; 뉴시스",
+      "pub_iso": "2026-05-15T16:00:00+09:00",
+      "pub_display": "2026-05-15 16:00",
+      "group_id": "medfood_dom",
+      "group_label": "메디컬푸드 / 케어푸드 국내",
+      "badge": "dom",
+      "keyword": "메디푸드",
+      "is_new": false
+    },
+    {
       "title": "고령친화우수식품 시장 5년간 가파른 성장세…품목수도 10배 증가 - 식품음료신문",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBpMXRDNlBtMkc5S3B0dzNocmItZ0NzZDNtbUliR3lMcHoxdDZOVUF2a0Q4TWh3YksxVlVuNGl3WkI1YzdHNm9qckVKNWp6T1pmeGtmSlBDYXotSFU0aVhiYUQ1UEVkQTRzdXdrRGg4WQ?oc=5",
       "source": "식품음료신문",
@@ -9607,6 +9841,58 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "성분명 처방",
+      "is_new": false
+    },
+    {
+      "title": "키 포기하고 살 뺀다?...10대 '비만약' 처방 급증, 마운자로 5배·위고비 2.4배 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VdXhJbzREMG8zQnQyOEUtYncxSURXWjYzUWlDS3kzcHJlZEpDdW5DSGV3Umk4UXdnUlFBMVNaQUo0STdVZmZQSDlNU2t1TlhDUXNtZWYxYWdLdnR2QVRmQjVOaHN2bGpwcGfSAW9BVV95cUxPZjhGN1RXUnd5SGlHRXFmaENSWkRqb1dqaERNMjVlVFM4LVVtY29Xc3N0aVQ2bEpLZFZ2OVIwZ2VnUnhtZVhlaE9FLWZVOUpRYUlqeFU0ajZqNkJDd1hHQzUyUzUtYkhHemtSVDAxNDQ?oc=5",
+      "source": "머니투데이",
+      "summary": "키 포기하고 살 뺀다?...10대 '비만약' 처방 급증, 마운자로 5배·위고비 2.4배 - 머니투데이 &nbsp;&nbsp; 머니투데이",
+      "pub_iso": "2026-05-15T16:00:00+09:00",
+      "pub_display": "2026-05-15 16:00",
+      "group_id": "glp1_dom",
+      "group_label": "GLP-1 비만치료제 국내",
+      "badge": "dom",
+      "keyword": "위고비 처방",
+      "is_new": false
+    },
+    {
+      "title": "대한연하장애학회 춘계학술대회 참가한 한국메디칼푸드, 연하곤란 관련 제품 소개 - 중앙일보",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIbklTUm9jMk9rNExONE9EM1U3YWZNM3NhNHhCNzlfMUF5R1luN0N2Rm5NUzAwWF9KMkRxRHljX3dIeGhpcW1McXdCY3ExWTZpOXIzUGVR?oc=5",
+      "source": "중앙일보",
+      "summary": "대한연하장애학회 춘계학술대회 참가한 한국메디칼푸드, 연하곤란 관련 제품 소개 &nbsp;&nbsp; 중앙일보",
+      "pub_iso": "2026-05-15T16:00:00+09:00",
+      "pub_display": "2026-05-15 16:00",
+      "group_id": "medfood_dom",
+      "group_label": "메디컬푸드 / 케어푸드 국내",
+      "badge": "dom",
+      "keyword": "메디컬푸드",
+      "is_new": false
+    },
+    {
+      "title": "한국메디칼푸드, 대한연하장애학회서 연하곤란 보조식품 6종 선봬 - 서울경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DemxWV1M1ZTJmTWE5SUltdEhfNzJJY2dDeV9qZnlYY0hoV2xtNkdKMk5aRGlhbWo5ZmwtUmxNQUtrWFJfcUoxTkNfR2NBWG1nTEUybVFsSUllOUtRU3pSMzZMMmc?oc=5",
+      "source": "서울경제TV",
+      "summary": "한국메디칼푸드, 대한연하장애학회서 연하곤란 보조식품 6종 선봬 &nbsp;&nbsp; 서울경제TV",
+      "pub_iso": "2026-05-15T16:00:00+09:00",
+      "pub_display": "2026-05-15 16:00",
+      "group_id": "medfood_dom",
+      "group_label": "메디컬푸드 / 케어푸드 국내",
+      "badge": "dom",
+      "keyword": "메디컬푸드",
+      "is_new": false
+    },
+    {
+      "title": "아워홈, ‘메디푸드’ 시장 나서...시니어 맞춤 인지기능 개선 식단 개발 - 뉴시니어",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9PdmY4NHBSeTg5M0ZkcGdibWM2Tmp4TjJsRW10Mm53OFF6ZjNadHBwUUxLUTVMXzE3a3J0WnJxYmhJNTFhRHNRVG9XRUhrOHBPbGpEN3kxcnM5UXd3QWowUTVNMA?oc=5",
+      "source": "뉴시니어",
+      "summary": "아워홈, ‘메디푸드’ 시장 나서...시니어 맞춤 인지기능 개선 식단 개발 &nbsp;&nbsp; 뉴시니어",
+      "pub_iso": "2026-05-15T16:00:00+09:00",
+      "pub_display": "2026-05-15 16:00",
+      "group_id": "medfood_dom",
+      "group_label": "메디컬푸드 / 케어푸드 국내",
+      "badge": "dom",
+      "keyword": "메디푸드",
       "is_new": false
     },
     {
@@ -9664,19 +9950,6 @@
     {
       "title": "\"메디푸드 시장 선점\"…아워홈, 시니어 맞춤 식단 개발 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1tR21XTXJLb25adDVvcW5OWXR3cldBWmJ4QmZTRkgxdGl4aXNpb21TbGxicmxVcUtxeldlRlFpMlctRGxuWEFrczF4dw?oc=5",
-      "source": "v.daum.net",
-      "summary": "\"메디푸드 시장 선점\"…아워홈, 시니어 맞춤 식단 개발 &nbsp;&nbsp; v.daum.net",
-      "pub_iso": "2026-05-15T16:00:00+09:00",
-      "pub_display": "2026-05-15 16:00",
-      "group_id": "medfood_dom",
-      "group_label": "메디컬푸드 / 케어푸드 국내",
-      "badge": "dom",
-      "keyword": "메디푸드",
-      "is_new": false
-    },
-    {
-      "title": "\"메디푸드 시장 선점\"…아워홈, 시니어 맞춤 식단 개발 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zZ2kyazc5NWh4b3g1d0RBbEJlRVppMG4yNmNXV212N2k4Mk1rbzFIQWIyNTQ3LWk3RlRBLU4yT3g2NXBMMS1FQmRQdXc4Szg?oc=5",
       "source": "v.daum.net",
       "summary": "\"메디푸드 시장 선점\"…아워홈, 시니어 맞춤 식단 개발 &nbsp;&nbsp; v.daum.net",
       "pub_iso": "2026-05-15T16:00:00+09:00",
@@ -9746,19 +10019,6 @@
       "summary": "“치매 예방도 밥상에서”…아워홈, ‘인지기능 개선 메디푸드’ 개발 나선다 &nbsp;&nbsp; 푸드투데이",
       "pub_iso": "2026-05-15T10:18:03+09:00",
       "pub_display": "2026-05-15 10:18",
-      "group_id": "medfood_dom",
-      "group_label": "메디컬푸드 / 케어푸드 국내",
-      "badge": "dom",
-      "keyword": "메디푸드",
-      "is_new": false
-    },
-    {
-      "title": "아워홈, '메디푸드' 시장 개척한다…\"시니어 치매 개선 식단 개발\" - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vVDFsRUZUem9BX0g3Y0dUejhZUVZUOURsRzY3dnE3MmtMbGozUWtORHpDRzk3X3gtY3BLdnVIcFZ6UWROcXJLVWRDREFsNi1DU0VLNW00ZGVDOHBjSnNZRERVNjZnbGtEcHg3bXduSXhyNFh2dEpIdNIBeEFVX3lxTE9vVDFsRUZUem9BX0g3Y0dUejhZUVZUOURsRzY3dnE3MmtMbGozUWtORHpDRzk3X3gtY3BLdnVIcFZ6UWROcXJLVWRDREFsNi1DU0VLNW00ZGVDOHBjSnNZRERVNjZnbGtEcHg3bXduSXhyNFh2dEpIdA?oc=5",
-      "source": "뉴시스",
-      "summary": "아워홈, '메디푸드' 시장 개척한다…\"시니어 치매 개선 식단 개발\" &nbsp;&nbsp; 뉴시스",
-      "pub_iso": "2026-05-15T10:04:59+09:00",
-      "pub_display": "2026-05-15 10:04",
       "group_id": "medfood_dom",
       "group_label": "메디컬푸드 / 케어푸드 국내",
       "badge": "dom",
@@ -10195,19 +10455,6 @@
       "is_new": false
     },
     {
-      "title": "위고비·마운자로는 안전?…‘담석·췌장염’ 등 부작용 가능성도 - 시사저널",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBGeXVkN0RZVlIxemU3cmF6TmVScFhEeW5ZMDlBRFFSUUhGUmZWcFRTbzNzdHZyR1BKRFRUWDlwb0stTGJhbUR6OUI0R0J0SGt3QU9Xb1RFcFh5TVA2SVFURHpXS1Bva1dwQXgzT2RGSdIBc0FVX3lxTFBDVEdvUGJhdWRDRHMxeWN2TE9XZmlUdlJ3a1l3eWxZbVFYcXJiMGUtVjhYV2p2Q0RsWE15YmJFajRGcDA0Sm5ZRlpsOXNrX1NZRl9aNmJ0ajlnZXB3dFVYb0l1VE1QaVp0Rzg5U3p3a0kzOVU?oc=5",
-      "source": "시사저널",
-      "summary": "위고비·마운자로는 안전?…‘담석·췌장염’ 등 부작용 가능성도 &nbsp;&nbsp; 시사저널",
-      "pub_iso": "2026-05-11T16:00:00+09:00",
-      "pub_display": "2026-05-11 16:00",
-      "group_id": "glp1_side",
-      "group_label": "GLP-1 부작용·임상 리스크",
-      "badge": "dom",
-      "keyword": "세마글루타이드 췌장염",
-      "is_new": false
-    },
-    {
       "title": "What to Know About the BALANCE Model for GLP-1s in Medicare and Medicaid and the Medicare GLP-1 Bridge - KFF",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZUZvcDJHUERpWHFHV0duQl9RREZvMWdlYkJxQVZ6aF9SMmg1dzVfZW5ub3RZRXYtRkZ0dUtXS29BcHVDOWxnUkc5bVpwWE9zMDFqSE9NQkQ5Zl80V3hWb0Z0ODJUaktZVkJyTTFpaEh1T3UwVVZfWEllc19FR0hpcEtudWYyTTZEaVRHTlhlemkwQjJ1YTYtU2hjX2hnLTdrUDhoRw?oc=5",
       "source": "KFF",
@@ -10218,6 +10465,19 @@
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "Medicare GLP-1 coverage",
+      "is_new": false
+    },
+    {
+      "title": "위고비·마운자로는 안전?…‘담석·췌장염’ 등 부작용 가능성도 - 시사저널",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBGeXVkN0RZVlIxemU3cmF6TmVScFhEeW5ZMDlBRFFSUUhGUmZWcFRTbzNzdHZyR1BKRFRUWDlwb0stTGJhbUR6OUI0R0J0SGt3QU9Xb1RFcFh5TVA2SVFURHpXS1Bva1dwQXgzT2RGSdIBc0FVX3lxTFBDVEdvUGJhdWRDRHMxeWN2TE9XZmlUdlJ3a1l3eWxZbVFYcXJiMGUtVjhYV2p2Q0RsWE15YmJFajRGcDA0Sm5ZRlpsOXNrX1NZRl9aNmJ0ajlnZXB3dFVYb0l1VE1QaVp0Rzg5U3p3a0kzOVU?oc=5",
+      "source": "시사저널",
+      "summary": "위고비·마운자로는 안전?…‘담석·췌장염’ 등 부작용 가능성도 &nbsp;&nbsp; 시사저널",
+      "pub_iso": "2026-05-11T16:00:00+09:00",
+      "pub_display": "2026-05-11 16:00",
+      "group_id": "glp1_side",
+      "group_label": "GLP-1 부작용·임상 리스크",
+      "badge": "dom",
+      "keyword": "세마글루타이드 췌장염",
       "is_new": false
     },
     {
@@ -10390,19 +10650,6 @@
       "is_new": false
     },
     {
-      "title": "\"환자식 넘어 일상식으로\"…케어푸드 시장 커진다 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91T1E4b2ZxdEQwX09ZMEhwSnhvYjR3dVc1XzRyQi1uU0NZa0JOekxCWkRNSWV4QjFmbXJvX3FaMzByY2lZcmZueEhaNnJjaVE?oc=5",
-      "source": "v.daum.net",
-      "summary": "\"환자식 넘어 일상식으로\"…케어푸드 시장 커진다 &nbsp;&nbsp; v.daum.net",
-      "pub_iso": "2026-05-08T16:00:00+09:00",
-      "pub_display": "2026-05-08 16:00",
-      "group_id": "medfood_dom",
-      "group_label": "메디컬푸드 / 케어푸드 국내",
-      "badge": "dom",
-      "keyword": "환자식 시장",
-      "is_new": false
-    },
-    {
       "title": "\"섬 주민에 드론 약 배송을\"…국민 제안에 지자체 '난색' - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9faEV1REZCaTBaVDZERVg4Rlh6VmJoTFpnbV9OakRhX0hCQWd5bFJka2hRQ3dtYWJUbkVrVzZrdGt4UHdyYjQ2VFRNamhQNVVN?oc=5",
       "source": "데일리팜",
@@ -10413,6 +10660,19 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "약 배달 약사회",
+      "is_new": false
+    },
+    {
+      "title": "\"환자식 넘어 일상식으로\"…케어푸드 시장 커진다 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91T1E4b2ZxdEQwX09ZMEhwSnhvYjR3dVc1XzRyQi1uU0NZa0JOekxCWkRNSWV4QjFmbXJvX3FaMzByY2lZcmZueEhaNnJjaVE?oc=5",
+      "source": "v.daum.net",
+      "summary": "\"환자식 넘어 일상식으로\"…케어푸드 시장 커진다 &nbsp;&nbsp; v.daum.net",
+      "pub_iso": "2026-05-08T16:00:00+09:00",
+      "pub_display": "2026-05-08 16:00",
+      "group_id": "medfood_dom",
+      "group_label": "메디컬푸드 / 케어푸드 국내",
+      "badge": "dom",
+      "keyword": "환자식 시장",
       "is_new": false
     },
     {
@@ -10659,7 +10919,7 @@
       "group_id": "glp1_dom",
       "group_label": "GLP-1 비만치료제 국내",
       "badge": "dom",
-      "keyword": "위고비 처방",
+      "keyword": "마운자로 처방",
       "is_new": false
     },
     {
@@ -10738,6 +10998,19 @@
       "group_label": "약사 vs 한약사 분쟁",
       "badge": "policy",
       "keyword": "대한약사회 집회",
+      "is_new": false
+    },
+    {
+      "title": "비만치료제 유행에 주목받는 ‘푸드 노이즈’…비만의 원인? - 코메디닷컴",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5RZzlzNXJ3eXlfYXo3RE1zZnRhdklsNDBHem9sTHU0MzVDUUtpbUhlVnVQZ1dUZFVzeUdkSGhsN1lfUQ?oc=5",
+      "source": "코메디닷컴",
+      "summary": "비만치료제 유행에 주목받는 ‘푸드 노이즈’…비만의 원인? &nbsp;&nbsp; 코메디닷컴",
+      "pub_iso": "2026-05-05T16:00:00+09:00",
+      "pub_display": "2026-05-05 16:00",
+      "group_id": "glp1_food_impact",
+      "group_label": "GLP-1이 식품업계에 미치는 영향",
+      "badge": "intl",
+      "keyword": "비만치료제 식품 트렌드",
       "is_new": false
     },
     {
@@ -10949,19 +11222,6 @@
       "is_new": false
     },
     {
-      "title": "GLP-1·고단백 열풍에…美 농지 ‘콩으로 이동’ - 농민신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuTFNPWm1jdWZzUjdDY3FtVlAySXJYcVFaUGZ4eU50cE5XM3dJR0EybkdKTjF3Ums3MkR5b2NFVUEtZ2NLWXJrRFlCZUVyMnpNM3RvY1c4WDNqZw?oc=5",
-      "source": "농민신문",
-      "summary": "GLP-1·고단백 열풍에…美 농지 ‘콩으로 이동’ &nbsp;&nbsp; 농민신문",
-      "pub_iso": "2026-04-30T16:00:00+09:00",
-      "pub_display": "2026-04-30 16:00",
-      "group_id": "glp1_food_impact",
-      "group_label": "GLP-1이 식품업계에 미치는 영향",
-      "badge": "intl",
-      "keyword": "GLP-1 단백질 식품",
-      "is_new": false
-    },
-    {
       "title": "Eli Lilly Earnings: Mounjaro/Zepbound's Massive Volume Growth More Than Counters Price Pressure - Morningstar",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSGxYRGQyWWNNaWwyZHAtU2d0SllJbDc3NUJWRnQ5aGVNZ1RzMHl1bGdKUzZLX05oUm01WkxZTlZJVkM2UzJrcmJiUF9XRG13ajV1ZnlhazkwYlk1VW1CMkY5M3ZHUmN0N3k1eXQ1Tk81MGJBSFdmSUlMTzJRd29DeHhkRHFYb3ZzU3Zuc25GeXBRcEZCWWtvZ3MyMTZrTHNZdm5EOGk2SDA5SVRqVzczekVDYkgtZ1RCU2F3YjlhaDVDUWwzYlE?oc=5",
       "source": "Morningstar",
@@ -10972,6 +11232,19 @@
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "Mounjaro Zepbound market",
+      "is_new": false
+    },
+    {
+      "title": "GLP-1·고단백 열풍에…美 농지 ‘콩으로 이동’ - 농민신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuTFNPWm1jdWZzUjdDY3FtVlAySXJYcVFaUGZ4eU50cE5XM3dJR0EybkdKTjF3Ums3MkR5b2NFVUEtZ2NLWXJrRFlCZUVyMnpNM3RvY1c4WDNqZw?oc=5",
+      "source": "농민신문",
+      "summary": "GLP-1·고단백 열풍에…美 농지 ‘콩으로 이동’ &nbsp;&nbsp; 농민신문",
+      "pub_iso": "2026-04-30T16:00:00+09:00",
+      "pub_display": "2026-04-30 16:00",
+      "group_id": "glp1_food_impact",
+      "group_label": "GLP-1이 식품업계에 미치는 영향",
+      "badge": "intl",
+      "keyword": "GLP-1 단백질 식품",
       "is_new": false
     },
     {
@@ -11387,7 +11660,7 @@
       "group_id": "medfood_dom",
       "group_label": "메디컬푸드 / 케어푸드 국내",
       "badge": "dom",
-      "keyword": "풀무원 케어푸드",
+      "keyword": "환자식 시장",
       "is_new": false
     },
     {
@@ -11677,10 +11950,10 @@
       "is_new": false
     },
     {
-      "title": "GLP-1 비만치료제 ‘오남용 우려 의약품 지정’ 추진 - 데일리메디",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFclNPQlM5ckZ4T2xsNWtyV3FUMHZCU3Zuc3dTWlZBMFltaFBST0Fsa005Rm5PNERRWDZBZ1JJeE15NGhHUWdSXzBLa3psUU1TV25TSE5lUldOZW9qanJqWk4zNHNkU0RKWHphYTBPejdSaXBR?oc=5",
-      "source": "데일리메디",
-      "summary": "GLP-1 비만치료제 ‘오남용 우려 의약품 지정’ 추진 &nbsp;&nbsp; 데일리메디",
+      "title": "위고비·마운자로 ‘오남용 우려약’ 지정… 이르면 상반기 시행 - 의협신문",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ueDRGZkQ1MTdmOU5LYkdybzBGRjF5Z2hIOGtKbVplZ2VUYlZLUjlPaGhIZWpCZTVzRjA3NDRWaHNHcnlxQk5MeUFidmJDVm5sZ0I2TFVpZmRhcGMzY1hzZjNUWjl5N0JKUkpmVW5JWE93UQ?oc=5",
+      "source": "의협신문",
+      "summary": "위고비·마운자로 ‘오남용 우려약’ 지정… 이르면 상반기 시행 &nbsp;&nbsp; 의협신문",
       "pub_iso": "2026-04-15T16:00:00+09:00",
       "pub_display": "2026-04-15 16:00",
       "group_id": "glp1_dom",
@@ -11690,10 +11963,10 @@
       "is_new": false
     },
     {
-      "title": "위고비·마운자로 ‘오남용 우려약’ 지정… 이르면 상반기 시행 - 의협신문",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ueDRGZkQ1MTdmOU5LYkdybzBGRjF5Z2hIOGtKbVplZ2VUYlZLUjlPaGhIZWpCZTVzRjA3NDRWaHNHcnlxQk5MeUFidmJDVm5sZ0I2TFVpZmRhcGMzY1hzZjNUWjl5N0JKUkpmVW5JWE93UQ?oc=5",
-      "source": "의협신문",
-      "summary": "위고비·마운자로 ‘오남용 우려약’ 지정… 이르면 상반기 시행 &nbsp;&nbsp; 의협신문",
+      "title": "GLP-1 비만치료제 ‘오남용 우려 의약품 지정’ 추진 - 데일리메디",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFclNPQlM5ckZ4T2xsNWtyV3FUMHZCU3Zuc3dTWlZBMFltaFBST0Fsa005Rm5PNERRWDZBZ1JJeE15NGhHUWdSXzBLa3psUU1TV25TSE5lUldOZW9qanJqWk4zNHNkU0RKWHphYTBPejdSaXBR?oc=5",
+      "source": "데일리메디",
+      "summary": "GLP-1 비만치료제 ‘오남용 우려 의약품 지정’ 추진 &nbsp;&nbsp; 데일리메디",
       "pub_iso": "2026-04-15T16:00:00+09:00",
       "pub_display": "2026-04-15 16:00",
       "group_id": "glp1_dom",
@@ -11756,6 +12029,19 @@
     },
     {
       "title": "[대까기] 대세는 '저당고단백' … '대상·현대그린푸드·풀무원' 건강 간편식 승자는? - 뉴데일리",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE15QThOQlRHeUdXT2VaVEE0Y1k3d0I3YlVPeG5sd1JGb0h0aDRQYWJDM3h0TDNaNGlpdWhHZUJ4RFJnMTB1X2RIdWFJTk5RaGdabWhnTzk5dDVmWmtnWkZGZFRURkVRX2J1LVlEcHNmNDRWZFc3QTgtVkRZMNIBgAFBVV95cUxOMnFKMGdwbGE5cXNHQjVMaWJrQWZJVkpxU0EwMkV5R0dwSHBmb2lEWlhZY243Y3V3RWQ4Z3ZTUEtvVDRjeDNha1U4NHJrN0NHckxGNWRMOF9XLXpLQzJfRGxFOU1XYWdIUmFPSVFEV0pMZnBkTEFXajV4Wm1ZR25VWg?oc=5",
+      "source": "뉴데일리",
+      "summary": "[대까기] 대세는 '저당고단백' … '대상·현대그린푸드·풀무원' 건강 간편식 승자는? &nbsp;&nbsp; 뉴데일리",
+      "pub_iso": "2026-04-14T16:00:00+09:00",
+      "pub_display": "2026-04-14 16:00",
+      "group_id": "medfood_dom",
+      "group_label": "메디컬푸드 / 케어푸드 국내",
+      "badge": "dom",
+      "keyword": "풀무원 케어푸드",
+      "is_new": true
+    },
+    {
+      "title": "[대까기] 대세는 '저당고단백' … '대상·현대그린푸드·풀무원' 건강 간편식 승자는? - 뉴데일리",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE15QThOQlRHeUdXT2VaVEE0Y1k3d0I3YlVPeG5sd1JGb0h0aDRQYWJDM3h0TDNaNGlpdWhHZUJ4RFJnMTB1X2RIdWFJTk5RaGdabWhnTzk5dDVmWmtnWkZGZFRURkVRX2J1LVlEcHNmNDRWZFc3QTgtVkRZMA?oc=5",
       "source": "뉴데일리",
       "summary": "[대까기] 대세는 '저당고단백' … '대상·현대그린푸드·풀무원' 건강 간편식 승자는? &nbsp;&nbsp; 뉴데일리",
@@ -11778,6 +12064,19 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "비대면진료 제도화",
+      "is_new": false
+    },
+    {
+      "title": "동아ST \"비만치료제 'DA-1726', 1상 파트3 첫 환자 투여\" - 청년의사",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WclJUYlRES3l2NEV4bW1fYmNac0lKeGxLZ1VLM0VrXzdkTE5wY21hOTZCeVdXOHdfNUJlQnBKVzhCUVlIaDhZY2EzRkZSc2hxaWt2NF9FSmN5LTliWjBqZndYNU5MRzh5QXRCcTY1d9IBc0FVX3lxTE1GbE54NUphSHIzTjFXWmtTbWtIWkxadDdFNHFCamF6TWdfc09KaHhkN0t6TzNJWjlGcmFiT1lYdmdRaU5vT3ZKTnc4eDdNaU42U0ZySHlxdUtJU2dtUEFMaFdCR0V3ZGhoSE9Zc3o1bzJ1QWs?oc=5",
+      "source": "청년의사",
+      "summary": "동아ST \"비만치료제 'DA-1726', 1상 파트3 첫 환자 투여\" &nbsp;&nbsp; 청년의사",
+      "pub_iso": "2026-04-13T16:00:00+09:00",
+      "pub_display": "2026-04-13 16:00",
+      "group_id": "glp1_dom",
+      "group_label": "GLP-1 비만치료제 국내",
+      "badge": "dom",
+      "keyword": "동아ST DA-1726",
       "is_new": false
     },
     {
@@ -11820,19 +12119,6 @@
       "is_new": false
     },
     {
-      "title": "동아ST \"비만치료제 'DA-1726', 1상 파트3 첫 환자 투여\" - 청년의사",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WclJUYlRES3l2NEV4bW1fYmNac0lKeGxLZ1VLM0VrXzdkTE5wY21hOTZCeVdXOHdfNUJlQnBKVzhCUVlIaDhZY2EzRkZSc2hxaWt2NF9FSmN5LTliWjBqZndYNU5MRzh5QXRCcTY1d9IBc0FVX3lxTE1GbE54NUphSHIzTjFXWmtTbWtIWkxadDdFNHFCamF6TWdfc09KaHhkN0t6TzNJWjlGcmFiT1lYdmdRaU5vT3ZKTnc4eDdNaU42U0ZySHlxdUtJU2dtUEFMaFdCR0V3ZGhoSE9Zc3o1bzJ1QWs?oc=5",
-      "source": "청년의사",
-      "summary": "동아ST \"비만치료제 'DA-1726', 1상 파트3 첫 환자 투여\" &nbsp;&nbsp; 청년의사",
-      "pub_iso": "2026-04-13T16:00:00+09:00",
-      "pub_display": "2026-04-13 16:00",
-      "group_id": "glp1_dom",
-      "group_label": "GLP-1 비만치료제 국내",
-      "badge": "dom",
-      "keyword": "동아ST DA-1726",
-      "is_new": false
-    },
-    {
       "title": "'동아에스티 美 자회사' 메타비아, 비만치료제 'DA-1726' 고용량 임상 본격화 - 더구루",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5Cbjh2UWtQNjV5RjYzSFVraVNWcWFlZXhUbGhPNlRJOE5YM2xqbC1SNW9VWjhpVG9zcHlULVNMa0hMbEFnODVRbHhreFZxTTJKcFd5UF9QcHF2VkNPUEM4RFhDTQ?oc=5",
       "source": "더구루",
@@ -11859,16 +12145,16 @@
       "is_new": false
     },
     {
-      "title": "GLP-1 Weight-Loss Pills: What You Need to Know - Yale Medicine",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMks2MDBSZms2TmVQZGZkYThrZmIxbjM2eVBzRmM2bEVfQXN5c08yTXVsd29UYXExTVQ5UDRfOG4yLTdGQ0xfaS1ULTFHS0tEbm9NSmRXeHRqTVhzZ3hMSkJKTDRvMVNLbFYwTEs1d2NSMmpFSEF2YlJEcXU5QlNjaEVPRUs2UQ?oc=5",
-      "source": "Yale Medicine",
-      "summary": "GLP-1 Weight-Loss Pills: What You Need to Know &nbsp;&nbsp; Yale Medicine",
+      "title": "GLP-1 비만약 전면전…한 발 빠른 한미, 이노엔·JW 추격 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wVFNLUkVmZEhPbTdvWEhSRU1sZEhVdEpzNDJJaU5WV2ZfbUF6T0lvYjlBbG4xeG1BRVNyRUVMNkJOTjM4bU8tVmVMRm4xZHZIanNaeXJB?oc=5",
+      "source": "데일리팜",
+      "summary": "GLP-1 비만약 전면전…한 발 빠른 한미, 이노엔·JW 추격 &nbsp;&nbsp; 데일리팜",
       "pub_iso": "2026-04-10T16:00:00+09:00",
       "pub_display": "2026-04-10 16:00",
-      "group_id": "glp1_intl",
-      "group_label": "GLP-1 글로벌 트렌드",
-      "badge": "intl",
-      "keyword": "Wegovy oral pill FDA",
+      "group_id": "glp1_dom",
+      "group_label": "GLP-1 비만치료제 국내",
+      "badge": "dom",
+      "keyword": "한미약품 비만 신약",
       "is_new": false
     },
     {
@@ -11885,16 +12171,16 @@
       "is_new": false
     },
     {
-      "title": "GLP-1 비만약 전면전…한 발 빠른 한미, 이노엔·JW 추격 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wVFNLUkVmZEhPbTdvWEhSRU1sZEhVdEpzNDJJaU5WV2ZfbUF6T0lvYjlBbG4xeG1BRVNyRUVMNkJOTjM4bU8tVmVMRm4xZHZIanNaeXJB?oc=5",
-      "source": "데일리팜",
-      "summary": "GLP-1 비만약 전면전…한 발 빠른 한미, 이노엔·JW 추격 &nbsp;&nbsp; 데일리팜",
+      "title": "GLP-1 Weight-Loss Pills: What You Need to Know - Yale Medicine",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMks2MDBSZms2TmVQZGZkYThrZmIxbjM2eVBzRmM2bEVfQXN5c08yTXVsd29UYXExTVQ5UDRfOG4yLTdGQ0xfaS1ULTFHS0tEbm9NSmRXeHRqTVhzZ3hMSkJKTDRvMVNLbFYwTEs1d2NSMmpFSEF2YlJEcXU5QlNjaEVPRUs2UQ?oc=5",
+      "source": "Yale Medicine",
+      "summary": "GLP-1 Weight-Loss Pills: What You Need to Know &nbsp;&nbsp; Yale Medicine",
       "pub_iso": "2026-04-10T16:00:00+09:00",
       "pub_display": "2026-04-10 16:00",
-      "group_id": "glp1_dom",
-      "group_label": "GLP-1 비만치료제 국내",
-      "badge": "dom",
-      "keyword": "한미약품 비만 신약",
+      "group_id": "glp1_intl",
+      "group_label": "GLP-1 글로벌 트렌드",
+      "badge": "intl",
+      "keyword": "Wegovy oral pill FDA",
       "is_new": false
     },
     {
@@ -11989,19 +12275,6 @@
       "is_new": false
     },
     {
-      "title": "위고비 등 비만치료제 오남용우려의약품 지정 임박 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52NVgwb1IyTnBqLTJlbmx4M3AwOGFVdy0zWVpRSy05RDFjS3o4SUZvV1dBWHktZWNlbjBmbkl1NFV3VWtLeURwWFVLbnhQQW0zbXo0LVV3?oc=5",
-      "source": "데일리팜",
-      "summary": "위고비 등 비만치료제 오남용우려의약품 지정 임박 &nbsp;&nbsp; 데일리팜",
-      "pub_iso": "2026-04-07T16:00:00+09:00",
-      "pub_display": "2026-04-07 16:00",
-      "group_id": "glp1_dom",
-      "group_label": "GLP-1 비만치료제 국내",
-      "badge": "dom",
-      "keyword": "오남용 우려 의약품 비만치료제",
-      "is_new": false
-    },
-    {
       "title": "GLP-1 비만 치료제, 식품 산업과 건강 관리의 판을 바꿀 것인가 - 캐어유 뉴스",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84MDZMNkZva1BwVEN5WjNuTG5LcGY1Q1pUWGdGdkh3X21hTGhUdEExQjdEbmJHQUI1ZDlVVTlJZHZ3T0h5bENOd19KdFgtRWZqNGZpLXliWnB5V3R4aVNIWFFILW84ZXZhNTJaRw?oc=5",
       "source": "캐어유 뉴스",
@@ -12028,6 +12301,19 @@
       "is_new": false
     },
     {
+      "title": "위고비 등 비만치료제 오남용우려의약품 지정 임박 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52NVgwb1IyTnBqLTJlbmx4M3AwOGFVdy0zWVpRSy05RDFjS3o4SUZvV1dBWHktZWNlbjBmbkl1NFV3VWtLeURwWFVLbnhQQW0zbXo0LVV3?oc=5",
+      "source": "데일리팜",
+      "summary": "위고비 등 비만치료제 오남용우려의약품 지정 임박 &nbsp;&nbsp; 데일리팜",
+      "pub_iso": "2026-04-07T16:00:00+09:00",
+      "pub_display": "2026-04-07 16:00",
+      "group_id": "glp1_dom",
+      "group_label": "GLP-1 비만치료제 국내",
+      "badge": "dom",
+      "keyword": "오남용 우려 의약품 비만치료제",
+      "is_new": false
+    },
+    {
       "title": "[인터뷰H] \"GLP-1 비만치료제 '오남용 우려 의약품 지정', 비만 환자 치료 기회 뺏는 것\" - 매경헬스",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAybFRua3hzY3JGUnNwZm5XOUg0MXdCVHpsRDU1OVIxR0pUX3pMemN2T0ZaZXFaVmJqWGduY25zZ1VULUpHUUFIWFFuSFA3NzY0YzI1aFg4WWxjUjdWZ0kwR29EZmh4a1dVX3d4Yg?oc=5",
       "source": "매경헬스",
@@ -12041,6 +12327,19 @@
       "is_new": false
     },
     {
+      "title": "\"먹는 게 곧 건강\"…식품업계, 4조 헬스케어 푸드 '총력전' - 미래경제",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JYmNsRllwS3ZPU3ZGUmczMExDZ3k4cC11QlNZekdCWmdjbDhwRTVXTllldnQ3cDdBbmFKMFI3dW1BN3hIMmVFYlJnQ3U2R3FzdXMtaHhsRHBFVDItdktNWUdTcy0xTXFvd0plbw?oc=5",
+      "source": "미래경제",
+      "summary": "\"먹는 게 곧 건강\"…식품업계, 4조 헬스케어 푸드 '총력전' &nbsp;&nbsp; 미래경제",
+      "pub_iso": "2026-04-06T16:00:00+09:00",
+      "pub_display": "2026-04-06 16:00",
+      "group_id": "medfood_dom",
+      "group_label": "메디컬푸드 / 케어푸드 국내",
+      "badge": "dom",
+      "keyword": "CJ제일제당 케어푸드",
+      "is_new": false
+    },
+    {
       "title": "약사-한약사 업무범위 갈등...복지부 규제 향방 촉각 - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QT3g0d3BnM1d4SDc5eEwwWVBwOWI0MWR6aFhGbm5KWXZsaGgtX3RXODVOWHN6Q09YVG5zcktPT0FpdEpxbXdGMFRub1Jtbkxwc05vd1pR?oc=5",
       "source": "데일리팜",
@@ -12050,7 +12349,7 @@
       "group_id": "pharm_dispute",
       "group_label": "약사 vs 한약사 분쟁",
       "badge": "policy",
-      "keyword": "한약사 면허 범위",
+      "keyword": "약사회 한약사",
       "is_new": false
     },
     {
@@ -12076,7 +12375,7 @@
       "group_id": "glp1_food_impact",
       "group_label": "GLP-1이 식품업계에 미치는 영향",
       "badge": "intl",
-      "keyword": "GLP-1 단백질 식품",
+      "keyword": "GLP-1 식품업계",
       "is_new": false
     },
     {
@@ -12132,19 +12431,6 @@
       "is_new": false
     },
     {
-      "title": "9 Foundayo (Orforglipron) Side Effects You Should Know About - GoodRx",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5BNjJJR2Z2LVJsNDBWcTl1RzhTN05fZnFIWmVJYmR2WTVZdU5BR2ZtdENJSmo0N01DS0cxOXVoNVMyVnNyd19LdzU1SFBDY1p6aTZMaDdIVjFwMm5iazdVVFFaVHRudWx6?oc=5",
-      "source": "GoodRx",
-      "summary": "9 Foundayo (Orforglipron) Side Effects You Should Know About &nbsp;&nbsp; GoodRx",
-      "pub_iso": "2026-04-02T16:00:00+09:00",
-      "pub_display": "2026-04-02 16:00",
-      "group_id": "glp1_intl",
-      "group_label": "GLP-1 글로벌 트렌드",
-      "badge": "intl",
-      "keyword": "orforglipron Foundayo",
-      "is_new": false
-    },
-    {
       "title": "FDA Approves Eli Lilly's Obesity Pill, Foundayo - Time Magazine",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9jcVpaZkpYTmlyaUx4bThhd0RFODNCTVZydFBaNjkyTjhUMXdxdTU0YnZBamlFandCXzNPeG1MYWVFWDVFMkRqVF9lNEw2LTVheHBNQTZoRXFfajJ6M3J4bkxweWZyMTNHWHpjY3dTbmhHVXJ6SEszdTFWclU?oc=5",
       "source": "Time Magazine",
@@ -12171,6 +12457,19 @@
       "is_new": false
     },
     {
+      "title": "9 Foundayo (Orforglipron) Side Effects You Should Know About - GoodRx",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5BNjJJR2Z2LVJsNDBWcTl1RzhTN05fZnFIWmVJYmR2WTVZdU5BR2ZtdENJSmo0N01DS0cxOXVoNVMyVnNyd19LdzU1SFBDY1p6aTZMaDdIVjFwMm5iazdVVFFaVHRudWx6?oc=5",
+      "source": "GoodRx",
+      "summary": "9 Foundayo (Orforglipron) Side Effects You Should Know About &nbsp;&nbsp; GoodRx",
+      "pub_iso": "2026-04-02T16:00:00+09:00",
+      "pub_display": "2026-04-02 16:00",
+      "group_id": "glp1_intl",
+      "group_label": "GLP-1 글로벌 트렌드",
+      "badge": "intl",
+      "keyword": "orforglipron Foundayo",
+      "is_new": false
+    },
+    {
       "title": "FDA approves Lilly's Foundayo™ (orforglipron), the only GLP-1 pill for weight loss that can be taken any time of day without food or water restrictions - investor.lilly.com",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOay1xOERpNzdtOUpGbklyMHNtRnkyaDNxTVJRcHFwUVBmRFN2UjRsV3B4OGRzdlYzdjNvdVpEYTFselBRYmFkSVZUUUFGT0MzQVNjQUJtT3dlbjRvcmN0YW54SDJ0YmtaUDFkdTBKM0FTN1FKc3h5RWEweTRVWVVNd0diSWdkZkJRWW1HTTk5RVBpMVRuQm5HV2pvcl84VWxrWGhfaHlOLUVlcGx6UmVuTWxUZk15WWRRZXlocmR3?oc=5",
       "source": "investor.lilly.com",
@@ -12180,7 +12479,7 @@
       "group_id": "glp1_intl",
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
-      "keyword": "Wegovy oral pill FDA",
+      "keyword": "orforglipron Foundayo",
       "is_new": false
     },
     {
@@ -12258,7 +12557,7 @@
       "group_id": "glp1_food_impact",
       "group_label": "GLP-1이 식품업계에 미치는 영향",
       "badge": "intl",
-      "keyword": "GLP-1 식품업계",
+      "keyword": "비만치료제 식품 트렌드",
       "is_new": false
     },
     {
@@ -12301,6 +12600,19 @@
       "is_new": false
     },
     {
+      "title": "“입맛 잃은 위고비 이용자 잡아라”…美 ‘GLP-1 친화 식품’ 인기 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9jeU4ybHk3ZHZnaDBqTnpVR2JMb3g2azdXS3JQR2EtZTNBVTRMVWhLbW93SUtOSzJHUTZyOTJpa1lZLU12d3c?oc=5",
+      "source": "v.daum.net",
+      "summary": "“입맛 잃은 위고비 이용자 잡아라”…美 ‘GLP-1 친화 식품’ 인기 &nbsp;&nbsp; v.daum.net",
+      "pub_iso": "2026-03-30T16:00:00+09:00",
+      "pub_display": "2026-03-30 16:00",
+      "group_id": "glp1_food_impact",
+      "group_label": "GLP-1이 식품업계에 미치는 영향",
+      "badge": "intl",
+      "keyword": "GLP-1 식품업계",
+      "is_new": false
+    },
+    {
       "title": "“입맛 잃은 위고비 이용자 잡아라”…美 ‘GLP-1 친화 식품’ 인기 - 동아일보",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBtUC1oQWo0a1BqM1piMk9NNldjdl9pdXZCZmFUbHRHb0x1Qmw0b3lrMWxZcWg4eU5MeElXSFdval84SGVYUHVyZFhyS1o2NHFiSG13aWdvd0RDd1dHTTNTX1ZkbWJXSS1FYjZnX1V3cVc3aXFaNHfSAWZBVV95cUxPSGxIWUo5UVJ0WW5raU1MSmZPaHVQYnBJNWdKcUVqeGw0a2N3RE54Skx3cjd0eF92MEJTQU1VZF92SGxhWnpMbkhBeHFXN2R2QnJqdHR2TU9BUnViMTRQa01lUmYyS1E?oc=5",
       "source": "동아일보",
@@ -12324,19 +12636,6 @@
       "group_label": "메디컬푸드 글로벌",
       "badge": "intl",
       "keyword": "medical food market 2026",
-      "is_new": false
-    },
-    {
-      "title": "“입맛 잃은 위고비 이용자 잡아라”…美 ‘GLP-1 친화 식품’ 인기 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9jeU4ybHk3ZHZnaDBqTnpVR2JMb3g2azdXS3JQR2EtZTNBVTRMVWhLbW93SUtOSzJHUTZyOTJpa1lZLU12d3c?oc=5",
-      "source": "v.daum.net",
-      "summary": "“입맛 잃은 위고비 이용자 잡아라”…美 ‘GLP-1 친화 식품’ 인기 &nbsp;&nbsp; v.daum.net",
-      "pub_iso": "2026-03-30T16:00:00+09:00",
-      "pub_display": "2026-03-30 16:00",
-      "group_id": "glp1_food_impact",
-      "group_label": "GLP-1이 식품업계에 미치는 영향",
-      "badge": "intl",
-      "keyword": "GLP-1 식품업계",
       "is_new": false
     },
     {
@@ -12571,7 +12870,7 @@
       "group_label": "메디컬푸드 / 케어푸드 국내",
       "badge": "dom",
       "keyword": "케어푸드",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "Emergency Food Market Trends and Growth Outlook by Region 2026-2034 | Climate-Related Disasters Fuel Global Demand for Emergency Food Supplies - Yahoo Finance",
@@ -12639,17 +12938,17 @@
       "is_new": false
     },
     {
-      "title": "China Updates Production Licensing Rules for Formula Foods for Special Medical Purposes - HKTDC Research",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40VWFNWjNlSkhROW9KNXc0ZGFNNjVPY1hZOWgwWm9kYkdGWmZaTzBTcFRzclMxQlRWbjdsMjNzaFZ2b1Vzc0N4cGxHMnpudl9IMlZHZWFYVk04aVg2cUNZRHBn?oc=5",
-      "source": "HKTDC Research",
-      "summary": "China Updates Production Licensing Rules for Formula Foods for Special Medical Purposes &nbsp;&nbsp; HKTDC Research",
-      "pub_iso": "2026-03-19T16:00:00+09:00",
-      "pub_display": "2026-03-19 16:00",
-      "group_id": "medfood_intl",
-      "group_label": "메디컬푸드 글로벌",
-      "badge": "intl",
-      "keyword": "FSMP food special medical purposes",
-      "is_new": false
+      "title": "\"한약사·창고형약국 문제 해결하라\"…전국 여약사 결의 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9yaFR0NmI4RHhNZFpDbXV1Q2w2ZnkwRTJnUVlUTmJ1TkduazFDU1hQMVZoR1hRU0c5N2JxUjVCSTVaelNkX0ZuSC1naHViVk1aZXc5dG13?oc=5",
+      "source": "데일리팜",
+      "summary": "\"한약사·창고형약국 문제 해결하라\"…전국 여약사 결의 &nbsp;&nbsp; 데일리팜",
+      "pub_iso": "2026-03-21T16:00:00+09:00",
+      "pub_display": "2026-03-21 16:00",
+      "group_id": "pharm_dispute",
+      "group_label": "약사 vs 한약사 분쟁",
+      "badge": "policy",
+      "keyword": "한약사 면허 범위",
+      "is_new": true
     },
     {
       "title": "동아ST 관계사 메타비아, 차세대 비만치료제 'DA-1726' 후속 임상 진입 - 팜뉴스",
@@ -12662,6 +12961,19 @@
       "group_label": "GLP-1 비만치료제 국내",
       "badge": "dom",
       "keyword": "동아ST DA-1726",
+      "is_new": false
+    },
+    {
+      "title": "China Updates Production Licensing Rules for Formula Foods for Special Medical Purposes - HKTDC Research",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40VWFNWjNlSkhROW9KNXc0ZGFNNjVPY1hZOWgwWm9kYkdGWmZaTzBTcFRzclMxQlRWbjdsMjNzaFZ2b1Vzc0N4cGxHMnpudl9IMlZHZWFYVk04aVg2cUNZRHBn?oc=5",
+      "source": "HKTDC Research",
+      "summary": "China Updates Production Licensing Rules for Formula Foods for Special Medical Purposes &nbsp;&nbsp; HKTDC Research",
+      "pub_iso": "2026-03-19T16:00:00+09:00",
+      "pub_display": "2026-03-19 16:00",
+      "group_id": "medfood_intl",
+      "group_label": "메디컬푸드 글로벌",
+      "badge": "intl",
+      "keyword": "FSMP food special medical purposes",
       "is_new": false
     },
     {
@@ -13146,19 +13458,6 @@
       "is_new": false
     },
     {
-      "title": "New FMI Research Reveals How the Food Industry Is Supporting Consumers’ Evolving Health Priorities - fmi.org",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPV2o0YmNtYzdBSnBkbllXaXJRbWVud3VCM0VUSjNxbEo1X25ZMVFkSWIyUGlXY0RWaFdrWWRrT3FhTmxBZ1I1RTJQczRJcEZiNS1BUkNGQ2NZckNUN05QLXVXWWUyeWZVMFRJR3VOLS1pZ1RUaUxQaW5VY2IwY2R2NlhaeWxGYzkyU1NPVjdxLWNSaWRqdEtOZVZMZl9LNlFMVnpfbWh5OVBndDlST1dSZG9Rd1hSckdJR2FpdWNfLU9Jd0M5bnQtLWZGVVNUZENRdTBiWTk3aEJ1WXJsSE00Y3VfZmd1QkNCbjBoZg?oc=5",
-      "source": "fmi.org",
-      "summary": "New FMI Research Reveals How the Food Industry Is Supporting Consumers’ Evolving Health Priorities &nbsp;&nbsp; fmi.org",
-      "pub_iso": "2026-02-26T17:00:00+09:00",
-      "pub_display": "2026-02-26 17:00",
-      "group_id": "medfood_intl",
-      "group_label": "메디컬푸드 글로벌",
-      "badge": "intl",
-      "keyword": "medical food market 2026",
-      "is_new": false
-    },
-    {
       "title": "\"성분명 처방·한약사 문제 해결하라\" 9만 약사, 약사법 개정 촉구 결의 - 팜뉴스",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE54WWhGTExQb2JySHN3X3JBUVJqZUlmN0MxdW81ZU1Jb0hlMU4tbEhYanI1TzlMbnN3NnlOeHhmQWN2OTl3Qm1TSmYxMkV5R21jT0dna24zYy1ndGxBMnVTQ2ZNekV0Wm1lSzE1ZQ?oc=5",
       "source": "팜뉴스",
@@ -13169,6 +13468,19 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "약사법 개정",
+      "is_new": false
+    },
+    {
+      "title": "New FMI Research Reveals How the Food Industry Is Supporting Consumers’ Evolving Health Priorities - fmi.org",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPV2o0YmNtYzdBSnBkbllXaXJRbWVud3VCM0VUSjNxbEo1X25ZMVFkSWIyUGlXY0RWaFdrWWRrT3FhTmxBZ1I1RTJQczRJcEZiNS1BUkNGQ2NZckNUN05QLXVXWWUyeWZVMFRJR3VOLS1pZ1RUaUxQaW5VY2IwY2R2NlhaeWxGYzkyU1NPVjdxLWNSaWRqdEtOZVZMZl9LNlFMVnpfbWh5OVBndDlST1dSZG9Rd1hSckdJR2FpdWNfLU9Jd0M5bnQtLWZGVVNUZENRdTBiWTk3aEJ1WXJsSE00Y3VfZmd1QkNCbjBoZg?oc=5",
+      "source": "fmi.org",
+      "summary": "New FMI Research Reveals How the Food Industry Is Supporting Consumers’ Evolving Health Priorities &nbsp;&nbsp; fmi.org",
+      "pub_iso": "2026-02-26T17:00:00+09:00",
+      "pub_display": "2026-02-26 17:00",
+      "group_id": "medfood_intl",
+      "group_label": "메디컬푸드 글로벌",
+      "badge": "intl",
+      "keyword": "medical food market 2026",
       "is_new": false
     },
     {
@@ -13542,10 +13854,10 @@
       "summary": "위고비·마운자로 맞기 전 필독! \"이런 분들은 절대 추천하지 않습니다\" &nbsp;&nbsp; 고향사랑기부제 위기브",
       "pub_iso": "2026-02-06T17:00:00+09:00",
       "pub_display": "2026-02-06 17:00",
-      "group_id": "glp1_side",
-      "group_label": "GLP-1 부작용·임상 리스크",
+      "group_id": "glp1_dom",
+      "group_label": "GLP-1 비만치료제 국내",
       "badge": "dom",
-      "keyword": "위고비 부작용",
+      "keyword": "위고비 처방",
       "is_new": false
     },
     {
@@ -13780,7 +14092,7 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "성분명 처방",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "\"대체조제·성분명처방 강제화 신중\" - 데일리메디",
@@ -14170,7 +14482,7 @@
       "group_label": "메디컬푸드 글로벌",
       "badge": "intl",
       "keyword": "medical food market 2026",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "How Does Oral Wegovy for Weight Loss Compare to GLP-1 Shots? - Healthline",
@@ -14186,19 +14498,6 @@
       "is_new": false
     },
     {
-      "title": "한약사 개설 '창고형 약국', 매물로…운영 4개월 만에 정리 수순 - 약사공론",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14Q0xtbGl3d293YkF4OFJzUXVxYUxyUDBEOUg1UklNcHNVS3dDWHV1M1hxUWg2MkdNRHlYSklENlZPcEJYTEhldGJLSFZGdWNUc3RGOTJhOVZ1bFc5S0pxc2Ixc3htV1lIc2lTUg?oc=5",
-      "source": "약사공론",
-      "summary": "한약사 개설 '창고형 약국', 매물로…운영 4개월 만에 정리 수순 &nbsp;&nbsp; 약사공론",
-      "pub_iso": "2026-01-06T17:00:00+09:00",
-      "pub_display": "2026-01-06 17:00",
-      "group_id": "pharm_dispute",
-      "group_label": "약사 vs 한약사 분쟁",
-      "badge": "policy",
-      "keyword": "한약사 약국 개설",
-      "is_new": false
-    },
-    {
       "title": "US FDA to limit regulation of health and fitness wearables, commissioner says - Reuters",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOTZjY0FlTTJJUEFSNzlVRjBXd2o3THg3dFZpQzFNUjNhc3pMUElXLW1ZcUJEemllYzhZSHRlcWFvZ1ZBdktadlNpZFUzUFhNdjRjV1FybnpRYW9aTk1ubl8tczNkbVZjV09QNHNoWUdXMnJNSVo4MHRFbnc3ZTU2cFZyZ3A0LW01c2VFdGQzWDdVeHV4bFk4b1pzTnBaY2tzbGF6ZDRGaXJsck1NUDVsaFM0M3JLUkttZ084bGdOelN5bnlkRXdVbGtrWHI4dmxNZlh5ZQ?oc=5",
       "source": "Reuters",
@@ -14209,6 +14508,19 @@
       "group_label": "메디컬푸드 글로벌",
       "badge": "intl",
       "keyword": "FDA medical food regulation",
+      "is_new": false
+    },
+    {
+      "title": "한약사 개설 '창고형 약국', 매물로…운영 4개월 만에 정리 수순 - 약사공론",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14Q0xtbGl3d293YkF4OFJzUXVxYUxyUDBEOUg1UklNcHNVS3dDWHV1M1hxUWg2MkdNRHlYSklENlZPcEJYTEhldGJLSFZGdWNUc3RGOTJhOVZ1bFc5S0pxc2Ixc3htV1lIc2lTUg?oc=5",
+      "source": "약사공론",
+      "summary": "한약사 개설 '창고형 약국', 매물로…운영 4개월 만에 정리 수순 &nbsp;&nbsp; 약사공론",
+      "pub_iso": "2026-01-06T17:00:00+09:00",
+      "pub_display": "2026-01-06 17:00",
+      "group_id": "pharm_dispute",
+      "group_label": "약사 vs 한약사 분쟁",
+      "badge": "policy",
+      "keyword": "한약사 약국 개설",
       "is_new": false
     },
     {
@@ -14303,19 +14615,6 @@
       "is_new": false
     },
     {
-      "title": "\"먹는 약이 식탁 엎었다\"... 美 식품업계, 비만치료제·관세·원가 '3각 파도'에 휘청 - 글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVjBVbDFNNlIwLWhQNEFVOVBXZXlWOUh1WW14bGF0dVJWbHNFWW8wOWloeElFZnpXWkk3Tk1VWFI3b3ZabnNWMUxDdkozdUdyUEhJT3NQaDdXcFNaWUZYamhfZWVzSUlnX3ZzTW82MHlWY0lQZVFYdy1oNTRYSGtiTjNYYmhieHBH?oc=5",
-      "source": "글로벌이코노믹",
-      "summary": "\"먹는 약이 식탁 엎었다\"... 美 식품업계, 비만치료제·관세·원가 '3각 파도'에 휘청 &nbsp;&nbsp; 글로벌이코노믹",
-      "pub_iso": "2025-12-30T17:00:00+09:00",
-      "pub_display": "2025-12-30 17:00",
-      "group_id": "glp1_food_impact",
-      "group_label": "GLP-1이 식품업계에 미치는 영향",
-      "badge": "intl",
-      "keyword": "GLP-1 식품업계",
-      "is_new": false
-    },
-    {
       "title": "FDA approves Wegovy pill - Healthcare Finance News",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0yQkZTWWw3MGpoazFYXzRXczN2b1VVeE94a2FUb3lRdjFKM19ERlF1SDcxdlROaWIzU3JDckJfMzd4Q29YZDAybzhuRVA3UGZNNFR0Q2dneWxLNXc3NERNUnR6aEhBVmE5MExEZUlsSGJIanNqd1E?oc=5",
       "source": "Healthcare Finance News",
@@ -14326,6 +14625,19 @@
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "Wegovy oral pill FDA",
+      "is_new": false
+    },
+    {
+      "title": "\"먹는 약이 식탁 엎었다\"... 美 식품업계, 비만치료제·관세·원가 '3각 파도'에 휘청 - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVjBVbDFNNlIwLWhQNEFVOVBXZXlWOUh1WW14bGF0dVJWbHNFWW8wOWloeElFZnpXWkk3Tk1VWFI3b3ZabnNWMUxDdkozdUdyUEhJT3NQaDdXcFNaWUZYamhfZWVzSUlnX3ZzTW82MHlWY0lQZVFYdy1oNTRYSGtiTjNYYmhieHBH?oc=5",
+      "source": "글로벌이코노믹",
+      "summary": "\"먹는 약이 식탁 엎었다\"... 美 식품업계, 비만치료제·관세·원가 '3각 파도'에 휘청 &nbsp;&nbsp; 글로벌이코노믹",
+      "pub_iso": "2025-12-30T17:00:00+09:00",
+      "pub_display": "2025-12-30 17:00",
+      "group_id": "glp1_food_impact",
+      "group_label": "GLP-1이 식품업계에 미치는 영향",
+      "badge": "intl",
+      "keyword": "GLP-1 식품업계",
       "is_new": false
     },
     {
@@ -14381,6 +14693,19 @@
       "is_new": false
     },
     {
+      "title": "FDA Approves Once-Daily Wegovy Pill as the First Oral GLP-1 Medicine for Weight Loss in Adults With Obesity or Overweight - WebMD",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVFJXS3VfbUNMbTNkbGNJQU4wTVJoSVBwTGZMUnpqTUtkTWVfdmY4bEhTcDF5NmRJSVpQY1V5dXlydExicEVqa2xlUWNjZDg3bWliTEpUWjd3eUs1b3EzY2JFTEVRUXV2MU5XbnE1alRUX19PU2ZGVmNDTWhBZDZsU251Z21kMjd4eWhlTzU0Um5qMVo2d2lHaE9UUGdFNXB1VFAwUndWZVlSMC1jbm5hb25zNzFoNWYwQ3lzdG96cFBuc19YRzJUOWEzWGJjT0RZaU9F?oc=5",
+      "source": "WebMD",
+      "summary": "FDA Approves Once-Daily Wegovy Pill as the First Oral GLP-1 Medicine for Weight Loss in Adults With Obesity or Overweight &nbsp;&nbsp; WebMD",
+      "pub_iso": "2025-12-23T17:00:00+09:00",
+      "pub_display": "2025-12-23 17:00",
+      "group_id": "glp1_intl",
+      "group_label": "GLP-1 글로벌 트렌드",
+      "badge": "intl",
+      "keyword": "Wegovy oral pill FDA",
+      "is_new": false
+    },
+    {
       "title": "FDA approves Wegovy pill for weight loss, the first daily oral medication of its kind - CBS News",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9nZDhtWVBFMnNUaUZlU0U1bFk3c25HUTRuVmZzYVBMXzdGQzA0TGVxWkYwM1lfcks5cFNwaGdFN0hPb2RCcnZXZ3A0dEo1Z1VmbVplY1BHc1l3U0JManVfdmtEcjQ2MXN4azZ6MWZQSWtsdXJL0gF6QVVfeXFMUFdXMlhUelRhZ0Zwbmo5dmJNYjJNejZDMnUwQ2RmQUdvdmNZSUhKZU9oMHJhTUwtdGhTR3o3QUVJUjJVeVpPaW1wNWpsTnRtN2NjQWhjcVJNQThZeXZncFpFa1JaanZiZ2hNeFQyYlJHSE0xczlrTkI5ckE?oc=5",
       "source": "CBS News",
@@ -14407,19 +14732,6 @@
       "is_new": false
     },
     {
-      "title": "식약처, 염증성 장질환자용 식품 기준 신설...환자식 시장 열린다 - 푸드투데이",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5qV1g3UU1OakhRT2pQTEVBbmtUd0diREFFMGZwUXN6QlpTdDJQNVAyX3d2TE1BTDRLX2tlOXZWN1FRRVh0c0hkUVlxbGFNem1EMzVINkc2QjVFWHlhWkZjMTBPU3FOUQ?oc=5",
-      "source": "푸드투데이",
-      "summary": "식약처, 염증성 장질환자용 식품 기준 신설...환자식 시장 열린다 &nbsp;&nbsp; 푸드투데이",
-      "pub_iso": "2025-12-23T17:00:00+09:00",
-      "pub_display": "2025-12-23 17:00",
-      "group_id": "medfood_dom",
-      "group_label": "메디컬푸드 / 케어푸드 국내",
-      "badge": "dom",
-      "keyword": "특수의료용도식품",
-      "is_new": false
-    },
-    {
       "title": "식약처, 염증성 장질환자용 식품 기준 신설 - e-의료정보",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1WZ1ctQ0RHV2Q5emx3TDNCamRyaDNmR2k1R1pLOWU5VEo5X2FsQktHZ2hBQS1FbmVXUlNlRmxJVnE4T0FVUDV5X0l5VDdjdmdtcGZXRnpfNjhnanR0dGNYUGlROWFFN05SQWtB0gFvQVVfeXFMTXJ1b3VuZW1pVFFpOEtSNTlzVkVJb01WUUtOb0hDOFpyR1lvaTNqRG4wM0NJZENmc2lHVEcxMTRsd01kUS15MUI2TzVxWHBjSDBmWlhuWTlWU0hOTTlNT2J6a19Ld1dGY2dkbkdiZk1v?oc=5",
       "source": "e-의료정보",
@@ -14433,16 +14745,16 @@
       "is_new": false
     },
     {
-      "title": "FDA Approves Once-Daily Wegovy Pill as the First Oral GLP-1 Medicine for Weight Loss in Adults With Obesity or Overweight - WebMD",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVFJXS3VfbUNMbTNkbGNJQU4wTVJoSVBwTGZMUnpqTUtkTWVfdmY4bEhTcDF5NmRJSVpQY1V5dXlydExicEVqa2xlUWNjZDg3bWliTEpUWjd3eUs1b3EzY2JFTEVRUXV2MU5XbnE1alRUX19PU2ZGVmNDTWhBZDZsU251Z21kMjd4eWhlTzU0Um5qMVo2d2lHaE9UUGdFNXB1VFAwUndWZVlSMC1jbm5hb25zNzFoNWYwQ3lzdG96cFBuc19YRzJUOWEzWGJjT0RZaU9F?oc=5",
-      "source": "WebMD",
-      "summary": "FDA Approves Once-Daily Wegovy Pill as the First Oral GLP-1 Medicine for Weight Loss in Adults With Obesity or Overweight &nbsp;&nbsp; WebMD",
+      "title": "식약처, 염증성 장질환자용 식품 기준 신설...환자식 시장 열린다 - 푸드투데이",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5qV1g3UU1OakhRT2pQTEVBbmtUd0diREFFMGZwUXN6QlpTdDJQNVAyX3d2TE1BTDRLX2tlOXZWN1FRRVh0c0hkUVlxbGFNem1EMzVINkc2QjVFWHlhWkZjMTBPU3FOUQ?oc=5",
+      "source": "푸드투데이",
+      "summary": "식약처, 염증성 장질환자용 식품 기준 신설...환자식 시장 열린다 &nbsp;&nbsp; 푸드투데이",
       "pub_iso": "2025-12-23T17:00:00+09:00",
       "pub_display": "2025-12-23 17:00",
-      "group_id": "glp1_intl",
-      "group_label": "GLP-1 글로벌 트렌드",
-      "badge": "intl",
-      "keyword": "Wegovy oral pill FDA",
+      "group_id": "medfood_dom",
+      "group_label": "메디컬푸드 / 케어푸드 국내",
+      "badge": "dom",
+      "keyword": "환자식 시장",
       "is_new": false
     },
     {
@@ -14524,10 +14836,10 @@
       "is_new": false
     },
     {
-      "title": "FDA Approves Oral Semaglutide as First GLP-1 Pill for Weight Loss - AJMC",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdDVsRncyNDJIWU42X1AzblQyZVh3bEJzeUlfUUU1VXFiM0Nabk1ZUXBCS1hkS0Z5V3paRm1xUHdVeTc4UzlmTkZGTEFubmw5SVozTHpHT3E0eWdYQlFVcWJ1d1lGZnF2dGxPV3ZtMHE4WC14NU41a2lrS2lEdG1pdFlhdHVTanJzeVlBajl2T1JRbWhBdnc?oc=5",
-      "source": "AJMC",
-      "summary": "FDA Approves Oral Semaglutide as First GLP-1 Pill for Weight Loss &nbsp;&nbsp; AJMC",
+      "title": "F.D.A. Approves Wegovy Weight-Loss Pill - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcVdrdnlIakNPYWdTZlRGcUNOQnE2SjJGQUY2R3p4S1ljbHJPc0FEbFp2Z3E1NDJhNElSZnhvbkN4aDE0VVBlM1R3ckV1TFBsUzI5TmZkbldvWnNaMkdSMEI3ZGluNjRqaFVJa2xkWDg1bnpYMGlQWTNSbVI3SkpSSVBETGJubG5y?oc=5",
+      "source": "The New York Times",
+      "summary": "F.D.A. Approves Wegovy Weight-Loss Pill &nbsp;&nbsp; The New York Times",
       "pub_iso": "2025-12-22T17:00:00+09:00",
       "pub_display": "2025-12-22 17:00",
       "group_id": "glp1_intl",
@@ -14537,10 +14849,10 @@
       "is_new": false
     },
     {
-      "title": "F.D.A. Approves Wegovy Weight-Loss Pill - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcVdrdnlIakNPYWdTZlRGcUNOQnE2SjJGQUY2R3p4S1ljbHJPc0FEbFp2Z3E1NDJhNElSZnhvbkN4aDE0VVBlM1R3ckV1TFBsUzI5TmZkbldvWnNaMkdSMEI3ZGluNjRqaFVJa2xkWDg1bnpYMGlQWTNSbVI3SkpSSVBETGJubG5y?oc=5",
-      "source": "The New York Times",
-      "summary": "F.D.A. Approves Wegovy Weight-Loss Pill &nbsp;&nbsp; The New York Times",
+      "title": "FDA Approves Oral Semaglutide as First GLP-1 Pill for Weight Loss - The American Journal of Managed Care",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdDVsRncyNDJIWU42X1AzblQyZVh3bEJzeUlfUUU1VXFiM0Nabk1ZUXBCS1hkS0Z5V3paRm1xUHdVeTc4UzlmTkZGTEFubmw5SVozTHpHT3E0eWdYQlFVcWJ1d1lGZnF2dGxPV3ZtMHE4WC14NU41a2lrS2lEdG1pdFlhdHVTanJzeVlBajl2T1JRbWhBdnc?oc=5",
+      "source": "The American Journal of Managed Care",
+      "summary": "FDA Approves Oral Semaglutide as First GLP-1 Pill for Weight Loss &nbsp;&nbsp; The American Journal of Managed Care",
       "pub_iso": "2025-12-22T17:00:00+09:00",
       "pub_display": "2025-12-22 17:00",
       "group_id": "glp1_intl",
@@ -14641,10 +14953,10 @@
       "is_new": false
     },
     {
-      "title": "Ready-to-Use Therapeutic Food (RUTF) Market and Supply Update - UNICEF",
+      "title": "Ready-to-Use Therapeutic Food (RUTF) Market and Supply Update - Unicef",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTUxsNmJVbHIzMUdQZDdENGlWbmRZd0dyOXJMTVFNT0loN3pwQnFndXJDVURJZ0pTYWZHckxvNFBuOGJwVGZNRWlmTDdRbjRxYUJPU3RsZEIzVHZaMUduRXh5MUloMnBIcFBsN0NBbnlRNjNJV0xnaHBvanUxWGxORXdSeFJrQ2Y2UXV0YmRfMzl3SUU2RUtTcnlR?oc=5",
-      "source": "UNICEF",
-      "summary": "Ready-to-Use Therapeutic Food (RUTF) Market and Supply Update &nbsp;&nbsp; UNICEF",
+      "source": "Unicef",
+      "summary": "Ready-to-Use Therapeutic Food (RUTF) Market and Supply Update &nbsp;&nbsp; Unicef",
       "pub_iso": "2025-12-12T17:00:00+09:00",
       "pub_display": "2025-12-12 17:00",
       "group_id": "medfood_intl",
@@ -14797,6 +15109,19 @@
       "is_new": false
     },
     {
+      "title": "15년만에 결실 ‘비대면진료’…12건 법안 묶어 ‘통과’ - 데일리메디",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTVnRlMVdYNFNsMnRYVm1qZHJFRExIZFlrTl9ya2JEcHZCbTIyVlIyaTZ2R3llQ3VNYUNuU21pOUUyYmMzQXp2WHI4dGdpR1JzYVlUeTBYeUFOcTNUZEQ5MXlEVQ?oc=5",
+      "source": "데일리메디",
+      "summary": "15년만에 결실 ‘비대면진료’…12건 법안 묶어 ‘통과’ &nbsp;&nbsp; 데일리메디",
+      "pub_iso": "2025-12-03T17:00:00+09:00",
+      "pub_display": "2025-12-03 17:00",
+      "group_id": "pharm_policy",
+      "group_label": "약사회 정책 (비대면진료·약 배송)",
+      "badge": "policy",
+      "keyword": "비대면진료 제도화",
+      "is_new": false
+    },
+    {
       "title": "서영석 의원, '전자처방전 전달시스템 구축' 의료법 국회 본회의 통과 - 히트뉴스",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RVnEwd2Z5RU53OF9NMVdHNkJwLTRDckd6em1xRFBpOHkyZC1RWFpxcV9FYVJjTUZhcWtwc3ZMMHAtLVdlczhHSDVqRmhsRERvLXdtWHlZTldQaThyeGd2T25TQVY3QXAwWE1J?oc=5",
       "source": "히트뉴스",
@@ -14821,19 +15146,6 @@
       "badge": "policy",
       "keyword": "공적 전자처방전",
       "is_new": false
-    },
-    {
-      "title": "15년만에 결실 ‘비대면진료’…12건 법안 묶어 ‘통과’ - 데일리메디",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTVnRlMVdYNFNsMnRYVm1qZHJFRExIZFlrTl9ya2JEcHZCbTIyVlIyaTZ2R3llQ3VNYUNuU21pOUUyYmMzQXp2WHI4dGdpR1JzYVlUeTBYeUFOcTNUZEQ5MXlEVQ?oc=5",
-      "source": "데일리메디",
-      "summary": "15년만에 결실 ‘비대면진료’…12건 법안 묶어 ‘통과’ &nbsp;&nbsp; 데일리메디",
-      "pub_iso": "2025-12-03T17:00:00+09:00",
-      "pub_display": "2025-12-03 17:00",
-      "group_id": "pharm_policy",
-      "group_label": "약사회 정책 (비대면진료·약 배송)",
-      "badge": "policy",
-      "keyword": "비대면진료 제도화",
-      "is_new": true
     },
     {
       "title": "서영석, 공적 전자처방시스템 구축·운영 의료법 본회의 통과 - 경기일보",
@@ -14989,6 +15301,32 @@
       "group_label": "GLP-1 글로벌 트렌드",
       "badge": "intl",
       "keyword": "Mounjaro Zepbound market",
+      "is_new": false
+    },
+    {
+      "title": "비대면진료·공적처방전·플랫폼 도매금지법, 복지위 통과 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1oRFUwRHJpaXRhUnByNHpnYW1mRXk0WWhMdXNBT2daZURRdERjMVZmLVh3dVdvaGtrb1dQcTYzc1YtVnZUaWdoZXRQZGw?oc=5",
+      "source": "데일리팜",
+      "summary": "비대면진료·공적처방전·플랫폼 도매금지법, 복지위 통과 &nbsp;&nbsp; 데일리팜",
+      "pub_iso": "2025-11-20T17:00:00+09:00",
+      "pub_display": "2025-11-20 17:00",
+      "group_id": "pharm_policy",
+      "group_label": "약사회 정책 (비대면진료·약 배송)",
+      "badge": "policy",
+      "keyword": "공적 전자처방전",
+      "is_new": true
+    },
+    {
+      "title": "9분능선 넘은 비대면 진료…의료계 '납득' 산업계 '씁슬' - 메디칼타임즈",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpU3RKc3VZZVRFU24wV3llMXVrX1J2aFlxVW13S1hPUXNWUDFkdVhhNVJvY0w0YmN4VzZYQ3F0VlNOS2Q5cjNCNkIxNVJUbWRpblE0YUI3Y3VHNmtQRHk3UGNxbGtxbmx2SmJEeEIwUjZyeUE?oc=5",
+      "source": "메디칼타임즈",
+      "summary": "9분능선 넘은 비대면 진료…의료계 '납득' 산업계 '씁슬' &nbsp;&nbsp; 메디칼타임즈",
+      "pub_iso": "2025-11-19T17:00:00+09:00",
+      "pub_display": "2025-11-19 17:00",
+      "group_id": "pharm_policy",
+      "group_label": "약사회 정책 (비대면진료·약 배송)",
+      "badge": "policy",
+      "keyword": "비대면진료 제도화",
       "is_new": false
     },
     {
@@ -15200,6 +15538,19 @@
       "is_new": false
     },
     {
+      "title": "“위고비, 체중 감량·심혈관 위험감소 효과 있지만 부작용 주의해야” - 에너지경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02QzltVlVwNDFZVm1PSWR0SmtsTnF6WS0wQ1VBb0t2TGZEWGo3eWRGWjdMNEwyTzRsamg0OUNRSl9ESkJHbWxNbGpLdFFEWU4wSWlpYl85d3NlTVE?oc=5",
+      "source": "에너지경제신문",
+      "summary": "“위고비, 체중 감량·심혈관 위험감소 효과 있지만 부작용 주의해야” &nbsp;&nbsp; 에너지경제신문",
+      "pub_iso": "2025-11-04T17:00:00+09:00",
+      "pub_display": "2025-11-04 17:00",
+      "group_id": "glp1_side",
+      "group_label": "GLP-1 부작용·임상 리스크",
+      "badge": "dom",
+      "keyword": "세마글루타이드 췌장염",
+      "is_new": false
+    },
+    {
       "title": "웰에이징으로 주목받는 케어푸드와 비즈니스 기회 - KPMG",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBnajYtbm9na2c5Z2szRTNkZEJTYlVlSWxPWWdhV19nbWhuMUl2ck1GRk5ZczdwVkdHd0Q5cUtFRkhuY1c3UXdJbWVQaVpoQlR2b0tzdXYzV1o4T1lhZkY0VFBxUFloY2R4OGZUZ3FCU2RyZw?oc=5",
       "source": "KPMG",
@@ -15317,10 +15668,10 @@
       "is_new": false
     },
     {
-      "title": "‘한약사 일반약 판매’ 의사·약사 의원 모두 문제 제기 - 의학신문",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5QaXZiRHR5MmxqN0J1NnEyTmJpanZpSkRPQTh3cDhxQ293OTc4ZGhac1RxWFVYOGg0dThXT2FWY01jMTl3ODJXb1NOVFljMXBFdUM1Sjk3X0RLRzNVcEc4TjFJR0pRcDFGNmc?oc=5",
-      "source": "의학신문",
-      "summary": "‘한약사 일반약 판매’ 의사·약사 의원 모두 문제 제기 &nbsp;&nbsp; 의학신문",
+      "title": "\"한약사도 일반약 판매\" 후폭풍…국회 질타에 복지부 '갈팡질팡' - 약사공론",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtSE84WER2MDViNko4UEFrSXhRTDRVcTI5UWVYNTdlNkRKUVNTckJuWXNEcHI1a0tBSDFrMmFVTmdUUXlrRUFwb19yV1UtN1ZSX1hDOVJBRF9TSjBGLVB6a1VTSkJLOUdBOVVUSQ?oc=5",
+      "source": "약사공론",
+      "summary": "\"한약사도 일반약 판매\" 후폭풍…국회 질타에 복지부 '갈팡질팡' &nbsp;&nbsp; 약사공론",
       "pub_iso": "2025-10-16T16:00:00+09:00",
       "pub_display": "2025-10-16 16:00",
       "group_id": "pharm_dispute",
@@ -15330,10 +15681,10 @@
       "is_new": false
     },
     {
-      "title": "\"한약사도 일반약 판매\" 후폭풍…국회 질타에 복지부 '갈팡질팡' - 약사공론",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtSE84WER2MDViNko4UEFrSXhRTDRVcTI5UWVYNTdlNkRKUVNTckJuWXNEcHI1a0tBSDFrMmFVTmdUUXlrRUFwb19yV1UtN1ZSX1hDOVJBRF9TSjBGLVB6a1VTSkJLOUdBOVVUSQ?oc=5",
-      "source": "약사공론",
-      "summary": "\"한약사도 일반약 판매\" 후폭풍…국회 질타에 복지부 '갈팡질팡' &nbsp;&nbsp; 약사공론",
+      "title": "‘한약사 일반약 판매’ 의사·약사 의원 모두 문제 제기 - 의학신문",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5QaXZiRHR5MmxqN0J1NnEyTmJpanZpSkRPQTh3cDhxQ293OTc4ZGhac1RxWFVYOGg0dThXT2FWY01jMTl3ODJXb1NOVFljMXBFdUM1Sjk3X0RLRzNVcEc4TjFJR0pRcDFGNmc?oc=5",
+      "source": "의학신문",
+      "summary": "‘한약사 일반약 판매’ 의사·약사 의원 모두 문제 제기 &nbsp;&nbsp; 의학신문",
       "pub_iso": "2025-10-16T16:00:00+09:00",
       "pub_display": "2025-10-16 16:00",
       "group_id": "pharm_dispute",
@@ -15721,19 +16072,6 @@
     },
     {
       "title": "한약사 초대형약국 개설에 일반약 공급 이슈화 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JZnYydUVEdmt5OFJQVWdaeHV4cDJveExuMDFOa19mandqRlVjTTVVOS1lZ0IzSUg1X1hsTmptM1cyRmNHM1liWllObXM2d3JMeXhXRHV6Z2gzNS1z?oc=5",
-      "source": "데일리팜",
-      "summary": "한약사 초대형약국 개설에 일반약 공급 이슈화 &nbsp;&nbsp; 데일리팜",
-      "pub_iso": "2025-09-02T16:00:00+09:00",
-      "pub_display": "2025-09-02 16:00",
-      "group_id": "pharm_dispute",
-      "group_label": "약사 vs 한약사 분쟁",
-      "badge": "policy",
-      "keyword": "한약사협회",
-      "is_new": false
-    },
-    {
-      "title": "한약사 초대형약국 개설에 일반약 공급 이슈화 - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBrUlkyNXdyazVkN2xkbWxyNHJEU3FRNWhSLVExMkpzUDZsVkFuQ0s2akxaZERFVjQzaTNBY2tDaFR2VHNVSUxxVnp3X0oxZw?oc=5",
       "source": "데일리팜",
       "summary": "한약사 초대형약국 개설에 일반약 공급 이슈화 &nbsp;&nbsp; 데일리팜",
@@ -15743,6 +16081,19 @@
       "group_label": "약사 vs 한약사 분쟁",
       "badge": "policy",
       "keyword": "한약사 약국 개설",
+      "is_new": false
+    },
+    {
+      "title": "한약사 초대형약국 개설에 일반약 공급 이슈화 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JZnYydUVEdmt5OFJQVWdaeHV4cDJveExuMDFOa19mandqRlVjTTVVOS1lZ0IzSUg1X1hsTmptM1cyRmNHM1liWllObXM2d3JMeXhXRHV6Z2gzNS1z?oc=5",
+      "source": "데일리팜",
+      "summary": "한약사 초대형약국 개설에 일반약 공급 이슈화 &nbsp;&nbsp; 데일리팜",
+      "pub_iso": "2025-09-02T16:00:00+09:00",
+      "pub_display": "2025-09-02 16:00",
+      "group_id": "pharm_dispute",
+      "group_label": "약사 vs 한약사 분쟁",
+      "badge": "policy",
+      "keyword": "한약사협회",
       "is_new": false
     },
     {
@@ -15889,10 +16240,10 @@
       "is_new": false
     },
     {
-      "title": "'일반의약품 판매' 갈등 개입한 정부 - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ockhpQTBkMTQ4cnJhRTdqWDlObjZ5RDNIN2xWX21UTW1zM0cxeGVnSXd5OERCTlVkR1VyWUw3VDNjTFhiVUwwa0FoOTRqVFF2Vi1TVWtCZmNzUdIBVEFVX3lxTE5GcHZ0Vm9uVXBwWFh5YkVlcmx2NnlQUTNRVWJhY25NYXJ6NmRhaHo5N2oySEN1THhTdkhfOG9JcUdoSTkwQVMzTGNDRTM5djR2TGdNRw?oc=5",
-      "source": "한국경제",
-      "summary": "'일반의약품 판매' 갈등 개입한 정부 &nbsp;&nbsp; 한국경제",
+      "title": "대한한약사회, 복지부 '한약사 개설 약국 의약품 공급 요청' 공문에 환영 - 팜뉴스",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGeWdYcjJKQUl4U3dUYjhMeWtRT1cxSkk4RjBzajJqZnJwLTBjMjdUSktIY3hIUmdPMnNoeEhJdF9lVm8zaGxqbmVING0xOHBVblIwdjZteXF4Z3VPMGN3dG0zNzdnbzRfaVdRNA?oc=5",
+      "source": "팜뉴스",
+      "summary": "대한한약사회, 복지부 '한약사 개설 약국 의약품 공급 요청' 공문에 환영 &nbsp;&nbsp; 팜뉴스",
       "pub_iso": "2025-08-12T16:00:00+09:00",
       "pub_display": "2025-08-12 16:00",
       "group_id": "pharm_dispute",
@@ -15902,10 +16253,10 @@
       "is_new": false
     },
     {
-      "title": "대한한약사회, 복지부 '한약사 개설 약국 의약품 공급 요청' 공문에 환영 - 팜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGeWdYcjJKQUl4U3dUYjhMeWtRT1cxSkk4RjBzajJqZnJwLTBjMjdUSktIY3hIUmdPMnNoeEhJdF9lVm8zaGxqbmVING0xOHBVblIwdjZteXF4Z3VPMGN3dG0zNzdnbzRfaVdRNA?oc=5",
-      "source": "팜뉴스",
-      "summary": "대한한약사회, 복지부 '한약사 개설 약국 의약품 공급 요청' 공문에 환영 &nbsp;&nbsp; 팜뉴스",
+      "title": "'일반의약품 판매' 갈등 개입한 정부 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ockhpQTBkMTQ4cnJhRTdqWDlObjZ5RDNIN2xWX21UTW1zM0cxeGVnSXd5OERCTlVkR1VyWUw3VDNjTFhiVUwwa0FoOTRqVFF2Vi1TVWtCZmNzUdIBVEFVX3lxTE5GcHZ0Vm9uVXBwWFh5YkVlcmx2NnlQUTNRVWJhY25NYXJ6NmRhaHo5N2oySEN1THhTdkhfOG9JcUdoSTkwQVMzTGNDRTM5djR2TGdNRw?oc=5",
+      "source": "한국경제",
+      "summary": "'일반의약품 판매' 갈등 개입한 정부 &nbsp;&nbsp; 한국경제",
       "pub_iso": "2025-08-12T16:00:00+09:00",
       "pub_display": "2025-08-12 16:00",
       "group_id": "pharm_dispute",
@@ -15955,7 +16306,7 @@
     },
     {
       "title": "공적 전자처방전 도입, 그 이면엔 성분명 처방과 총액계약제까지 숨어있다 - MEDI:GATE NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fQmFnSlBsUy1mYzZYS3NpVFBJSHJWbzNJZVJwX193OWM0dEc2OFpiLVJqQ1A1QWdFQ0l3TGlUWkdjalliV2liZWpOSTlCYmx6N2c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE81azZVQ2FJU0lmQ0s0SnhtcWRlTW1EY29ySC1WcGRRRVZIaUNoSkdrZDhnc0pGeVRlVUhIa0E4Vi1Oc3JsTDktRmhualJkNTdLVjEyLQ?oc=5",
       "source": "MEDI:GATE NEWS",
       "summary": "공적 전자처방전 도입, 그 이면엔 성분명 처방과 총액계약제까지 숨어있다 &nbsp;&nbsp; MEDI:GATE NEWS",
       "pub_iso": "2025-08-03T16:00:00+09:00",
@@ -15968,7 +16319,7 @@
     },
     {
       "title": "공적 전자처방전 도입, 그 이면엔 성분명 처방과 총액계약제까지 숨어있다 - MEDI:GATE NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE81azZVQ2FJU0lmQ0s0SnhtcWRlTW1EY29ySC1WcGRRRVZIaUNoSkdrZDhnc0pGeVRlVUhIa0E4Vi1Oc3JsTDktRmhualJkNTdLVjEyLQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fQmFnSlBsUy1mYzZYS3NpVFBJSHJWbzNJZVJwX193OWM0dEc2OFpiLVJqQ1A1QWdFQ0l3TGlUWkdjalliV2liZWpOSTlCYmx6N2c?oc=5",
       "source": "MEDI:GATE NEWS",
       "summary": "공적 전자처방전 도입, 그 이면엔 성분명 처방과 총액계약제까지 숨어있다 &nbsp;&nbsp; MEDI:GATE NEWS",
       "pub_iso": "2025-08-03T16:00:00+09:00",
@@ -15990,6 +16341,19 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "공적 전자처방전",
+      "is_new": false
+    },
+    {
+      "title": "[美웰니스 산업 마케팅 리포트②] 시장 재편에 나선 新 체중 감량 트렌드 - 반론보도닷컴",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpeDE3VjhqOHpLVDJlY3Bsd1hraTAwWXpVY3RSNVowU2FjM3VNcU4xSW9wd1Fla19HMTd4elRUdUxHRFJUZlgyem5sZXZFSTBkcUhUNXdiUTVjN2ZnQVFHdUFjOVd5OUt3eUFhWNIBcEFVX3lxTE04RUROaUNWZ2E5ODZkajNkd0hMNzBFckRUc3N5QmstaG9MclI2YzNJZHVBbXBWbWgtbV9JcS1PbC1sUTRtREJ5bE1BUjRFRG40YnJ0aWE5d2xKeVpJSGZjN0ZHZ1ktdVE1dXI3X25JSng?oc=5",
+      "source": "반론보도닷컴",
+      "summary": "[美웰니스 산업 마케팅 리포트②] 시장 재편에 나선 新 체중 감량 트렌드 &nbsp;&nbsp; 반론보도닷컴",
+      "pub_iso": "2025-07-30T16:00:00+09:00",
+      "pub_display": "2025-07-30 16:00",
+      "group_id": "glp1_food_impact",
+      "group_label": "GLP-1이 식품업계에 미치는 영향",
+      "badge": "intl",
+      "keyword": "GLP-1 friendly food",
       "is_new": false
     },
     {
@@ -16016,19 +16380,6 @@
       "group_label": "약사회 정책 (비대면진료·약 배송)",
       "badge": "policy",
       "keyword": "공적 전자처방전",
-      "is_new": false
-    },
-    {
-      "title": "[美웰니스 산업 마케팅 리포트②] 시장 재편에 나선 新 체중 감량 트렌드 - 반론보도닷컴",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpeDE3VjhqOHpLVDJlY3Bsd1hraTAwWXpVY3RSNVowU2FjM3VNcU4xSW9wd1Fla19HMTd4elRUdUxHRFJUZlgyem5sZXZFSTBkcUhUNXdiUTVjN2ZnQVFHdUFjOVd5OUt3eUFhWNIBcEFVX3lxTE04RUROaUNWZ2E5ODZkajNkd0hMNzBFckRUc3N5QmstaG9MclI2YzNJZHVBbXBWbWgtbV9JcS1PbC1sUTRtREJ5bE1BUjRFRG40YnJ0aWE5d2xKeVpJSGZjN0ZHZ1ktdVE1dXI3X25JSng?oc=5",
-      "source": "반론보도닷컴",
-      "summary": "[美웰니스 산업 마케팅 리포트②] 시장 재편에 나선 新 체중 감량 트렌드 &nbsp;&nbsp; 반론보도닷컴",
-      "pub_iso": "2025-07-30T16:00:00+09:00",
-      "pub_display": "2025-07-30 16:00",
-      "group_id": "glp1_food_impact",
-      "group_label": "GLP-1이 식품업계에 미치는 영향",
-      "badge": "intl",
-      "keyword": "GLP-1 friendly food",
       "is_new": false
     },
     {
@@ -16116,6 +16467,19 @@
       "summary": "동구바이오제약, 신사업 추진 가속화…뷰티부터 푸드까지 &nbsp;&nbsp; 메디칼타임즈",
       "pub_iso": "2025-07-02T16:00:00+09:00",
       "pub_display": "2025-07-02 16:00",
+      "group_id": "medfood_dom",
+      "group_label": "메디컬푸드 / 케어푸드 국내",
+      "badge": "dom",
+      "keyword": "메디컬푸드",
+      "is_new": false
+    },
+    {
+      "title": "동구바이오 5세대 유산균 기반 메디컬푸드 시장 진출 - 청년의사",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9scVdzbzlVa3F0RUxOeUtXS0p1V3NWYkJZOW13c1hkVjFTbUItYkdmNmp3b01FZHhIb3RXYTZnd3gwLUpibVNIQjY3ZlFpNVJUSmdWNFA0MnJGb0REUGZiZzBEd3NpN3h2OV9RQ2NHZ9IBc0FVX3lxTE5BeHhaZ1hKOFkteVZyeC1VbnhMd3NrbWVNQk51TmNnUzRhOGxra0pWMkJIalNxcUVuSzlmb3BJbFFDT0VVUmZoQWlXX212d1c4MU1yeng1Z2kzMzZPTjJ0b0lMNWh3bjlCcllxb2ctY3VwaFU?oc=5",
+      "source": "청년의사",
+      "summary": "동구바이오 5세대 유산균 기반 메디컬푸드 시장 진출 &nbsp;&nbsp; 청년의사",
+      "pub_iso": "2025-07-01T16:00:00+09:00",
+      "pub_display": "2025-07-01 16:00",
       "group_id": "medfood_dom",
       "group_label": "메디컬푸드 / 케어푸드 국내",
       "badge": "dom",
@@ -16630,6 +16994,19 @@
       "is_new": false
     },
     {
+      "title": "SAMR Issued Revised Administrative Measures for Registration of Food for Special Medical Purposes: Summary of the Ten Major Changes - CIRS Group",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQRHlQTUFtLWNfZFQ1VkU1WnNEWWQ1Vnp1Sm1LQjhGUV95SHJPR3g5eUtiVTB1WHNLWTBvSWJiUENJOW5rSUprZFQ1OXNJUXpHU3RORnhpb0ozUUJZZTFBVS1qMXpfaTh4RnpwM0t5eDk1aEFTMEU2WWU2VnRxbEhYZ1pWZGFnUTFoVnNfbWd0cjdNOXA0b1pLb2t1M05uTUJVM0p5M3hYVm1zSjczcWZvdXJGZGZrVmdMbnN4eEZoNi1EeWlhRWRNMkJYMHZHc2lTVVFkYUU5M1ZfLVRPZEFNbEROendsWFkyNmdtM3Nla0JzamNDaXoybg?oc=5",
+      "source": "CIRS Group",
+      "summary": "SAMR Issued Revised Administrative Measures for Registration of Food for Special Medical Purposes: Summary of the Ten Major Changes &nbsp;&nbsp; CIRS Group",
+      "pub_iso": "2023-12-08T17:00:00+09:00",
+      "pub_display": "2023-12-08 17:00",
+      "group_id": "medfood_intl",
+      "group_label": "메디컬푸드 글로벌",
+      "badge": "intl",
+      "keyword": "FSMP food special medical purposes",
+      "is_new": true
+    },
+    {
       "title": "'케어푸드' 활성화는 공감…활성화 전략은 '동상이몽' - 히트뉴스",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GcEtnYjExb1BnZ2JiUHEtUWxSY1I0TmdBaDRab29nT0lBeWVtZHZRTXhJSmpVbkpVdHNEOUowZlVST0kxVmhodHlDQzZKQXlMQ2VPY0N2V1BoN0lndXhSeUVRendJb09XMEE?oc=5",
       "source": "히트뉴스",
@@ -16693,6 +17070,19 @@
       "badge": "dom",
       "keyword": "비만치료제 위마비",
       "is_new": false
+    },
+    {
+      "title": "FSMP growth potential is huge, but entry barriers remain high – Nestle Health Science China - NutraIngredients.com",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSERpQlBLOVZpUlNqOWhiQkxvZVJqSGVWS0dLVHY2VzlSZ2QybzVHNGxrd2hRMmcxcHJCY3V3NV9OWDR1SThJby1iTzFBT2pUZXA4WXB1NElNclUwMk9lYkNlWkY4Slo5bklzS2VfTVgxRm1HTG52MHRoMzN2WlQwdFd2Q1FrYlVydzMyMGkxOHVabUZnZngwanFUeEN2c3hpdkZVd05oVHY2a1dYWHYxenY1QTVtV2ZOSy1RU1NtNHN5dVBMWTdWZFp6S2o3eXVqREJTdVpMV05heHN3bkhaX2dTdGI?oc=5",
+      "source": "NutraIngredients.com",
+      "summary": "FSMP growth potential is huge, but entry barriers remain high – Nestle Health Science China &nbsp;&nbsp; NutraIngredients.com",
+      "pub_iso": "2023-07-24T16:00:00+09:00",
+      "pub_display": "2023-07-24 16:00",
+      "group_id": "medfood_intl",
+      "group_label": "메디컬푸드 글로벌",
+      "badge": "intl",
+      "keyword": "FSMP food special medical purposes",
+      "is_new": true
     },
     {
       "title": "Food for Special Medical Purpose (FSMP) Market Size [2023-2030] | Industry Share, Revenue, Key Players, CAGR, Demand and Forecast - Yahoo Finance",
@@ -16900,7 +17290,7 @@
       "group_label": "메디컬푸드 글로벌",
       "badge": "intl",
       "keyword": "FSMP food special medical purposes",
-      "is_new": true
+      "is_new": false
     },
     {
       "title": "[단독] CJ제일제당 케어푸드 브랜드 ‘제일미락’ 상반기 론칭 - 브릿지경제",
